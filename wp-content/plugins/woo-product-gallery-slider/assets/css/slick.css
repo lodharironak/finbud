@@ -1,0 +1,183 @@
+/* Slider */
+.slick-slider {
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus {
+    outline: none;
+}
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after {
+    display: table;
+
+    content: "";
+}
+.slick-track:after {
+    clear: both;
+}
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+.wpgs-nav .slick-prev:before,
+.wpgs-nav .slick-next:before {
+    font-size: 18px;
+}
+.wpgs-nav .slick-next {
+}
+.wpgs-nav .slick-prev {
+    margin-left: 4px;
+}
+.wpgs-nav .slick-slide {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.wpgs-nav .slick-active img {
+    opacity: 0.7;
+    transition: all ease-in 0.3s;
+}
+.wpgs-nav .slick-current img {
+    opacity: 1;
+}
+.wpgs-for .slick-arrow {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -15px;
+}
+.wpgs .slick-disabled {
+    display: none;
+}
+.flaticon-right-arrow {
+    right: 0;
+}
+.slick-slide {
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+
+    cursor: pointer;
+}
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+.slick-slide img {
+    display: block;
+}
+.slick-slide.slick-loading img {
+    display: none;
+}
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+.slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.wpgs-for,
+.wpgs-nav {
+    display: none;
+}
+.wpgs-for.slick-initialized,
+.wpgs-nav.slick-initialized {
+    display: block !important;
+}
+.wpgs-nav .slick-slide {
+    border: 1px solid;
+}
+.wpgs-lightbox-icon{
+    position: relative;
+}
+.wpgs-lightbox-icon::before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    z-index:9;
+    font-weight: 900;
+    line-height: inherit;
+    content: url("https://s.w.org/images/core/emoji/14.0.0/svg/1f50d.svg");
+    display: block;
+    line-height: 2;
+    text-indent: 0;
+    width: 25px;
+        height: 35px;
+    text-align: center;
+   
+    border-radius: 3px;
+    top: 10px;
+        right: 15px;
+    position: absolute;
+}
+.pswp {
+    display: none;
+}
+@media only screen and (min-width: 991px) {
+    .wpgs-lightbox-icon::before{
+        display: none;
+        
+    }
+}

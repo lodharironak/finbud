@@ -1,0 +1,203 @@
+/**
+ *  Code for universal elements of the theme
+ **/
+ 
+ html {
+	 font-size: 16px;
+ }
+
+body {
+   .body-font;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   letter-spacing: .04em;
+   -moz-osx-font-smoothing: auto;
+   overflow-x: hidden;
+   line-height: 1.8em;
+   @media screen and (max-width: 767px) {
+	   .size(1.2em);
+    }
+}
+ 
+  #body_disable {
+	 position: fixed;
+	 width: 100vw;
+	 height: 100vh;
+	 background-color: rgba(0,0,0,.3);
+	 z-index: 9;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	.title-font;
+}
+
+ h1 {
+     .size(2rem);
+ }
+
+ h2 {
+     .size(1.8rem);
+ }
+
+ h3 {
+     .size(1.6rem);
+ }
+
+ h4 {
+     .size(1.2rem);
+ }
+
+ h5 {
+     .size(1rem);
+ }
+
+ h6 {
+     .size(1rem);
+ }
+
+ blockquote {
+     border-left: solid .2rem @accent;
+     margin: 4rem 0 1.25rem 0;
+     padding: .5rem 0 .5rem 2rem;
+     &:before, &:after {
+         content: "";
+     }
+     & p:last-child {
+         margin: 0;
+     }
+ }
+
+ pre, fieldset, input, textarea, table, table *, hr {
+     border-color: darken(@bg, 5%);
+ }
+
+
+ th, td {
+     border: solid 1px darken(@bg, 10%);
+     padding: 1em 0.5em;
+     line-height: 1.4;
+     margin: 0;
+ }
+
+ a {
+     .color(@accent);
+     text-decoration: none;
+   &:visited,
+   &:hover,
+   &:focus,
+   &:active {
+     text-decoration: underline;
+     .color(@accent);
+   }
+ }
+
+ ul, ol {
+     margin: 0 0 .5em 1em;
+     padding-left: 1em;
+     li {
+         margin: .5em 0;
+     }
+ }
+
+ address {
+     font-style: italic;
+ }
+
+ cite {
+     .size(13px);
+     .color(darken(@bg, 30%));
+ }
+
+ q {
+     font-style: italic;
+ }
+
+ #top-bar {
+     padding: 10px 0;
+ }
+
+#top-wrapper {
+  padding: 10px 0;
+}
+
+// Primary snd Secondary Areas
+
+#primary, #secondary {
+    display: inline-block;
+    padding: 0 1em;
+    @media (max-width: 767px) {
+        width: 100% !important;
+    }
+}
+
+.post-edit-link {
+	color: lighten(@accent, 70%);
+}
+
+#footer-sidebar {
+	margin-top: 50px;
+}
+
+// Titles foe the whole theme
+
+.section-title, .widget-title {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	padding-bottom: 0;
+    margin-bottom: 0.6em;
+    text-transform: uppercase;
+    color: black;
+    span {
+	    line-height: 80%;
+	    margin-right: 0.2em;
+    }
+    &:after {
+	    flex-grow: 1;
+	    content: "";
+	    height: 3px;
+	    background-color: @accent;
+    }
+}
+
+.section-title {
+    text-align: left;
+}
+
+
+//Ad widget
+
+.diviner-ad-wrapper {
+    text-align: center;
+}
+
+// Content Area
+
+.entry-content {
+	margin-top: 0;
+    a {
+        .weight(400);
+        .color(lighten(@accent, 50%));
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+
+.is-style-carousel {
+	.blocks-gallery-item {
+		display: block;
+		justify-content: unset;
+		flex-direction: unset;
+		flex-grow: unset;
+	}
+	figcaption {
+		.weight(400);
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "name": "codeixer/woo-product-gallery-slider",
+    "description": "Best product image gallery slider for woocommerce. It shows your woocommerce products with image carousel slider. Beautiful style, increase sales and get customer attention.",
+    "type": "woocommerce-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Codeixer",
+            "email": "codeixer@gmail.com"
+        }
+    ],
+    "require": {
+        "collizo4sky/persist-admin-notices-dismissal": "^1.4"
+    },
+    "autoload": {
+        "files": [
+            "includes/functions.php",
+            "includes/codestar/codestar-framework.php",
+            "includes/core.php",
+            "includes/class-image-sizes.php"
+        ],
+        "psr-4": {
+            "Product_Gallery_Sldier\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

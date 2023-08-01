@@ -1,0 +1,3427 @@
+# Translation of Plugins - Responsive Lightbox &amp; Gallery - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Responsive Lightbox &amp; Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-14 20:24:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Responsive Lightbox &amp; Gallery - Stable (latest release)\n"
+
+#: includes/class-galleries.php:1461
+msgid "HTML5 Videos and Embed Videos available only in %l."
+msgstr "HTML5 video's en ingesloten video's zijn alleen beschikbaar in %l."
+
+#: includes/providers/class-flickr.php:55
+#: includes/providers/class-unsplash.php:55
+msgid "Provide your %s key."
+msgstr "Geef je %s sleutel op."
+
+#: includes/class-widgets.php:320
+msgid "Custom gallery shortcode attributes"
+msgstr "Aangepaste galerij shortcode attributen"
+
+#: includes/class-settings.php:1920
+msgid "If you are having problems with this plugin, please browse it's %s or talk about them in the %s."
+msgstr "Als je problemen hebt met deze plugin, blader dan even door het %s of praat erover in de %s."
+
+#: includes/class-settings.php:1847
+msgid "Below you'll find a list of available remote media libraries. If you're looking for Pixabay, Pexels, Instagram and other integrations please check the %s addon."
+msgstr "Hieronder vind je een lijst met beschikbare externe media bibliotheken. Als je op zoek bent naar integraties zoals Pixabay, Pexels, Instagram en andere, bekijk dan de %s add-on."
+
+#: includes/class-galleries.php:1200
+msgid "No galleries? Create them first or try another search phrase."
+msgstr "Geen galerijen? Maak ze eerst aan of probeer een andere zoek term."
+
+#: includes/class-galleries.php:1198
+msgid "No items found."
+msgstr "Geen objecten gevonden."
+
+#: includes/class-galleries.php:4918
+msgid "%s element"
+msgid_plural "%s elements"
+msgstr[0] "%s element"
+msgstr[1] "%s elementen"
+
+#: includes/class-galleries.php:1516
+msgid "Use this button after any change of the options below to see updated gallery preview."
+msgstr "Gebruik deze knop na elke wijziging van de onderstaande opties om een geüpdatete galerij voorbeeld te bekijken."
+
+#: responsive-lightbox.php:1682
+msgid "Videos can be embedded only from the following providers: %s."
+msgstr "Video's kunnen alleen worden ingesloten van de volgende providers: %s."
+
+#: responsive-lightbox.php:1681
+msgid "Embed Video"
+msgstr "Video insluiten"
+
+#: responsive-lightbox.php:1680
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: responsive-lightbox.php:1679
+msgid "Video details"
+msgstr "Video details"
+
+#: responsive-lightbox.php:1678
+msgid "Edit embed video"
+msgstr "Ingesloten video bewerken"
+
+#: responsive-lightbox.php:1676
+msgid "Selected gallery items"
+msgstr "Geselecteerde galerij items"
+
+#: responsive-lightbox.php:1674
+msgid "Use these items"
+msgstr "Gebruik deze items"
+
+#: responsive-lightbox.php:1673
+msgid "Select gallery items"
+msgstr "Selecteer galerij items"
+
+#: includes/class-galleries.php:1470 includes/class-galleries.php:1472
+msgid "Embed videos"
+msgstr "Insluiten video's"
+
+#: includes/class-galleries.php:1455 includes/class-galleries.php:1459
+msgid "Select images & videos"
+msgstr "Selecteer afbeeldingen & video's"
+
+#: responsive-lightbox.php:1675
+msgid "Clear selected items"
+msgstr "Wis geselecteerde items"
+
+#: responsive-lightbox.php:1607
+msgctxt "taxonomy general name"
+msgid "Media Folders"
+msgstr "Media mappen"
+
+#: responsive-lightbox.php:1527
+msgctxt "taxonomy singular name"
+msgid "Media Tag"
+msgstr "Media tag"
+
+#: responsive-lightbox.php:1526
+msgctxt "taxonomy general name"
+msgid "Media Tags"
+msgstr "Media tags"
+
+#: includes/class-settings.php:568
+msgid "Check this to enable access to plugin features for selected user roles."
+msgstr "Bekijk dit om toegang tot plugin functies in te schakelen voor geselecteerde gebruiker rollen."
+
+#: includes/class-settings.php:567
+msgid "Enable advanced capability management."
+msgstr "Inschakelen geavanceerde rechten management."
+
+#: includes/class-settings.php:379
+msgid "Enable this to delete all plugin settings and also delete all plugin capabilities from all users on deactivation."
+msgstr "Inschakelen om alle plugin instellingen te verwijderen en ook alle plugin rechten van alle gebruikers te verwijderen bij deactivering."
+
+#: includes/class-settings.php:2518
+msgid "Role"
+msgstr "Rol"
+
+#: includes/class-settings.php:564 includes/class-settings.php:1048
+msgid "Capabilities"
+msgstr "Rechten"
+
+#: includes/class-tour.php:197
+msgid "Capabilities give you the ability to control what users can and cannot do within the plugin. By default only the Administrator role allows a user to perform all possible capabilities. But you can fine tune these settings to match your specific requirements."
+msgstr "Rechten geven je de mogelijkheid om te bepalen wat gebruikers wel en niet kunnen doen binnen de plugin. Standaard kan alleen de rol van beheerder alle mogelijke rechten uitvoeren. Maar je kunt deze instellingen aanpassen om te voldoen aan je specifieke vereisten."
+
+#: includes/class-settings.php:554 includes/class-tour.php:197
+msgid "Capabilities Settings"
+msgstr "Rechten instellingen"
+
+#: includes/class-welcome.php:69
+msgid "Addons"
+msgstr "Add-ons"
+
+#: responsive-lightbox.php:1713
+msgid "Responsive Lightbox & Gallery - Deactivation survey"
+msgstr "Responsive Lightbox & Galerij - deactivering enquête"
+
+#: responsive-lightbox.php:1400
+msgid "Edit tag"
+msgstr "Tag bewerken"
+
+#: responsive-lightbox.php:1380
+msgid "Edit category"
+msgstr "Bewerk categorie"
+
+#: responsive-lightbox.php:1356
+msgid "New gallery"
+msgstr "Nieuwe galerij"
+
+#: responsive-lightbox.php:1010
+msgid "Deactivate & Submit"
+msgstr "Deactiveer & inzenden"
+
+#: responsive-lightbox.php:1009
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#: responsive-lightbox.php:994
+msgid "Other"
+msgstr "Andere"
+
+#: responsive-lightbox.php:993
+msgid "Support isn't timely."
+msgstr "Ondersteuning is niet tijdig."
+
+#: responsive-lightbox.php:992
+msgid "The plugin is not what I was looking for."
+msgstr "De plugin is niet wat ik zocht."
+
+#: responsive-lightbox.php:991
+msgid "The User Interface is not clear to me."
+msgstr "De gebruiker interface is niet duidelijk voor mij."
+
+#: responsive-lightbox.php:990
+msgid "I found another plugin to use for the same task."
+msgstr "Ik vond een andere plugin om voor dezelfde taak te gebruiken."
+
+#: responsive-lightbox.php:989
+msgid "I couldn't figure out how to make it work."
+msgstr "Ik kwam er maar niet achter hoe ik het kon laten werken."
+
+#: responsive-lightbox.php:985
+msgid "We're sorry to see you go. Could you please tell us what happened?"
+msgstr "Het spijt ons je te zien gaan. Zou je ons kunnen vertellen wat er gebeurd is?"
+
+#: responsive-lightbox.php:739
+msgid "Manage Settings"
+msgstr "Instellingen beheren"
+
+#: responsive-lightbox.php:738
+msgid "Manage Gallery Tags"
+msgstr "Galerij tags beheren"
+
+#: responsive-lightbox.php:737
+msgid "Manage Gallery Categories"
+msgstr "Galerij categorieën beheren"
+
+#: responsive-lightbox.php:736
+msgid "Read Private Galleries"
+msgstr "Lees privé galerijen"
+
+#: responsive-lightbox.php:735
+msgid "Delete Private Galleries"
+msgstr "Verwijder privé galerijen"
+
+#: responsive-lightbox.php:734
+msgid "Delete Others Galleries"
+msgstr "Verwijder andere galerijen"
+
+#: responsive-lightbox.php:733
+msgid "Delete Published Galleries"
+msgstr "Gepubliceerde galerijen verwijderen"
+
+#: responsive-lightbox.php:732
+msgid "Delete Galleries"
+msgstr "Verwijder galerijen"
+
+#: responsive-lightbox.php:731
+msgid "Edit Private Galleries"
+msgstr "Privé galerijen bewerken"
+
+#: responsive-lightbox.php:730
+msgid "Edit Others Galleries"
+msgstr "Bewerk andere galerijen"
+
+#: responsive-lightbox.php:729
+msgid "Edit Published Galleries"
+msgstr "Gepubliceerde galerijen bewerken"
+
+#: responsive-lightbox.php:728
+msgid "Edit Galleries"
+msgstr "Bewerk galerijen"
+
+#: responsive-lightbox.php:727
+msgid "Publish Galleries"
+msgstr "Galerijen publiceren"
+
+#: includes/class-remote-library.php:168
+msgid "Upload and Select"
+msgstr "Uploaden en selecteren"
+
+#: includes/class-galleries.php:2183
+msgid "Media Folders are disabled. Enable it in the settings."
+msgstr "Media mappen zijn uitgeschakeld. Schakel het in bij de instellingen."
+
+#: includes/class-galleries.php:2179
+msgid "Remote Library is disabled. Enable it in the settings."
+msgstr "Bibliotheek op afstand is uitgeschakeld. Schakel het in bij de instellingen."
+
+#: includes/class-galleries.php:1648
+msgid "Last page"
+msgstr "Laatste pagina"
+
+#: includes/class-galleries.php:1637
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: includes/class-galleries.php:1629
+msgctxt "paging"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: includes/class-galleries.php:1623
+msgid "Current Page"
+msgstr "Huidige pagina"
+
+#: includes/class-galleries.php:1616
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#: includes/class-galleries.php:1605
+msgid "First page"
+msgstr "Eerste pagina"
+
+#: includes/class-galleries.php:1357
+msgid "Include children."
+msgstr "Inclusief subs."
+
+#: includes/class-galleries.php:1236
+msgid "Select gallery"
+msgstr "Selecteer galerij"
+
+#: includes/class-galleries.php:1235
+msgid "Insert gallery into post"
+msgstr "Galerij invoegen in bericht"
+
+#: includes/class-galleries.php:1205
+msgid "Filter by category"
+msgstr "Op categorie filteren"
+
+#: includes/class-galleries.php:1168 includes/class-galleries.php:1169
+msgid "All categories"
+msgstr "Alle categorieën"
+
+#: includes/class-galleries.php:767
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: includes/class-galleries.php:767
+msgid "Duplicate this item"
+msgstr "Dupliceer dit item"
+
+#: includes/class-galleries.php:745
+msgid "Copy creation failed, could not find original gallery:"
+msgstr "Kopie creatie mislukt, kon originele galerij niet vinden:"
+
+#: includes/class-galleries.php:733
+msgid "You do not have permission to copy this gallery."
+msgstr "Je hebt geen toestemming om deze galerij te kopiëren."
+
+#: includes/class-galleries.php:724 includes/class-galleries.php:730
+msgid "No gallery to duplicate has been supplied!"
+msgstr "Geen galerijen om te dupliceren opgegeven!"
+
+#: includes/class-galleries.php:465
+msgid "All Media Providers"
+msgstr "Alle media providers"
+
+#: includes/class-galleries.php:462
+msgid "Select which remote library should be used."
+msgstr "Selecteer welke externe bibliotheek gebruikt moet worden."
+
+#: includes/class-galleries.php:456
+msgid "Enter the search phrase."
+msgstr "Voer de zoekterm in."
+
+#: includes/class-galleries.php:454
+msgid "Search string"
+msgstr "Zoek string"
+
+#: includes/class-galleries.php:429
+msgid "Select media folder."
+msgstr "Selecteer media map."
+
+#: includes/class-galleries.php:427
+msgid "Media Folder"
+msgstr "Media map"
+
+#: includes/class-galleries.php:242
+msgid "Media Folders"
+msgstr "Media mappen"
+
+#: includes/class-folders.php:1287
+msgid "Collapse %s"
+msgstr "Invouwen %s"
+
+#: includes/class-folders.php:1286
+msgid "Expand %s"
+msgstr "Uitbreiden %s"
+
+#: includes/class-folders.php:1285
+msgid "Delete %s"
+msgstr "%s verwijderen"
+
+#: includes/class-folders.php:1284
+msgid "Cancel renaming %s"
+msgstr "Annuleren van het hernoemen van %s"
+
+#: includes/class-folders.php:1283
+msgid "Save %s"
+msgstr "Bespaar %s"
+
+#: includes/class-folders.php:1281
+msgid "Cancel adding new %s"
+msgstr "Annuleer het toevoegen van nieuwe %s"
+
+#: includes/class-folders.php:1280
+msgid "Save new %s"
+msgstr "Opslaan nieuwe %s"
+
+#: includes/class-folders.php:1258
+msgid "Are you sure you want to delete this folder with all subfolders?"
+msgstr "Weet je zeker dat je deze map met alle submappen wil verwijderen?"
+
+#: includes/class-folders.php:1257
+msgid "Are you sure you want to delete this folder?"
+msgstr "Weet je zeker dat je deze map wil verwijderen?"
+
+#: includes/class-folders.php:1256
+msgid "New Folder"
+msgstr "Nieuwe map"
+
+#: includes/class-folders.php:299
+msgid "Upload files to"
+msgstr "Bestanden uploaden naar"
+
+#: includes/class-folders.php:214 includes/class-folders.php:228
+#: includes/class-folders.php:280 includes/class-folders.php:294
+#: includes/class-folders.php:483 includes/class-folders.php:1205
+#: includes/class-folders.php:1227 includes/class-folders.php:1254
+#: includes/class-galleries.php:1339 includes/class-galleries.php:1354
+msgid "Root Folder"
+msgstr "Hoofdmap"
+
+#: includes/class-settings.php:533
+msgid "hour(s)"
+msgstr "uur(en)"
+
+#: includes/class-settings.php:532
+msgid "Enter the cache expiry time."
+msgstr "Voer de vervaltijd van de cache in."
+
+#: includes/class-settings.php:528
+msgid "Cache expiry"
+msgstr "Cache verval"
+
+#: includes/class-settings.php:525
+msgid "Enable remote library requests caching."
+msgstr "Caching van bibliotheek aanvragen op afstand inschakelen."
+
+#: includes/class-settings.php:522
+msgid "Caching"
+msgstr "Caching"
+
+#: includes/class-settings.php:519
+msgid "Check this to enable remote access to the following image libraries."
+msgstr "Vink dit aan om op afstand toegang te krijgen tot de volgende afbeelding bibliotheken."
+
+#: includes/class-settings.php:518
+msgid "Enable remote libraries."
+msgstr "Inschakelen van externe bibliotheken."
+
+#: includes/class-galleries.php:245 includes/class-settings.php:515
+#: includes/class-settings.php:1055
+msgid "Remote Library"
+msgstr "Verwijder bibliotheek"
+
+#: includes/class-galleries.php:460 includes/class-settings.php:507
+msgid "Media Providers"
+msgstr "Aanbieders van media"
+
+#: includes/class-settings.php:495
+msgid "Enable to highlight folder's row as a clickable area."
+msgstr "Inschakelen om de rij van de map te markeren als klikbaar gebied."
+
+#: includes/class-settings.php:492
+msgid "Whole row"
+msgstr "Hele rij"
+
+#: includes/class-settings.php:489
+msgid "Select to remove subfolders when parent folder is deleted."
+msgstr "Selecteer om submappen te verwijderen wanneer de hoofdmap wordt verwijderd."
+
+#: includes/class-settings.php:486
+msgid "Subfolder removal"
+msgstr "Verwijdering van sub map"
+
+#: includes/class-settings.php:483
+msgid "Enable to show the taxonomy in the admin menu."
+msgstr "Schakel de taxonomie in het beheermenu in."
+
+#: includes/class-settings.php:480
+msgid "Show in menu"
+msgstr "Toon in het menu"
+
+#: includes/class-settings.php:477
+msgid "Enable if you want to use media tags."
+msgstr "Inschakelen als je media tags wil gebruiken."
+
+#: includes/class-settings.php:476
+msgid "Enable media tags."
+msgstr "Inschakelen media tags."
+
+#: includes/class-settings.php:473
+msgid "Media tags"
+msgstr "Media tags"
+
+#: includes/class-settings.php:468
+msgid "If you have ever used custom media taxonomies you may try to <a id=\"rl_folders_load_old_taxonomies\" href=\"#\">load and use them.</a>"
+msgstr "Als je ooit aangepaste media taxonomieën hebt gebruikt, kun je proberen <a id=\"rl_folders_load_old_taxonomies\" href=\"#\">deze te laden en te gebruiken.</a>"
+
+#: includes/class-settings.php:468
+msgid "Select media taxonomy."
+msgstr "Selecteer media taxonomie."
+
+#: includes/class-settings.php:465
+msgid "Media taxonomy"
+msgstr "Media taxonomie"
+
+#: includes/class-settings.php:462
+msgid "Enable media folders."
+msgstr "Inschakelen media mappen."
+
+#: includes/class-settings.php:459 includes/class-settings.php:470
+#: includes/class-settings.php:1041
+msgid "Folders"
+msgstr "Mappen"
+
+#: includes/providers/class-unsplash.php:54
+msgid "Access key"
+msgstr "Toegang sleutel"
+
+#: includes/providers/class-unsplash.php:52
+msgid "Enable Unsplash."
+msgstr "Unsplash inschakelen."
+
+#: includes/providers/class-unsplash.php:25
+msgid "Unsplash"
+msgstr "Unsplash"
+
+#: includes/providers/class-flickr.php:54
+msgid "API key"
+msgstr "API-sleutel"
+
+#: includes/providers/class-flickr.php:52
+msgid "Enable Flickr."
+msgstr "Schakel Flickr in."
+
+#: includes/providers/class-flickr.php:25
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/providers/class-flickr.php:153
+#: includes/providers/class-unsplash.php:151
+#: includes/providers/class-wikimedia.php:148
+msgid "Parsing request error"
+msgstr "Parsing aanvraag fout"
+
+#: includes/providers/class-wikimedia.php:59
+msgid "Enable Wikimedia."
+msgstr "Wikimedia inschakelen."
+
+#: includes/providers/class-wikimedia.php:25
+msgid "Wikimedia"
+msgstr "Wikimedia"
+
+#: includes/class-remote-library-api.php:203
+msgid "via <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr "via <a href=\"%s\" target=\"_blank\">%s</a>"
+
+#: includes/class-remote-library-api.php:201
+msgid "via %s"
+msgstr "via %s"
+
+#: includes/class-remote-library-api.php:196
+msgid "Image from <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr "Afbeelding van <a href=\"%s\" target=\"_blank\">%s</a>"
+
+#: includes/class-remote-library-api.php:194
+msgid "Image from %s"
+msgstr "Afbeelding van %s"
+
+#: includes/class-remote-library-api.php:145
+msgid "Request error"
+msgstr "Aanvraag fout"
+
+#: includes/class-remote-library.php:361
+msgid "F j Y"
+msgstr "F j Y"
+
+#: includes/class-remote-library.php:169
+msgid "Filter by remote library"
+msgstr "Filteren op bibliotheek op afstand"
+
+#: includes/class-remote-library.php:167
+msgid "Upload and Insert"
+msgstr "Uploaden en invoegen"
+
+#: includes/class-remote-library.php:166
+msgid "All providers"
+msgstr "Alle uitvoerders"
+
+#: includes/class-tour.php:211
+msgid "Are you looking for free royalty free public domain and CC0-Licensed images for your website? Or you need to access your images stored in photo-sharing apps? Remote Library allows you to use images from multiple sources like Unsplash, Pixabay, Flickr or Instagram directly in your WordPress Media Manager. Now you can create galleries, browse, insert and import images as never before."
+msgstr "Ben je op zoek naar gratis, rechten vrije afbeeldingen in het publieke domein en met CC0 licentie voor je site? Of heb je toegang nodig tot je afbeeldingen die zijn opgeslagen in foto sharing apps? Remote Library stelt je in staat om afbeeldingen van meerdere gegevensbronnen zoals Unsplash, Pixabay, Flickr of Instagram direct te gebruiken in je WordPress media manager. Nu kun je galerijen maken, bladeren, invoegen en afbeeldingen importeren als nooit tevoren."
+
+#: includes/class-settings.php:504 includes/class-tour.php:211
+msgid "Remote Library Settings"
+msgstr "Externe bibliotheek instellingen"
+
+#: includes/class-tour.php:189
+msgid "Responsive Lithbox & Gallery comes with an optional Media Folders feature that extends your WordPress Media Library with visual folders. It allows you to organize your attachments in a folder tree structure. Move, copy, rename and delete files and folders with a nice drag and drop interface."
+msgstr "Responsive Lithbox & Gallery wordt geleverd met een optionele media folders functie die je WordPress Media Library uitbreidt met visuele mappen. Het stelt je in staat om je bijlagen te organiseren in een mapstructuur. Verplaats, kopieer, hernoem en verwijder bestanden en mappen met een handige verslepen interface."
+
+#: includes/class-settings.php:453 includes/class-tour.php:189
+msgid "Folders Settings"
+msgstr "Mappen instellingen"
+
+#: responsive-lightbox.php:1617
+msgid "No folders found."
+msgstr "Geen mappen gevonden."
+
+#: responsive-lightbox.php:1616
+msgid "New Folder Name"
+msgstr "Nieuwe map naam"
+
+#: responsive-lightbox.php:1615
+msgid "Add New Folder"
+msgstr "Nieuwe map toevoegen"
+
+#: responsive-lightbox.php:1614
+msgid "Update Folder"
+msgstr "Map updaten"
+
+#: responsive-lightbox.php:1613
+msgid "Edit Folder"
+msgstr "Map bewerken"
+
+#: responsive-lightbox.php:1612
+msgid "Parent Folder:"
+msgstr "Hoofd map:"
+
+#: responsive-lightbox.php:1611
+msgid "Parent Folder"
+msgstr "Hoofd map"
+
+#: includes/class-folders.php:341 includes/class-folders.php:354
+#: includes/class-folders.php:1202 includes/class-folders.php:1232
+#: includes/class-folders.php:1255 includes/class-folders.php:1264
+#: responsive-lightbox.php:1610
+msgid "All Files"
+msgstr "Alle bestanden"
+
+#: responsive-lightbox.php:1609
+msgid "Search Folders"
+msgstr "Mappen zoeken"
+
+#: responsive-lightbox.php:1608
+msgctxt "taxonomy singular name"
+msgid "Media Folder"
+msgstr "Media map"
+
+#: responsive-lightbox.php:1618
+msgctxt "taxonomy general name"
+msgid "Folders"
+msgstr "Mappen"
+
+#: responsive-lightbox.php:1534
+msgid "No tags found."
+msgstr "Geen tags gevonden."
+
+#: responsive-lightbox.php:1533
+msgid "New Tag Name"
+msgstr "Nieuwe tag naam"
+
+#: responsive-lightbox.php:1532
+msgid "Add New Tag"
+msgstr "Nieuwe tag toevoegen"
+
+#: responsive-lightbox.php:1531
+msgid "Update Tag"
+msgstr "Tag updaten"
+
+#: responsive-lightbox.php:1530
+msgid "Edit Tag"
+msgstr "Tag bewerken"
+
+#: responsive-lightbox.php:1529
+msgid "All Tags"
+msgstr "Alle tags"
+
+#: responsive-lightbox.php:1528
+msgid "Search Tags"
+msgstr "Tags zoeken"
+
+#: responsive-lightbox.php:1535
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "Tags"
+
+#. Description of the plugin
+msgid "Responsive Lightbox & Gallery allows users to create galleries and view larger versions of images, galleries and videos in a lightbox (overlay) effect optimized for mobile devices."
+msgstr "Responsive Lightbox & Gallery stelt gebruikers in staat om galerijen te maken en grotere versies van afbeeldingen, galerijen en video's te bekijken in een lightbox (overlay) effect dat geoptimaliseerd is voor mobiele apparaten."
+
+#: responsive-lightbox.php:1677
+msgid "Edit attachment"
+msgstr "Bijlage bewerken"
+
+#: responsive-lightbox.php:1493
+msgid "Preview gallery"
+msgstr "Bekijk gallerij vooraf"
+
+#: responsive-lightbox.php:1487
+msgid "View gallery"
+msgstr "Gallerij bekijken"
+
+#: responsive-lightbox.php:1481
+msgid "Gallery draft updated."
+msgstr "Galerij concept bijgewerkt."
+
+#: responsive-lightbox.php:1480
+msgid "M j, Y @ G:i"
+msgstr "j F Y @ H:i"
+
+#: responsive-lightbox.php:1480
+msgid "Gallery scheduled for: <strong>%1$s</strong>."
+msgstr "Galerij gepland voor: <strong>%1$s</strong>."
+
+#: responsive-lightbox.php:1479
+msgid "Gallery submitted."
+msgstr "Galerij ingediend"
+
+#: responsive-lightbox.php:1478
+msgid "Gallery saved."
+msgstr "Galerij opgeslagen."
+
+#: responsive-lightbox.php:1477
+msgid "Gallery published."
+msgstr "Galerij gepubliceerd."
+
+#: responsive-lightbox.php:1476
+msgid "Gallery restored to revision from %s"
+msgstr "Galerij teruggezet naar revisie van %s"
+
+#: responsive-lightbox.php:1474 responsive-lightbox.php:1475
+msgid "Gallery updated."
+msgstr "Galerij geüpdatet."
+
+#: responsive-lightbox.php:1213
+msgid "All Galleries"
+msgstr "Alle galerijen"
+
+#: responsive-lightbox.php:1212
+msgid "No galleries found in trash"
+msgstr "Geen galerijen gevonden in prullenbak"
+
+#: responsive-lightbox.php:1211
+msgid "No galleries found"
+msgstr "Geen galerijen gevonden"
+
+#: responsive-lightbox.php:1210
+msgid "Search Galleries"
+msgstr "Zoeken in galerijen"
+
+#: responsive-lightbox.php:1209
+msgid "View Galleries"
+msgstr "Galerijen bekijken"
+
+#: responsive-lightbox.php:1208
+msgid "View Gallery"
+msgstr "Galerij bekijken"
+
+#: responsive-lightbox.php:1207
+msgid "New Gallery"
+msgstr "Nieuwe galerij"
+
+#: responsive-lightbox.php:1206
+msgid "Edit Gallery"
+msgstr "Galerij bewerken"
+
+#: responsive-lightbox.php:1205
+msgid "Add New Gallery"
+msgstr "Nieuwe galerij toevoegen"
+
+#: responsive-lightbox.php:1204
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: responsive-lightbox.php:1203
+msgctxt "post type singular name"
+msgid "Gallery"
+msgstr "Galerij"
+
+#: responsive-lightbox.php:1202
+msgctxt "post type general name"
+msgid "Galleries"
+msgstr "Galerijen"
+
+#: responsive-lightbox.php:1174
+msgid "Choose from the most used gallery tags"
+msgstr "Selecteer uit de meest gebruikte galerij tags"
+
+#: responsive-lightbox.php:1173
+msgid "Add or remove gallery tags"
+msgstr "Toevoegen of verwijderen van galerij tags"
+
+#: responsive-lightbox.php:1172
+msgid "Separate gallery tags with commas"
+msgstr "Scheid galerij tags met komma's"
+
+#: responsive-lightbox.php:1171
+msgid "New Gallery Tag Name"
+msgstr "Nieuwe galerij tag naam"
+
+#: responsive-lightbox.php:1170
+msgid "Add New Gallery Tag"
+msgstr "Nieuwe galerij toevoegen tag"
+
+#: responsive-lightbox.php:1169
+msgid "Update Gallery Tag"
+msgstr "Galerij tag updaten"
+
+#: responsive-lightbox.php:1168
+msgid "Edit Gallery Tag"
+msgstr "Bewerk galerij tag"
+
+#: responsive-lightbox.php:1165
+msgid "All Gallery Tags"
+msgstr "Alle galerij tags"
+
+#: responsive-lightbox.php:1164
+msgid "Popular Gallery Tags"
+msgstr "Populaire galerij tags"
+
+#: responsive-lightbox.php:1163
+msgid "Search Gallery Tags"
+msgstr "Zoeken galerij tags"
+
+#: responsive-lightbox.php:1162
+msgctxt "taxonomy singular name"
+msgid "Gallery Tag"
+msgstr "Galerij tag"
+
+#: responsive-lightbox.php:1161
+msgctxt "taxonomy general name"
+msgid "Gallery Tags"
+msgstr "Galerij tags"
+
+#: responsive-lightbox.php:1128
+msgid "New Gallery Category Name"
+msgstr "Nieuwe galerij categorie naam"
+
+#: responsive-lightbox.php:1127
+msgid "Add New Gallery Category"
+msgstr "Nieuwe galerij categorie toevoegen"
+
+#: responsive-lightbox.php:1126
+msgid "Update Gallery Category"
+msgstr "Galerij categorie updaten"
+
+#: responsive-lightbox.php:1125
+msgid "View Gallery Category"
+msgstr "Bekijk galerij categorie"
+
+#: responsive-lightbox.php:1124
+msgid "Edit Gallery Category"
+msgstr "Bewerk galerij categorie"
+
+#: responsive-lightbox.php:1123
+msgid "Parent Gallery Category:"
+msgstr "Hoofd galerij categorie:"
+
+#: responsive-lightbox.php:1122
+msgid "Parent Gallery Category"
+msgstr "Hoofd galerij categorie"
+
+#: responsive-lightbox.php:1121
+msgid "All Gallery Categories"
+msgstr "Alle galerij categorieën"
+
+#: responsive-lightbox.php:1120
+msgid "Search Gallery Categories"
+msgstr "Zoeken in galerij categorieën"
+
+#: responsive-lightbox.php:1119
+msgctxt "taxonomy singular name"
+msgid "Gallery Category"
+msgstr "Galerij categorie"
+
+#: responsive-lightbox.php:1118
+msgctxt "taxonomy general name"
+msgid "Gallery Categories"
+msgstr "Galerij categorieën"
+
+#: responsive-lightbox.php:801
+msgid "founder of <a href=\"%s\" target=\"_blank\">dFactory</a> plugins."
+msgstr "oprichter van <a href=\"%s\" target=\"_blank\">dFactory</a> plugins."
+
+#: includes/class-welcome.php:111
+msgid "Go to Settings"
+msgstr "Ga naar instellingen"
+
+#: includes/class-welcome.php:105
+msgid "Responsive Lightbox & Gallery enhances your site by making its images and galleries look visually appealing to your site users. And when you want to kick things up a notch you can pair the free, core plugin with %sone of 10%s one of 13 %spremium extensions.%s"
+msgstr "Responsive Lightbox & Gallery verbetert je site door de afbeeldingen en galerijen visueel aantrekkelijk te maken voor je site gebruikers. En als je de zaken naar een hoger niveau wil tillen, kun je de gratis core plugin combineren met %seen van de 10%s een van de 13 %sPremium extensies.%s"
+
+#: includes/class-welcome.php:104
+msgid "Powerful Addons"
+msgstr "Krachtige add-ons"
+
+#: includes/class-welcome.php:100
+msgid "A lot goes into making a good first impression - especially when your site is doing all the talking. Responsive Lightbox & Gallery automatically adds lightbox effects to all of your image galleries, image links, and video links so you can sit back and relax while we make sure your website looks its best."
+msgstr "Er komt veel kijken bij het maken van een goede eerste indruk - vooral wanneer je site alles zegt. De responsive Lightbox & Gallery voegt automatisch Lightbox effecten toe aan al je afbeeldingen galerijen, afbeeldingen links en video links, zodat je achterover kunt leunen terwijl we ervoor zorgen dat je site er op zijn best uitziet."
+
+#: includes/class-welcome.php:99
+msgid "Easy Setup"
+msgstr "Eenvoudige installatie"
+
+#: includes/class-welcome.php:95
+msgid "Responsive Lightbox & Gallery gives you the control to beautify your images, videos, and galleries using lightbox scripts that look great on all devices. We've got everything from lightweight, functional lightboxes to heavy-customizable, fancy ones."
+msgstr "Responsive Lightbox & Gallery geeft je de controle om je afbeeldingen, video's en galerijen te verfraaien met Lightbox scripts die er geweldig uitzien op alle apparaten. We hebben alles, van lichtgewicht, functionele lightboxes tot zwaar aanpasbare, fancy exemplaren."
+
+#: includes/class-welcome.php:94
+msgid "Multiple Lightbox Effects"
+msgstr "Meerdere Lightbox effecten"
+
+#: includes/class-welcome.php:89
+msgid "Responsive Lightbox & Gallery comes with a powerful gallery builder right out of the box that lets you manage galleries the same way you manage posts and pages on your WordPress website. You can add images to your gallery, adjust its settings and lightbox scripts, and configure its display options."
+msgstr "Responsive Lightbox & Gallery wordt geleverd met een krachtige galerij bouwer die je direct kunt gebruiken om galerijen te beheren op dezelfde manier als je berichten en pagina's beheert op je WordPress site. Je kunt afbeeldingen toevoegen aan je galerij, de instellingen en Lightbox scripts aanpassen en de weergave opties configureren."
+
+#: includes/class-welcome.php:88
+msgid "Advanced Gallery Builder"
+msgstr "Geavanceerde galerij bouwer"
+
+#: includes/class-settings.php:1920
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/class-welcome.php:61
+msgid "Thank you for choosing Responsive Lightbox & Gallery - the most popular lightbox plugin and a powerful gallery builder for WordPress."
+msgstr "Bedankt dat je hebt gekozen voor responsive Lightbox & Gallery - de meest populaire lightbox plugin en krachtige galerij bouwer voor WordPress."
+
+#: includes/class-welcome.php:58
+msgid "Responsive Lightbox & Gallery %s"
+msgstr "Responsive Lightbox & Gallery %s"
+
+#: includes/class-welcome.php:57
+msgid "Welcome to"
+msgstr "Welkom bij"
+
+#: includes/class-welcome.php:33
+msgid "Welcome to Responsive Lightbox & Gallery"
+msgstr "Welkom bij responsive Lightbox & Gallery"
+
+#: includes/class-tour.php:227
+msgid "Responsive Lightbox & Gallery is more than that. Do you need a beautiful lightbox effect, integration with social media, an attractive image gallery? Among our products you will surely find something for yourself. Boost your creativity and enhance your website with these beautiful, easy to use extensions, designed with Responsive Lightbox & Gallery integration in mind."
+msgstr "Responsive Lightbox & Gallery is meer dan dat. Heb je behoefte aan een mooie lightbox effect, integratie met sociale media, een aantrekkelijke afbeeldingen galerij? Onder onze producten vind je zeker iets voor jezelf. Stimuleer je creativiteit en verbeter je site met deze prachtige, gemakkelijk te gebruiken extensies, ontworpen met responsive Lightbox & Gallery integratie in gedachten."
+
+#: includes/class-tour.php:219
+msgid "This section contains a list of currently installed premium extensions. Activate your licenses to have access to automatic updates from your site. To activate the license, copy and paste the license key for the extension and save the changes. Available license keys can be found on your account on our website."
+msgstr "Deze sectie bevat een lijst van nu geïnstalleerde Premium add-ons. Inschakelen van je licenties geeft je toegang tot automatische updates vanaf je site. Om de licentie te activeren, kopieer en plak de licentiesleutel voor de add-on en sla de wijzigingen op. Beschikbare licentiesleutels zijn te vinden op je account op onze site."
+
+#: includes/class-tour.php:219
+msgid "Licenses Settings"
+msgstr "Licentie instellingen"
+
+#: includes/class-tour.php:181
+msgid "You can use the galleries in many ways - insert them into posts using the Add Gallery button, insert manually using shortcodes or add to the theme using functions. But you can also display them in archives just like other post types. Use these settings to specify the functionality of the gallery builder like categories, tags, archives and permalinks."
+msgstr "Je kunt de galerijen op veel manieren gebruiken - voeg ze toe aan berichten met behulp van de knop galerij toevoegen, voeg ze handmatig toe met shortcodes of voeg ze toe aan het thema met behulp van functies. Maar je kunt ze ook weergeven in archieven, net als andere bericht typen. Gebruik deze instellingen om de functionaliteit van de galerij bouwer te specificeren, zoals categorieën, tags, archieven en permalinks."
+
+#: includes/class-tour.php:181
+msgid "Builder Settings"
+msgstr "Bouwer instellingen"
+
+#: includes/class-tour.php:173
+msgid "This is the screen of the default gallery settings. As in the case of lightbox effects, there is a list of available galleries and their parameters. After entering the tab you can see the settings of the currently selected gallery. You can modify and adjust them to your needs or restore it's default settings."
+msgstr "Dit is het scherm van de standaard galerij instellingen. Net als bij lightbox effecten, is er een lijst van beschikbare galerijen en hun parameters. Na het openen van de tab kun je de instellingen van de momenteel geselecteerde galerij bekijken. Je kunt ze aanpassen en wijzigen naar je behoeften of de standaard instellingen herstellen."
+
+#: includes/class-tour.php:173
+msgid "Galleries Settings"
+msgstr "Galerijen instellingen"
+
+#: includes/class-tour.php:165
+msgid "Each lightbox has different look, possibilities and parameters. Here is a list of available lightbox effects along with their settings. After entering the tab you can see the settings of the currently selected lightbox, but you can also modify or restore the settings of the others."
+msgstr "Elke lightbox heeft een andere uitstraling, mogelijkheden en parameters. Hier is een lijst met beschikbare lightbox effecten samen met hun instellingen. Na het openen van de tab kun je de instellingen van de momenteel geselecteerde lightbox zien, maar je kunt ook de instellingen van de andere wijzigen of herstellen."
+
+#: includes/class-tour.php:157
+msgid "Here are the main settings for Responsive Lightbox & Gallery. They allow you to specify general rules of the plugin's operation and technical parameters of the lightbox effect and gallery. For example - you can choose your favorite lightbox effect, specify for which elements it will automatically launch and set its parameters. You can also choose the default gallery and its settings."
+msgstr "Hier zijn de belangrijkste instellingen voor responsive Lightbox & Gallery. Ze stellen je in staat om algemene regels van de werking van de plugin en technische parameters van het lightbox effect en de galerij te specificeren. Bijvoorbeeld - je kun je favoriete lightbox effect kiezen, specificeren voor welke elementen het automatisch wordt gestart en de parameters instellen. Je kunt ook de standaard galerij en de instellingen ervan kiezen."
+
+#: includes/class-settings.php:210 includes/class-tour.php:157
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: includes/class-tour.php:145
+msgid "Gallery tags, like categories, allow you to arrange galleries into groups. You can think of them as keywords, which you can use to further specify your galleries. Here you can create, name and edit them."
+msgstr "Galerij tags, zoals categorieën, stellen je in staat om galerijen in groepen te ordenen. Je kunt ze zien als keywords, die je kunt gebruiken om je galerijen verder te specificeren. Hier kun je ze aanmaken, benoemen en bewerken."
+
+#: includes/class-tour.php:145
+msgid "Gallery Tags"
+msgstr "Galerij tags"
+
+#: includes/class-tour.php:132
+msgid "Gallery categories allow you to arrange galleries into individual groups that you can potentially use. Here you can create, name and edit them. However, assigning the gallery to the category takes place on the gallery editing screen."
+msgstr "Galerij categorieën stellen je in staat om galerijen in individuele groepen te ordenen die je mogelijk kunt gebruiken. Hier kun je ze maken, benoemen en bewerken. Het toewijzen van de galerij aan de categorie gebeurt echter op het bewerking scherm van de galerij."
+
+#: includes/class-tour.php:132
+msgid "Gallery Categories"
+msgstr "Galerij categorieën"
+
+#: includes/class-tour.php:112
+msgid "This is an advanced gallery builder. Here you can see a preview of all created galleries along with their settings, such as the name, type, source of images, author or date of publication. You can also add a new gallery, edit existing ones or quickly copy the code allowing its use on the site."
+msgstr "Dit is een geavanceerde galerij bouwer. Hier kun je een voorbeeld bekijken van alle gemaakte galerijen samen met hun instellingen, zoals de naam, type, gegevensbron van afbeeldingen, auteur of publicatie datum. Je kunt ook een nieuwe galerij toevoegen, bestaande bewerken of snel de code kopiëren om deze op de site te gebruiken."
+
+#. Plugin Name of the plugin
+#: includes/class-settings.php:1905 includes/class-settings.php:1917
+#: responsive-lightbox.php:1418
+msgid "Responsive Lightbox & Gallery"
+msgstr "Responsive Lightbox & Gallery"
+
+#: includes/class-settings.php:1825
+msgid "If set to true last focused element before popup showup will be focused after popup close."
+msgstr "Indien ingesteld op waar zal het laatst gefocuste element voor het verschijnen van de pop-up worden gefocust na het sluiten van de pop-up."
+
+#: includes/class-settings.php:1822
+msgid "Auto focus last"
+msgstr "Automatische focus laatste"
+
+#: includes/class-settings.php:1813
+msgid "Dark transluscent overlay content position."
+msgstr "Donker doorschijnende overlay inhoud positie."
+
+#: includes/class-settings.php:1810
+msgid "Fixed background position"
+msgstr "Vaste achtergrond positie"
+
+#: includes/class-settings.php:1805 includes/class-settings.php:1817
+msgid "Absolute"
+msgstr "Absoluut"
+
+#: includes/class-settings.php:1804 includes/class-settings.php:1816
+msgid "Fixed"
+msgstr "Vast"
+
+#: includes/class-settings.php:1803 includes/class-settings.php:1815
+msgid "Auto"
+msgstr "Auto"
+
+#: includes/class-settings.php:1801
+msgid "Popup content position. If set to \"auto\" popup will automatically disable this option when browser doesn't support fixed position properly."
+msgstr "Pop-up inhoud positie. Als ingesteld op \"auto\", zal de pop-up automatisch deze optie uitschakelen wanneer de browser de vaste positie niet goed ondersteunt."
+
+#: includes/class-settings.php:1798
+msgid "Content position type"
+msgstr "Type inhoud positie"
+
+#: includes/class-settings.php:1794
+msgid "If set to true popup is aligned to top instead of to center."
+msgstr "Indien ingesteld op waar wordt de pop-up uitgelijnd naar bovenkant in plaats van naar midden."
+
+#: includes/class-settings.php:1791
+msgid "Align top"
+msgstr "Naar boven uitlijnen"
+
+#: includes/class-settings.php:1787
+msgid "Controls whether pressing the escape key will dismiss the active popup or not."
+msgstr "Bepaalt of het indrukken van de escape toets de actieve pop-up zal negeren of niet."
+
+#: includes/class-settings.php:1784
+msgid "Enable escape key"
+msgstr "Escape toets inschakelen"
+
+#: includes/class-settings.php:1780
+msgid "Controls whether the close button will be displayed or not."
+msgstr "Bepaalt of de sluit knop al dan niet wordt weergegeven."
+
+#: includes/class-settings.php:1773
+msgid "If enabled, Magnific Popup will put close button inside content of popup."
+msgstr "Indien ingeschakeld, plaatst Magnific Pop-up een sluit knop in de inhoud van de pop-up."
+
+#: includes/class-settings.php:1770
+msgid "Close button inside"
+msgstr "Sluit knop binnen"
+
+#: includes/class-settings.php:1766
+msgid "Close the popup when user clicks on the dark overlay."
+msgstr "Sluit de pop-up wanneer de gebruiker op de donkere overlay klikt."
+
+#: includes/class-settings.php:1763
+msgid "Close on background click"
+msgstr "Sluiten op de achtergrond klik"
+
+#: includes/class-settings.php:1759
+msgid "Close popup when user clicks on content of it. It's recommended to enable this option when you have only image in popup."
+msgstr "Sluit pop-up venster wanneer de gebruiker op de inhoud ervan klikt. Het is aanbevolen om deze optie in te schakelen wanneer je alleen een afbeelding hebt in de pop-up."
+
+#: includes/class-settings.php:1756
+msgid "Close on content click"
+msgstr "Sluiten op inhoud klikken"
+
+#: includes/class-settings.php:1752
+msgid "If option enabled, it's always present in DOM only text inside of it changes."
+msgstr "Als optie is ingeschakeld, is het altijd aanwezig in DOM, alleen de tekst erbinnen verandert."
+
+#: includes/class-settings.php:1749
+msgid "Preloader"
+msgstr "Preloader"
+
+#: includes/class-settings.php:1745
+msgid "If option enabled, lightbox is opened if the user clicked on the middle mouse button, or click with Command/Ctrl key."
+msgstr "Indien optie is ingeschakeld, wordt lightbox geopend als de gebruiker op de middelste muisknop klikt, of klikt met command/ctrl toets."
+
+#: includes/class-settings.php:1742
+msgid "Middle click"
+msgstr "Middelste klik"
+
+#: includes/class-settings.php:1737
+msgid "If window width is less than the number in this option lightbox will not be opened and the default behavior of the element will be triggered. Set to 0 to disable behavior."
+msgstr "Als de breedte van het venster kleiner is dan het getal in deze optie, wordt de lightbox niet geopend en wordt het standaardgedrag van het element geactiveerd. Stel in op 0 om het gedrag uit te schakelen."
+
+#: includes/class-settings.php:1734
+msgid "Disable on"
+msgstr "Uitschakelen aan"
+
+#: includes/class-settings.php:1034
+msgid "Builder"
+msgstr "Bouwer"
+
+#: includes/class-settings.php:956 responsive-lightbox.php:679
+msgid "Basic Masonry"
+msgstr "Basis masonry"
+
+#: includes/class-settings.php:950 responsive-lightbox.php:678
+msgid "Basic Slider"
+msgstr "Basis slider"
+
+#: includes/class-settings.php:944 responsive-lightbox.php:677
+msgid "Basic Grid"
+msgstr "Basis raster"
+
+#: includes/class-settings.php:936
+msgid "Lightboxes"
+msgstr "Lightboxes"
+
+#: includes/class-settings.php:920
+msgid "Controls the vertical flow of the layout. By default, item elements start positioning at the top. Uncheck it for bottom-up layouts."
+msgstr "Regelt de verticale stroom van de lay-out. Standaard beginnen item elementen bovenaan. Haal het vinkje weg voor onderkant omhoog lay-outs."
+
+#: includes/class-settings.php:919
+msgid "Enable top-to-bottom layouts."
+msgstr "Inschakelen van bovenkant naar onderkant lay-outs."
+
+#: includes/class-settings.php:916
+msgid "Origin Top"
+msgstr "Oorsprong bovenkant"
+
+#: includes/class-settings.php:913
+msgid "Controls the horizontal flow of the layout. By default, item elements start positioning at the left. Uncheck it for right-to-left layouts."
+msgstr "Regelt de horizontale stroom van de lay-out. Standaard beginnen item elementen aan de linkerkant. Verwijder het vinkje voor rechts naar links lay-out."
+
+#: includes/class-settings.php:912
+msgid "Enable left-to-right layouts."
+msgstr "Schakel links naar rechts lay-outs in."
+
+#: includes/class-settings.php:909
+msgid "Origin Left"
+msgstr "Oorsprong links"
+
+#: includes/class-settings.php:905
+msgid "Vertical space between gallery items."
+msgstr "Verticale ruimte tussen galerij items."
+
+#: includes/class-settings.php:898
+msgid "Horizontal space between gallery items."
+msgstr "Horizontale ruimte tussen galerij items."
+
+#: includes/class-settings.php:853
+msgid "Basic Masonry Gallery Settings"
+msgstr "Basis instellingen masonry galerij"
+
+#: includes/class-settings.php:843
+msgid "The time a slide lasts."
+msgstr "De tijd dat een slide duurt."
+
+#: includes/class-settings.php:839
+msgid "Slideshow Pause"
+msgstr "Slideshow pauze"
+
+#: includes/class-settings.php:835
+msgid "The delay (if any) before the slider runs automatically on load."
+msgstr "De vertraging (indien aanwezig) voordat de slider automatisch draait bij het laden."
+
+#: includes/class-settings.php:831
+msgid "Slideshow Delay"
+msgstr "Slideshow vertraging"
+
+#: includes/class-settings.php:827
+msgid "The delay (if any) before the slider resumes automatically after hover."
+msgstr "De eventuele vertraging voordat de slider automatisch wordt hervat na het hoveren."
+
+#: includes/class-settings.php:823
+msgid "Slideshow Hover Delay"
+msgstr "Slideshow hoveren vertraging"
+
+#: includes/class-settings.php:820
+msgid "Whether the slideshow should pause automatically on hover."
+msgstr "Of de slideshow automatisch moet pauzeren op hoveren."
+
+#: includes/class-settings.php:817
+msgid "Slideshow Hover"
+msgstr "Slideshow hoveren"
+
+#: includes/class-settings.php:813
+msgid "Previous"
+msgstr "Vorige"
+
+#: includes/class-settings.php:812 includes/class-tour.php:113
+#: includes/class-tour.php:133 includes/class-tour.php:146
+#: includes/class-tour.php:158 includes/class-tour.php:166
+#: includes/class-tour.php:174 includes/class-tour.php:182
+#: includes/class-tour.php:190 includes/class-tour.php:198
+#: includes/class-tour.php:212 includes/class-tour.php:220
+msgid "Next"
+msgstr "Volgende"
+
+#: includes/class-settings.php:810
+msgid "Which direction the slider should move in if in slideshow mode."
+msgstr "EIn welke richting de slider moet bewegen in de slideshow modus."
+
+#: includes/class-settings.php:807
+msgid "Slideshow Direction"
+msgstr "Slideshow richting"
+
+#: includes/class-settings.php:804
+msgid "Whether the slider should run automatically on load."
+msgstr "Of de slider automatisch uitgevoerd moet worden bij het laden."
+
+#: includes/class-settings.php:798
+msgid "Whether the slider should use CSS transitions. If the user's browser doesn't support CSS transitions the slider will fallback to jQuery."
+msgstr "Of de slider CSS overgangen moet gebruiken. Als de browser van de gebruiker geen CSS overgangen ondersteunt, zal de slider terugvallen op jQuery."
+
+#: includes/class-settings.php:795
+msgid "Use CSS"
+msgstr "Gebruik CSS"
+
+#: includes/class-settings.php:792
+msgid "Whether the slider should run continuously (seamless transition between the first and last slides)."
+msgstr "Of de slider continu moet lopen (naadloze overgang tussen de eerste en de laatste slide)."
+
+#: includes/class-settings.php:789
+msgid "Continuous"
+msgstr "Doorlopend"
+
+#: includes/class-settings.php:752
+msgid "The easing effect to use for the selected transition."
+msgstr "Het te gebruiken versoepeling effect voor de geselecteerde overgang."
+
+#: includes/class-settings.php:749
+msgid "Easing Effect"
+msgstr "Verzachtend effect"
+
+#: includes/class-settings.php:745
+msgid "The time the transition takes to complete."
+msgstr "De tijd die nodig is om de overgang te voltooien."
+
+#: includes/class-settings.php:741
+msgid "Transition Speed"
+msgstr "Overgangssnelheid"
+
+#: includes/class-settings.php:737
+msgid "Max zoom level use for the Ken Burns transition."
+msgstr "Maximaal zoom niveau voor de Ken Burns overgang."
+
+#: includes/class-settings.php:733
+msgid "Ken Burns Zoom"
+msgstr "Ken Burns zoom"
+
+#: includes/class-settings.php:729
+msgid "Ken Burns"
+msgstr "Ken Burns"
+
+#: includes/class-settings.php:728
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: includes/class-settings.php:727
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: includes/class-settings.php:726
+msgid "Fade"
+msgstr "Vervagen"
+
+#: includes/class-settings.php:723
+msgid "Transition type to use, or no transitions."
+msgstr "Overgang type te gebruiken, of geen overgangen."
+
+#: includes/class-settings.php:720
+msgid "Transition"
+msgstr "Overgang"
+
+#: includes/class-settings.php:716
+msgid "The spacing between slides."
+msgstr "De afstand tussen de slides."
+
+#: includes/class-settings.php:712
+msgid "Slide Margin"
+msgstr "Slide marge"
+
+#: includes/class-settings.php:709
+msgid "Hide the previous or next control when it reaches the first or last slide respectively."
+msgstr "Verberg de vorige of volgende besturing wanneer deze respectievelijk de eerste of de laatste slide bereikt."
+
+#: includes/class-settings.php:706
+msgid "Hide Controls on End"
+msgstr "Verberg controles op einde"
+
+#: includes/class-settings.php:703
+msgid "Whether the slider should have controls (next, previous arrows)."
+msgstr "Of de slider besturingen moet hebben (volgende, vorige pijlen)."
+
+#: includes/class-settings.php:700
+msgid "Controls"
+msgstr "Besturingen"
+
+#: includes/class-settings.php:697
+msgid "Whether the slider should have a pager."
+msgstr "Of de slider een pager moet hebben."
+
+#: includes/class-settings.php:694
+msgid "Pager"
+msgstr "Pager"
+
+#: includes/class-settings.php:690
+msgid "Only visible"
+msgstr "Alleen zichtbaar"
+
+#: includes/class-settings.php:687
+msgid "Elements that are preloaded before slider shows."
+msgstr "Elementen die worden voorgeladen voordat de slider verschijnt."
+
+#: includes/class-settings.php:684
+msgid "Preload"
+msgstr "Preload"
+
+#: includes/class-settings.php:681
+msgid "Whether the slider should be responsive."
+msgstr "Of de slider responsive moet zijn."
+
+#: includes/class-settings.php:678
+msgid "Responsive"
+msgstr "Responsive"
+
+#: includes/class-settings.php:675
+msgid "Whether the slider should initialize even if there is only one slide element."
+msgstr "Of de slider ook moet initialiseren als er maar één slide element is."
+
+#: includes/class-settings.php:672
+msgid "Single Image Slider"
+msgstr "Enkelvoudige afbeelding slider"
+
+#: includes/class-settings.php:668
+msgid "Below"
+msgstr "Onder"
+
+#: includes/class-settings.php:667
+msgid "Overlay"
+msgstr "Overlay"
+
+#: includes/class-settings.php:664
+msgid "Specifies the position of captions or no captions at all."
+msgstr "Specificeert de positie van bijschriften of helemaal geen bijschriften."
+
+#: includes/class-settings.php:661
+msgid "Captions Position"
+msgstr "Bijschrift positie"
+
+#: includes/class-settings.php:658
+msgid "Whether the slider should loop (i.e. the first slide goes to the last, the last slide goes to the first)."
+msgstr "Of de slider een lus moet maken (d.w.z. De eerste slide gaat naar de laatste, de laatste slide gaat naar de eerste)."
+
+#: includes/class-settings.php:655
+msgid "Loop"
+msgstr "Loop"
+
+#: includes/class-settings.php:652
+msgid "The slider height should change on the fly according to the current slide."
+msgstr "De hoogte van de slider moet dynamisch veranderen op basis van de huidige slide."
+
+#: includes/class-settings.php:649
+msgid "Adaptive Height"
+msgstr "Adaptieve hoogte"
+
+#: includes/class-settings.php:643
+msgid "Basic Slider Gallery Settings"
+msgstr "Basis instellingen slider galerij"
+
+#: includes/class-settings.php:633
+msgid "Enter the thumbnail row height in pixels (used if Force height is enabled). Defaults to 150px."
+msgstr "Voer de hoogte van de thumbnail rij in Pixels in (wordt gebruikt als forceer hoogte is ingeschakeld). Standaard 150px."
+
+#: includes/class-settings.php:629
+msgid "Row height"
+msgstr "Rij hoogte"
+
+#: includes/class-settings.php:626
+msgid "Enable to force the thumbnail row height."
+msgstr "Inschakelen om de hoogte van de thumbnail rij te forceren."
+
+#: includes/class-settings.php:623
+msgid "Force height"
+msgstr "Forceer hoogte"
+
+#: includes/class-settings.php:619
+msgid "Set the pixel width between the columns and rows."
+msgstr "Stel de pixel breedte tussen de kolommen en rijen in."
+
+#: includes/class-settings.php:615 includes/class-settings.php:895
+msgid "Gutter"
+msgstr "Afscheiding"
+
+#: includes/class-settings.php:610 includes/class-settings.php:890
+msgid "extra small devices / phones (<768px)"
+msgstr "extra kleine apparaten/telefoons (<768px)"
+
+#: includes/class-settings.php:604 includes/class-settings.php:883
+msgid "small devices / tablets (&ge;768px)"
+msgstr "kleine apparaten/tablets (&ge;768px)"
+
+#: includes/class-settings.php:598 includes/class-settings.php:876
+msgid "medium devices / desktops (&ge;992px)"
+msgstr "middelgrote apparaten/desktops (&ge;992px)"
+
+#: includes/class-settings.php:592 includes/class-settings.php:869
+msgid "large devices / desktops (&ge;1200px)"
+msgstr "grote apparaten/desktops (&ge;1200px)"
+
+#: includes/class-settings.php:586 includes/class-settings.php:862
+msgid "Number of columns in a gallery depending on the device screen size. (if greater than 0 overrides the Columns option)"
+msgstr "Aantal kolommen in een galerij afhankelijk van de schermgrootte van het apparaat. (indien groter dan 0, overschrijft de optie kolommen)"
+
+#: includes/class-settings.php:583 includes/class-settings.php:859
+msgid "Screen sizes"
+msgstr "Scherm format"
+
+#: includes/class-settings.php:577
+msgid "Basic Grid Gallery Settings"
+msgstr "Basis instellingen raster galerij"
+
+#: includes/class-settings.php:443 includes/class-settings.php:689
+msgid "All"
+msgstr "Alle"
+
+#: includes/class-settings.php:441
+msgid "Select category for gallery archives."
+msgstr "Selecteer categorie voor galerij archieven."
+
+#: includes/class-settings.php:438
+msgid "Archives category"
+msgstr "Archieven categorie"
+
+#: includes/class-settings.php:435
+msgid "Enable gallery archives."
+msgstr "Galerij archieven inschakelen."
+
+#: includes/class-settings.php:432
+msgid "Archives"
+msgstr "Archieven"
+
+#: includes/class-settings.php:429
+msgid "Enter gallery tags archive page slug."
+msgstr "Vul galerij tags archief pagina slug in."
+
+#: includes/class-settings.php:426
+msgid "Tags Permalink"
+msgstr "Tags permalink"
+
+#: includes/class-settings.php:423
+msgid "Enter gallery categories archive page slug."
+msgstr "Voer de slug in voor de archiefpagina van galerij categorieën."
+
+#: includes/class-settings.php:420
+msgid "Categories Permalink"
+msgstr "Categorieën permalink"
+
+#: includes/class-settings.php:417
+msgid "Enter gallery page slug."
+msgstr "Voer de slug van de galerij pagina in."
+
+#: includes/class-settings.php:414
+msgid "Gallery Permalink"
+msgstr "Galerij permalink"
+
+#: includes/class-settings.php:411
+msgid "Enable if you want to use Gallery Tags."
+msgstr "Inschakelen als je galerij tags wil gebruiken."
+
+#: includes/class-settings.php:410
+msgid "Enable Gallery Tags."
+msgstr "Schakel galerij tags in."
+
+#: includes/class-settings.php:407 responsive-lightbox.php:1175
+#: responsive-lightbox.php:1395 responsive-lightbox.php:1406
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/class-settings.php:404
+msgid "Enable if you want to use Gallery Categories."
+msgstr "Inschakelen als je galerij categorieën wil gebruiken."
+
+#: includes/class-settings.php:403
+msgid "Enable Gallery Categories."
+msgstr "Galerij categorieën inschakelen."
+
+#: includes/class-settings.php:400 responsive-lightbox.php:1129
+#: responsive-lightbox.php:1375 responsive-lightbox.php:1386
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/class-settings.php:397
+msgid "Enable advanced gallery builder."
+msgstr "Geavanceerde galerij bouwer inschakelen."
+
+#: includes/class-settings.php:394 includes/class-tour.php:112
+msgid "Gallery Builder"
+msgstr "Galerij bouwer"
+
+#: includes/class-settings.php:388
+msgid "Gallery Builder Settings"
+msgstr "Galerij bouwer instellingen"
+
+#: includes/class-settings.php:309
+msgid "Select caption for the gallery images (if supported by selected lightbox and/or gallery)."
+msgstr "Selecteer bijschrift voor de galerij afbeeldingen (indien ondersteund door geselecteerde lightbox en/of galerij)."
+
+#: includes/class-settings.php:306
+msgid "Gallery image caption"
+msgstr "Galerij afbeelding bijschrift"
+
+#: includes/class-settings.php:302
+msgid "Select title for the gallery images."
+msgstr "Selecteer een titel voor de galerij afbeeldingen."
+
+#: includes/class-settings.php:288
+msgid "Select your preferred gallery style for WooCommerce product gallery."
+msgstr "Selecteer je gewenste galerij stijl voor WooCommerce product galerij."
+
+#: includes/class-settings.php:284
+msgid "WooCommerce gallery"
+msgstr "WooCommerce galerij"
+
+#: includes/class-settings.php:280
+msgid "Select your preferred default builder gallery style."
+msgstr "Selecteer je voorkeur standaard galerij stijl voor de bouwer."
+
+#: includes/class-settings.php:277
+msgid "Builder gallery"
+msgstr "Bouwer galerij"
+
+#: includes/class-settings.php:273
+msgid "Select your preferred default WordPress gallery style."
+msgstr "Selecteer je voorkeur standaard stijl voor de WordPress galerij."
+
+#: includes/class-settings.php:270
+msgid "WordPress gallery"
+msgstr "WordPress galerij"
+
+#: includes/class-settings.php:254
+msgid "Select caption for single images (if supported by selected lightbox and/or gallery)."
+msgstr "Selecteer bijschrift voor enkele afbeeldingen (indien ondersteund door geselecteerde lightbox en/of galerij)."
+
+#: includes/class-settings.php:251
+msgid "Single image caption"
+msgstr "Enkel afbeelding bijschrift"
+
+#: includes/class-settings.php:220
+msgid "Take this tour to quickly learn about the use of this plugin."
+msgstr "Maak deze rondleiding om snel te leren over het gebruik van deze plugin."
+
+#: includes/class-settings.php:219 includes/class-welcome.php:67
+msgid "Start Tour"
+msgstr "Start rondleiding"
+
+#: includes/class-settings.php:216
+msgid "Introduction Tour"
+msgstr "Introductie rondleiding"
+
+#: includes/class-settings.php:192
+msgid "Full Size"
+msgstr "Volledige grootte"
+
+#: includes/class-settings.php:166
+msgid "Magnific Popup"
+msgstr "Magnifieke pop-up"
+
+#: includes/class-galleries.php:5030
+msgid "Dynamically generated first gallery image"
+msgstr "Dynamisch gegenereerde eerste galerij afbeelding"
+
+#: includes/class-galleries.php:5028
+msgid "Custom featured image URL"
+msgstr "Aangepaste uitgelichte afbeelding URL"
+
+#: includes/class-galleries.php:5020
+msgid "First gallery image"
+msgstr "Eerste galerij afbeelding"
+
+#: includes/class-galleries.php:5019
+msgid "Select gallery featured image source:"
+msgstr "Selecteer gegevensbron van de galerij uitgelichte afbeelding:"
+
+#: includes/class-galleries.php:4889
+msgid "Source"
+msgstr "Bron"
+
+#: includes/class-galleries.php:4888
+msgid "Type"
+msgstr "Type"
+
+#: includes/class-galleries.php:4887
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/class-galleries.php:4860
+msgid "You can also place this gallery into your template files by using the template tag below"
+msgstr "Je kunt deze galerij ook in je template bestanden plaatsen door de onderstaande template tag te gebruiken"
+
+#: includes/class-galleries.php:4858
+msgid "You can place this gallery anywhere into your posts, pages, custom post types or widgets by using the shortcode below"
+msgstr "Je kunt deze galerij overal in je berichten, pagina's, aangepaste bericht types of widgets plaatsen door een van de onderstaande shortcode(s) te gebruiken"
+
+#: includes/class-galleries.php:4591
+msgid "Default Template"
+msgstr "Standaard template"
+
+#: includes/class-galleries.php:4490
+msgid "Video"
+msgstr "Video"
+
+#: includes/class-galleries.php:4488
+msgid "Standard"
+msgstr "Standaard"
+
+#: includes/class-galleries.php:4487
+msgid "Quote"
+msgstr "Citaat"
+
+#: includes/class-galleries.php:4486
+msgid "Photo"
+msgstr "Foto"
+
+#: includes/class-galleries.php:4485
+msgid "Link"
+msgstr "Link"
+
+#: includes/class-galleries.php:4483
+msgid "Chat"
+msgstr "Chat"
+
+#: includes/class-galleries.php:4482
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/class-galleries.php:4481
+msgid "Aside"
+msgstr "Terzijde"
+
+#: includes/class-galleries.php:4400
+msgid "Untitled"
+msgstr "Zonder titel"
+
+#: includes/class-galleries.php:3223
+msgid "Deselect"
+msgstr "Deselecteren"
+
+#: includes/class-galleries.php:3209
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: includes/class-galleries.php:3006
+msgid "Load more"
+msgstr "Laad meer"
+
+#: includes/class-galleries.php:2998
+msgid "Next &raquo;"
+msgstr "Volgende &raquo;"
+
+#: includes/class-galleries.php:2997
+msgid "&laquo; Previous"
+msgstr "&laquo; Vorige"
+
+#: includes/class-galleries.php:2340
+msgid "No data"
+msgstr "Geen gegevens"
+
+#: includes/class-galleries.php:2118
+msgid "Gallery Code"
+msgstr "Galerij code"
+
+#: includes/class-galleries.php:2114
+msgid "Gallery %s"
+msgstr "Galerij %s"
+
+#: includes/class-galleries.php:1515
+msgid "Update preview"
+msgstr "Update voorbeeld"
+
+#: includes/class-galleries.php:1237 responsive-lightbox.php:1008
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/class-galleries.php:1225 responsive-lightbox.php:1345
+msgid "Edit gallery"
+msgstr "Bewerk galerij"
+
+#: includes/class-galleries.php:1224 includes/class-galleries.php:3124
+msgid "%s image"
+msgid_plural "%s images"
+msgstr[0] "%s afbeelding"
+msgstr[1] "%s afbeeldingen"
+
+#: includes/class-galleries.php:1215
+msgid "To insert your gallery into the editor, click on the \"Insert Gallery\" button below."
+msgstr "Voeg je galerij in de editor in, klik op de knop \"Galerij invoegen\" hieronder."
+
+#: includes/class-galleries.php:1214
+msgid "To select a gallery simply click on one of the boxes to the left."
+msgstr "Om een galerij te selecteren, klik je eenvoudigweg op een van de boxjes aan de linkerkant."
+
+#: includes/class-galleries.php:1213
+msgid "Select A Gallery"
+msgstr "Een galerij selecteren"
+
+#: includes/class-galleries.php:1207
+msgid "Search galleries"
+msgstr "Zoek galerijen"
+
+#: includes/class-galleries.php:1192
+msgid "Reload"
+msgstr "Opnieuw laden"
+
+#: includes/class-galleries.php:1192
+msgid "Insert Gallery"
+msgstr "Galerij invoegen"
+
+#: includes/class-galleries.php:1188 includes/class-tour.php:249
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/class-galleries.php:1091
+msgid "Add Gallery"
+msgstr "Galerij toevoegen"
+
+#: includes/class-galleries.php:695
+msgid "Add custom, space saparated CSS classes (optional)."
+msgstr "Voeg aangepaste, ruimte gebaseerde CSS klassen toe (optioneel)."
+
+#: includes/class-galleries.php:693
+msgid "Custom Classes"
+msgstr "Aangepaste klassen"
+
+#: includes/class-galleries.php:688
+msgid "Enter the gallery description (optional)."
+msgstr "Voer de galerij beschrijving in (optioneel)."
+
+#: includes/class-galleries.php:686
+msgid "Gallery Description"
+msgstr "Galerij beschrijving"
+
+#: includes/class-galleries.php:681
+msgid "Select where to display the description."
+msgstr "Selecteer waar de beschrijving weergegeven moet worden."
+
+#: includes/class-galleries.php:679
+msgid "Description Position"
+msgstr "Positie beschrijving"
+
+#: includes/class-galleries.php:674
+msgid "Select where to display the title."
+msgstr "Selecteer waar je de titel wil weergeven."
+
+#: includes/class-galleries.php:672
+msgid "Title Position"
+msgstr "Titelpositie"
+
+#: includes/class-galleries.php:663
+msgid "Select image caption for gallery lightbox (used if supported by selected lightbox effect)."
+msgstr "Selecteer afbeelding bijschrift voor galerij lightbox (gebruikt indien ondersteund door geselecteerd lightbox effect)."
+
+#: includes/class-galleries.php:656
+msgid "Select image title for gallery lightbox."
+msgstr "Selecteer afbeelding titel voor galerij lightbox."
+
+#: includes/class-galleries.php:648
+msgid "height in px"
+msgstr "hoogte in px"
+
+#: includes/class-galleries.php:643
+msgid "width in px"
+msgstr "breedte in px"
+
+#: includes/class-galleries.php:639
+msgid "Choose the custom image size for gallery lightbox (used if Custom Image size is selected)."
+msgstr "Selecteer de aangepaste afbeelding grootte voor de galerij lightbox (wordt gebruikt als aangepaste afbeelding grootte is geselecteerd)."
+
+#: includes/class-galleries.php:632
+msgid "Select image size for gallery lightbox."
+msgstr "Selecteer afbeelding format voor galerij lightbox."
+
+#: includes/class-galleries.php:630
+msgid "Image Size"
+msgstr "Afbeelding grootte"
+
+#: includes/class-galleries.php:626
+msgid "Enable lightbox effect for the gallery."
+msgstr "Schakel lightbox effect in voor de galerij."
+
+#: includes/class-galleries.php:624
+msgid "Enable Lightbox"
+msgstr "Schakel Lightbox in"
+
+#: includes/class-galleries.php:616
+msgid "On click"
+msgstr "Bij klikken"
+
+#: includes/class-galleries.php:615
+msgid "Automatically"
+msgstr "Automatisch"
+
+#: includes/class-galleries.php:612
+msgid "Select the load more trigger (infinite scroll only)."
+msgstr "Selecteer de trigger meer laden (alleen oneindig scrollen)."
+
+#: includes/class-galleries.php:610
+msgid "Load More"
+msgstr "Laad meer"
+
+#: includes/class-galleries.php:604
+msgid "Number of images per page."
+msgstr "Aantal afbeeldingen per pagina."
+
+#: includes/class-galleries.php:602
+msgid "Images per page"
+msgstr "Afbeeldingen per pagina"
+
+#: includes/class-galleries.php:598
+msgid "top & bottom"
+msgstr "boven & onder"
+
+#: includes/class-galleries.php:597
+msgid "top"
+msgstr "bovenkant"
+
+#: includes/class-galleries.php:596
+msgid "bottom"
+msgstr "onderkant"
+
+#: includes/class-galleries.php:593
+msgid "Select pagination position."
+msgstr "Selecteer paginering positie."
+
+#: includes/class-galleries.php:591
+msgid "Pagination position"
+msgstr "Paginering positie"
+
+#: includes/class-galleries.php:587
+msgid "infinite scroll"
+msgstr "oneindig scrollen"
+
+#: includes/class-galleries.php:586
+msgid "AJAX"
+msgstr "AJAX"
+
+#: includes/class-galleries.php:585
+msgid "standard"
+msgstr "standaard"
+
+#: includes/class-galleries.php:582
+msgid "Select pagination type."
+msgstr "Selecteer paginering type."
+
+#: includes/class-galleries.php:580
+msgid "Pagination type"
+msgstr "Paginatie type"
+
+#: includes/class-galleries.php:576
+msgid "Enable pagination."
+msgstr "Inschakelen paginering."
+
+#: includes/class-galleries.php:574
+msgid "Use pagination"
+msgstr "Gebruik paginering"
+
+#: includes/class-galleries.php:561
+msgid "Border Width"
+msgstr "Rand breedte"
+
+#: includes/class-galleries.php:556
+msgid "Border Color"
+msgstr "Randkleur"
+
+#: includes/class-galleries.php:547
+msgid "Background Opacity"
+msgstr "Achtergrond dekking"
+
+#: includes/class-galleries.php:542
+msgid "Background Color"
+msgstr "Achtergrond kleur"
+
+#: includes/class-galleries.php:537
+msgid "Caption Color"
+msgstr "Bijschrift kleur"
+
+#: includes/class-galleries.php:532
+msgid "Title Color"
+msgstr "Titelkleur"
+
+#: includes/class-galleries.php:520 includes/class-galleries.php:521
+#: includes/class-galleries.php:522 includes/class-galleries.php:523
+#: includes/class-galleries.php:524 includes/class-galleries.php:525
+#: includes/class-galleries.php:526 includes/class-galleries.php:527
+#: includes/class-galleries.php:528
+msgid "Effect %s"
+msgstr "Effect %s"
+
+#: includes/class-galleries.php:516
+msgid "Select thumbnail effect on hover."
+msgstr "Selecteer thumbnail effect op hoveren."
+
+#: includes/class-galleries.php:514
+msgid "Hover effect"
+msgstr "Hoveren effect"
+
+#: includes/class-galleries.php:497
+msgid "Select icon for the gallery thumbnails."
+msgstr "Selecteer een pictogram voor de galerij thumbnails."
+
+#: includes/class-galleries.php:495
+msgid "Thumbnail icon"
+msgstr "Thumbnail pictogram"
+
+#: includes/class-galleries.php:490
+msgid "Select caption for the gallery thumbnails."
+msgstr "Selecteer een bijschrift voor de thumbnails van de galerij."
+
+#: includes/class-galleries.php:488
+msgid "Thumbnail caption"
+msgstr "Thumbnail bijschrift"
+
+#: includes/class-galleries.php:483
+msgid "Select title for the gallery thumbnails."
+msgstr "Selecteer een titel voor de galerij thumbnails."
+
+#: includes/class-galleries.php:481
+msgid "Thumbnail title"
+msgstr "Thumbnail titel"
+
+#: includes/class-galleries.php:406
+msgid "Select the page template."
+msgstr "Selecteer de pagina template."
+
+#: includes/class-galleries.php:404
+msgid "Page Template"
+msgstr "Pagina template"
+
+#: includes/class-galleries.php:399
+msgid "Select the post parent."
+msgstr "Selecteer de bericht hoofd."
+
+#: includes/class-galleries.php:397
+msgid "Page Parent"
+msgstr "Pagina hoofd"
+
+#: includes/class-galleries.php:392
+msgid "Select the post author."
+msgstr "Selecteer de bericht auteur."
+
+#: includes/class-galleries.php:390
+msgid "Post Author"
+msgstr "Bericht auteur"
+
+#: includes/class-galleries.php:385
+msgid "Select the post taxonomy terms to query."
+msgstr "Selecteer de te bevragen bericht taxonomie termen."
+
+#: includes/class-galleries.php:383
+msgid "Post Term"
+msgstr "Bericht term"
+
+#: includes/class-galleries.php:378
+msgid "Select the post format."
+msgstr "Selecteer het berichtformat."
+
+#: includes/class-galleries.php:376
+msgid "Post Format"
+msgstr "Berichtformat"
+
+#: includes/class-galleries.php:371
+msgid "Select the post status."
+msgstr "Selecteer de bericht status."
+
+#: includes/class-galleries.php:369
+msgid "Post Status"
+msgstr "Bericht status"
+
+#: includes/class-galleries.php:364
+msgid "Select the post types to query."
+msgstr "Selecteer de bericht typen om te bevragen."
+
+#: includes/class-galleries.php:362
+msgid "Post Type"
+msgstr "Berichttype"
+
+#: includes/class-galleries.php:357
+msgid "Enter maximum number of images for a post."
+msgstr "Voer het maximale aantal afbeeldingen in voor een bericht."
+
+#: includes/class-galleries.php:355
+msgid "Images per Post"
+msgstr "Afbeeldingen per bericht"
+
+#: includes/class-galleries.php:351
+msgid "Post Attached Images"
+msgstr "Bericht bijgevoegde afbeeldingen"
+
+#: includes/class-galleries.php:350
+msgid "Post Thumbnails"
+msgstr "Bericht thumbnails"
+
+#: includes/class-galleries.php:347
+msgid "Select the image source."
+msgstr "Selecteer de afbeelding bron."
+
+#: includes/class-galleries.php:345
+msgid "Image Source"
+msgstr "Bron van de afbeelding"
+
+#: includes/class-galleries.php:340
+msgid "Enter the posts offset."
+msgstr "Voer de offset van de berichten in."
+
+#: includes/class-galleries.php:338
+msgid "Posts Offset"
+msgstr "Berichten offset"
+
+#: includes/class-galleries.php:330
+msgid "Select the posts order."
+msgstr "Selecteer de volgorde van de berichten."
+
+#: includes/class-galleries.php:328
+msgid "Posts Order"
+msgstr "Volgorde berichten"
+
+#: includes/class-galleries.php:323
+msgid "Parent ID"
+msgstr "Hoofd ID"
+
+#: includes/class-galleries.php:322
+msgid "Last modified date"
+msgstr "Datum laatste wijziging"
+
+#: includes/class-galleries.php:320
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/class-galleries.php:318
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/class-galleries.php:314
+msgid "Select the posts sorting."
+msgstr "Selecteer de berichten sortering."
+
+#: includes/class-galleries.php:312
+msgid "Posts Sorting"
+msgstr "Berichten sorteren"
+
+#: includes/class-galleries.php:307
+msgid "Enter the number of posts."
+msgstr "Voer het aantal berichten in."
+
+#: includes/class-galleries.php:305
+msgid "Number of Posts"
+msgstr "Aantal berichten"
+
+#: includes/class-galleries.php:260
+msgid "Bottom"
+msgstr "Onderkant"
+
+#: includes/class-galleries.php:259
+msgid "Top"
+msgstr "Bovenkant"
+
+#: includes/class-galleries.php:254 includes/class-galleries.php:637
+msgid "Custom size"
+msgstr "Aangepaste grootte"
+
+#: includes/class-galleries.php:252
+msgid "Full size"
+msgstr "Volledige grootte"
+
+#: includes/class-galleries.php:236
+msgid "The settings below adjust miscellaneous options."
+msgstr "De onderstaande instellingen passen diverse opties aan."
+
+#: includes/class-galleries.php:235
+msgid "Misc"
+msgstr "Diversen"
+
+#: includes/class-galleries.php:232
+msgid "The settings below adjust the lightbox options."
+msgstr "De onderstaande instellingen passen de opties van de lightbox aan."
+
+#: includes/class-galleries.php:228
+msgid "The settings below adjust the gallery pagination options."
+msgstr "De onderstaande instellingen passen de paginering van de galerij aan."
+
+#: includes/class-galleries.php:227
+msgid "Paging"
+msgstr "Paginatie"
+
+#: includes/class-galleries.php:224
+msgid "The settings below adjust the gallery design options."
+msgstr "De onderstaande instellingen passen de ontwerp opties van de galerij aan."
+
+#: includes/class-galleries.php:223
+msgid "Design"
+msgstr "Ontwerp"
+
+#: includes/class-galleries.php:219
+msgid "The settings below adjust the configuration options for the gallery."
+msgstr "De onderstaande instellingen passen de configuratie opties voor de galerij aan."
+
+#: includes/class-galleries.php:218
+msgid "Config"
+msgstr "Configuratie"
+
+#: includes/class-galleries.php:214
+msgid "Featured Content"
+msgstr "Uitgelichte inhoud"
+
+#: includes/class-galleries.php:213 includes/class-galleries.php:5021
+msgid "Media Library"
+msgstr "Media bibliotheek"
+
+#: includes/class-galleries.php:211
+msgid "The settings below adjust the contents of the gallery."
+msgstr "De onderstaande instellingen passen de inhoud van de galerij aan."
+
+#: includes/class-galleries.php:203 includes/class-galleries.php:253
+#: includes/class-galleries.php:264
+msgid "Global"
+msgstr "Globaal"
+
+#: includes/class-galleries.php:119
+msgid "Edit image"
+msgstr "Afbeelding bewerken"
+
+#: includes/class-galleries.php:118 includes/class-galleries.php:4489
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-frontend.php:668
+msgid "Specify the number of columns."
+msgstr "Geef het aantal kolommen op."
+
+#: includes/class-frontend.php:666
+msgid "Columns"
+msgstr "Kolommen"
+
+#: includes/class-frontend.php:658
+msgid "Specify the sort order."
+msgstr "Specificeer de sorteervolgorde."
+
+#: includes/class-frontend.php:651
+msgid "Menu Order"
+msgstr "Menu volgorde"
+
+#: includes/class-frontend.php:650 includes/class-galleries.php:321
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class-frontend.php:645
+msgid "Specify how to sort the display thumbnails."
+msgstr "Geef aan hoe de thumbnails moeten worden gesorteerd."
+
+#: includes/class-frontend.php:643
+msgid "Orderby"
+msgstr "Bestel per"
+
+#: includes/class-frontend.php:634
+msgid "Specify where you want the image to link."
+msgstr "Geef aan waar je wil dat de afbeelding naar linkt."
+
+#: includes/class-frontend.php:632
+msgid "Link To"
+msgstr "Link naar"
+
+#: includes/class-frontend.php:627
+msgid "Specify the image size to use for the thumbnail display."
+msgstr "Specificeer de afbeeldingen grootte om te gebruiken voor de thumbnail weergave."
+
+#: responsive-lightbox.php:801
+msgid "<a href=\"%s\" class=\"rl-dismissible-notice\" target=\"_blank\" rel=\"noopener\">Ok, you deserve it</a><br /><a href=\"#\" class=\"rl-dismissible-notice rl-delay-notice\" rel=\"noopener\">Nope, maybe later</a><br /><a href=\"#\" class=\"rl-dismissible-notice\" rel=\"noopener\">I already did</a>"
+msgstr "<a href=\"%s\" class=\"rl-dismissible-notice\" target=\"_blank\" rel=\"noopener\">Ok, je verdient het</a><br /><a href=\"#\" class=\"rl-dismissible-notice rl-delay-notice\" rel=\"noopener\">Nee, misschien later</a><br /><a href=\"#\" class=\"rl-dismissible-notice\" rel=\"noopener\">Ik heb het al gedaan</a>"
+
+#: responsive-lightbox.php:801
+msgid "Your help is much appreciated. Thank you very much"
+msgstr "Je hulp wordt zeer gewaardeerd. Bedankt"
+
+#: responsive-lightbox.php:801
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation."
+msgstr "Kun je me een GROTE gunst bewijzen en het een 5 sterren waardering geven op WordPress om ons te helpen het woord te verspreiden en onze motivatie te vergroten."
+
+#: responsive-lightbox.php:801
+msgid "Hey, you've been using <strong>Responsive Lightbox & Gallery</strong> for more than %s"
+msgstr "Je gebruikt <strong>Responsive Lightbox & Gallery</strong> voor meer dan %s"
+
+#: includes/class-settings.php:2759
+msgid "%s license deactivation failed."
+msgid_plural "%s licenses deactivation failed."
+msgstr[0] "%s licentie deactivering mislukt."
+msgstr[1] "%s licenties deactivering mislukt."
+
+#: includes/class-settings.php:1664
+msgid "Overlay close"
+msgstr "Overlay sluiten"
+
+#: responsive-lightbox.php:1832
+msgid "Use this image"
+msgstr "Gebruik deze afbeelding"
+
+#: responsive-lightbox.php:1831
+msgid "Use these images"
+msgstr "Gebruik deze afbeeldingen"
+
+#: includes/class-galleries.php:120 responsive-lightbox.php:1828
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+#: includes/class-widgets.php:725
+msgid "Text align"
+msgstr "Tekst uitlijning"
+
+#: includes/class-widgets.php:714
+msgid "Text position"
+msgstr "Tekst positie"
+
+#: includes/class-widgets.php:709
+msgid "Automatically add paragraphs"
+msgstr "Automatisch paragrafen toevoegen"
+
+#: includes/class-widgets.php:705
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/class-widgets.php:692
+msgid "Image align"
+msgstr "Afbeelding uitlijnen"
+
+#: includes/class-widgets.php:686
+msgid "URL"
+msgstr "URL"
+
+#: includes/class-widgets.php:672
+msgid "Link to"
+msgstr "Link naar"
+
+#: includes/class-frontend.php:625 includes/class-widgets.php:658
+msgid "Size"
+msgstr "Grootte"
+
+#: includes/class-widgets.php:653
+msgid "Force responsive"
+msgstr "Forceer responsive"
+
+#: includes/class-widgets.php:643 responsive-lightbox.php:1830
+msgid "Select image"
+msgstr "Selecteer afbeelding"
+
+#: includes/class-widgets.php:517
+msgid "Justify"
+msgstr "Uitlijning"
+
+#: includes/class-widgets.php:516
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/class-widgets.php:515
+msgid "Center"
+msgstr "Gecentreerd"
+
+#: includes/class-widgets.php:514
+msgid "Left"
+msgstr "Links"
+
+#: includes/class-galleries.php:5022 includes/class-widgets.php:509
+msgid "Custom URL"
+msgstr "Aangepaste URL"
+
+#: includes/class-frontend.php:637 includes/class-widgets.php:508
+msgid "Attachment Page"
+msgstr "Bijlage pagina"
+
+#: includes/class-frontend.php:638 includes/class-widgets.php:507
+msgid "Media File"
+msgstr "Mediabestand"
+
+#: includes/class-widgets.php:502
+msgid "Above the image"
+msgstr "Boven de afbeelding"
+
+#: includes/class-widgets.php:501
+msgid "Below the image"
+msgstr "Onder de afbeelding"
+
+#: includes/class-widgets.php:481
+msgid "Displays a single image."
+msgstr "Toont een enkelvoudige afbeelding."
+
+#: includes/class-widgets.php:479 includes/class-widgets.php:487
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/class-widgets.php:316
+msgid "Number of columns"
+msgstr "Aantal kolommen"
+
+#: includes/class-widgets.php:304
+msgid "Image size"
+msgstr "Afbeelding grootte"
+
+#: includes/class-frontend.php:656 includes/class-widgets.php:292
+msgid "Order"
+msgstr "Volgorde"
+
+#: includes/class-widgets.php:280
+msgid "Order by"
+msgstr "Sorteer op"
+
+#: includes/class-widgets.php:265
+msgid "Gallery type"
+msgstr "Galerij type"
+
+#: includes/class-widgets.php:252
+msgid "Delete image"
+msgstr "Verwijder afbeelding"
+
+#: includes/class-galleries.php:1458 includes/class-widgets.php:238
+#: responsive-lightbox.php:1829
+msgid "Select images"
+msgstr "Selecteer afbeeldingen"
+
+#: includes/class-widgets.php:161 responsive-lightbox.php:676
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/class-frontend.php:639 includes/class-galleries.php:258
+#: includes/class-settings.php:173 includes/class-settings.php:666
+#: includes/class-settings.php:725 includes/class-widgets.php:160
+#: includes/class-widgets.php:506 includes/class-widgets.php:513
+msgid "None"
+msgstr "Geen"
+
+#: includes/class-frontend.php:662 includes/class-galleries.php:334
+#: includes/class-widgets.php:152
+msgid "Descending"
+msgstr "Aflopend"
+
+#: includes/class-frontend.php:661 includes/class-galleries.php:333
+#: includes/class-widgets.php:151
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: includes/class-frontend.php:652 includes/class-galleries.php:324
+#: includes/class-widgets.php:147
+msgid "Random"
+msgstr "Willekeurig"
+
+#: includes/class-frontend.php:648 includes/class-galleries.php:317
+#: includes/class-widgets.php:146
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-widgets.php:145
+msgid "Image date"
+msgstr "Afbeelding datum"
+
+#: includes/class-frontend.php:649 includes/class-galleries.php:319
+#: includes/class-widgets.php:144 includes/class-widgets.php:231
+#: includes/class-widgets.php:638
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class-widgets.php:143
+msgid "Menu order"
+msgstr "Menu volgorde"
+
+#: includes/class-widgets.php:126
+msgid "Displays an image gallery."
+msgstr "Toont een afbeeldingen galerij."
+
+#: includes/class-galleries.php:4484 includes/class-galleries.php:4878
+#: includes/class-widgets.php:124 includes/class-widgets.php:132
+#: responsive-lightbox.php:1214
+msgid "Gallery"
+msgstr "Galerij"
+
+#: includes/class-galleries.php:231 includes/class-settings.php:1859
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/class-settings.php:930 includes/class-settings.php:1859
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/class-settings.php:542 includes/class-settings.php:1082
+msgid "%s Settings"
+msgstr "%s instellingen"
+
+#: includes/class-settings.php:331
+msgid "Force lightbox"
+msgstr "Lightbox dwingen"
+
+#: includes/class-settings.php:328
+msgid "Enable lightbox for comments content."
+msgstr "Lightbox inschakelen voor inhoud reacties."
+
+#: includes/class-settings.php:325
+msgid "Comments"
+msgstr "Reacties"
+
+#: includes/class-settings.php:322
+msgid "Enable lightbox for widgets content."
+msgstr "Schakel lightbox in voor widgets inhoud."
+
+#: includes/class-settings.php:319
+msgid "Widgets"
+msgstr "Widgets"
+
+#: includes/class-settings.php:316
+msgid "Enable lightbox for YouTube and Vimeo video links."
+msgstr "Lightbox inschakelen voor YouTube en Vimeo video links."
+
+#: includes/class-settings.php:313
+msgid "Videos"
+msgstr "Video's"
+
+#: includes/class-settings.php:267
+msgid "Enable lightbox for WordPress image galleries."
+msgstr "Schakel lightbox in voor WordPress afbeelding galerijen."
+
+#: includes/class-settings.php:241
+msgid "Enable lightbox for WordPress image links."
+msgstr "Schakel lightbox in voor WordPress afbeelding links."
+
+#: includes/class-galleries.php:210 includes/class-settings.php:238
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: includes/class-settings.php:224
+msgid "Default lightbox"
+msgstr "Standaard lightbox"
+
+#: includes/class-settings.php:1723
+msgid "Animation speed before image is loaded."
+msgstr "Animatie snelheid voordat afbeelding wordt geladen."
+
+#: includes/class-settings.php:1720
+msgid "Gallery fade out"
+msgstr "Galerij vervagen uit"
+
+#: includes/class-settings.php:1715
+msgid "Animation speed when image is loaded."
+msgstr "Animatie snelheid wanneer afbeelding is geladen."
+
+#: includes/class-settings.php:1712
+msgid "Gallery fade in"
+msgstr "Galerij vervagen in"
+
+#: includes/class-settings.php:1705
+msgid "Close on Esc"
+msgstr "Sluiten met esc"
+
+#: includes/class-settings.php:1700
+msgid "false"
+msgstr "niet waar"
+
+#: includes/class-settings.php:1699
+msgid "anywhere"
+msgstr "overal"
+
+#: includes/class-settings.php:1698
+msgid "background"
+msgstr "achtergrond"
+
+#: includes/class-settings.php:1696
+msgid "Select how to close lightbox."
+msgstr "Selecteer hoe de lightbox te sluiten."
+
+#: includes/class-settings.php:1693
+msgid "Close on click"
+msgstr "Sluiten op klik"
+
+#: includes/class-settings.php:1688
+msgid "Duration of closing animation."
+msgstr "Duur van de slot animatie."
+
+#: includes/class-settings.php:1685
+msgid "Closing speed"
+msgstr "Sluit snelheid"
+
+#: includes/class-settings.php:1680
+msgid "Duration of opening animation."
+msgstr "Duur van de opening animatie."
+
+#: includes/class-settings.php:1677
+msgid "Opening speed"
+msgstr "Snelheid bij openen"
+
+#: includes/class-settings.php:162
+msgid "Featherlight"
+msgstr "Vederlicht"
+
+#: includes/class-settings.php:340
+msgid "Replace WooCommerce product gallery lightbox."
+msgstr "Vervang WooCommerce product galerij lightbox."
+
+#: includes/class-settings.php:337
+msgid "WooCommerce lightbox"
+msgstr "WooCommerce lightbox"
+
+#. Author URI of the plugin
+msgid "http://www.dfactory.co/"
+msgstr "http://www.dfactory.co/"
+
+#. Author of the plugin
+msgid "dFactory"
+msgstr "dFactory"
+
+#. Plugin URI of the plugin
+msgid "http://www.dfactory.co/products/responsive-lightbox/"
+msgstr "http://www.dfactory.co/products/responsive-lightbox/"
+
+#: responsive-lightbox.php:1648
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Weet je zeker dat je de algemene standaardinstellingen wilt herstellen?"
+
+#: includes/class-welcome.php:68 responsive-lightbox.php:960
+#: responsive-lightbox.php:1292
+msgid "Settings"
+msgstr "Instellingen"
+
+#: responsive-lightbox.php:929
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: includes/class-settings.php:2755
+msgid "%s license successfully deactivated."
+msgid_plural "%s licenses successfully deactivated."
+msgstr[0] "%s licentie succesvol gedeactiveerd."
+msgstr[1] "%s licenties succesvol gedeactiveerd."
+
+#: includes/class-settings.php:2707
+msgid "%s license successfully activated."
+msgid_plural "%s licenses successfully activated."
+msgstr[0] "%s licentie succesvol geactiveerd."
+msgstr[1] "%s licenties succesvol geactiveerd."
+
+#: includes/class-settings.php:2711
+msgid "%s license activation failed."
+msgid_plural "%s licenses activation failed."
+msgstr[0] "%s licentie activering mislukt."
+msgstr[1] "%s licenties activering mislukt."
+
+#: includes/class-settings.php:2613
+msgid "Enter your license key to activate %s extension and enable automatic upgrade notices."
+msgstr "Voer je licentiesleutel in om de %s extensie te activeren en automatische upgrade berichten in te schakelen."
+
+#: includes/class-settings.php:2592
+msgid "A list of licenses for your Responsive Lightbox & Gallery extensions."
+msgstr "Een lijst met licenties voor je responsive Lightbox & Gallery extensies."
+
+#: includes/class-settings.php:2575
+msgid "There was an error retrieving the extensions list from the server. Please try again later."
+msgstr "Er is een fout opgetreden bij het ophalen van de lijst met extensies van de server. Probeer het later opnieuw."
+
+#: includes/class-settings.php:2563
+msgid "Enhance your website with these beautiful, easy to use extensions, designed with Responsive Lightbox & Gallery integration in mind."
+msgstr "Verbeter je site met deze prachtige, eenvoudig te gebruiken extensies, ontworpen met responsive Lightbox & Gallery integratie in het achterhoofd."
+
+#: includes/class-settings.php:2562
+msgid "Add-ons / Extensions"
+msgstr "Add-ons/Extensies"
+
+#: includes/class-settings.php:2437 includes/class-settings.php:2494
+msgid "Settings restored to defaults."
+msgstr "Standaard instellingen zijn hersteld."
+
+#: includes/class-settings.php:1068 includes/class-settings.php:2112
+msgid "Licenses"
+msgstr "Licenties"
+
+#: includes/class-settings.php:1978
+msgid "Reset to defaults"
+msgstr "Herstel standaard instellingen"
+
+#: includes/class-settings.php:1925
+msgid "WordPress plugins"
+msgstr "WordPress Plugins"
+
+#: includes/class-settings.php:1925
+msgid "Check out our other %s."
+msgstr "Bekijk onze andere %s."
+
+#: includes/class-settings.php:1924
+msgid "plugin page"
+msgstr "plugin pagina"
+
+#: includes/class-settings.php:1924
+msgid "Blog about it & link to the %s."
+msgstr "Blog erover & link naar de %s."
+
+#: includes/class-settings.php:1923
+msgid "%s on WordPress.org"
+msgstr "%s op WordPress.org"
+
+#: includes/class-settings.php:1923
+msgid "Rate it 5"
+msgstr "Beoordeel met 5 sterren"
+
+#: includes/class-settings.php:1922
+msgid "Do you like this plugin?"
+msgstr "Bevalt deze plugin?"
+
+#: includes/class-settings.php:1920
+msgid "Support forum"
+msgstr "Support Forum"
+
+#: includes/class-settings.php:1919
+msgid "Need support?"
+msgstr "Hulp nodig?"
+
+#: includes/providers/class-flickr.php:139
+#: includes/providers/class-unsplash.php:137
+#: includes/providers/class-wikimedia.php:134
+msgid "Responsive Lightbox"
+msgstr "Responsive Lightbox"
+
+#: includes/class-settings.php:1076 includes/class-tour.php:227
+#: responsive-lightbox.php:963
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: includes/class-settings.php:1657
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+#: includes/class-settings.php:1656
+msgid "Bullets"
+msgstr "Opsomming"
+
+#: includes/class-settings.php:1654
+msgid "What type of pagination to use."
+msgstr "Welk type paginering te gebruiken."
+
+#: includes/class-settings.php:1649
+msgid "Whether or not to add a pagination."
+msgstr "Wel of geen paginering toevoegen."
+
+#: includes/class-settings.php:1643
+msgid "Pagination"
+msgstr "Paginering"
+
+#: includes/class-settings.php:1639
+msgid "Whether or not to pause on hover."
+msgstr "Wel of niet pauzeren op hoveren."
+
+#: includes/class-settings.php:1636
+msgid "Pause on hover"
+msgstr "Pauzeer bij hoveren"
+
+#: includes/class-settings.php:1629
+msgid "The timeout between sliding to the next slide in milliseconds."
+msgstr "De time-out tussen het sliden naar de volgende slide in milliseconden."
+
+#: includes/class-settings.php:1618
+msgid "Autoplay"
+msgstr "Automatisch afspelen"
+
+#: includes/class-settings.php:1607
+msgid "Whether or not to slide back to the first slide when the last has been reached."
+msgstr "Wel of niet terug sliden naar de eerste slide als de laatste is bereikt."
+
+#: includes/class-settings.php:1604
+msgid "Infinite loop"
+msgstr "Oneindige lus"
+
+#: includes/class-settings.php:1598
+msgid "slide"
+msgstr "slide"
+
+#: includes/class-settings.php:1596
+msgid "What effect to use for the transition."
+msgstr "Welk effect te gebruiken voor de overgang."
+
+#: includes/class-settings.php:1593
+msgid "Transition effect"
+msgstr "Overgang effect"
+
+#: includes/class-settings.php:1583
+msgid "Quit when anything but the viewed image is clicked."
+msgstr "Sluit af bij klikken buiten de weergegeven afbeelding."
+
+#: includes/class-settings.php:1580
+msgid "Quit on anything click"
+msgstr "Stop bij elke klik"
+
+#: includes/class-settings.php:1576
+msgid "Quit when the viewed image is clicked."
+msgstr "Sluit af bij klikken op de weergegeven afbeelding."
+
+#: includes/class-settings.php:1573
+msgid "Quit on image click"
+msgstr "Stoppen bij klik op afbeelding"
+
+#: includes/class-settings.php:1569
+msgid "Quit after viewing the last image."
+msgstr "Sluit af na weergave van de laatste afbeelding."
+
+#: includes/class-settings.php:1566
+msgid "Quit after last image"
+msgstr "Sluit af na laatste afbeelding"
+
+#: includes/class-settings.php:1562
+msgid "Enable keyboard shortcuts (arrows Left/Right and Esc)."
+msgstr "Schakel sneltoetsen in (links/rechts-toets en Esc)."
+
+#: includes/class-settings.php:1559
+msgid "Enable keyboard keys"
+msgstr "Schakel toetsenbordtoetsen in"
+
+#: includes/class-settings.php:1555
+msgid "Silently preload the next image."
+msgstr "Laad de volgende afbeelding stil vooraf."
+
+#: includes/class-settings.php:1552
+msgid "Preload next image"
+msgstr "Laad de volgende afbeelding vooraf"
+
+#: includes/class-settings.php:1547
+msgid "Animation speed."
+msgstr "Animatiesnelheid."
+
+#: includes/class-settings.php:1534
+msgid "Error message if the content cannot be loaded."
+msgstr "Foutmelding als de inhoud niet geladen kan worden."
+
+#: includes/class-settings.php:1530
+msgid "Error message"
+msgstr "Foutmelding"
+
+#: includes/class-settings.php:1526 includes/class-settings.php:1667
+msgid "Enable to close lightbox on overlay click."
+msgstr "Inschakelen om lightbox te sluiten op overlay klik."
+
+#: includes/class-settings.php:1523
+msgid "Click overlay to close"
+msgstr "Klik op overlay om te sluiten"
+
+#: includes/class-settings.php:1519 includes/class-settings.php:1614
+msgid "Enable keyboard navigation (left/right/escape)."
+msgstr "Toetsenbord navigatie inschakelen (links/rechts/escape)."
+
+#: includes/class-settings.php:1516 includes/class-settings.php:1611
+msgid "Keyboard navigation"
+msgstr "Toetsenbordnavigatie"
+
+#: includes/class-settings.php:1511
+msgid "The effect to use when showing the lightbox."
+msgstr "Het te kiezen effect wanneer Lightbox wordt getoond."
+
+#: includes/class-settings.php:1508
+msgid "Effect"
+msgstr "Effect"
+
+#: includes/class-settings.php:1497
+msgid "Height of the video."
+msgstr "Hoogte van de video."
+
+#: includes/class-settings.php:1489
+msgid "Width of the video."
+msgstr "Breedte van de video."
+
+#: includes/class-settings.php:1481
+msgid "Space between viewport and FancyBox wrapper."
+msgstr "Ruimte tussen de FancyBox omtrek en zichtvenster."
+
+#: includes/class-settings.php:902 includes/class-settings.php:1478
+msgid "Margin"
+msgstr "Marge"
+
+#: includes/class-settings.php:1473
+msgid "Space between FancyBox wrapper and content."
+msgstr "Ruimte tussen de Fancybox omtrek en inhoud."
+
+#: includes/class-settings.php:1470
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/class-settings.php:1465
+msgid "Speed of the content fading while changing gallery items."
+msgstr "Duur van vervagen bij wisselingen in de galerij."
+
+#: includes/class-settings.php:1462
+msgid "Change fade"
+msgstr "Snelheid van vervagen"
+
+#: includes/class-settings.php:1457
+msgid "Speed of resizing when changing gallery items, in milliseconds."
+msgstr "Duur van verschalen bij wisselingen in de galerij, in milliseconden."
+
+#: includes/class-settings.php:1454
+msgid "Change speed"
+msgstr "Veranderingssnelheid"
+
+#: includes/class-settings.php:1449
+msgid "Speed of the fade and elastic transitions, in milliseconds."
+msgstr "Duur van vervagende en elastische overgangen, in milliseconden."
+
+#: includes/class-settings.php:1446
+msgid "Speed (in/out)"
+msgstr "Snelheid (in/uit)"
+
+#: includes/class-settings.php:1441
+msgid "Easing used for elastic animations."
+msgstr "Soort van beweging bij elastische animaties."
+
+#: includes/class-settings.php:1438
+msgid "Easings (in/out)"
+msgstr "Beweging (in/uit)"
+
+#: includes/class-settings.php:1433
+msgid "The transition type."
+msgstr "Type van overgang."
+
+#: includes/class-settings.php:1430
+msgid "Transition (in/out)"
+msgstr "Overgang (in/uit)"
+
+#: includes/class-settings.php:1425
+msgid "The position of title."
+msgstr "De positie van de titel."
+
+#: includes/class-settings.php:1422
+msgid "Title position"
+msgstr "Titelpositie"
+
+#: includes/class-settings.php:1418
+msgid "Toggle title."
+msgstr "Inschakelen om titel te tonen."
+
+#: includes/class-settings.php:1415
+msgid "Title show"
+msgstr "Titel tonen"
+
+#: includes/class-settings.php:1411
+msgid "Color of the overlay."
+msgstr "Kleur van de overlay."
+
+#: includes/class-settings.php:1408
+msgid "Overlay color"
+msgstr "Overlay-kleur"
+
+#: includes/class-settings.php:1402
+msgid "Opacity of the overlay."
+msgstr "Opaciteit van de overlay."
+
+#: includes/class-settings.php:1399
+msgid "Overlay opacity"
+msgstr "Overlay opaciteit"
+
+#: includes/class-settings.php:1395
+msgid "When true, transparency of content is changed for elastic transitions."
+msgstr "Indien actief verandert de transparantie van inhoud bij elastische overgangen."
+
+#: includes/class-settings.php:1388
+msgid "When true, FancyBox is centered while scrolling page."
+msgstr "Fancybox centreren bij scrollen door de pagina."
+
+#: includes/class-settings.php:1385
+msgid "Center on scroll"
+msgstr "Centreer bij scrollen"
+
+#: includes/class-settings.php:1380
+msgid "Set the overflow CSS property to create or hide scrollbars."
+msgstr "Stel de CSS-eigenschap 'overflow' in om schuifbalken te tonen of te verbergen."
+
+#: includes/class-settings.php:1377
+msgid "Scrolling (in/out)"
+msgstr "Scrollen (in/uit)"
+
+#: includes/class-settings.php:1373
+msgid "If true, FancyBox is scaled to fit in viewport."
+msgstr "FancyBox verschalen om in het zichtvenster te passen."
+
+#: includes/class-settings.php:1370
+msgid "Auto scale"
+msgstr "Automatisch schalen"
+
+#: includes/class-settings.php:1366
+msgid "Toggle navigation arrows."
+msgstr "Navigatiepijlen inschakelen."
+
+#: includes/class-settings.php:1363
+msgid "Show nav arrows"
+msgstr "Toon navigatiepijlen"
+
+#: includes/class-settings.php:1359
+msgid "When true, galleries will be cyclic, allowing you to keep pressing next/back."
+msgstr "Toon galerijen als cycli, met de 'volgende/vorige'-functie nog steeds actief."
+
+#: includes/class-settings.php:1356
+msgid "Cyclic"
+msgstr "Cyclisch"
+
+#: includes/class-settings.php:1352
+msgid "Toggle if clicking the content should close FancyBox."
+msgstr "Inschakelen als klikken op de inhoud Fancybox moet sluiten (\"hideOnContentClick\")."
+
+#: includes/class-settings.php:1349
+msgid "Hide on content click"
+msgstr "Verbergen bij inhoud-klik"
+
+#: includes/class-settings.php:1345
+msgid "Toggle if clicking the overlay should close FancyBox."
+msgstr "Inschakelen als klikken op de overlay Fancybox moet sluiten (\"hideOnOverlayClick\")."
+
+#: includes/class-settings.php:1342
+msgid "Hide on overlay click"
+msgstr "Verbergen bij overlay-klik"
+
+#: includes/class-settings.php:1338 includes/class-settings.php:1708
+msgid "Toggle if pressing Esc button closes lightbox."
+msgstr "Toggle of het indrukken van de esc knop de lightbox sluit."
+
+#: includes/class-settings.php:1335
+msgid "Enable escape button"
+msgstr "esc-toets inschakelen"
+
+#: includes/class-settings.php:1331
+msgid "Toggle close button."
+msgstr "Sluitknop tonen (\"showCloseButton\")."
+
+#: includes/class-settings.php:1328 includes/class-settings.php:1777
+msgid "Show close button"
+msgstr "Toon sluitknop"
+
+#: includes/class-settings.php:1324
+msgid "Toggle overlay."
+msgstr "Overlay tonen (\"overlayShow\")."
+
+#: includes/class-settings.php:1321
+msgid "Show overlay"
+msgstr "Toon overlay"
+
+#: includes/class-settings.php:1317
+msgid "When true, \"overlayShow\" is set to true and \"hideOnOverlayClick\", \"hideOnContentClick\", \"enableEscapeButton\", \"showCloseButton\" are set to false."
+msgstr "Wanneer \"overlayShow\" op waar staat, wordt \"hideOnOverlayClick\", \"hideOnContentClick\", \"enableEscapeButton\" en \"showCloseButton\" op onwaar gezet."
+
+#: includes/class-settings.php:1304
+msgid "Display links to Facebook and Twitter."
+msgstr "Toon links naar Facebook en Twitter."
+
+#: includes/class-settings.php:1301
+msgid "Social (Twitter, Facebook)"
+msgstr "Sociaal (Twitter, Facebook)"
+
+#: includes/class-settings.php:1297
+msgid "Set to false if you open forms inside prettyPhoto."
+msgstr "Deactiveer om formulieren in prettyPhoto te openen."
+
+#: includes/class-settings.php:1294
+msgid "Keyboard shortcuts"
+msgstr "Sneltoetsen"
+
+#: includes/class-settings.php:1290
+msgid "If enabled, a gallery will overlay the fullscreen image on mouse over."
+msgstr "Schakelt een galerij-overlay in bij muizen over de Lightbox afbeelding."
+
+#: includes/class-settings.php:1287
+msgid "Overlay gallery"
+msgstr "Overlay-galerij"
+
+#: includes/class-settings.php:1283
+msgid "Allow prettyPhoto to update the url to enable deeplinking."
+msgstr "PrettyPhoto toestaan de URL te actualiseren om te kunnen dieplinken."
+
+#: includes/class-settings.php:1280
+msgid "Deeplinking"
+msgstr "Dieplinken"
+
+#: includes/class-settings.php:1276
+msgid "If set to true, only the close button will close the window."
+msgstr "Indien actief kan het venster alleen met de sluitknop gesloten worden."
+
+#: includes/class-settings.php:1273 includes/class-settings.php:1314
+msgid "Modal"
+msgstr "Modus"
+
+#: includes/class-settings.php:1269
+msgid "Automatically start videos."
+msgstr "Start video's automatisch."
+
+#: includes/class-settings.php:1266
+msgid "Video autoplay"
+msgstr "Autostart video"
+
+#: includes/class-settings.php:1261
+msgid "Select flash window mode."
+msgstr "Flash-venstermodus selecteren."
+
+#: includes/class-settings.php:1258
+msgid "Flash Window Mode (wmode)"
+msgstr "Flash-venstermodus (wmode)"
+
+#: includes/class-settings.php:1254
+msgid "Hide all the flash objects on a page. Enable this if flash appears over prettyPhoto."
+msgstr "Verberg alle flash objecten op een pagina. Schakel dit in als flash over prettyPhoto verschijnt."
+
+#: includes/class-settings.php:1251
+msgid "Hide Flash"
+msgstr "Verberg Flash"
+
+#: includes/class-settings.php:1244
+msgid "Horizontal padding"
+msgstr "Horizontale padding"
+
+#: includes/class-settings.php:1239
+msgid "Select the theme for lightbox effect."
+msgstr "Selecteer het thema voor het lightbox effect."
+
+#: includes/class-settings.php:1236
+msgid "Theme"
+msgstr "Thema"
+
+#: includes/class-settings.php:1229 includes/class-settings.php:1494
+msgid "Video height"
+msgstr "Videohoogte"
+
+#: includes/class-settings.php:1222 includes/class-settings.php:1486
+msgid "Video width"
+msgstr "Videobreedte"
+
+#: includes/class-settings.php:1218
+msgid "Allow expanding images."
+msgstr "Sta uitbreiding van afbeeldingen toe."
+
+#: includes/class-settings.php:1215
+msgid "Allow expand"
+msgstr "Sta expantie toe"
+
+#: includes/class-settings.php:1211
+msgid "Resize the photos bigger than viewport."
+msgstr "Foto's groter dan het zichtvenster verkleinen."
+
+#: includes/class-settings.php:1208
+msgid "Allow resize big images"
+msgstr "Verkleinen van grote afbeeldingen toestaan"
+
+#: includes/class-settings.php:1204
+msgid "Display image title."
+msgstr "Toon titel van afbeelding."
+
+#: includes/class-settings.php:1201
+msgid "Show title"
+msgstr "Toon titel"
+
+#: includes/class-settings.php:1195
+msgid "Value between 0 and 100, 100 for no opacity."
+msgstr "Waarde tussen 0 en 100 (0 is transparant)."
+
+#: includes/class-settings.php:1192 includes/class-settings.php:1392
+msgid "Opacity"
+msgstr "Opaciteit"
+
+#: includes/class-settings.php:1188 includes/class-settings.php:1624
+msgid "Automatically start slideshow."
+msgstr "Diashow automatisch starten."
+
+#: includes/class-settings.php:1185
+msgid "Slideshow autoplay"
+msgstr "Autostart diashow"
+
+#: includes/class-settings.php:1178
+msgid "Enter time (in miliseconds)."
+msgstr "Tijd aangeven (in milliseconden)."
+
+#: includes/class-settings.php:1173
+msgid "Display images as slideshow"
+msgstr "Toon afbeeldingen als slide voorstelling"
+
+#: includes/class-settings.php:801 includes/class-settings.php:1167
+msgid "Slideshow"
+msgstr "Diashow"
+
+#: includes/class-settings.php:1162
+msgid "Select animation speed for lightbox effect."
+msgstr "Selecteer de animatiesnelheid van het Lightbox-effect."
+
+#: includes/class-settings.php:1158 includes/class-settings.php:1544
+msgid "Animation speed"
+msgstr "Animatiesnelheid"
+
+#: includes/class-settings.php:1148
+msgid "True will return to the first image after the last image is reached."
+msgstr "Waar zal terugkeren naar de eerste afbeelding nadat de laatste afbeelding is bereikt."
+
+#: includes/class-settings.php:1145
+msgid "Loop at end"
+msgstr "Loop aan het einde"
+
+#: includes/class-settings.php:1140
+msgid "Enter the max video width in a lightbox."
+msgstr "Geef de grootste breedte aan voor video in een Lightbox."
+
+#: includes/class-settings.php:1137
+msgid "Video max width"
+msgstr "Video (grootste breedte)"
+
+#: includes/class-settings.php:1130
+msgid "Enter the time after which the top and bottom bars will be hidden (when hiding is enabled)."
+msgstr "Voer de tijd in waarna de boven- en onderbalk worden verborgen (als verbergen is ingeschakeld)."
+
+#: includes/class-settings.php:1125
+msgid "Hide top and bottom bars after a period of time."
+msgstr "Verberg, bovenkant en onderkant balken na verloop van tijd."
+
+#: includes/class-settings.php:1119
+msgid "Top and bottom bars"
+msgstr "Boven- en onderbalken"
+
+#: includes/class-settings.php:1115
+msgid "Hide the top and bottom bars on mobile devices."
+msgstr "Verberg de onderkant en bovenkant balken op mobiele apparaten."
+
+#: includes/class-settings.php:1112
+msgid "Remove bars on mobile"
+msgstr "Verwijder balken op mobiel"
+
+#: includes/class-settings.php:1108
+msgid "Hide the close button on mobile devices."
+msgstr "Verberg de sluit knop op mobiele apparaten."
+
+#: includes/class-settings.php:1105
+msgid "Hide close on mobile"
+msgstr "Verberg sluiten op mobiel"
+
+#: includes/class-settings.php:1101
+msgid "Enable this if you're having problems with navigation icons not visible on some devices."
+msgstr "Inschakelen als je problemen hebt met de zichtbaarheid van navigatiepijlen op sommige apparaten."
+
+#: includes/class-settings.php:1098
+msgid "Force PNG icons"
+msgstr "Forceer PNG symbolen"
+
+#: includes/class-settings.php:1093
+msgid "Select a method of applying a lightbox effect."
+msgstr "Selecteer een methode om een Lightbox-effekt toe te passen."
+
+#: includes/class-settings.php:1089
+msgid "Animation type"
+msgstr "Animatietype"
+
+#: includes/class-tour.php:165
+msgid "Lightboxes Settings"
+msgstr "Lightboxen instellingen"
+
+#: includes/class-settings.php:378
+msgid "Delete all plugin settings on deactivation."
+msgstr "Verwijder alle plugin instellingen bij deactivatie."
+
+#: includes/class-settings.php:375
+msgid "Delete data"
+msgstr "Verwijder data"
+
+#: includes/class-settings.php:372
+msgid "Enable to load scripts and styles only on pages that have images or galleries in post content."
+msgstr "Alleen scripts en stijlen laden op pagina's met afbeeldingen of galerijen in bericht inhoud."
+
+#: includes/class-settings.php:369
+msgid "Conditional loading"
+msgstr "Voorwaardelijk laden"
+
+#: includes/class-settings.php:362
+msgid "Select where all the lightbox scripts should be placed."
+msgstr "Selecteer waar alle Lightbox scripts moeten worden geplaatst."
+
+#: includes/class-settings.php:359
+msgid "Loading place"
+msgstr "Laadplaats"
+
+#: includes/class-settings.php:354
+msgid "Enter a space separated list of events."
+msgstr "Voer een spatiegescheiden lijst van 'events' in."
+
+#: includes/class-settings.php:350
+msgid "Enable triggering lightbox on custom jQuery events."
+msgstr "Lightbox activeren op aangepaste jQuery gebeurtenissen."
+
+#: includes/class-settings.php:344
+msgid "Custom events"
+msgstr "Custom events"
+
+#: includes/class-settings.php:334
+msgid "Try to force lightbox for custom WP gallery replacements, like Jetpack or Visual Composer galleries."
+msgstr "Probeer lightbox te forceren voor aangepaste WP galerij vervangers, zoals Jetpack of Visual Composer galerijen."
+
+#: includes/class-settings.php:299
+msgid "Gallery image title"
+msgstr "Galerij afbeelding titel"
+
+#: includes/class-settings.php:295
+msgid "Select image size for gallery image links."
+msgstr "Selecteer het afbeeldingsformaat voor links van galerij-afbeeldingen."
+
+#: includes/class-settings.php:292
+msgid "Gallery image size"
+msgstr "Galerij-afbeeldingsformaat"
+
+#: includes/class-settings.php:264 includes/class-settings.php:1024
+#: responsive-lightbox.php:1334 responsive-lightbox.php:1340
+#: responsive-lightbox.php:1351 responsive-lightbox.php:1366
+msgid "Galleries"
+msgstr "Galerijen"
+
+#: includes/class-settings.php:261
+msgid "Display single post images as a gallery."
+msgstr "Losse afbeeldingen in een bericht als galerij tonen."
+
+#: includes/class-settings.php:258
+msgid "Single images as gallery"
+msgstr "Losse afbeeldingen als galerij"
+
+#: includes/class-settings.php:247
+msgid "Select title for single images."
+msgstr "Selecteer een titel voor enkelvoudige afbeeldingen."
+
+#: includes/class-settings.php:244
+msgid "Single image title"
+msgstr "Enkelvoudige afbeeldingtitel"
+
+#: includes/class-settings.php:235
+msgid "Enter the rel selector lightbox effect will be applied to."
+msgstr "Voer de rel selector in waarop het lightbox effect zal worden toegepast."
+
+#: includes/class-settings.php:232
+msgid "Selector"
+msgstr "Selecteerder"
+
+#: includes/class-settings.php:228
+msgid "Select your preferred ligthbox effect script or get our <a href=\"%s\">premium extensions</a>."
+msgstr "Selecteer je favoriete ligthbox effect script of ontvang onze <a href=\"%s\">Premium extensies</a>."
+
+#: includes/class-settings.php:191
+msgid "Large"
+msgstr "Groot"
+
+#: includes/class-settings.php:190
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: includes/class-settings.php:189
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: includes/class-settings.php:365
+msgid "Footer"
+msgstr "Footer"
+
+#: includes/class-settings.php:364
+msgid "Header"
+msgstr "Header"
+
+#: includes/class-settings.php:177
+msgid "Image Description"
+msgstr "Afbeelding beschrijving"
+
+#: includes/class-settings.php:176
+msgid "Image Alt Text"
+msgstr "Alttekst van afbeelding"
+
+#: includes/class-galleries.php:661 includes/class-settings.php:175
+msgid "Image Caption"
+msgstr "Onderschrift"
+
+#: includes/class-galleries.php:654 includes/class-settings.php:174
+msgid "Image Title"
+msgstr "Titel afbeelding"
+
+#: includes/class-settings.php:158
+msgid "TosRUs"
+msgstr "TosRUs"
+
+#: includes/class-settings.php:154
+msgid "Image Lightbox"
+msgstr "Image Lightbox"
+
+#: includes/class-settings.php:149
+msgid "fall"
+msgstr "vallen"
+
+#: includes/class-settings.php:148
+msgid "slide down"
+msgstr "omlaag"
+
+#: includes/class-settings.php:147
+msgid "slide up"
+msgstr "omhoog"
+
+#: includes/class-settings.php:146
+msgid "slide right"
+msgstr "rechtsom"
+
+#: includes/class-settings.php:145
+msgid "slide left"
+msgstr "linksom"
+
+#: includes/class-settings.php:144
+msgid "fade scale"
+msgstr "fade scale"
+
+#: includes/class-settings.php:141
+msgid "Nivo Lightbox"
+msgstr "Nivo Lightbox"
+
+#: includes/class-settings.php:136
+msgid "over"
+msgstr "over"
+
+#: includes/class-settings.php:135
+msgid "inside"
+msgstr "binnen"
+
+#: includes/class-settings.php:134
+msgid "outside"
+msgstr "buiten"
+
+#: includes/class-settings.php:131
+msgid "linear"
+msgstr "lineair"
+
+#: includes/class-settings.php:130
+msgid "swing"
+msgstr "swing"
+
+#: includes/class-settings.php:127
+msgid "no"
+msgstr "nee"
+
+#: includes/class-settings.php:126
+msgid "yes"
+msgstr "ja"
+
+#: includes/class-settings.php:125
+msgid "auto"
+msgstr "automatisch"
+
+#: includes/class-galleries.php:500 includes/class-galleries.php:519
+#: includes/class-settings.php:122
+msgid "none"
+msgstr "geen"
+
+#: includes/class-settings.php:121 includes/class-settings.php:143
+#: includes/class-settings.php:1599
+msgid "fade"
+msgstr "vervagen"
+
+#: includes/class-settings.php:120
+msgid "elastic"
+msgstr "elastisch"
+
+#: includes/class-settings.php:118
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: includes/class-settings.php:89
+msgid "jQuery"
+msgstr "jQuery"
+
+#: includes/class-settings.php:88
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/class-settings.php:86
+msgid "SwipeBox"
+msgstr "SwipeBox"
+
+#: includes/class-settings.php:113
+msgid "gpu"
+msgstr "GPU"
+
+#: includes/class-settings.php:112
+msgid "direct"
+msgstr "direct"
+
+#: includes/class-settings.php:111
+msgid "opaque"
+msgstr "opaak"
+
+#: includes/class-settings.php:110
+msgid "transparent"
+msgstr "transparant"
+
+#: includes/class-settings.php:109
+msgid "window"
+msgstr "venster"
+
+#: includes/class-settings.php:106
+msgid "facebook"
+msgstr "facebook"
+
+#: includes/class-settings.php:105
+msgid "dark square"
+msgstr "donker vierkant"
+
+#: includes/class-settings.php:104
+msgid "light square"
+msgstr "licht vierkant"
+
+#: includes/class-settings.php:103
+msgid "dark rounded"
+msgstr "afgerond donker"
+
+#: includes/class-settings.php:102
+msgid "light rounded"
+msgstr "afgerond licht"
+
+#: includes/class-settings.php:101
+msgid "default"
+msgstr "standaard"
+
+#: includes/class-settings.php:98
+msgid "fast"
+msgstr "snel"
+
+#: includes/class-settings.php:97
+msgid "normal"
+msgstr "normaal"
+
+#: includes/class-settings.php:96
+msgid "slow"
+msgstr "langzaam"
+
+#: includes/class-settings.php:94
+msgid "prettyPhoto"
+msgstr "prettyPhoto"

@@ -1,0 +1,45 @@
+#masthead {
+	 
+	 #search-icon { 
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 @media screen and (max-width: 767px) {
+			 display: none;
+		 }
+		 button {
+			 .size(24px);
+			 padding: 0;
+			 background: none;
+			 border: 0;
+		 }
+	 }
+     #top-search {
+         position: fixed;
+         text-align: center;
+         top: 0;
+         width: 100%;
+         z-index: 99;
+         label {
+	         display: flex;
+	         width: 100%;
+	         align-items: center;
+	         input[type="text"] {
+		         width: 100%;
+		         padding: 15px 5px;
+		         .size(24px);
+	         }
+	         button {
+		         position: absolute;
+		         right: 0;
+		         .size(24px);
+		         background: none;
+		         border: 0;
+		         &#go-to-field, &#go-to-close {
+			         position: absolute;
+			         clip: rect(1px ,1px ,1px ,1px);
+		         }
+	         }
+         }
+     }
+ }

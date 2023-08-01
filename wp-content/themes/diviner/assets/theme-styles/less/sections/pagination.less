@@ -1,0 +1,57 @@
+/**
+ *  LESS File for Site Pagination
+ */
+
+ .pagination {
+	 display: inline-block;
+     width: 100%;
+     .body-font;
+     text-align: center;
+     .weight(700);
+     padding-top: 1em;
+     .size(1.2em);
+     .page-numbers {
+        margin: 0px 10px;
+     }
+     .current {
+         position: relative;
+         &:before {
+            position: absolute;
+            content: "";
+            width: 15px;
+            height: 3px;
+            background-color: @accent;
+            bottom: -30%;
+            left: -20%;
+            right: -20%;
+        }
+     }
+ }
+
+.post-navigation {
+    display: inline-block;
+    width: 100%;
+    .nav-title {
+        .line-clamp(1);
+    }
+    .nav-links {
+        margin: 10px auto;
+        background: @accent;
+        padding: 14px;
+        a {
+            .color(@bg);
+        }
+        .nav-previous span:before {
+            content: "\f0d9";
+            font-family: "Font Awesome 5 Free";
+            .weight(900);
+            margin-right: 8px;
+        }
+        .nav-next span:after {
+            content: "\f0da";
+            font-family: "Font Awesome 5 Free";
+            .weight(900);
+            margin-left: 8px;
+        }
+    }
+}

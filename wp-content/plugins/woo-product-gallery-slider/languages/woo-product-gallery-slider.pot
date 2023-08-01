@@ -1,0 +1,373 @@
+# Copyright (C) 2022 codeixer
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Gallery Slider for WooCommerce 2.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-product-gallery-slider\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-28T16:35:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: woo-product-gallery-slider\n"
+
+#. Plugin Name of the plugin
+msgid "Product Gallery Slider for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-product-gallery-slider/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Customizable image gallery slider for the single product page"
+msgstr ""
+
+#. Author of the plugin
+msgid "codeixer"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://codeixer.com"
+msgstr ""
+
+#: includes/class-image-sizes.php:70
+msgid "Original uploaded image"
+msgstr ""
+
+#: includes/class-image-sizes.php:71
+msgid "Set custom size(PRO)"
+msgstr ""
+
+#: includes/class-image-sizes.php:116
+msgid "No image sizes found."
+msgstr ""
+
+#: src/Bootstrap.php:58
+msgid "Thanks for using Product gallery slider for WooCommerce."
+msgstr ""
+
+#: src/Bootstrap.php:58
+msgid "If you can spare a minute, please help us by leaving a 5 star review on WordPress.org."
+msgstr ""
+
+#: src/Bootstrap.php:60
+msgid "Happy To Help"
+msgstr ""
+
+#: src/Bootstrap.php:61
+msgid "Maybe later"
+msgstr ""
+
+#: src/Bootstrap.php:62
+msgid "Hide Notification"
+msgstr ""
+
+#: src/Options.php:48
+msgid "Slide"
+msgstr ""
+
+#: src/Options.php:49
+#: src/Options.php:217
+#: src/Options.php:232
+msgid "Fade"
+msgstr ""
+
+#: src/Options.php:58
+msgid "Slider Lazy Load"
+msgstr ""
+
+#: src/Options.php:62
+msgid "Disable"
+msgstr ""
+
+#: src/Options.php:63
+msgid "On Demand"
+msgstr ""
+
+#: src/Options.php:64
+msgid "Progressive"
+msgstr ""
+
+#: src/Options.php:68
+msgid "Useful for Page Loading Speed"
+msgstr ""
+
+#: src/Options.php:73
+msgid "Slide Infinitely"
+msgstr ""
+
+#: src/Options.php:74
+msgid "Sliding Infinite Loop"
+msgstr ""
+
+#: src/Options.php:79
+msgid "Slide Adaptive Height"
+msgstr ""
+
+#: src/Options.php:81
+msgid "Resize the Gallery Section Height to Match the Image Height"
+msgstr ""
+
+#: src/Options.php:89
+msgid "Slide Image Caption"
+msgstr ""
+
+#: src/Options.php:90
+msgid "Display Image Caption / Title Text Under the Image."
+msgstr ""
+
+#: src/Options.php:97
+msgid "Mouse Dragging"
+msgstr ""
+
+#: src/Options.php:98
+msgid "Move Slide on Mouse Dragging "
+msgstr ""
+
+#: src/Options.php:103
+msgid "Slider Autoplay"
+msgstr ""
+
+#: src/Options.php:109
+msgid "Pause Autoplay"
+msgstr ""
+
+#: src/Options.php:110
+msgid "Pause Autoplay when the Mouse Hovers Over the Product Image or Dots."
+msgstr ""
+
+#: src/Options.php:124
+msgid "1000 ms = 1 second"
+msgstr ""
+
+#: src/Options.php:131
+msgid "Dots"
+msgstr ""
+
+#: src/Options.php:132
+msgid "Enable Dots/Bullets for Product Image"
+msgstr ""
+
+#: src/Options.php:137
+msgid "Navigation Arrows"
+msgstr ""
+
+#: src/Options.php:138
+msgid "Enable Navigation Arrows for Product Image Slider"
+msgstr ""
+
+#: src/Options.php:146
+msgid "Arrows Animation"
+msgstr ""
+
+#: src/Options.php:148
+msgid "Enable Animation Slide effect for Appearing Arrows"
+msgstr ""
+
+#: src/Options.php:156
+msgid "Arrows Color"
+msgstr ""
+
+#: src/Options.php:157
+msgid "Set Arrows Color"
+msgstr ""
+
+#: src/Options.php:178
+msgid "Lightbox Feature on Product Image "
+msgstr ""
+
+#: src/Options.php:179
+msgid "Image Lightbox"
+msgstr ""
+
+#: src/Options.php:185
+msgid "Lightbox Thumbnails Position"
+msgstr ""
+
+#: src/Options.php:189
+msgid "Vertical"
+msgstr ""
+
+#: src/Options.php:190
+msgid "Horizontal"
+msgstr ""
+
+#: src/Options.php:195
+msgid "Select Lightbox Thumbnails Position."
+msgstr ""
+
+#: src/Options.php:212
+msgid "Lightbox Animation"
+msgstr ""
+
+#: src/Options.php:213
+msgid "Select Lightbox Open/close Animation Effect"
+msgstr ""
+
+#: src/Options.php:227
+msgid "Slide Animation"
+msgstr ""
+
+#: src/Options.php:228
+msgid "Select Lightbox Slide Animation Effect"
+msgstr ""
+
+#: src/Options.php:240
+msgid "Lightbox Background"
+msgstr ""
+
+#: src/Options.php:241
+msgid "Set Lightbox Background Color"
+msgstr ""
+
+#: src/Options.php:250
+msgid "Lightbox Text Color"
+msgstr ""
+
+#: src/Options.php:251
+msgid "Set Lightbox Text Color"
+msgstr ""
+
+#: src/Options.php:261
+msgid "Display image count"
+msgstr ""
+
+#: src/Options.php:262
+msgid "Display image count on top corner."
+msgstr ""
+
+#: src/Options.php:269
+msgid "Icon Color"
+msgstr ""
+
+#: src/Options.php:270
+msgid "Set lightbox icon color"
+msgstr ""
+
+#: src/Options.php:277
+msgid "Icon Background"
+msgstr ""
+
+#: src/Options.php:278
+msgid "Set icon background color"
+msgstr ""
+
+#: src/Options.php:296
+msgid "Zoom"
+msgstr ""
+
+#: src/Options.php:297
+msgid "Enable Zoom Feature for Product Image."
+msgstr ""
+
+#: src/Options.php:320
+msgid "Thumbnails Position"
+msgstr ""
+
+#: src/Options.php:324
+msgid "Bottom"
+msgstr ""
+
+#: src/Options.php:325
+msgid "Left"
+msgstr ""
+
+#: src/Options.php:326
+msgid "Right"
+msgstr ""
+
+#: src/Options.php:329
+msgid "Select Thumbnails Position."
+msgstr ""
+
+#: src/Options.php:336
+msgid "LightBox For Thumbnails"
+msgstr ""
+
+#: src/Options.php:338
+msgid "Open Lightbox When click Thumbnails"
+msgstr ""
+
+#: src/Options.php:344
+#: src/Options.php:414
+#: src/Options.php:442
+msgid "Thumbnails To Show"
+msgstr ""
+
+#: src/Options.php:345
+#: src/Options.php:415
+#: src/Options.php:443
+msgid "Set the Number of Thumbnails to Display"
+msgstr ""
+
+#: src/Options.php:352
+#: src/Options.php:422
+#: src/Options.php:450
+msgid "Thumbnails Scroll By"
+msgstr ""
+
+#: src/Options.php:353
+#: src/Options.php:423
+#: src/Options.php:451
+msgid "Set the Number of Thumbnails to Scroll when an Arrow is Clicked."
+msgstr ""
+
+#: src/Options.php:362
+msgid "Thumbnails Arrows"
+msgstr ""
+
+#: src/Options.php:364
+msgid "Show Navigation Arrows for thumbnails."
+msgstr ""
+
+#: src/Options.php:384
+msgid "Non-Active Thumbnail Border"
+msgstr ""
+
+#: src/Options.php:385
+msgid "Set Non-Active Thumbnail Border"
+msgstr ""
+
+#: src/Options.php:393
+msgid "Active Thumbnail Border"
+msgstr ""
+
+#: src/Options.php:394
+msgid "Set Active Thumbnails Border"
+msgstr ""
+
+#: src/Options.php:467
+msgid "Main Image Size"
+msgstr ""
+
+#: src/Options.php:473
+msgid "Thumbnail Image Size"
+msgstr ""
+
+#: src/Options.php:485
+msgid "Global Assets"
+msgstr ""
+
+#: src/Options.php:486
+msgid "Enable it for load plugin assets(CSS & JS) for entrie site."
+msgstr ""
+
+#: woo-product-gallery-slider.php:80
+msgid "PRO Version"
+msgstr ""
+
+#: woo-product-gallery-slider.php:80
+msgid "Get Pro"
+msgstr ""
+
+#: woo-product-gallery-slider.php:81
+msgid "Get help"
+msgstr ""
+
+#: woo-product-gallery-slider.php:81
+msgid "Support"
+msgstr ""

@@ -1,0 +1,38 @@
+/**
+ *  LESS file for the Grid Layout
+ */
+
+body.blog {
+    article {
+        overflow: hidden;
+        float: left;
+        &.grid2, &.grid2_s, &.grid3, &.grid3_s {
+            margin-bottom: 0;
+            padding: 0 1px;
+            position: relative;
+            .featured-thumb {
+                position: relative;
+                margin-bottom: 2px;
+            }
+             .entry-header {
+                position: absolute;
+                z-index: 99;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 0.75em 1.2em;
+                background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.80015756302521) 59%, rgba(255,255,255,0) 100%);
+                opacity: 0;
+                .entry-title {
+                    margin: 0;
+                    .line-clamp(1);
+                }
+            }
+        }
+        &:hover {
+            .entry-header {
+                opacity: 1;
+            }
+        }
+    }
+}
