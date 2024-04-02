@@ -1,0 +1,80 @@
+/**
+ *  LESS file for Comments Section
+ */
+
+ #comments {
+     h2.comments-title {
+         margin-bottom: 30px;
+     }
+     ul, ol {
+         list-style: none;
+     }
+     .comment-list {
+         list-style: none;
+         .comment {
+             .comment-body {
+                 margin-bottom: 3.5em;
+                 .comment-meta {
+                     margin-bottom: 1.3em;
+                     .comment-author {
+                         margin-bottom: 1.3em;
+                         .size(18px);
+                         img.avatar {
+                             min-width: 80px;
+                             height: auto;
+                             border-radius: 50%;
+                             margin-right: 1em;
+                         }
+                     }
+                     .comment-metadata {
+                         line-height: 1;
+                         .size(14px);
+                         background: #f3f3f3;
+                         .title-font;
+                         padding: 14px 20px;
+                         border-radius: 21px;
+                     }
+                 }
+                 .comment-content {
+                     padding-left: 1.2em;
+                 }
+                 .reply {
+                     display: inline-block;
+                     line-height: 1;
+                     .title-font;
+                     text-transform: uppercase;
+                      padding-left: 1.2em;
+                     a {
+                         display: inherit;
+                         .color(@bg);
+                         background-color: @accent;
+                         padding: 9px 10px 8px 10px;
+                     }
+                 }
+             }
+         }
+     }
+ }
+
+ #respond {
+     #reply-title {
+         .title-font;
+     }
+     a {
+         text-decoration: underline;
+         &:hover {
+             text-decoration: none;
+         }
+     }
+     input[type="submit"] {
+         padding: 10px 24px;
+         border: 0;
+         border-radius: 0;
+         .color(@bg);
+         background: @accent;
+         .body-font;
+         .weight(700);
+         .size(1em);
+         text-transform: uppercase;
+     }
+ }

@@ -1,0 +1,2180 @@
+# Translation of Plugins - Export any WordPress data to XML/CSV - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Export any WordPress data to XML/CSV - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-16 16:07:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Export any WordPress data to XML/CSV - Stable (latest release)\n"
+
+#: views/admin/export/options/settings.php:134
+msgid "The BOM will help some programs like Microsoft Excel read your export file if it contains non-ASCII characters. These can include curly quotation marks or non-English characters such as umlauts."
+msgstr "De BOM helpt sommige programma's zoals Microsoft Excel je export bestand te lezen als het niet-ASCII tekens bevat. Dit kunnen bijvoorbeeld gekrulde aanhalingstekens zijn of niet-Engelse tekens zoals umlauts."
+
+#: views/admin/export/options/settings.php:133
+msgid "Include BOM to enable non-ASCII characters in Excel"
+msgstr "BOM opnemen om niet-ASCII tekens in Excel mogelijk te maken"
+
+#: filters/wpallexport_footer.php:5
+msgid "Discuss, share your work, and learn from the best."
+msgstr "Discussieer, deel je werk en leer van de besten."
+
+#: views/admin/export/options/settings.php:165
+msgid "Upgrade to the Pro edition of WP All Export to allow non-admins to run this export in Client Mode."
+msgstr "Upgrade naar de Pro editie van WP All Export zodat niet-beheerders deze export in client modus kunnen uitvoeren."
+
+#: views/admin/export/options/settings.php:111
+msgid "This feature is not available for user exports."
+msgstr "Deze functie is niet beschikbaar voor export door gebruikers."
+
+#: views/admin/export/options/settings.php:77
+msgid "This will export "
+msgstr "Dit exporteert "
+
+#: views/admin/export/options/settings.php:75
+msgid "This feature it not available for Customer Exports."
+msgstr "Deze functie is niet beschikbaar voor klant export."
+
+#: views/admin/export/options/settings.php:70
+msgid "This feature it not available for Google Merchants Exports."
+msgstr "Deze functie is niet beschikbaar voor Google Verkopers Export."
+
+#: views/admin/export/options/settings.php:65
+msgid "Export each "
+msgstr "Elk exporteren "
+
+#: src/Scheduling/views/SaveSchedulingButton.php:12
+msgid "Save & Run Export"
+msgstr "Opslaan & uitvoeren"
+
+#: views/admin/export/index.php:207
+msgid "Download the Product Export Add-On"
+msgstr "Download de Product Export add-on"
+
+#: views/admin/export/index.php:205
+msgid "The Product Export Add-On is Required to Export WooCommerce Products."
+msgstr "De Product Export add-on is nodig om WooCommerce producten te exporteren."
+
+#: views/admin/export/index.php:183
+msgid "Download the Order Export Add-On"
+msgstr "De Order Export add-on downloaden"
+
+#: views/admin/export/index.php:181
+msgid "The Order Export Add-On is Required to Export Orders."
+msgstr "De bestellingen exporteren add-on is vereist om bestellingen te exporteren."
+
+#: views/admin/export/options/settings.php:174
+msgid "Save Export Name..."
+msgstr "Exportnaam opslaan..."
+
+#: views/admin/export/options/settings.php:173
+msgid "Export Name:"
+msgstr "Exportnaam:"
+
+#: src/Reviews/ReviewsUI.php:244
+msgid "Submit"
+msgstr "Verzend"
+
+#: src/Reviews/ReviewsUI.php:241
+msgid "If you could improve one thing about WP All Export, what would it be?"
+msgstr "Als je één ding kon verbeteren aan WP All Export, wat zou dat dan zijn?"
+
+#: src/Reviews/ReviewsUI.php:240
+msgid "Thank you for your feedback, it really helps us improve our products."
+msgstr "Bedankt voor je feedback, het helpt ons echt om onze producten te verbeteren."
+
+#: src/Reviews/ReviewsUI.php:234
+msgid "Review the %s"
+msgstr "Beoordeling van de %s"
+
+#: src/Reviews/ReviewsUI.php:230
+msgid "If you have a moment, we would love for you to review our add-on in the WordPress.org plugin repository."
+msgstr "Als je even tijd hebt, zouden we het leuk vinden als je onze add-on beoordeelt in de WordPress.org plugin repository."
+
+#: src/Reviews/ReviewsUI.php:228
+msgid "Would you be willing to do us a small favor? Unhappy customers are quick to publicly complain, but happy customers rarely speak up and share their good experiences."
+msgstr "Zou je ons een klein plezier willen doen? Ontevreden klanten klagen snel openbaar, maar tevreden klanten spreken zich zelden uit en delen hun goede ervaringen."
+
+#: src/Reviews/ReviewsUI.php:226
+msgid "That is great to hear, thank you for the feedback!"
+msgstr "Dat is geweldig om te horen, bedankt voor de feedback!"
+
+#: src/Reviews/ReviewsUI.php:222
+msgid "Bad"
+msgstr "Slecht"
+
+#: src/Reviews/ReviewsUI.php:221
+msgid "Just Ok"
+msgstr "Gewoon goed"
+
+#: src/Reviews/ReviewsUI.php:220
+msgid "Good"
+msgstr "Goed"
+
+#: helpers/wp_all_export_get_cpt_name.php:31
+msgid "Entry"
+msgstr "Invoer"
+
+#: helpers/wp_all_export_get_cpt_name.php:31
+msgid "Entries"
+msgstr "Inzendingen"
+
+#: actions/wp_ajax_wpae_filtering.php:95
+msgid "The WooCoommerce Export Package is Required to Migrate Products."
+msgstr "Het WooCoommerce Export pakket is nodig om producten te migreren."
+
+#: actions/wp_ajax_wpae_filtering.php:90
+msgid "The WooCoommerce Export Package is Required to Migrate Orders."
+msgstr "Het WooCoommerce Export pakket is nodig om bestellingen te migreren."
+
+#: wp-all-export.php:417
+msgid "<strong style=\"font-size:16px\">A Configured Export Requires the User Export Add-On</strong><p>Your User exports will not be able to run until you install the User Export Add-On. That add-on is available from <a href=\"https://wordpress.org/plugins/export-wp-users-xml-csv/\" target=\"_blank\">wordpress.org</a>.</p>"
+msgstr "<strong style=\"font-size:16px\">Een geconfigureerde export vereist de User Export Add-On</strong><p>Je kun je gebruikers exports pas uitvoeren als je de User Export Add-On installeert. Die add-on is verkrijgbaar bij <a href=\"https://wordpress.org/plugins/export-wp-users-xml-csv/\" target=\"_blank\">wordpress.org</a>.</p>"
+
+#: wp-all-export.php:490 wp-all-export.php:493 wp-all-export.php:496
+msgid "The WooCommerce Export Add-On Pro is required to run this export. If you already own it, you can download the add-on here: <a href=\"http://www.wpallimport.com/portal/downloads\" target=\"_blank\">http://www.wpallimport.com/portal/downloads</a>"
+msgstr "De WooCommerce Export add-on Pro is vereist om deze export uit te voeren. Als je deze al hebt, kun je de add-on hier downloaden: <a href=\"http://www.wpallimport.com/portal/downloads\" target=\"_blank\">http://www.wpallimport.com/portal/downloads</a>"
+
+#: wp-all-export.php:426
+msgid "<strong style=\"font-size:16px\">A Configured Export Requires the ACF Export Add-On Pro</strong><p>Exports that contain ACF fields will not be able to run until you install the ACF Export Add-On Pro. That add-on is available to those who were using WP All Export Free before this requirement.</p>"
+msgstr "<strong style=\"font-size:16px\">Een geconfigureerde export vereist de ACF Export Add-On Pro</strong><p>Exports die ACF velden bevatten kunnen niet uitgevoerd worden tot je de ACF Export Add-On Pro installeert. Die uitbreiding is beschikbaar voor degenen die vóór deze eis WP All Export Free gebruikten.</p>"
+
+#: wp-all-export.php:421
+msgid "<strong style=\"font-size:16px\">A Configured Export Requires the WooCommerce Export Add-On Pro</strong><p>Your Products, Orders, and Coupons exports will not be able to run until you install the WooCommerce Export Add-On Pro. That add-on is available to those who were using WP All Export Free before this requirement.</p>"
+msgstr "<strong style=\"font-size:16px\">Een geconfigureerde uitvoer vereist de WooCommerce Export Add-On Pro</strong><p>Je Producten, Bestellingen, en Waardebonnen exporten kunnen niet uitgevoerd worden tot je de WooCommerce Export Add-On Pro installeert. Die add-on is beschikbaar voor degenen die vóór deze eis WP All Export Free gebruikten.</p>"
+
+#: wp-all-export.php:422 wp-all-export.php:427
+msgid "Download Add-On"
+msgstr "Download add-on"
+
+#: views/admin/export/index.php:255
+msgid "If you already own it, remove the WP All Export free edition and install the User Export Package's plugins."
+msgstr "Als hem al bezit, verwijder dan de gratis versie van WP-All-Export en installeer de plugins Gebruikersxport-pakketten."
+
+#: views/admin/export/index.php:254
+msgid "The User Export Package is required to Export Users"
+msgstr "Het exportpakket voor gebruikers is vereist om gebruikers te exporteren"
+
+#: views/admin/export/index.php:224
+msgid "WP All Export Pro is Required to Export Taxonomies."
+msgstr "WP All Export Pro is vereist voor het exporteren van taxonomieën."
+
+#: views/admin/export/index.php:217 views/admin/export/index.php:228
+msgid "Purchase WP All Export Pro"
+msgstr "Koop WP Alles Exporteren Pro"
+
+#: views/admin/export/index.php:213
+msgid "WP All Export Pro is Required to Export Comments."
+msgstr "WP All Export Pro is nodig om reacties te exporteren."
+
+#: views/admin/export/index.php:265
+msgid "The WooCommerce Export Package is Required to Export WooCommerce Products."
+msgstr "Het WooCommerce Export pakket is nodig om WooCommerce producten te exporteren."
+
+#: views/admin/export/index.php:195
+msgid "WP All Export Pro and the WooCommerce Export Add-On are Required to Export WooCommerce Reviews."
+msgstr "WP All Export Pro en de WooCommerce Export Add-On zijn nodig om WooCommerce beoordelingen te exporteren."
+
+#: views/admin/export/index.php:187
+msgid "The WooCommerce Export Package is Required to Export Coupons."
+msgstr "Het WooCommerce Export pakket is vereist om waardebonnen te exporteren."
+
+#: actions/wp_ajax_wpae_filtering.php:91 actions/wp_ajax_wpae_filtering.php:96
+#: views/admin/export/index.php:189 views/admin/export/index.php:199
+#: views/admin/export/index.php:268
+msgid "Purchase the WooCommerce Export Package"
+msgstr "Koop het WooCommerce exportpakket"
+
+#: views/admin/export/index.php:173
+msgid "The User Export Package is Required to Export Customers."
+msgstr "Het exportpakket voor gebruikers is nodig om klanten te exporteren."
+
+#: views/admin/export/index.php:169 views/admin/export/index.php:176
+msgid "Purchase the User Export Package"
+msgstr "Koop het User Export Package"
+
+#: views/admin/export/index.php:167
+msgid "The User Export Package is Required to Export Users."
+msgstr "Het gebruiker exportpakket is nodig om gebruikers te exporteren."
+
+#: src/App/UnsecuredController/SchedulingController.php:172
+#: wp-all-export.php:522
+msgid "The ACF Export Add-On Pro is required to run this export. You can download the add-on here: <a href=\"http://www.wpallimport.com/portal/\" target=\"_blank\">http://www.wpallimport.com/portal/</a>"
+msgstr "De ACF Export Toevoeging Pro is vereist om deze export uit te voeren. Je kunt de add-on hier downloaden: <a href=\"http://www.wpallimport.com/portal/\" target=\"_blank\">http://www.wpallimport.com/portal/</a>"
+
+#: src/App/UnsecuredController/SchedulingController.php:168
+#: wp-all-export.php:518
+msgid "The WooCommerce Export Add-On Pro is required to run this export. You can download the add-on here: <a href=\"http://www.wpallimport.com/portal/\" target=\"_blank\">http://www.wpallimport.com/portal/</a>"
+msgstr "De WooCommerce Export add-on Pro is vereist om deze export uit te voeren. Je kunt de add-on hier downloaden: <a href=\"http://www.wpallimport.com/portal/\" target=\"_blank\">http://www.wpallimport.com/portal/</a>"
+
+#: libraries/XmlExportEngine.php:493
+msgid "The WooCommerce Export Add-On Pro is required to Export WooCommerce Coupons"
+msgstr "De WooCommerce Export add-on Pro is vereist om WooCommerce waardebonnen te exporteren"
+
+#: libraries/XmlExportEngine.php:490
+msgid "The WooCommerce Export Add-On Pro is required to Export WooCommerce Orders"
+msgstr "De WooCommerce Export add-on Pro is vereist om WooCommerce bestellingen te exporteren"
+
+#: libraries/XmlExportEngine.php:487
+msgid "The WooCommerce Export Add-On Pro is required to Export WooCommerce Products"
+msgstr "De WooCommerce Export add-on Pro is vereist om WooCommerce producten te exporteren"
+
+#: views/admin/export/template.php:250 views/admin/export/template.php:449
+msgid "There are certain characters that cannot be included in an XML file unless they are wrapped in CDATA tags.<br/>Read more about CDATA tags: <a target='_blank' href='%s' style='font-size: 12px;'>%s</a>."
+msgstr "Er zijn bepaalde tekens die niet in een XML bestand kunnen worden opgenomen tenzij ze in CDATA tags gewikkeld zijn.<br/>Lees meer over CDATA tags: <a target='_blank' href='%s' style='font-size: 12px;'>%s</a>."
+
+#: views/admin/export/template.php:12
+msgid "Drag & Drop"
+msgstr "Verslepen"
+
+#: views/admin/export/process.php:13 views/admin/manage/update.php:24
+msgid "Confirm & Run"
+msgstr "Bevestig & uitvoeren"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:102
+msgid "User Export Add-On is not installed"
+msgstr "User Export add-on is niet geïnstalleerd"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:99
+msgid "Already own the Pro version?"
+msgstr "Bezit je al de Pro versie?"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:97
+msgid "Install on as many sites<br>as you like."
+msgstr "Installeer hem op zo veel sites<br>als je wilt."
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:97
+msgid "Unlimited Sites"
+msgstr "Oneindig aantal sites"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:96
+msgid "Get help from a team<br>of experts."
+msgstr "Verkrijg hulp van een team<br>experts."
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:96
+msgid "World Class Support"
+msgstr "Ondersteuning van wereldklasse"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:95
+msgid "Pay once and get<br>updates for life."
+msgstr "Betaal eenmaal en verkrijg<br>levenslang updates."
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:95
+msgid "Lifetime Updates"
+msgstr "Levenslange updates"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:94
+msgid "No questions,<br> full refund."
+msgstr "Geen vragen,<br>geld terug."
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:94
+msgid "90 Day Guarantee"
+msgstr "90 dagen garantie"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:90
+msgid "Trusted by over 200,000 happy users"
+msgstr "Vertrouwd door 200.000 blije gebruikers"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:88
+msgid "Upgrade to Pro"
+msgstr "Upgraden naar Pro"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:84
+msgid "WooCommerce, ACF and more"
+msgstr "WooCommerce, ACF en meer"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:83
+msgid "Create any CSV or XML"
+msgstr "Maak elk willekeurig CSV of XML bestand aan"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:82
+msgid "Drag & drop interface"
+msgstr "Interface met verslepen"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:81
+msgid "Export all user data"
+msgstr "Exporteer alle gebruikersgegevens"
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:77
+msgid "Purchase a Pro package to export users, along with<br>many other powerful features."
+msgstr "Koop een Pro pakket om gebruikers te exporteren, samen met<br>vele andere krachtige functies."
+
+#: actions/wp_ajax_wpae_upgrade_notice.php:76
+msgid "Exporting Users is a Pro Feature"
+msgstr "Het exporteren van gebruikers is een Pro functie"
+
+#: views/admin/manage/index.php:491
+msgid "Delete Permanently"
+msgstr "Permanent verwijderen"
+
+#: views/admin/manage/index.php:490
+msgid "Restore"
+msgstr "Herstellen"
+
+#: views/admin/manage/index.php:452
+msgid "Cancel Cron"
+msgstr "Annuleer de Cron"
+
+#: views/admin/manage/index.php:448
+msgid "Run Export"
+msgstr "Export uitvoeren"
+
+#: views/admin/manage/index.php:432
+msgid "settings edited since last run"
+msgstr "bewerkte instellingen sinds de laatste uitvoering"
+
+#: views/admin/manage/index.php:427
+msgid "Format: %s"
+msgstr "Formaat: %s"
+
+#: views/admin/manage/index.php:425
+msgid "%d Records Exported"
+msgstr "%d records geëxporteerd"
+
+#: views/admin/manage/index.php:424
+msgid "never"
+msgstr "nooit"
+
+#: views/admin/manage/index.php:424
+msgid "Last run: %s"
+msgstr "Last uitvoering:%s"
+
+#: views/admin/manage/index.php:420
+msgid "Export Attempt at %s"
+msgstr "Exportpoging om %s"
+
+#: views/admin/manage/index.php:406
+msgid "Export currently in progress"
+msgstr "Export in uitvoering"
+
+#: views/admin/manage/index.php:391
+msgid "currently processing with cron"
+msgstr "momenteel aan het verwerken met cron"
+
+#: views/admin/manage/index.php:384 views/admin/manage/index.php:399
+#: views/admin/manage/index.php:413
+msgid "last activity %s ago"
+msgstr "de laatste activiteit is %s geleden"
+
+#: views/admin/manage/index.php:377
+msgid "triggered with cron"
+msgstr "getriggerd met cron"
+
+#: views/admin/manage/index.php:367
+msgid "Y/m/d g:i a"
+msgstr "J/m/d g:i:s a"
+
+#: views/admin/manage/index.php:339
+msgid "Post Types: "
+msgstr "Berichttypes: "
+
+#: views/admin/export/options.php:23
+msgid "Export Settings"
+msgstr "Export instellingen"
+
+#: views/admin/manage/index.php:142
+msgid "No previous exports found."
+msgstr "Geen eerdere exporten gevonden."
+
+#: views/admin/manage/index.php:98
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Geef %s&#8211;%s van de %s weer"
+
+#: views/admin/manage/index.php:91 views/admin/manage/index.php:494
+msgid "Apply"
+msgstr "Toepassen"
+
+#: views/admin/manage/index.php:88 views/admin/manage/index.php:486
+msgid "Bulk Actions"
+msgstr "Bulkacties"
+
+#: views/admin/manage/index.php:71
+msgid "Info & Options"
+msgstr "Info & opties"
+
+#: views/admin/manage/index.php:69
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: views/admin/manage/index.php:67
+msgid "Query"
+msgstr "Query"
+
+#: views/admin/manage/index.php:65
+msgid "Name"
+msgstr "Naam"
+
+#: views/admin/manage/index.php:64
+msgid "ID"
+msgstr "ID"
+
+#: views/admin/manage/index.php:54 views/admin/manage/index.php:57
+msgid "Search Exports"
+msgstr "Zoek exporten"
+
+#: views/admin/manage/bulk.php:15
+msgid "Are you sure you want to delete <strong>%s</strong> selected %s?"
+msgstr "Weet je zeker dat je <strong>%s</strong> wilt verwijderen %s?"
+
+#: views/admin/manage/delete.php:9
+msgid "Are you sure you want to delete <strong>%s</strong> export?"
+msgstr "Weet je zeker dat je exportbestand <strong>%s</strong> wilt verwijderen?"
+
+#: views/admin/manage/delete.php:6
+msgid "Delete Export"
+msgstr "Verwijder export"
+
+#: views/admin/manage/index.php:188 views/admin/manage/update.php:99
+msgid "Edit Template"
+msgstr "Template bewerken"
+
+#: views/admin/manage/templates.php:9
+msgid "Install these import templates in your separate WP All Import installation from the <i>All Import › Settings</i> page by clicking the \"Import Templates\" button."
+msgstr "Installeer deze import templates in je aparte WP All Import installatie op de <i>Alles Importeren' Instellingen</i> pagina door op de knop \"Import templates\" te klikken."
+
+#: views/admin/manage/templates.php:8
+msgid "Download your import templates and use them to import your exported file to a separate WordPress/WP All Import installation."
+msgstr "Download je import templates en gebruik ze om je geëxporteerde bestand te installeren in een aparte WordPress/WP All Import installatie."
+
+#: views/admin/manage/index.php:316 views/admin/manage/templates.php:7
+msgid "Download Import Templates"
+msgstr "Import templates downloaden"
+
+#: views/admin/manage/scheduling.php:55
+msgid "Your web host may require you to use a command other than wget, although wget is most common. In this case, you must asking your web hosting provider for help."
+msgstr "Je webhost kan vereisen dat je een ander commando dan wget gebruikt, hoewel wget het gebruikelijkst is. In dat geval moet je je web hosting provider om hulp vragen."
+
+#: views/admin/manage/scheduling.php:46
+msgid "It also operates this way in case of unexpected crashes by your web host. If it crashes before the export is finished, the next run of the cron job two minutes later will continue it where it left off, ensuring reliability."
+msgstr "Het werkt ook op deze manier in het geval van onverwachte crashes door de webhost; als het crasht voordat de exportactie voltooid is, wordt de volgende run van de cron-taak twee minuten later voortgezet waar het was gebleven, waardoor de betrouwbaarheid wordt gegarandeerd."
+
+#: views/admin/manage/scheduling.php:44
+msgid "It processes in iteration (only exporting a few records each time it runs) to optimize server load. It is recommended you run the execution script every 2 minutes."
+msgstr "Het verwerkt iteratief (exporteert slechts een paar records elke keer dat het wordt uitgevoerd) om de serverbelasting te optimaliseren; het wordt aanbevolen het uitvoeringsscript om de twee minuten uit te voeren."
+
+#: views/admin/manage/scheduling.php:42
+msgid "The Execution script actually executes the export, once it has been triggered with the Trigger script."
+msgstr "Het uitvoeringsscript voert de uitvoer daadwerkelijk uit, zodra die met het trigger script op gang is gebracht."
+
+#: views/admin/manage/scheduling.php:40
+msgid "Execution Script"
+msgstr "Uitvoeringsscript"
+
+#: views/admin/manage/scheduling.php:36 views/admin/manage/scheduling.php:48
+msgid "Example:"
+msgstr "Voorbeeld:"
+
+#: views/admin/manage/scheduling.php:34
+msgid "To schedule the export to run once every 24 hours, run the trigger script every 24 hours. Most hosts require you to use “wget” to access a URL. Ask your host for details."
+msgstr "Om de import eens per 24 uur te plannen, voer je het trigger script elke 24 uur uit. De meeste hosts vereisen dat je \"wget\" gebruikt om toegang te krijgen tot een URL. Vraag je host om details."
+
+#: views/admin/manage/scheduling.php:32
+msgid "Every time you want to schedule the export, run the trigger script."
+msgstr "Telkens als je de exportactie wilt plannen voer je het triggerscript uit."
+
+#: views/admin/manage/scheduling.php:30
+msgid "Trigger Script"
+msgstr "Trigger script"
+
+#: views/admin/manage/scheduling.php:25
+msgid "Export Bundle URL"
+msgstr "URL van de exportbundel"
+
+#: views/admin/manage/scheduling.php:22
+msgid "Export File URL"
+msgstr "Exportbestand URL"
+
+#: views/admin/manage/scheduling.php:20
+msgid "Run the execution script frequently. Once per two minutes is recommended."
+msgstr "Voer het uitvoeringsscript regelmatig uit. Eenmaal per twee minuten wordt aanbevolen."
+
+#: views/admin/manage/scheduling.php:19
+msgid "Execution Script URL"
+msgstr "URL van het uitvoeringsscript"
+
+#: views/admin/manage/scheduling.php:16
+msgid "Run the trigger script when you want to update your export. Once per 24 hours is recommended."
+msgstr "Voer de trigger script uit wanneer je je export wilt updaten. Eenmaal per 24 uur wordt aanbevolen."
+
+#: views/admin/manage/scheduling.php:15
+msgid "Trigger Script URL"
+msgstr "Trigger script URL"
+
+#: views/admin/manage/scheduling.php:11
+msgid "To schedule an export, you must create two cron jobs in your web hosting control panel. One cron job will be used to run the Trigger script, the other to run the Execution script."
+msgstr "Om een import te plannen, moet je twee cron taken aanmaken in je webhosting controle paneel. Eén cron taak zal worden gebruikt om het trigger script uit te voeren, de andere om het execution script uit te voeren."
+
+#: views/admin/manage/scheduling.php:7
+msgid "Cron Scheduling"
+msgstr "Cron-planning"
+
+#: views/admin/export/options/settings.php:99
+#: views/admin/export/options/settings.php:124
+msgid "Upgrade to the Pro edition of WP All Export to only export "
+msgstr "Upgrade naar de Pro editie van WP All Export om alleen te exporteren "
+
+#: views/admin/export/index.php:246
+msgid "Comment Query"
+msgstr "Reactie query"
+
+#: views/admin/export/index.php:241
+msgid "User Query"
+msgstr "Gebruiker query"
+
+#: views/admin/export/index.php:240
+msgid "Post Type Query"
+msgstr "Query op berichttype"
+
+#: views/admin/export/index.php:260
+msgid "Upgrade to the Pro edition of WP All Export to Export Comments"
+msgstr "Upgrade naar de Pro editie van WP All Export om reacties te exporteren"
+
+#: views/admin/export/index.php:152
+msgid "Select taxonomy"
+msgstr "Selecteer taxonomie"
+
+#: views/admin/export/index.php:110
+msgid "Choose a post type..."
+msgstr "Kies een berichttype..."
+
+#: views/admin/export/index.php:102
+msgid "WooCommerce Reviews"
+msgstr "WooCommerce beoordelingen"
+
+#: views/admin/export/index.php:42
+msgid "WP_Query Results"
+msgstr "WP_Query resultaten"
+
+#: views/admin/export/index.php:38
+msgid "Specific Post Type"
+msgstr "Specifiek berichttype"
+
+#: views/admin/export/index.php:35
+msgid "First, choose what to export."
+msgstr "Kies eerst wat je wilt exporteren."
+
+#: views/admin/export/template.php:642
+msgid "Custom XML Feeds"
+msgstr "Aangepaste XML feeds"
+
+#: views/admin/export/template.php:633 views/admin/export/template.php:643
+msgid "Edit Export Field"
+msgstr "Bewerk exportveld"
+
+#: views/admin/export/template.php:632
+msgid "Add Field To Export"
+msgstr "Voeg een te exporteren veld toe"
+
+#: views/admin/export/template.php:571
+msgid "Upgrade to the Pro edition of WP All Export to Export To Google Merchant Center"
+msgstr "Upgrade naar de Pro editie van WP All Export om te exporteren naar Google Merchant Center"
+
+#: views/admin/export/template.php:564
+msgid "Upgrade to the Pro edition of WP All Export to Export Custom XML"
+msgstr "Upgrade naar de Pro editie van WP All Export om aangepaste XML te exporteren"
+
+#: views/admin/export/template.php:547
+msgid "Load Template..."
+msgstr "Template laden..."
+
+#: views/admin/export/template.php:540
+msgid "Template name..."
+msgstr "Template naam..."
+
+#: views/admin/export/template.php:536
+msgid "Save settings as a template"
+msgstr "Sla instellingen op als een template"
+
+#: views/admin/export/template.php:510
+msgid "Upgrade to the Pro edition of WP All Export to use Custom PHP Functions"
+msgstr "Upgrade naar de Pro editie van WP All Export om aangepaste PHP functies te gebruiken"
+
+#: views/admin/export/template.php:428
+msgid "Help"
+msgstr "Hulp"
+
+#: views/admin/export/template.php:416
+msgid "XML Editor"
+msgstr "XML-editor"
+
+#: views/admin/export/template.php:390
+msgid "Google Merchant Center Product Feed"
+msgstr "Google Merchant Center product feed"
+
+#: views/admin/export/template.php:386
+msgid "Custom XML Feed"
+msgstr "Aangepaste XML feed"
+
+#: views/admin/export/template.php:385
+msgid "Simple XML Feed"
+msgstr "Eenvoudige XML feed"
+
+#: views/admin/export/template.php:376
+msgid "Upgrade to the Pro edition of WP All Export to Export to Excel"
+msgstr "Upgrade naar de Pro editie van WP All Export om te exporteren naar Excel"
+
+#: views/admin/export/template.php:369
+msgid "Excel File (XLSX)"
+msgstr "Excel-bestand (XLSX)"
+
+#: views/admin/export/template.php:368
+msgid "Excel File (XLS)"
+msgstr "Excel-bestand (XLS)"
+
+#: views/admin/export/template.php:367
+msgid "CSV File"
+msgstr "CSV bestand"
+
+#: views/admin/export/template.php:353
+msgid "Feed"
+msgstr "Feed"
+
+#: views/admin/export/template.php:349
+msgid "Spreadsheet"
+msgstr "Spreadsheet"
+
+#: views/admin/export/template.php:347
+msgid "Choose your export type"
+msgstr "Kies je exporttype"
+
+#: views/admin/export/template.php:342
+msgid "Export Type"
+msgstr "Exporttype"
+
+#: views/admin/export/template.php:326
+msgid "If enabled, each order item will appear as its own row with all order info filled in for every column. If disabled, order info will only display on one row with only the order item info displaying in additional rows."
+msgstr "Indien ingeschakeld verschijnt elk bestelitem als zijn eigen rij met alle bestelinfo ingevuld voor elke kolom. Indien uitgeschakeld verschijnt de bestelinformatie slechts op één rij, met alleen de bestel item info in extra rijen."
+
+#: views/admin/export/template.php:320
+msgid "If an order contains multiple products, each product will have its own row. If disabled, each product will have its own column."
+msgstr "Als een bestelling meerdere producten bevat, heeft elk product z'n eigen rij, indien uitgeschakeld, heeft elk product z'n eigen kolom."
+
+#: views/admin/export/template.php:319
+msgid "Display each product in its own row"
+msgstr "Toon elk product in zijn eigen rij"
+
+#: views/admin/export/template.php:293
+msgid "Language"
+msgstr "Taal"
+
+#: views/admin/export/template.php:287
+msgid "Separator:"
+msgstr "Scheidingsteken:"
+
+#: views/admin/export/template.php:263 views/admin/export/template.php:474
+msgid "Warning: This may result in an invalid XML file"
+msgstr "Waarschuwing: dit kan resulteren in een ongeldig XML-bestand"
+
+#: views/admin/export/template.php:261 views/admin/export/template.php:472
+msgid "Never wrap data in CDATA tags"
+msgstr "Wikkel gegevens nooit in CDATA tags"
+
+#: views/admin/export/template.php:257 views/admin/export/template.php:464
+msgid "Always wrap data in CDATA tags"
+msgstr "Omsluit gegevens altijd door CDATA tags"
+
+#: views/admin/export/template.php:253 views/admin/export/template.php:456
+msgid "Automatically wrap data in CDATA tags when it contains illegal characters"
+msgstr "Omsluit gegevens automatisch door CDAT tags als ze illegale karakters bevatten"
+
+#: views/admin/export/template.php:246
+msgid "You will not be able to reimport data to the parent products, and you will not be able to import these products to another site."
+msgstr "Je zult geen gegevens opnieuw kunnen importeren naar de hoofdproducten en je zult deze producten niet kunnen importeren naar een andere site."
+
+#: views/admin/export/template.php:243 views/admin/export/template.php:312
+msgid "You will not be able to reimport data to the product variations, and you will not be able to import these products to another site."
+msgstr "Je kunt geen gegevens opnieuw importeren naar de productvariaties en je kunt deze producten niet importeren naar een andere site."
+
+#: views/admin/export/template.php:226
+msgid "Single %s XML Element"
+msgstr "Enkel %s XML element"
+
+#: views/admin/export/template.php:217
+msgid "Root XML Element"
+msgstr "Root XML element"
+
+#: views/admin/export/template.php:210 views/admin/export/template.php:280
+#: views/admin/export/template.php:442
+msgid "Advanced Options"
+msgstr "Geavanceerde opties"
+
+#: views/admin/export/template.php:200 views/admin/export/template.php:433
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: views/admin/export/template.php:194
+msgid "Clear All"
+msgstr "Schoon alles op"
+
+#: views/admin/export/template.php:192
+msgid "Add All"
+msgstr "Voeg alles toe"
+
+#: views/admin/export/template.php:190
+msgid "Add Field"
+msgstr "Voeg veld toe"
+
+#: views/admin/export/template.php:173
+msgid "Warning: without %s you won't be able to re-import this data back to this site using WP All Import."
+msgstr "Waarschuwing: zonder %s kun je deze gegevens niet opnieuw importeren naar deze site met WP All Import."
+
+#: views/admin/export/template.php:148
+msgid "Drag & drop data from \"Available Data\" on the right to include it in the export or click \"Add Field To Export\" below."
+msgstr "Versleep gegevens van 'Beschikbare gegevens' aan de rechterkant om ze op te nemen in het exportbestand of klik hieronder op 'Voeg het veld toe aan de export\"."
+
+#: views/admin/export/variation_options.php:81
+msgid "Only export parent products"
+msgstr "Alleen hoofdproducten exporteren"
+
+#: views/admin/export/variation_options.php:48
+msgid "Only export product variations"
+msgstr "Exporteer alleen productvariaties"
+
+#: views/admin/export/variation_options.php:39
+#: views/admin/export/variation_options.php:70
+msgid "Product variations use the default variation product title"
+msgstr "Productvariaties gebruiken de standaard variatie producttitel"
+
+#: views/admin/export/variation_options.php:30
+#: views/admin/export/variation_options.php:59
+msgid "Product variations use the parent product title"
+msgstr "Productvarianten gebruiken de titel van het hoofdproduct"
+
+#: views/admin/export/variation_options.php:21
+msgid "Export product variations and their parent products"
+msgstr "Exporteer productvariaties en hun hoofdproducten"
+
+#: views/admin/export/variation_options.php:13
+msgid "WooCommerce stores each product variation as a separate product in the database, along with a parent product to tie all of the variations together.<br/><br/>If the product title is 'T-Shirt', then the parent product will be titled 'T-Shirt', and in the database each size/color combination will be a separate product with a title like 'Variation #23 of T-Shirt'."
+msgstr ""
+"WooCommerce slaat iedere productvariatie in the database op als een apart product, samen met een hoofdproduct om alle variaties samen te binden.<br/><br/>Als de producttitel 'T-Shirt' is, dan zal het bove\n"
+"hoofdproduct de titel 'T-Shirt' krijgen, en in de database zal elke maat-/kleur-combinatie een apart product zijn met een titel als 'Variatie #23 van T-Shirt'."
+
+#: views/admin/export/variation_options.php:10
+msgid "Product Variations"
+msgstr "Productvariaties"
+
+#: views/admin/export/template/add_new_field.php:169
+msgid "Save"
+msgstr "Opslaan"
+
+#: views/admin/export/template/add_new_field.php:167
+#: views/admin/manage/index.php:89 views/admin/manage/index.php:209
+#: views/admin/manage/index.php:488
+msgid "Delete"
+msgstr "Verwijder"
+
+#: views/admin/export/template/add_new_field.php:165
+#: views/admin/manage/index.php:456
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: views/admin/export/template.php:607
+#: views/admin/export/template/add_new_field.php:155
+msgid "Available Data"
+msgstr "Beschikbare gegevens"
+
+#: views/admin/export/template/add_new_field.php:145
+msgid "You can drag and drop fields from Available Data, add static text, and use PHP functions"
+msgstr "Je kunt velden verslepen vanaf beschikbare gegevens, statische tekst toevoegen en PHP-functies gebruiken"
+
+#: views/admin/export/template/add_new_field.php:143
+msgid "Upgrade to Pro to use Custom Export Fields"
+msgstr "Upgrade naar de Pro versie om Custom Export Fields te kunnen gebruiken"
+
+#: views/admin/export/template/add_new_field.php:137
+msgid "Custom export field"
+msgstr "Aangepast exportveld"
+
+#: views/admin/export/template/add_new_field.php:124
+msgid "Select a field to export"
+msgstr "Selecteer een veld om te exporteren"
+
+#: views/admin/export/template/add_new_field.php:117
+msgid "Element name"
+msgstr "Elementnaam"
+
+#: views/admin/export/template/add_new_field.php:116
+msgid "Column name"
+msgstr "Kolomnaam"
+
+#: views/admin/export/template/custom_xml_help.php:89
+msgid "If we had two products, each with two images, here's what our XML file would look like:"
+msgstr "Als we twee producten hadden, elk met twee afbeeldingen, zou het XML-bestand er als volgt uitzien:"
+
+#: views/admin/export/template/custom_xml_help.php:81
+msgid "Then in the Function Editor we'd define my_price_function() like so:"
+msgstr "Dan definiëren we in de functie-editor mijn_prijs_functie() als volgt:"
+
+#: views/admin/export/template/custom_xml_help.php:63
+msgid "Here's what our XML template will look like in the editor:"
+msgstr "Zo ziet ons XML-template eruit in de editor:"
+
+#: views/admin/export/template/custom_xml_help.php:61
+msgid "Product image URLs wrapped in an <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_tag\">&lt;images&gt;</span></span> element"
+msgstr "URL's van productafbeeldingen gewikkeld in een <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_tag\">&lt;afbeeldingen&gt;</span></span> element"
+
+#: views/admin/export/template/custom_xml_help.php:60
+msgid "Product Price (processed via a PHP function so that they end in .99)"
+msgstr "Productprijs (verwerkt via een PHP functie zodat ze eindigen op .99)"
+
+#: views/admin/export/template/custom_xml_help.php:59
+msgid "Product Title"
+msgstr "Producttitel"
+
+#: views/admin/export/template/custom_xml_help.php:57
+msgid "Site name below the header, before the <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_tag\">&lt;products&gt;</span></span> element"
+msgstr "Plaatsnaam onder de header, vóór het <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_tag\">&lt;producten&gt;</span></span>-element"
+
+#: views/admin/export/template/custom_xml_help.php:55
+msgid "Let's say we want to make an XML feed of our WooCommerce products with these requirements:"
+msgstr "Stel dat we een XML feed willen maken van onze WooCommerce producten met deze eisen:"
+
+#: views/admin/export/template/custom_xml_help.php:51
+msgid "Example Template"
+msgstr "Voorbeeld Template"
+
+#: views/admin/export/template/custom_xml_help.php:45
+msgid "And you'll just get one XML element with all of the values, like this:"
+msgstr "En je krijgt slechts één XML-element met alle waarden, als volgt:"
+
+#: views/admin/export/template/custom_xml_help.php:41
+msgid "WP All Export will do this with all indexed arrays that it comes across. So if you have a function that returns an indexed array, that XML element will be repeated for each value. Likewise, you can take a field like {Image URL} and turn it into a string, like this:"
+msgstr "WP All Export doet dit met alle geïndexeerde arrays die het tegenkomt. Dus als je een functie hebt die een geïndexeerde array retourneert, wordt dat XML element voor elke waarde herhaald. Op dezelfde manier kun je een veld als {Afbeelding URL} in een string veranderen, zoals dit:"
+
+#: views/admin/export/template/custom_xml_help.php:33
+msgid "And here's how our exported XML file will look:"
+msgstr "En zo ziet ons geëxporteerde XML-bestand eruit:"
+
+#: views/admin/export/template/custom_xml_help.php:25
+msgid "For example, let's assume a post as two images attached to it - image1.jpg and image2.jpg - and we want to have one XML element for every image URL. Here's what our XML template will look like:"
+msgstr "Laten we bijvoorbeeld aannemen dat een bericht twee afbeeldingen bevat die eraan zijn gekoppeld - afbeelding1.jpg en afbeelding2.jpg - en we willen één XML-element hebben voor elke afbeelding URL, dan ziet het XML template er als volgt uit:"
+
+#: views/admin/export/template/custom_xml_help.php:24
+msgid "Some fields, like images, have multiple values per post. WP All Export turns these fields into indexed arrays. Whenever WP All Export encounters an indexed array in an XML element it will repeat that element once for every value in the array."
+msgstr "Sommige velden, zoals afbeeldingen, hebben meerdere waarden per bericht. WP All Export maakt van deze velden geïndexeerde arrays. Telkens wanneer WP All Export een geïndexeerde array tegenkomt in een XML element, zal het dat element één keer herhalen voor elke waarde in de array."
+
+#: views/admin/export/template/custom_xml_help.php:21
+msgid "Repeating Fields and Arrays"
+msgstr "Herhalende velden en arrays"
+
+#: views/admin/export/template/custom_xml_help.php:18
+msgid "Whatever your function returns will appear in your exported XML file. You can pass as many elements as you like to your function so that they can be combined and processed in any way."
+msgstr "Wat je functie retourneert, verschijnt in je geëxporteerde XML bestand. Je kunt zoveel elementen als je wilt aan je functie doorgeven, zodat ze op elke gewenste manier gecombineerd en verwerkt kunnen worden."
+
+#: views/admin/export/template/custom_xml_help.php:17
+msgid "You can also use native PHP functions: <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_text\">[str_replace(\",\",\"\",{Price})]"
+msgstr "Je kunt ook eigen PHP functies gebruiken: <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_text\">[str_replace(\",\"\",{Prijs})]"
+
+#: views/admin/export/template/custom_xml_help.php:16
+msgid "To add a custom PHP function to your XML template wrap it in brackets: <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_text\">[my_function({Content})]"
+msgstr "Om een aangepaste PHP functie toe te voegen aan je XML template zet je deze tussen haakjes: <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_text\">[my_function({Inhoud})]"
+
+#: views/admin/export/template/custom_xml_help.php:13
+msgid "PHP Functions"
+msgstr "PHP-functies"
+
+#: views/admin/export/template/custom_xml_help.php:10
+msgid "For example, to add the post title to your export, you can either drag the title element into the editor, or you can manually edit the export template in editor to add it like this: <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_tag\">&lt;my_custom_title&gt;<span class=\"wp_all_export_code_text\">{Title}</span>&lt;/my_custom_title&gt;</span></span>"
+msgstr "Bijvoorbeeld: om de berichttitel aan het exportbestand toe te voegen, kun je het titelelement naar de editor verslepen of je kunt het exportsjabloon handmatig bewerken in de editor om hem als volgt toe te voegen <span class=\"wp_all_export_code\"> <span class=\"wp_all_export_code_tag\">:&lt;my_custom_title&gt;&lt;/my_custom_title&gt; <span class=\"wp_all_export_code_text\">{Title}</span> </span></span>"
+
+#: views/admin/export/template/custom_xml_help.php:9
+msgid "You can drag and drop elements from Available Data on the right into the editor on the left. You can also manually enter data into the export template."
+msgstr "Je kunt elementen van Beschikbare gegevens aan de rechterkant naar de editor aan de linkerkant slepen. Je kunt ook handmatig gegevens invoeren in de exporttemplate."
+
+#: views/admin/export/template/custom_xml_help.php:8
+msgid "The custom XML editor is a template for your custom XML feed. Everything between the <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_comment\">&lt;!-- BEGIN LOOP --&gt;</span> and <span class=\"wp_all_export_code_comment\">&lt;!-- END LOOP --&gt;</span></span> tags will be repeated for each exported post."
+msgstr "De aangepaste XML editor is een template voor je aangepaste XML feed. Alles tussen de tags <span class=\"wp_all_export_code\"><span class=\"wp_all_export_code_comment\">&lt;!-- BEGIN LOOP --&gt;</span> en &gt;<span class=\"wp_all_export_code_comment\">!-- END LOOP --&gt;</span></span> wordt herhaald voor elk geëxporteerd bericht."
+
+#: views/admin/export/template/custom_xml_help.php:5
+msgid "Custom XML Editor"
+msgstr "Editor voor aangepast XML"
+
+#: views/admin/export/template/custom_xml_help.php:3
+msgid "The custom XML editor makes it easy to create an XML file with the exact structure you need. The syntax is simple and straightforward, yet powerful enough to allow you to pass your data through custom PHP functions."
+msgstr "Met de aangepaste XML editor kun je eenvoudig een XML bestand maken met de exacte structuur die je nodig hebt. De syntax is eenvoudig en duidelijk, maar krachtig genoeg om je gegevens door aangepaste PHP functies te laten sturen."
+
+#: views/admin/export/template/advanced_field_options.php:63
+#: views/admin/export/template/functions_editor.php:26
+msgid "Upgrade to Pro to use Custom PHP Functions"
+msgstr "Upgrade naar Pro om aangepaste PHP functies te gebruiken"
+
+#: views/admin/export/template/advanced_field_options.php:60
+msgid "The value of the field chosen for export will be passed to the PHP function."
+msgstr "De waarde van het veld dat is gekozen om te exporteren wordt doorgegeven aan de PHP-functie."
+
+#: views/admin/export/template/advanced_field_options.php:59
+msgid "Export the value returned by a PHP function"
+msgstr "Export de waarde die wordt geretourneerd door een PHP-functie"
+
+#: views/admin/export/template/advanced_field_options.php:51
+#: views/admin/export/template/custom_xml_help.php:58
+msgid "Product SKU"
+msgstr "Product SKU"
+
+#: views/admin/export/template/advanced_field_options.php:44
+msgid "date() Format"
+msgstr "datum() formaat"
+
+#: views/admin/export/template/advanced_field_options.php:41
+msgid "Natural Language PHP date()"
+msgstr "Natuurlijke taal PHP date()"
+
+#: views/admin/export/template/advanced_field_options.php:40
+msgid "UNIX timestamp - PHP time()"
+msgstr "UNIX tijdstempel - PHP time ()"
+
+#: views/admin/export/template/advanced_field_options.php:31
+msgid "Separator"
+msgstr "Scheidingsteken"
+
+#: views/admin/export/template/advanced_field_options.php:29
+msgid "Export attached images"
+msgstr "Exporteer bijgevoegde afbeeldingen"
+
+#: views/admin/export/template/advanced_field_options.php:24
+msgid "Export featured image"
+msgstr "Exporteer uitgelichte afbeelding"
+
+#: views/admin/export/template/advanced_field_options.php:16
+msgid "If enabled, each repeater row will appear as its own csv line with all post info filled in for every column."
+msgstr "Indien ingeschakeld verschijnt elke herhalingsrij als zijn eigen csv regel met alle bericht info ingevuld voor elke kolom."
+
+#: views/admin/export/template.php:324
+#: views/admin/export/template/advanced_field_options.php:15
+msgid "Fill in empty columns"
+msgstr "Vul lege kolommen in"
+
+#: views/admin/export/template/advanced_field_options.php:11
+msgid "Display each repeater row in its own csv line"
+msgstr "Toon elke repeater rij in zijn eigen csv regel"
+
+#: views/admin/export/template/advanced_field_options.php:4
+msgid "%%ID%% will be replaced with the ID of the post being exported, example: SELECT meta_value FROM wp_postmeta WHERE post_id=%%ID%% AND meta_key='your_meta_key';"
+msgstr "%%ID%% wordt vervangen door het ID van het bericht dat wordt geëxporteerd, voorbeeld: SELECT meta_value FROM wp_postmeta WHERE post_id=%%ID%% AND meta_key='your_meta_key'"
+
+#: views/admin/export/blocks/filters.php:50
+msgid "No filtering options. Add filtering options to only export records matching some specified criteria."
+msgstr "Geen filteropties; voeg filteropties toe om alleen records te exporteren die aan bepaalde opgegeven criteria voldoen."
+
+#: views/admin/export/blocks/filters.php:49
+msgid "Date filters use natural language.<br>For example, to return records created in the last week: <i>date ▸ newer than ▸ last week</i>.<br>For all records created in 2016: <i>date ▸ older than ▸ 1/1/2017</i> AND <i>date ▸ newer than ▸ 12/31/2015</i>"
+msgstr "Datumfilters gebruiken natuurlijke taal,<br>bijvoorbeeld, om records te retourneren die in de afgelopen week zijn aangemaakt: <i>datum ▸ recenter dan ▸ vorige week</i>.<br>Voor alle records die in 2016 zijn aangemaakt: <i>datum ▸ ouder dan ▸ 1/1/2017</i> EN datum ▸ <i>recenter dan ▸ 31-12-2015</i>"
+
+#: views/admin/export/blocks/filters.php:37
+msgid "Add Rule"
+msgstr "Voeg een regel toe"
+
+#: views/admin/export/blocks/filters.php:21
+msgid "Select Element"
+msgstr "Selecteer element"
+
+#: views/admin/export/blocks/filters.php:15
+msgid "Value"
+msgstr "Waarde"
+
+#: views/admin/export/blocks/filters.php:14
+msgid "Rule"
+msgstr "Regel"
+
+#: views/admin/export/blocks/filters.php:13
+msgid "Element"
+msgstr "Element"
+
+#: views/admin/export/blocks/filters.php:7
+msgid "Upgrade to the Pro edition of WP All Export to Add Filters"
+msgstr "Upgrade naar de Pro editie van WP All Export om filters toe te voegen"
+
+#: views/admin/export/process.php:89
+msgid "Ask your host to check your server's error log. They will be able to determine why your server is terminating the export process."
+msgstr "Vraag je host om de fout logs van je server te controleren. Zij kunnen bepalen waarom je server het exportproces beëindigt."
+
+#: views/admin/export/process.php:88
+msgid "Your server terminated the export process"
+msgstr "Je server heeft het exportproces afgebroken"
+
+#: views/admin/export/process.php:73
+msgid "Export %ss"
+msgstr "Exporteer %ss"
+
+#: views/admin/export/process.php:39 views/admin/export/process.php:74
+msgid "Exported"
+msgstr "Geëxporteerd"
+
+#: views/admin/export/process.php:37
+msgid "Time Elapsed"
+msgstr "Tijd verstreken"
+
+#: views/admin/export/process.php:29
+msgid "Exporting may take some time. Please do not close your browser or refresh the page until the process is complete."
+msgstr "Het exporteren kan enige tijd duren; sluit de browser niet af of vernieuw de pagina niet totdat het proces is voltooid."
+
+#: views/admin/export/options.php:126 views/admin/export/template.php:585
+msgid "Back to Manage Exports"
+msgstr "Terug naar Exports beheren"
+
+#: views/admin/export/options.php:123 views/admin/export/template.php:588
+msgid "Back"
+msgstr "Terug"
+
+#: views/admin/export/options.php:117
+msgid "Your Automatic Scheduling settings won't be saved without a subscription."
+msgstr "Je instellingen voor Automatisch Opslaan worden niet opgeslagen zonder abonnement."
+
+#: views/admin/export/options.php:116
+msgid "Looks like you're trying out Automatic Scheduling!"
+msgstr "Het lijkt erop dat je automatisch inplannen aan het uitproberen bent!"
+
+#: views/admin/export/index.php:18 views/admin/export/options.php:26
+#: views/admin/export/process.php:19 views/admin/export/template.php:19
+#: views/admin/manage/update.php:27
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: views/admin/export/index.php:18 views/admin/export/options.php:26
+#: views/admin/export/process.php:17 views/admin/export/template.php:16
+#: views/admin/manage/update.php:27
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: views/admin/export/success_page.php:124
+msgid "You can also start the import by clicking 'Import with WP All Import' on the Manage Exports page."
+msgstr "Je kunt de importeerfunctie ook starten door op 'Importeren met WP All Import' te klikken op de pagina Exporteren beheren."
+
+#: views/admin/export/success_page.php:121 views/admin/manage/index.php:308
+msgid "Import with WP All Import"
+msgstr "Importeer met WP Alles importeren"
+
+#: views/admin/export/success_page.php:114
+msgid "Then, click below to import the data with WP All Import without having to set anything up."
+msgstr "Klik dan hieronder om de gegevens te importeren met WP All Import zonder dat je iets hoeft in te stellen."
+
+#: views/admin/export/success_page.php:113
+msgid "After you've downloaded your data, edit it however you like."
+msgstr "Nadat je je gegevens hebt gedownload, kun je ze bewerken zoals je wilt."
+
+#: views/admin/export/success_page.php:105
+msgid "Click here to read more about WP All Export's Zapier Integration."
+msgstr "Klik hier om meer te lezen over de Zapier Integratie van WP All Export."
+
+#: views/admin/export/success_page.php:102
+msgid "Upgrade to the Pro edition of WP All Export for Zapier integration"
+msgstr "Upgrade naar de Pro editie van WP All Export voor Zapier integratie"
+
+#: views/admin/export/success_page.php:99
+msgid "Automatically send your data to over 500 apps with Zapier."
+msgstr "Verzend je gegevens automatisch naar meer dan 500 apps met Zapier."
+
+#: views/admin/export/success_page.php:84
+msgid "This URL will always provide the export file from this export, even if the file name changes."
+msgstr "Deze URL geeft altijd het exportbestand van deze export, zelfs als de bestandsnaam verandert."
+
+#: views/admin/export/success_page.php:80
+msgid "Public URL"
+msgstr "Publieke URL"
+
+#: views/admin/export/success_page.php:75
+msgid "Upload the Bundle to WP All Import on another site to quickly import this data."
+msgstr "Upload de Bundel naar WP All Import op een andere site om deze gegevens snel te importeren."
+
+#: views/admin/export/success_page.php:74
+msgid "The bundle contains your exported data and a settings file for WP All Import."
+msgstr "De bundel bevat je geëxporteerde gegevens en een instellingen bestand voor WP All Import."
+
+#: views/admin/export/success_page.php:67 views/admin/manage/index.php:194
+#: views/admin/manage/index.php:201
+msgid "Bundle"
+msgstr "Bundel"
+
+#: views/admin/export/success_page.php:63 views/admin/manage/index.php:206
+msgid "Split %ss"
+msgstr "Splits %ss"
+
+#: views/admin/export/success_page.php:52
+msgid "Click to Download"
+msgstr "Klik om te downloaden"
+
+#: views/admin/export/success_page.php:46
+msgid "Export, Edit, Import"
+msgstr "Exporteer, bewerk, importeer"
+
+#: views/admin/export/success_page.php:44
+msgid "External Apps"
+msgstr "Externe apps"
+
+#: views/admin/export/success_page.php:43
+msgid "Scheduling"
+msgstr "Planning"
+
+#: views/admin/export/success_page.php:42
+#: views/admin/export/success_page.php:118
+msgid "Download"
+msgstr "Downloaden"
+
+#: views/admin/export/success_page.php:22
+msgid "WP All Export successfully exported your data!"
+msgstr "WP All Export heeft je gegevens succesvol geëxporteerd!"
+
+#: views/admin/export/options/settings.php:158
+msgid "When enabled, users with access to Client Mode will be able to run this export and download the export file. Go to All Export > Settings to give users access to Client Mode. <br><br><strong>Upgrade to the Pro edition of WP All Export to use this option.</strong>"
+msgstr "Als deze optie is ingeschakeld, kunnen gebruikers met toegang tot de klant modus deze export uitvoeren en het exportbestand downloaden. Ga naar Alles Exporteren > Instellingen om gebruikers toegang te geven tot de klant modus. <br><br><strong>Upgrade naar de Pro editie van WP All Export om deze optie te gebruiken.</strong>"
+
+#: views/admin/export/options/settings.php:156
+msgid "Allow non-admins to run this export in Client Mode"
+msgstr "Niet-beheerders toestaan deze export uit te voeren in klant modus"
+
+#: views/admin/export/options/settings.php:148
+msgid "records per file"
+msgstr "records per bestand"
+
+#: views/admin/export/options/settings.php:148
+msgid "Limit export to"
+msgstr "Beperk de export tot"
+
+#: views/admin/export/options/settings.php:145
+msgid "Split large exports into multiple files"
+msgstr "Splits grote exporten in meerdere bestanden"
+
+#: views/admin/export/options/settings.php:140
+msgid "If disabled, the export file will be overwritten every time this export run."
+msgstr "Indien uitgeschakeld, wordt het exportbestand overschreven telkens als deze export wordt uitgevoerd."
+
+#: views/admin/export/options/settings.php:139
+msgid "Create a new file each time export is run"
+msgstr "Maak een nieuw bestand telkens als export wordt uitgevoerd"
+
+#: views/admin/export/options/settings.php:116
+msgid "If re-run, this export will only include records that have been modified since last export run.<br><br><strong>Upgrade to the Pro edition of WP All Export to use this option.</strong>"
+msgstr "Als deze export opnieuw wordt uitgevoerd, bevat deze alleen records die zijn gewijzigd sinds de laatste export uitvoering.<br><br><strong>Upgrade naar de Pro editie van WP All Export om deze optie te gebruiken.</strong>"
+
+#: views/admin/export/options/settings.php:106
+msgid "Only export %s that have been modified since last export"
+msgstr "Exporteer alleen %s die veranderd zijn sinds de laatste export"
+
+#: views/admin/export/options/settings.php:93
+msgid "If re-run, this export will only include records that have not been previously exported.<br><br><strong>Upgrade to the Pro edition of WP All Export to use this option.</strong>"
+msgstr "Bij opnieuw uitvoeren zal deze export alleen records bevatten die nog niet eerder geëxporteerd zijn.<br><br><strong>Upgrade naar de Pro editie van WP All Export om deze optie te gebruiken.</strong>"
+
+#: views/admin/export/options/settings.php:92
+msgid "Only export %s once"
+msgstr "Exporteer %s slechts één keer"
+
+#: views/admin/export/options/settings.php:19
+msgid "WP All Export must be able to process this many records in less than your server's timeout settings. If your export fails before completion, to troubleshoot you should lower this number."
+msgstr "WP All Export moet dit aantal records kunnen verwerken in minder dan de time-out instellingen van je server. Als je export mislukt voordat het is afgerond, moet je dit getal verlagen om problemen op te lossen."
+
+#: views/admin/export/options/settings.php:18
+#: views/admin/export/options/settings.php:92
+#: views/admin/export/options/settings.php:98
+#: views/admin/export/options/settings.php:106
+#: views/admin/export/options/settings.php:123
+#: views/admin/export/options/settings.php:164
+msgid "records"
+msgstr "records"
+
+#: views/admin/export/options/settings.php:18
+msgid "In each iteration, process"
+msgstr "Bij elke iteratie, voer het uit"
+
+#: views/admin/export/options/settings.php:9
+msgid "Configure Advanced Settings"
+msgstr "Configureer geavanceerde instellingen"
+
+#: views/admin/help/index.php:22
+msgid "Upgrade to the Pro edition of WP All Export for Premium Support"
+msgstr "Upgrade naar de Pro editie van WP All Export voor Premium Ondersteuning"
+
+#: views/admin/help/index.php:20
+msgid "While we do our best to provide technical support to users of the free version, we must prioritize requests from Pro users. If you need help with WP All Export please submit a ticket through the support form."
+msgstr "Hoewel we ons best doen om technische ondersteuning te bieden aan gebruikers van de gratis versie, moeten we aanvragen van Pro gebruikers voorrang geven. Als je hulp nodig hebt met WP All Export, dien dan een ticket in via het ondersteuningsformulier."
+
+#: views/admin/help/index.php:18
+msgid "Thank you for using WP All Export."
+msgstr "Bedankt voor het gebruik van WP All Export."
+
+#: views/admin/help/index.php:8
+msgid "WP All Export Support"
+msgstr "WP Alle ondersteuning voor export"
+
+#: filters/wpallexport_footer.php:6 views/admin/export/template.php:597
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#: views/admin/export/template.php:517
+#: views/admin/export/template/functions_editor.php:20
+#: views/admin/settings/index.php:205
+msgid "Add functions here for use during your export. You can access this file at %s"
+msgstr "Voeg hier functies toe voor gebruik tijdens het exporteren; je kunt dit bestand benaderen op %s"
+
+#: views/admin/export/template.php:516 views/admin/settings/index.php:204
+msgid "Save Functions"
+msgstr "Functies opslaan"
+
+#: views/admin/settings/index.php:197
+msgid "Upgrade to the Pro edition of WP All Export to enable the Function Editor"
+msgstr "Upgrade naar de Pro editie van WP All Export om de functie-editor in te schakelen"
+
+#: views/admin/export/template.php:503
+#: views/admin/export/template/functions_editor.php:20
+#: views/admin/settings/index.php:193
+msgid "Function Editor"
+msgstr "Functie editor"
+
+#: views/admin/settings/index.php:181
+msgid "Upgrade to the Pro edition of WP All Export to enable Client Mode"
+msgstr "Upgrade naar de Pro editie van WP All Export om de Klantmodus in te schakelen"
+
+#: views/admin/settings/index.php:175
+msgid "Save Client Mode Settings"
+msgstr "Instellingen klantmodus opslaan"
+
+#: views/admin/settings/index.php:136
+msgid "A license key is required to use Automatic Scheduling. If you have already subscribed, <a href=\"https://www.wpallimport.com/portal/automatic-scheduling/\" target=\"_blank\">click here to access your license key</a>.<br>If you don't have a license, <a href=\"https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=515704&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=automatic-scheduling\" target=\"_blank\">click here to subscribe</a>."
+msgstr "Een licentiesleutel is vereist om automatische planning te gebruiken. Als je al een abonnement hebt, <a href=\"https://www.wpallimport.com/portal/automatic-scheduling/\" target=\"_blank\">klik hier om toegang te krijgen tot je licentiesleutel</a>.<br>Als je nog geen licentie hebt, <a href=\"https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=515704&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=automatic-scheduling\" target=\"_blank\">klik hier om je in te schrijven</a>."
+
+#: views/admin/settings/index.php:127
+msgid "Activate License"
+msgstr "Licentie activeren"
+
+#: views/admin/settings/index.php:124
+msgid "Active"
+msgstr "Actief"
+
+#: views/admin/settings/index.php:117
+msgid "Automatic Scheduling License Key"
+msgstr "Licentiesleutel voor automatisch plannen"
+
+#: views/admin/settings/index.php:104
+msgid "Upgrade to the Pro edition of WP All Export for Zapier Integration"
+msgstr "Upgrade naar de Pro editie van WP All Export voor Zapier integratie"
+
+#: views/admin/settings/index.php:97
+msgid "Changing the key will require you to update your existing Zaps on Zapier."
+msgstr "Als je de sleutel verandert, moet je je bestaande Zaps op Zapier updaten."
+
+#: views/admin/settings/index.php:96
+msgid "Generate API Key"
+msgstr "Genereer API-sleutel"
+
+#: views/admin/settings/index.php:93
+msgid "API Key"
+msgstr "API sleutel"
+
+#: views/admin/settings/index.php:89
+msgid "Zapier acts as a middle man between WP All Export and hundreds of other popular apps. To get started go to Zapier.com, create an account, and make a new Zap. Read more: <a target=\"_blank\" href=\"https://zapier.com/zapbook/wp-all-export-pro/\">https://zapier.com/zapbook/wp-all-export-pro/</a>"
+msgstr "Zapier fungeert als tussenpersoon tussen WP All Export en honderden andere populaire apps. Ga om te beginnen naar Zapier.com, maak een account aan en maak een nieuwe Zap. Lees meer: <a target=\"_blank\" href=\"https://zapier.com/zapbook/wp-all-export-pro/\">https://zapier.com/zapbook/wp-all-export-pro/</a>"
+
+#: views/admin/settings/index.php:87
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: views/admin/settings/index.php:82
+msgid "Zapier Integration"
+msgstr "Zapier integratie"
+
+#: views/admin/settings/index.php:64
+msgid "Randomize folder names"
+msgstr "Maak mapnamen willekeurig aan"
+
+#: views/admin/settings/index.php:59 views/admin/settings/index.php:62
+msgid "Secure Mode"
+msgstr "Veilige modus"
+
+#: views/admin/settings/index.php:54
+msgid "Files"
+msgstr "Bestanden"
+
+#: views/admin/settings/index.php:45
+msgid "Import Templates"
+msgstr "Templates importeren"
+
+#: views/admin/settings/index.php:40
+msgid "There are no templates saved"
+msgstr "Er zijn geen templates opgeslagen"
+
+#: views/admin/settings/index.php:37
+msgid "Export Selected"
+msgstr "Exporteer geselecteerde"
+
+#: views/admin/settings/index.php:36
+msgid "Delete Selected"
+msgstr "Verwijder geselecteerde"
+
+#: views/admin/settings/index.php:22
+msgid "Import/Export Templates"
+msgstr "Templates importeren/exporteren"
+
+#: src/Scheduling/views/SchedulingOptions.php:846
+msgid "Find your license at the customer portal."
+msgstr "Vind je licentie op het klantenportaal."
+
+#: src/Scheduling/views/SchedulingOptions.php:657
+#: views/admin/manage/index.php:259
+msgid "Scheduling Options"
+msgstr "Planning opties"
+
+#: src/Scheduling/views/SchedulingHelp.php:34
+msgid "When you set an export to run on a schedule, WP All Export will open an encrypted connection to our servers and send your license key, your site URL, the ID of the export you want to run, the export security key, and the times that you want the export to run."
+msgstr "Als je een export instelt om volgens een schema uit te voeren, opent WP All Export een versleutelde verbinding met onze servers en verzendt je licentiesleutel, je site URL, het ID van de export die je wilt uitvoeren, de beveiligingssleutel van de export en de tijden waarop je de export wilt uitvoeren."
+
+#: src/Scheduling/views/SchedulingHelp.php:31
+msgid "What information is shared with Soflyy?"
+msgstr "Welke informatie wordt gedeeld met Soflyy?"
+
+#: src/Scheduling/views/SchedulingHelp.php:27
+msgid "You'll receive a license key for Automatic Scheduling that you can use in WP All Export and WP All Import. You can set up as many imports and exports on as many sites as you like. We do ask, however, that you not share your license with anyone else."
+msgstr "Je ontvangt een licentiesleutel voor Automatic Scheduling die je kunt gebruiken in WP All Export en WP All Import. Je kunt zoveel importeerfuncties instellen op zoveel sites als je wilt. We vragen je wel om je licentie met niemand anders te delen."
+
+#: src/Scheduling/views/SchedulingHelp.php:24
+msgid "What do I get for $9 a month?"
+msgstr "Wat verkrijg ik voor $9 per maand?"
+
+#: src/Scheduling/views/SchedulingHelp.php:21
+msgid "Your data is very important to us. We have a very resilient, scalable cluster of servers powering Automatic Scheduling. Our highly qualified team is on call 24hrs a day, 7 days a week to make sure your exports run when you need them to run."
+msgstr "Je gegevens zijn erg belangrijk voor ons. We hebben een zeer veerkrachtig, schaalbaar cluster van servers die de automatische planning aansturen. Ons hooggekwalificeerde team staat 24 uur per dag, 7 dagen per week klaar om ervoor te zorgen dat je exporten worden uitgevoerd wanneer je dat wilt."
+
+#: src/Scheduling/views/SchedulingHelp.php:18
+msgid "Why does it cost money?"
+msgstr "Waarom kost het geld?"
+
+#: src/Scheduling/views/SchedulingHelp.php:14
+msgid "When you set an export to run on a schedule, our servers will contact your site to make sure that your export starts when you want it to. Our servers will check back every minute to make sure that the export is still running, and will continue doing so until it finishes."
+msgstr "Wanneer je een export op een schema instelt, nemen onze servers contact op met je site om ervoor te zorgen dat je export start wanneer je dat wilt. Onze servers controleren elke minuut of de export nog bezig is en gaan hiermee door totdat deze is afgelopen."
+
+#: src/Scheduling/views/SchedulingHelp.php:11
+msgid "How does it work?"
+msgstr "Hoe werkt het?"
+
+#: src/Scheduling/views/SchedulingHelp.php:8
+msgid "This service is provided by Soflyy, the company that makes WP All Export. Automatic Scheduling makes it very easy to run exports on a schedule."
+msgstr "Deze dienst wordt geleverd door Soflyy, het bedrijf dat WP All Export maakt. Automatic Scheduling maakt het heel eenvoudig om exports volgens een schema uit te voeren."
+
+#: src/Scheduling/views/SchedulingUI.php:771
+msgid "Save Scheduling Options"
+msgstr "Opgeslagen planningsopties"
+
+#: src/Scheduling/views/SaveSchedulingButton.php:14
+#: views/admin/export/options.php:7 views/admin/manage/update.php:7
+#: views/admin/manage/update.php:101
+msgid "Save Export Configuration"
+msgstr "Sla de exportconfiguratie op"
+
+#: views/admin/export/options.php:6 views/admin/export/options.php:71
+#: views/admin/manage/update.php:6 views/admin/manage/update.php:59
+#: views/admin/manage/update.php:103
+msgid "Confirm & Run Export"
+msgstr "Bevestig & export uitvoeren"
+
+#: src/Scheduling/views/ManualScheduling.php:42
+msgid "Read more about manual scheduling"
+msgstr "Lees meer over handmatig plannen"
+
+#: src/Scheduling/views/ManualScheduling.php:37
+msgid "Bundle URL"
+msgstr "Bundel URL"
+
+#: src/Scheduling/views/ManualScheduling.php:31
+msgid "File URL"
+msgstr "Bestand URL"
+
+#: src/Scheduling/views/ManualScheduling.php:25
+msgid "Processing URL"
+msgstr "Verwerking URL"
+
+#: src/Scheduling/views/ManualScheduling.php:19
+msgid "Trigger URL"
+msgstr "Trigger URL"
+
+#: src/Scheduling/views/ManualScheduling.php:12
+msgid "Upgrade to the Pro edition of WP All Export for Manual Scheduling"
+msgstr "Upgrade naar de Pro editie van WP All Export voor handmatige planning"
+
+#: src/Scheduling/views/ManualScheduling.php:8
+msgid "Run this export using cron jobs."
+msgstr "Voer deze export uit met behulp van cron jobs."
+
+#: src/Scheduling/views/ManualScheduling.php:6
+msgid "Manual Scheduling"
+msgstr "Handmatig plannen"
+
+#: src/App/Service/ScheduledExport.php:124
+msgid "Export #%s already processing. Request skipped."
+msgstr "Export #%s al verwerkt. Aanvraag overgeslagen."
+
+#: src/App/Service/ScheduledExport.php:117
+msgid "Records Processed %s."
+msgstr "Records verwerkt %s."
+
+#: src/App/Service/ScheduledExport.php:112
+msgid "Export #%s complete"
+msgstr "Export #%s afgerond"
+
+#: src/App/Service/ScheduledExport.php:65
+msgid "Export #%s is not triggered. Request skipped."
+msgstr "Export #%s is niet getriggerd. Aanvraag overgeslagen."
+
+#: src/App/Service/ScheduledExport.php:43
+msgid "#%s Cron job triggered."
+msgstr "#%s Cron taak geactiveerd."
+
+#: src/App/Service/ScheduledExport.php:25
+msgid "Export #%s currently in process. Request skipped."
+msgstr "Export #%s nu bezig. Aanvraag overgeslagen."
+
+#: src/App/Service/ScheduledExport.php:19
+#: src/App/Service/ScheduledExport.php:71
+msgid "Export #%s is currently in manually process. Request skipped."
+msgstr "Export #%s is nu in handmatig proces. Aanvraag overgeslagen."
+
+#: libraries/XmlExportEngine.php:1237
+msgid "Missing custom XML template footer."
+msgstr "Aangepaste XML template footer ontbreekt."
+
+#: libraries/XmlExportEngine.php:1232
+msgid "Missing custom XML template post loop."
+msgstr "Aangepaste XML template bericht loop ontbreekt."
+
+#: libraries/XmlExportEngine.php:1227
+msgid "Missing custom XML template header."
+msgstr "Aangepaste XML template header ontbreekt."
+
+#: libraries/XmlExportEngine.php:978
+msgid "User Role"
+msgstr "Gebruikersrol"
+
+#: libraries/XmlExportEngine.php:484
+msgid "WP Query field is required"
+msgstr "WP Query veld is vereist"
+
+#: libraries/XmlExportEngine.php:363
+msgid "Author"
+msgstr "Auteur"
+
+#: libraries/XmlExportEngine.php:298
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#: libraries/XmlExportEngine.php:242
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: libraries/XmlExportEngine.php:238
+msgid "Media"
+msgstr "Media"
+
+#: libraries/XmlExportEngine.php:234
+msgid "Standard"
+msgstr "Standaard"
+
+#: libraries/XmlExportTaxonomy.php:128
+msgid "Term Meta"
+msgstr "Term meta"
+
+#: libraries/XmlExportEngine.php:346 views/admin/export/index.php:73
+msgid "Taxonomies"
+msgstr "Taxonomieën"
+
+#: views/admin/export/template/advanced_field_options.php:53
+msgid "Product Name"
+msgstr "Productnaam"
+
+#: views/admin/export/template/advanced_field_options.php:52
+msgid "Product ID"
+msgstr "Product-ID"
+
+#: libraries/XmlExportEngine.php:350
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: views/admin/manage/scheduling.php:52
+msgid "Notes"
+msgstr "Opmerkingen"
+
+#: libraries/XmlExportEngine.php:1191
+msgid "SQL Query"
+msgstr "SQL-query"
+
+#: libraries/XmlExportEngine.php:772 libraries/XmlExportEngine.php:827
+msgid "All"
+msgstr "Alle"
+
+#: views/admin/export/options/settings.php:82
+msgid "Upgrade to the Pro edition of WP All Export to export each "
+msgstr "Upgrade naar de Pro editie van WP All Export om elk van de volgende opties te exporteren "
+
+#: libraries/XmlExportComment.php:162
+msgid "Comment meta"
+msgstr "Reactie meta"
+
+#: libraries/XmlExportFiltering.php:73
+#: src/Pro/Filtering/FilteringFactory.php:32
+msgid "Filtering Options"
+msgstr "Filteropties"
+
+#: libraries/WpaePhpInterpreterErrorHandler.php:29
+msgid "You probably forgot to close a quote"
+msgstr "Je bent waarschijnlijk vergeten een offerte te sluiten"
+
+#: libraries/WpaePhpInterpreterErrorHandler.php:25
+#: libraries/WpaePhpInterpreterErrorHandler.php:29
+msgid "PHP Error"
+msgstr "PHP fout"
+
+#: libraries/WpaePhpInterpreterErrorHandler.php:23
+msgid "An unknown error occured"
+msgstr "Er is een onbekende fout opgetreden"
+
+#: libraries/XmlExportEngine.php:354
+msgid "Other"
+msgstr "Overige"
+
+#: controllers/admin/manage.php:482 controllers/admin/manage.php:488
+msgid "The exported file is missing and can't be downloaded. Please re-run your export to re-generate it."
+msgstr "Het geëxporteerde bestand ontbreekt en kan niet worden gedownload. Voer je export opnieuw uit om het opnieuw te genereren."
+
+#: controllers/admin/manage.php:475
+msgid "File format not supported"
+msgstr "Bestandsformaat niet ondersteund"
+
+#: controllers/admin/manage.php:369
+msgid "This export doesn't exist."
+msgstr "Deze export bestaat niet."
+
+#: controllers/admin/manage.php:363
+msgid "The exported bundle is missing and can't be downloaded. Please re-run your export to re-generate it."
+msgstr "De geëxporteerde bundel ontbreekt en kan niet worden gedownload. Voer je export opnieuw uit om deze opnieuw te genereren."
+
+#: controllers/admin/manage.php:295 views/admin/manage/bulk.php:15
+msgid "export"
+msgid_plural "exports"
+msgstr[0] "export"
+msgstr[1] "exporten"
+
+#: controllers/admin/manage.php:295
+msgid "%d %s deleted"
+msgstr "%d %s verwijderd"
+
+#: controllers/admin/manage.php:264
+msgid "Export deleted"
+msgstr "Export verwijderd"
+
+#: controllers/admin/manage.php:165 views/admin/manage/index.php:421
+msgid "Export canceled"
+msgstr "Exporteren geannuleerd"
+
+#: controllers/admin/manage.php:57
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: controllers/admin/manage.php:56
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: controllers/admin/export.php:317 controllers/admin/export.php:452
+#: controllers/admin/manage.php:234
+msgid "Options updated"
+msgstr "Opties geüpdatet"
+
+#: controllers/admin/export.php:260
+msgid "Main XML Tag equals to Single Record XML Tag."
+msgstr "Hoofd XML tag is gelijk aan enkel record XML tag."
+
+#: controllers/admin/export.php:256
+msgid "Single Record XML Tag is required."
+msgstr "Enkel record XML tag is vereist."
+
+#: controllers/admin/export.php:251
+msgid "Main XML Tag is required."
+msgstr "Hoofd XML tag is vereist."
+
+#: controllers/admin/export.php:245
+msgid "CSV delimiter must be specified."
+msgstr "Er moet een CSV scheidingsteken worden opgegeven."
+
+#: controllers/admin/export.php:241
+msgid "You haven't selected any columns for export."
+msgstr "Je hebt geen kolommen geselecteerd om te exporteren."
+
+#: controllers/admin/export.php:213
+msgid "You've reached your max_input_vars limit of %d. Please contact your web host to increase it."
+msgstr "Je hebt je max_input_vars-limiet van %d bereikt; neem contact op met de webhost om hem te verhogen."
+
+#: controllers/admin/export.php:128
+msgid "Required PHP components are missing.<br/><br/>WP All Export requires XMLReader, and XMLWriter PHP modules to be installed.<br/>These are standard features of PHP, and are necessary for WP All Export to write the files you are trying to export.<br/>Please contact your web hosting provider and ask them to install and activate the DOMDocument, XMLReader, and XMLWriter PHP modules."
+msgstr "Benodigde PHP componenten ontbreken.<br/><br/>WP All Import vereist dat DOMDocument, XMLReader, en XMLWriter PHP modules zijn geïnstalleerd.<br/>Dit zijn standaard functies van PHP, en zijn noodzakelijk voor WP All Import om de bestanden te lezen die je probeert te importeren.<br/>Neem contact op met je web hosting provider en vraag hen om de DOMDocument, XMLReader, en XMLWriter PHP modules te installeren en te activeren."
+
+#: controllers/admin/settings.php:140
+msgid "%d template deleted"
+msgid_plural "%d templates deleted"
+msgstr[0] "%d template verwijderd"
+msgstr[1] "%d templates verwijderd"
+
+#: controllers/admin/settings.php:131
+msgid "Templates must be selected"
+msgstr "Er moeten templates worden geselecteerd"
+
+#: controllers/admin/settings.php:125
+msgid "Please select file."
+msgstr "Selecteer een bestand."
+
+#: controllers/admin/settings.php:123
+msgid "Undefined entry!"
+msgstr "Ongedefinieerde invoer!"
+
+#: controllers/admin/settings.php:120
+msgid "File is empty or doesn't exests"
+msgstr "Het bestand is leeg of bestaat niet"
+
+#: controllers/admin/settings.php:118
+msgid "Wrong imported data format"
+msgstr "Verkeerde geïmporteerde gegevens format"
+
+#: controllers/admin/settings.php:113
+msgid "%d template imported"
+msgid_plural "%d templates imported"
+msgstr[0] "%d template geïmporteerd"
+msgstr[1] "%d templates geïmporteerd"
+
+#: controllers/admin/settings.php:105
+msgid "The template you've uploaded is intended to be used with WP All Import plugin."
+msgstr "De template die je hebt geüpload is bedoeld voor gebruik met de WP All Import plugin."
+
+#: controllers/admin/settings.php:101
+msgid "The template is invalid. Options are missing."
+msgstr "De template is ongeldig. Opties ontbreken."
+
+#: controllers/admin/settings.php:91
+msgid "Unknown File extension. Only txt files are permitted"
+msgstr "Onbekende bestand extensie. Alleen txt bestanden zijn toegestaan"
+
+#: controllers/admin/settings.php:49
+msgid "License activated."
+msgstr "Licentie geactiveerd."
+
+#: controllers/admin/settings.php:33
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: src/App/UnsecuredController/SchedulingController.php:156
+#: wp-all-export.php:504
+msgid "The User Export Add-On Pro is required to run this export. You can download the add-on here: <a href=\"http://www.wpallimport.com/portal/\" target=\"_blank\">http://www.wpallimport.com/portal/</a>"
+msgstr "De User Export add-On Pro is vereist om deze export uit te voeren. Je kunt de add-on hier downloaden: <a href=\"http://www.wpallimport.com/portal/\" target=\"_blank\">http://www.wpallimport.com/portal/</a>"
+
+#: wp-all-export.php:409 wp-all-export.php:413
+msgid "Uploads folder %s must be writable"
+msgstr "De uploads map %s moet beschrijfbaar zijn"
+
+#: wp-all-export.php:40
+msgid "Please de-activate and remove the free version of the WP All Export before activating the paid version."
+msgstr "Deactiveer en verwijder de gratis versie van WP All Export voordat je de betaalde versie activeert."
+
+#: actions/wp_ajax_wpae_preview.php:437
+msgid "This format is not supported."
+msgstr "Dit format wordt niet ondersteund."
+
+#: actions/wp_ajax_wpae_preview.php:428
+msgid "Data not found."
+msgstr "Gegevens niet gevonden."
+
+#: actions/wp_ajax_wpae_preview.php:376
+msgid "Can't preview the document. Root element is not detected."
+msgstr "Kan geen voorbeeld van het document zien. Root element wordt niet gedetecteerd."
+
+#: actions/wp_ajax_wpae_preview.php:338 actions/wp_ajax_wpae_preview.php:378
+msgid "You can continue export or try to use &lt;data&gt; tag as root element."
+msgstr "Je kunt doorgaan met exporteren of proberen &lt;data&gt; tag als root element te gebruiken."
+
+#: actions/wp_ajax_wpae_preview.php:336
+msgid "Can't preview the document."
+msgstr "Kan geen voorbeeld van het document bekijken."
+
+#: actions/wp_ajax_wpae_preview.php:265
+msgid "There was a problem parsing the custom XML template"
+msgstr "Er is een probleem opgetreden bij het parsen van de aangepaste XML template"
+
+#: actions/wp_ajax_wpae_preview.php:215 actions/wp_ajax_wpae_preview.php:362
+msgid "Code"
+msgstr "Code"
+
+#: actions/wp_ajax_wpae_preview.php:214 actions/wp_ajax_wpae_preview.php:361
+msgid "Column"
+msgstr "Kolom"
+
+#: actions/wp_ajax_wpae_preview.php:213 actions/wp_ajax_wpae_preview.php:360
+msgid "Line"
+msgstr "Regel"
+
+#: actions/wp_ajax_wpae_preview.php:210 actions/wp_ajax_wpae_preview.php:357
+msgid "Invalid XML"
+msgstr "Ongeldige XML"
+
+#: actions/wp_ajax_wpae_preview.php:63 controllers/admin/export.php:267
+msgid "XML template is empty."
+msgstr "XML template is leeg."
+
+#: actions/wp_ajax_wpae_filtering.php:128
+#: actions/wp_ajax_wpae_filtering.php:135
+msgid "Customize Export File"
+msgstr "Pas het exportbestand aan"
+
+#: actions/wp_ajax_wpae_filtering.php:123
+msgid "Migrate %s"
+msgstr "Migreer %s"
+
+#: actions/wp_ajax_wpae_filtering.php:117
+msgid "Upgrade to the Pro edition of WP All Export to Migrate Users"
+msgstr "Upgrade naar de Pro editie van WP All Export om gebruikers te migreren"
+
+#: actions/wp_ajax_wpae_filtering.php:118
+#: src/Scheduling/views/ManualScheduling.php:14
+#: views/admin/export/blocks/filters.php:8 views/admin/export/index.php:261
+#: views/admin/export/options/settings.php:83
+#: views/admin/export/options/settings.php:100
+#: views/admin/export/options/settings.php:125
+#: views/admin/export/options/settings.php:166
+#: views/admin/export/success_page.php:55 views/admin/export/template.php:377
+#: views/admin/export/template.php:511 views/admin/export/template.php:565
+#: views/admin/export/template.php:572
+#: views/admin/export/template/functions_editor.php:27
+#: views/admin/settings/index.php:105 views/admin/settings/index.php:182
+#: views/admin/settings/index.php:198
+msgid "If you already own it, remove the free edition and install the Pro edition."
+msgstr "Als je de PRO versie reeds bezit, verwijder dan de gratis editie en installeer de PRO versie."
+
+#: views/admin/export/success_page.php:54
+msgid "Upgrade to the Pro edition of WP All Export to Migrate Orders"
+msgstr "Upgrade naar de Pro editie van WP All Export om bestellingen te migreren"
+
+#: actions/wp_ajax_wpae_filtering.php:36
+msgid "Add Filtering Options"
+msgstr "Voeg filteringsopties toe"
+
+#: actions/wp_loaded.php:106
+msgid "Export hash is not valid."
+msgstr "Export hash is niet geldig."
+
+#: actions/wp_loaded.php:97
+msgid "File doesn't exist"
+msgstr "Bestand bestaat niet"
+
+#: actions/admin_menu.php:18 views/admin/manage/index.php:189
+#: views/admin/settings/index.php:12
+msgid "Settings"
+msgstr "Instellingen"
+
+#: actions/admin_menu.php:17 views/admin/manage/index.php:14
+msgid "Manage Exports"
+msgstr "Export beheren"
+
+#: actions/admin_menu.php:16 views/admin/export/index.php:15
+msgid "New Export"
+msgstr "Nieuwe export"
+
+#: actions/admin_menu.php:16
+msgid "Export to XML"
+msgstr "Exporteer naar XML"
+
+#: actions/admin_menu.php:12
+msgid "All Export"
+msgstr "Alles exporteren"
+
+#: actions/wp_ajax_wpallexport.php:29
+msgid "Export is not defined."
+msgstr "Export is niet gedefinieerd."
+
+#: actions/wp_ajax_wpae_available_rules.php:91
+#: actions/wp_ajax_wpae_available_rules.php:104
+#: views/admin/export/blocks/filters.php:61
+msgid "equal to or less than"
+msgstr "gelijk aan of kleiner dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:90
+#: actions/wp_ajax_wpae_available_rules.php:103
+#: views/admin/export/blocks/filters.php:60
+msgid "less than"
+msgstr "kleiner dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:89
+#: actions/wp_ajax_wpae_available_rules.php:102
+#: views/admin/export/blocks/filters.php:59
+msgid "equal to or greater than"
+msgstr "gelijk aan of groter dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:88
+#: actions/wp_ajax_wpae_available_rules.php:101
+#: views/admin/export/blocks/filters.php:58
+msgid "greater than"
+msgstr "groter dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:60
+#: actions/wp_ajax_wpae_available_rules.php:80
+#: actions/wp_ajax_wpae_available_rules.php:93
+#: actions/wp_ajax_wpae_available_rules.php:109
+#: views/admin/export/blocks/filters.php:65
+#: views/admin/export/blocks/filters.php:79
+msgid "is not empty"
+msgstr "is niet leeg"
+
+#: actions/wp_ajax_wpae_available_rules.php:59
+#: actions/wp_ajax_wpae_available_rules.php:79
+#: actions/wp_ajax_wpae_available_rules.php:92
+#: actions/wp_ajax_wpae_available_rules.php:108
+#: views/admin/export/blocks/filters.php:64
+#: views/admin/export/blocks/filters.php:78
+msgid "is empty"
+msgstr "is leeg"
+
+#: actions/wp_ajax_wpae_available_rules.php:58
+#: actions/wp_ajax_wpae_available_rules.php:67
+#: actions/wp_ajax_wpae_available_rules.php:78
+#: actions/wp_ajax_wpae_available_rules.php:107
+#: views/admin/export/blocks/filters.php:63
+#: views/admin/export/blocks/filters.php:77
+msgid "doesn't contain"
+msgstr "bevat niet"
+
+#: actions/wp_ajax_wpae_available_rules.php:57
+#: actions/wp_ajax_wpae_available_rules.php:66
+#: actions/wp_ajax_wpae_available_rules.php:77
+#: actions/wp_ajax_wpae_available_rules.php:106
+#: views/admin/export/blocks/filters.php:62
+#: views/admin/export/blocks/filters.php:76
+msgid "contains"
+msgstr "bevat"
+
+#: actions/wp_ajax_wpae_available_rules.php:55
+#: views/admin/export/blocks/filters.php:75
+msgid "equal to or older than"
+msgstr "gelijk aan of ouder dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:54
+#: views/admin/export/blocks/filters.php:74
+msgid "older than"
+msgstr "ouder dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:53
+#: views/admin/export/blocks/filters.php:73
+msgid "equal to or newer than"
+msgstr "gelijk aan of nieuwer dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:52
+#: views/admin/export/blocks/filters.php:72
+msgid "newer than"
+msgstr "nieuwer dan"
+
+#: actions/wp_ajax_wpae_available_rules.php:51
+#: actions/wp_ajax_wpae_available_rules.php:76
+#: actions/wp_ajax_wpae_available_rules.php:87
+#: actions/wp_ajax_wpae_available_rules.php:100
+#: views/admin/export/blocks/filters.php:57
+#: views/admin/export/blocks/filters.php:71
+msgid "doesn't equal"
+msgstr "is niet gelijk aan"
+
+#: actions/wp_ajax_wpae_available_rules.php:50
+#: actions/wp_ajax_wpae_available_rules.php:75
+#: actions/wp_ajax_wpae_available_rules.php:86
+#: actions/wp_ajax_wpae_available_rules.php:99
+#: views/admin/export/blocks/filters.php:56
+#: views/admin/export/blocks/filters.php:70
+msgid "equals"
+msgstr "is gelijk aan"
+
+#: actions/wp_ajax_wpae_available_rules.php:40
+#: views/admin/export/blocks/filters.php:67
+#: views/admin/export/blocks/filters.php:81
+msgid "Not In"
+msgstr "Niet in"
+
+#: actions/wp_ajax_wpae_available_rules.php:39
+#: views/admin/export/blocks/filters.php:66
+#: views/admin/export/blocks/filters.php:80
+msgid "In"
+msgstr "In"
+
+#: actions/wp_ajax_wpae_available_rules.php:33
+#: views/admin/export/blocks/filters.php:30
+msgid "Select Rule"
+msgstr "Selecteer regel"
+
+#: actions/wp_ajax_wpae_filtering_count.php:366
+msgid "Continue to configure and run your export."
+msgstr "Ga verder met het configureren en uitvoeren van je export."
+
+#: actions/wp_ajax_wpae_filtering_count.php:344
+#: views/admin/export/template.php:31
+msgid "Drag & drop data to include in the export file."
+msgstr "Versleep gegevens om op te nemen in het exportbestand."
+
+#: actions/wp_ajax_wpae_filtering_count.php:332
+#: actions/wp_ajax_wpae_filtering_count.php:354
+#: actions/wp_ajax_wpae_filtering_count.php:370
+msgid "There aren't any %s to export."
+msgstr "Er zijn geen %s om te exporteren."
+
+#: actions/wp_ajax_wpae_filtering_count.php:329
+#: actions/wp_ajax_wpae_filtering_count.php:351
+#: actions/wp_ajax_wpae_filtering_count.php:368
+msgid "No matching %s found for selected filter rules."
+msgstr "Er zijn geen %s gevonden die voldoen aan de geselecteerde filterregels."
+
+#: actions/wp_ajax_wpae_filtering_count.php:326
+#: actions/wp_ajax_wpae_filtering_count.php:348
+msgid "All %s have already been exported."
+msgstr "Alle %s zijn al geëxporteerd."
+
+#: actions/wp_ajax_wpae_filtering_count.php:325
+#: actions/wp_ajax_wpae_filtering_count.php:328
+#: actions/wp_ajax_wpae_filtering_count.php:331
+#: actions/wp_ajax_wpae_filtering_count.php:347
+#: actions/wp_ajax_wpae_filtering_count.php:350
+#: actions/wp_ajax_wpae_filtering_count.php:353
+msgid "Nothing to export."
+msgstr "Niets te exporteren."
+
+#: actions/wp_ajax_wpae_filtering_count.php:322
+msgid "WP All Export will export %d %s."
+msgstr "WP Alle export zal %d %s exporteren."
+
+#: actions/wp_ajax_wpae_filtering_count.php:321
+msgid "Your export is ready to run."
+msgstr "Je export is klaar voor gebruik."
+
+#: actions/wp_ajax_wpae_filtering_count.php:219
+msgid "Exporting taxonomies requires WordPress 4.6 or greater"
+msgstr "Het exporteren van taxonomieën vereist WordPress 4.6 of hoger"
+
+#: actions/wp_ajax_wpae_filtering_count.php:218
+msgid "Unable to Export"
+msgstr "Niet mogelijk te exporteren"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:867
+#: src/Scheduling/views/SchedulingUI.php:741
+msgid "Find your license."
+msgstr "Vind je licentie."
+
+#: actions/wp_ajax_scheduling_dialog_content.php:864
+#: src/Scheduling/views/SchedulingOptions.php:845
+#: src/Scheduling/views/SchedulingUI.php:740
+msgid "Enter your license"
+msgstr "Voer je licentie in"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:859
+#: src/Scheduling/views/SchedulingOptions.php:844
+#: src/Scheduling/views/SchedulingUI.php:739
+msgid "Questions?"
+msgstr "Vragen?"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:859
+#: src/Scheduling/views/SchedulingOptions.php:844
+#: src/Scheduling/views/SchedulingUI.php:739
+msgid "Register this site."
+msgstr "Registreer deze site."
+
+#: actions/wp_ajax_scheduling_dialog_content.php:857
+#: src/Scheduling/views/SchedulingOptions.php:843
+#: src/Scheduling/views/SchedulingUI.php:738
+msgid "Have a license?"
+msgstr "Heb je een rijbewijs?"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:856
+#: src/Scheduling/views/SchedulingOptions.php:842
+#: src/Scheduling/views/SchedulingUI.php:737
+msgid "Get automatic scheduling for unlimited sites, just $9/mo."
+msgstr "Verkrijg automatische planning voor onbeperkte sites, slechts $9/mo."
+
+#: actions/wp_ajax_scheduling_dialog_content.php:746
+#: src/Scheduling/views/SchedulingOptions.php:741
+#: src/Scheduling/views/SchedulingUI.php:636
+msgid "Every month on the first..."
+msgstr "Elke maand op de eerste..."
+
+#: actions/wp_ajax_scheduling_dialog_content.php:701
+#: src/Scheduling/views/SchedulingOptions.php:698
+#: src/Scheduling/views/SchedulingUI.php:593
+msgid "Every week on..."
+msgstr "Elke week op..."
+
+#: actions/wp_ajax_scheduling_dialog_content.php:690
+#: src/Scheduling/views/SchedulingOptions.php:687
+#: src/Scheduling/views/SchedulingUI.php:580
+msgid "Run this export on a schedule."
+msgstr "Voer deze export uit volgens een schema."
+
+#: actions/wp_ajax_scheduling_dialog_content.php:675
+#: src/Scheduling/views/SchedulingOptions.php:673
+#: src/Scheduling/views/SchedulingOptions.php:865
+#: src/Scheduling/views/SchedulingUI.php:565
+#: src/Scheduling/views/SchedulingUI.php:778 views/admin/manage/index.php:516
+msgid "Automatic Scheduling"
+msgstr "Automatische planning"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:668
+#: src/Scheduling/views/SchedulingOptions.php:666
+#: src/Scheduling/views/SchedulingUI.php:559
+msgid "Do Not Schedule"
+msgstr "Niet plannen"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:597
+#: src/Scheduling/views/SchedulingOptions.php:600
+#: src/Scheduling/views/SchedulingUI.php:500
+msgid "Invalid license, try again?"
+msgstr "Ongeldige licentie, probeer opnieuw?"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:590
+#: actions/wp_ajax_scheduling_dialog_content.php:609
+#: actions/wp_ajax_scheduling_dialog_content.php:850
+#: src/Scheduling/views/SchedulingOptions.php:593
+#: src/Scheduling/views/SchedulingOptions.php:612
+#: src/Scheduling/views/SchedulingOptions.php:836
+#: src/Scheduling/views/SchedulingUI.php:494
+#: src/Scheduling/views/SchedulingUI.php:512
+#: src/Scheduling/views/SchedulingUI.php:731
+msgid "Subscribe"
+msgstr "Abonneren"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:550
+#: src/Scheduling/views/SchedulingOptions.php:558
+#: src/Scheduling/views/SchedulingUI.php:459
+msgid "Activate"
+msgstr "Activeren"
+
+#: actions/wp_ajax_scheduling_dialog_content.php:451
+msgid "I Understand"
+msgstr "Ik begrijp het"
+
+#: actions/wp_ajax_dismiss_export_warnings.php:6
+#: actions/wp_ajax_dismiss_export_warnings.php:10
+#: actions/wp_ajax_dismiss_review_modal.php:6
+#: actions/wp_ajax_dismiss_review_modal.php:10
+#: actions/wp_ajax_dismiss_warnings.php:6
+#: actions/wp_ajax_dismiss_warnings.php:10
+#: actions/wp_ajax_generate_zapier_api_key.php:6
+#: actions/wp_ajax_generate_zapier_api_key.php:10
+#: actions/wp_ajax_redirect_after_addon_installed.php:6
+#: actions/wp_ajax_redirect_after_addon_installed.php:10
+#: actions/wp_ajax_save_scheduling.php:13
+#: actions/wp_ajax_save_scheduling.php:17
+#: actions/wp_ajax_scheduling_dialog_content.php:7
+#: actions/wp_ajax_scheduling_dialog_content.php:11
+#: actions/wp_ajax_send_feedback.php:6 actions/wp_ajax_send_feedback.php:10
+#: actions/wp_ajax_wpae_available_rules.php:6
+#: actions/wp_ajax_wpae_available_rules.php:10
+#: actions/wp_ajax_wpae_filtering.php:6 actions/wp_ajax_wpae_filtering.php:10
+#: actions/wp_ajax_wpae_filtering_count.php:7
+#: actions/wp_ajax_wpae_filtering_count.php:11
+#: actions/wp_ajax_wpae_preview.php:9 actions/wp_ajax_wpae_preview.php:13
+#: actions/wp_ajax_wpae_upgrade_notice.php:6
+#: actions/wp_ajax_wpae_upgrade_notice.php:10 actions/wp_ajax_wpallexport.php:9
+#: actions/wp_ajax_wpallexport.php:13 controllers/admin/manage.php:304
+#: controllers/admin/manage.php:339 controllers/admin/manage.php:377
+#: controllers/admin/manage.php:430 controllers/controller.php:119
+#: wpae_api.php:7 wpae_api.php:11
+msgid "Security check"
+msgstr "Veiligheidscontrole"
+
+#: models/export/record.php:447
+msgid ""
+"The other two files in this zip are the export file containing all of your data and the import template for WP All Import. \n"
+"\n"
+"To import this data, create a new import with WP All Import and upload this zip file."
+msgstr ""
+"De andere twee bestanden in deze zip zijn het exportbestand met al je gegevens en de importeertemplate voor WP All Import. \n"
+"\n"
+"Om deze gegevens te importeren, maak je een nieuwe import aan met WP All Import en upload je dit zipbestand."
+
+#: helpers/pmxe_render_xml_text.php:16
+msgid "more"
+msgstr "meer"
+
+#: helpers/pmxe_render_xml_element.php:42 helpers/pmxe_render_xml_text.php:10
+msgid "element"
+msgid_plural "elements"
+msgstr[0] "element"
+msgstr[1] "elementen"
+
+#: helpers/pmxe_render_xml_element.php:42 helpers/pmxe_render_xml_text.php:10
+msgid "<strong>%s</strong> %s more"
+msgstr "<strong>%s</strong>%s meer"
+
+#: helpers/wp_all_export_get_cpt_name.php:50
+msgid "Record"
+msgstr "Record"
+
+#: helpers/wp_all_export_get_cpt_name.php:50
+msgid "Records"
+msgstr "Records"
+
+#: helpers/wp_all_export_get_cpt_name.php:27
+msgid "Taxonomy Term"
+msgstr "Taxonomie term"
+
+#: helpers/wp_all_export_get_cpt_name.php:27
+msgid "Taxonomy Terms"
+msgstr "Taxonomie termen"
+
+#: helpers/wp_all_export_get_cpt_name.php:18
+msgid "Comment"
+msgstr "Reactie"
+
+#: helpers/wp_all_export_get_cpt_name.php:18 views/admin/export/index.php:77
+msgid "Comments"
+msgstr "Reacties"
+
+#: helpers/wp_all_export_get_cpt_name.php:14
+msgid "Customer"
+msgstr "Klant"
+
+#: helpers/wp_all_export_get_cpt_name.php:14
+msgid "Customers"
+msgstr "Klanten"
+
+#: helpers/wp_all_export_get_cpt_name.php:10
+msgid "User"
+msgstr "Gebruiker"
+
+#: helpers/wp_all_export_get_cpt_name.php:10 views/admin/export/index.php:81
+msgid "Users"
+msgstr "Gebruikers"
+
+#: filters/wpallexport_custom_types.php:26
+msgid "WooCommerce Customers"
+msgstr "WooCommerce klanten"
+
+#: filters/wpallexport_custom_types.php:9
+msgid "WooCommerce Coupons"
+msgstr "WooCommerce waardebonnenn"
+
+#: filters/wpallexport_custom_types.php:8
+msgid "WooCommerce Orders"
+msgstr "WooCommerce bestellingen"
+
+#: filters/wpallexport_custom_types.php:7
+msgid "WooCommerce Products"
+msgstr "WooCommerce producten"
+
+#. Author of the plugin
+#: wp-all-export.php
+msgid "Soflyy"
+msgstr "Soflyy"
+
+#. Description of the plugin
+#: wp-all-export.php
+msgid "Export any post type to a CSV or XML file. Edit the exported data, and then re-import it later using WP All Import."
+msgstr "Exporteer elk berichttype naar een CSV- of XML-bestand; bewerk de geëxporteerde gegevens en importeer ze later opnieuw gebruikmakend van WP All Import."
+
+#. Plugin URI of the plugin
+#: wp-all-export.php
+msgid "http://www.wpallimport.com/upgrade-to-wp-all-export-pro/?utm_source=export-plugin-free&utm_medium=wp-plugins-page&utm_campaign=upgrade-to-pro"
+msgstr "http://www.wpallimport.com/upgrade-to-wp-all-export-pro/?utm_source=export-plugin-free&utm_medium=wp-plugins-page&utm_campaign=upgrade-to-pro"
+
+#. Plugin Name of the plugin
+#: wp-all-export.php actions/admin_menu.php:12 actions/admin_menu.php:16
+#: actions/admin_menu.php:17 actions/admin_menu.php:18
+#: models/export/record.php:373
+msgid "WP All Export"
+msgstr "WP All Export"

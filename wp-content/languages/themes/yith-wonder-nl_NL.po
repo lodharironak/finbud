@@ -1,0 +1,1357 @@
+# Translation of Themes - YITH Wonder in Dutch
+# This file is distributed under the same license as the Themes - YITH Wonder package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-01 12:02:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - YITH Wonder\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose your pages to fit any design you like with the power of Full Site Editing (FSE) and the included wide range of Block Patterns. The pre-built pages will help you populate and transform your website into a wonderful website. Customize colors and font pairings to create your own unique look and feel. Check out the demo site at https://wonder.yithemes.com/"
+msgstr "Wonder is het nieuwe, op blokken gebaseerde, multifunctionele WordPress thema van YITH. Met de kracht van full site editing (FSE) en het meegeleverde brede scala aan blokpatronen kun je je pagina's samenstellen voor elk gewenst ontwerp. De kant-en-klare pagina's helpen je om je site te vullen en om te toveren in een prachtige site. Pas kleuren en lettertypen aan om je eigen unieke look en feel te creëren. Bekijk de demosite op https://wonder.yithemes.com/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "YITH Wonder"
+msgstr "YITH Wonder"
+
+#: styles/07-orchid-shades.json
+msgctxt "Gradient name"
+msgid "Orchid 5 (buttons)"
+msgstr "Orchidee 5 (knoppen)"
+
+#: styles/07-orchid-shades.json
+msgctxt "Gradient name"
+msgid "Orchid 4"
+msgstr "Orchidee 4"
+
+#: styles/07-orchid-shades.json
+msgctxt "Gradient name"
+msgid "Orchid 3"
+msgstr "Orchidee 3"
+
+#: styles/07-orchid-shades.json
+msgctxt "Gradient name"
+msgid "Orchid 2"
+msgstr "Orchidee 2"
+
+#: styles/07-orchid-shades.json
+msgctxt "Gradient name"
+msgid "Orchid 1"
+msgstr "Orchidee 1"
+
+#: styles/07-orchid-shades.json
+msgctxt "Style variation name"
+msgid "Orchid Shades"
+msgstr "Orchideeëntinten"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3XL"
+msgstr "3XL"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2XL"
+msgstr "2XL"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "L"
+msgstr "L"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "M"
+msgstr "M"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "S"
+msgstr "S"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XS"
+msgstr "XS"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2XS"
+msgstr "2XS"
+
+#: patterns/testimonials.php
+msgctxt "Pattern description"
+msgid "A corporate page template to show your testimonials and quotes in a masonry layout using columns."
+msgstr "Een zakelijke pagina template om je aanbevelingen en citaten te tonen in een masonry lay-out met kolommen."
+
+#: patterns/testimonial-with-image-3.php
+msgctxt "Pattern description"
+msgid "A page section displaying a testimonial and the related quote in a full width cover block."
+msgstr "Een pagina sectie die een aanbeveling en de bijbehorende quote weergeeft in een omslagafbeelding blok over de hele breedte."
+
+#: patterns/testimonial-with-image-2.php
+msgctxt "Pattern description"
+msgid "A page section displaying a testimonial and the related quote in a creative, squared, design."
+msgstr "Een pagina gedeelte met een aanbeveling en de bijbehorende quote in een creatief, vierkant ontwerp."
+
+#: patterns/testimonial-with-image-1.php
+msgctxt "Pattern description"
+msgid "A page section displaying a testimonial and the related quote in a creative, right aligned, design."
+msgstr "Een pagina sectie met een aanbeveling en de bijbehorende quote in een creatief, rechts uitgelijnd ontwerp."
+
+#: patterns/site-header-left-logo-navigation-inline.php
+msgctxt "Pattern description"
+msgid "A left aligned site header with horizontal stacked elements: site logo, title, tagline and navigation block. WooCommerce mini cart display when plugin is enabled."
+msgstr "Een links uitgelijnde header voor de site met horizontaal gestapelde elementen: site-logo, titel, slogan en navigatieblok. De mini winkelwagen van WooCommerce wordt weergegeven als de plugin is ingeschakeld."
+
+#: patterns/site-header-left-logo-navigation-below.php
+msgctxt "Pattern description"
+msgid "A left aligned site header with site logo, title and tagline on a line and navigation block below. WooCommerce mini cart display when plugin is enabled."
+msgstr "Een links uitgelijnde header voor de site met site logo, titel en slogan op een regel en navigatie blok eronder. De mini winkelwagen van WooCommerce wordt weergegeven als de plugin is ingeschakeld."
+
+#: patterns/site-header-centered.php
+msgctxt "Pattern description"
+msgid "A centered site header with site logo and navigation below. Above, two columns to add socials or contact informations. WooCommerce minicart display when plugin is enabled."
+msgstr "Een gecentreerde header met site-logo en navigatie eronder. Daarboven twee kolommen om sociale informatie of informatie over contactpersonen toe te voegen. WooCommerce mini winkelwagen wordt weergegeven als de plugin is ingeschakeld."
+
+#: patterns/site-header-centered-logo-split-menu.php
+msgctxt "Pattern description"
+msgid "A site header with navigation menu splitted by the site logo."
+msgstr "Een header van de site met een navigatiemenu dat wordt gescheiden door het logo van de site."
+
+#: patterns/site-footer.php
+msgctxt "Pattern description"
+msgid "A classic footer template fully focused on navigation blocks divided in columns."
+msgstr "Een klassiek template voor een footer, volledig gericht op navigatieblokken verdeeld in kolommen."
+
+#: patterns/site-footer-3-columns.php
+msgctxt "Pattern description"
+msgid "A footer template based on 3 columns layout. First with site logo, the other with navigation blocks."
+msgstr "Een template voor de footer op basis van een lay-out met 3 kolommen. De eerste met het logo van de site, de andere met navigatieblokken."
+
+#: patterns/site-footer-3-columns-centered.php
+msgctxt "Pattern description"
+msgid "A footer template based on 3 columns layout. Phone number, site logo, social icons. Below a full row with the site navigation and another with credits."
+msgstr "Een template voor een footer gebaseerd op een lay-out van 3 kolommen. Telefoonnummer, site logo, sociale pictogrammen. Daaronder een volledige rij met de sitenavigatie en nog een met credits."
+
+#: patterns/my-account-icon.php
+msgctxt "Pattern description"
+msgid "This pattern will ad a shortcut icon for the WooCommerce my-account area of your website. It will be registered only if WooCommerce is enabled."
+msgstr "Dit patroon voegt een snelkoppeling pictogram toe aan het WooCommerce mijn account gebied van je site. Het wordt alleen geregistreerd als WooCommerce is ingeschakeld."
+
+#: patterns/homepage-orchid.php
+msgctxt "Pattern description"
+msgid "A corporate homepage template dedicated to company mission and customer care. WooCommerce products block inside. Designed around the Orchide Shades style variation of the theme."
+msgstr "Een bedrijfspagina template gewijd aan bedrijfsmissie en klantenzorg. WooCommerce producten blok binnenin. Ontworpen rond de Orchide Shades stijlvariant van het thema."
+
+#: patterns/homepage-orchid.php
+msgctxt "Pattern title"
+msgid "Homepage orchid"
+msgstr "Homepage orchidee"
+
+#: patterns/homepage-jewels.php
+msgctxt "Pattern description"
+msgid "Homepage template dedicated to jewelry products. Designed around the Gold Shades style variation of the theme."
+msgstr "Homepage template gewijd aan sieradenproducten. Ontworpen rond de Gold Shades stijlvariant van het thema."
+
+#: patterns/homepage-3.php
+msgctxt "Pattern description"
+msgid "Homepage template containing fine spaced banner sections, WooCommerce product blocks, images with call to actions and lists."
+msgstr "Homepage template met fijnmazige banners, WooCommerce product blokken, afbeeldingen met oproepen tot actie en lijsten."
+
+#: patterns/homepage-2.php
+msgctxt "Pattern description"
+msgid "Homepage template containing banner sections, WooCommerce product blocks and call to actions."
+msgstr "Homepage template met banners, WooCommerce product blokken en oproepen tot actie."
+
+#: patterns/homepage-1.php
+msgctxt "Pattern description"
+msgid "Homepage template containing hero section, alternated banner sections, WooCommerce product blocks and testimonial section."
+msgstr "Homepage template met hero sectie, afwisselende banner secties, WooCommerce productblokken en aanbevelingen sectie."
+
+#: patterns/creative-list-with-image.php
+msgctxt "Pattern description"
+msgid "A page section of two columns. First row with big photo of a model, second row with a list of company services and values. Decorated with a dotted background cover block."
+msgstr "Een pagina gedeelte van twee kolommen. Eerste rij met grote foto van een model, tweede rij met een lijst van diensten en waarden van het bedrijf. Gedecoreerd met een gestippeld achtergrond omslagafbeelding blok."
+
+#: patterns/creative-banners-grid.php
+msgctxt "Pattern description"
+msgid "A page section with 3 cover blocks in a creative grid layout. Sample images are jewelry related and can be replaced."
+msgstr "Een pagina katern met 3 omslagafbeelding blokken in een creatieve grid lay-out. Voorbeeld afbeeldingen zijn sieraden gerelateerd en kunnen worden vervangen."
+
+#: patterns/contact-us.php
+msgctxt "Pattern description"
+msgid "A page template containing a contact form (WP Forms free plugin needed)."
+msgstr "Een pagina template met een contactformulier (gratis plugin WP Forms nodig)."
+
+#: patterns/company-page.php
+msgctxt "Pattern description"
+msgid "A corporate page template to show your company values and a big testimonial in the bottom section."
+msgstr "Een zakelijke pagina template om je bedrijfswaarden te laten zien en een grote aanbeveling in de onderkant."
+
+#: patterns/blog-page.php
+msgctxt "Pattern description"
+msgid "A page template to show all your posts in a styled cards layouts."
+msgstr "Een pagina template om al je berichten te tonen in een gestileerde kaart lay-outs."
+
+#: patterns/banner-with-title-and-separator.php
+msgctxt "Pattern description"
+msgid "A page section with a full width cover image and title and description divided by a separator block."
+msgstr "Een pagina katern met een omslagafbeelding over de volle breedte en titel en beschrijving onderverdeeld door een scheidingsteken blok."
+
+#: patterns/banner-with-grid-gallery.php
+msgctxt "Pattern description"
+msgid "A page section of two columns containing a call to action and a gallery grid miming product categories."
+msgstr "Een pagina sectie van twee kolommen met een Call To Action en een galerij raster dat product categorieën nabootst."
+
+#: patterns/banner-with-cta-1.php
+msgctxt "Pattern description"
+msgid "A page section with a cover image and a call to action inside."
+msgstr "Een pagina katern met een omslagafbeelding en een Call To Action binnenin."
+
+#: patterns/banner-with-3-buttons.php
+msgctxt "Pattern description"
+msgid "A page section with a big image in a column and 3 buttons in another column."
+msgstr "Een pagina sectie met een grote afbeelding in een kolom en 3 knoppen in een andere kolom."
+
+#: patterns/banner-1-3-2-3.php
+msgctxt "Pattern description"
+msgid "A page section of two columns columns with 1/3 and 2/3 proportions."
+msgstr "Een pagina sectie van twee kolommen met 1/3 en 2/3 verhoudingen."
+
+#: patterns/404.php
+msgctxt "Pattern description"
+msgid "The 404 page template with large 404 text and a search box below."
+msgstr "De 404 pagina template met grote 404 tekst en een zoek box eronder."
+
+#: patterns/5-columns-product-categories.php
+msgctxt "Pattern description"
+msgid "A page section of five columns including jewelry images miming product categories."
+msgstr "Een pagina sectie van vijf kolommen, inclusief sieraden afbeeldingen die product categorieën nabootsen."
+
+#: patterns/4-columns-icon-and-text.php
+msgctxt "Pattern description"
+msgid "A page section of four columns including icons and text."
+msgstr "Een pagina sectie van vier kolommen met pictogrammen en tekst."
+
+#: patterns/3-columns-with-icons.php
+msgctxt "Pattern description"
+msgid "A page section of three icons and description."
+msgstr "Een pagina gedeelte met drie pictogrammen en beschrijving."
+
+#: patterns/3-columns-banner.php
+msgctxt "Pattern description"
+msgid "A page section of three columns including cover blocks and buttons."
+msgstr "Een pagina gedeelte van drie kolommen inclusief omslagafbeelding blokken en knoppen."
+
+#: patterns/blog-page.php:48
+msgid "READ MORE"
+msgstr "LEES MEER"
+
+#: inc/register-block-styles.php:98
+msgid "Unscaled background"
+msgstr "Ongeschaalde achtergrond"
+
+#: inc/register-block-styles.php:84
+msgid "Boxed"
+msgstr "Boxed"
+
+#: inc/register-block-styles.php:77
+msgid "Dashed wide"
+msgstr "Breed streepje"
+
+#: inc/register-block-styles.php:42 inc/register-block-styles.php:91
+msgid "With shadow"
+msgstr "Met schaduw"
+
+#: patterns/homepage-jewels.php
+msgctxt "Pattern title"
+msgid "Homepage jewels"
+msgstr "Homepage juwelen"
+
+#: patterns/creative-banners-grid.php
+msgctxt "Pattern title"
+msgid "Creative banners grid"
+msgstr "Creatieve banners raster"
+
+#: patterns/banner-with-title-and-separator.php
+msgctxt "Pattern title"
+msgid "Banner with title and separator"
+msgstr "Banner met titel en scheidingsteken"
+
+#: patterns/banner-with-grid-gallery.php
+msgctxt "Pattern title"
+msgid "Banner with grid gallery"
+msgstr "Banner met raster galerij"
+
+#: patterns/5-columns-product-categories.php
+msgctxt "Pattern title"
+msgid "5 Columns product categories banner"
+msgstr "5 kolommen productcategorieën banner"
+
+#: patterns/4-columns-icon-and-text.php
+msgctxt "Pattern title"
+msgid "4 columns icon and text"
+msgstr "4 kolommen pictogram en tekst"
+
+#: patterns/homepage-jewels.php:118 patterns/homepage-jewels.php:136
+msgctxt "demo-contents"
+msgid "Our new collection"
+msgstr "Onze nieuwe collectie"
+
+#: patterns/creative-banners-grid.php:52 patterns/homepage-jewels.php:183
+msgctxt "demo-contents"
+msgid "Jewelry"
+msgstr "Sieraden"
+
+#: patterns/creative-banners-grid.php:30 patterns/homepage-jewels.php:161
+msgctxt "demo-contents"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: patterns/creative-banners-grid.php:26 patterns/homepage-jewels.php:157
+msgctxt "demo-contents"
+msgid "NEW COLLECTIONS"
+msgstr "NIEUWE COLLECTIES"
+
+#: patterns/creative-banners-grid.php:22 patterns/homepage-jewels.php:153
+msgctxt "demo-contents"
+msgid "Watches"
+msgstr "Horloges"
+
+#: patterns/banner-with-title-and-separator.php:33
+#: patterns/homepage-jewels.php:32
+msgctxt "demo-contents"
+msgid "Lorem ipsum dolor sit amet, consectetur adispising elit.<br>Vestibulum varius, mi ut posuere iaculis, orci risus consequat urna, faucibus laoreet nunc just a quam."
+msgstr "Lorem ipsum dolor sit amet, consectetur adispising elit.<br>Vestibulum varius, mi ut posuere iaculis, orci risus consequat urna, faucibus laoreet nunc just a quam."
+
+#: patterns/banner-with-title-and-separator.php:25
+#: patterns/homepage-jewels.php:24
+msgctxt "demo-contents"
+msgid "Engagement Rings"
+msgstr "Verlovingsringen"
+
+#: patterns/banner-with-grid-gallery.php:67 patterns/homepage-jewels.php:105
+msgctxt "demo-contents"
+msgid "CHARMS"
+msgstr "CHARMS"
+
+#: patterns/banner-with-grid-gallery.php:63 patterns/homepage-jewels.php:101
+msgctxt "demo-contents"
+msgid "BRACELETS"
+msgstr "BRACELETS"
+
+#: patterns/banner-with-grid-gallery.php:59 patterns/homepage-jewels.php:97
+msgctxt "demo-contents"
+msgid "PLATINUM RINGS"
+msgstr "PLATINA RINGEN"
+
+#: patterns/banner-with-grid-gallery.php:55 patterns/homepage-jewels.php:93
+msgctxt "demo-contents"
+msgid "EARRINGS"
+msgstr "OORBELLEN"
+
+#: patterns/banner-with-grid-gallery.php:51 patterns/homepage-jewels.php:89
+msgctxt "demo-contents"
+msgid "ENGAGMENTS RINGS"
+msgstr "VERLOVINGSRINGEN"
+
+#: patterns/banner-with-grid-gallery.php:47 patterns/homepage-jewels.php:85
+msgctxt "demo-contents"
+msgid "GOLDEN RINGS"
+msgstr "GOUDEN RINGEN"
+
+#: patterns/banner-with-grid-gallery.php:29 patterns/homepage-jewels.php:67
+msgctxt "demo-contents"
+msgid "Discover our new jewels"
+msgstr "Ontdek onze nieuwe juwelen"
+
+#: patterns/banner-with-grid-gallery.php:25 patterns/homepage-jewels.php:63
+msgctxt "demo-contents"
+msgid "Lorem ipsum dolor sit amet"
+msgstr "Lorem ipsum dolor sit amet"
+
+#: patterns/5-columns-product-categories.php:88
+msgctxt "demo-contents"
+msgid "ROSE GOLD"
+msgstr "ROZE GOUD"
+
+#: patterns/5-columns-product-categories.php:72
+msgctxt "demo-contents"
+msgid "DIAMOND"
+msgstr "DIAMAND"
+
+#: patterns/5-columns-product-categories.php:56
+msgctxt "demo-contents"
+msgid "ENGAGEMENT"
+msgstr "ENGAGEMENT"
+
+#: patterns/5-columns-product-categories.php:40
+msgctxt "demo-contents"
+msgid "PEARL"
+msgstr "PAREL"
+
+#: patterns/5-columns-product-categories.php:28
+#: patterns/5-columns-product-categories.php:44
+#: patterns/5-columns-product-categories.php:60
+#: patterns/5-columns-product-categories.php:76
+#: patterns/5-columns-product-categories.php:92
+msgctxt "demo-contents"
+msgid "RINGS"
+msgstr "RINGEN"
+
+#: patterns/5-columns-product-categories.php:24
+msgctxt "demo-contents"
+msgid "PLATINIUM"
+msgstr "PLATINA"
+
+#: patterns/4-columns-icon-and-text.php:72 patterns/homepage-jewels.php:261
+msgctxt "demo-contents"
+msgid "POSITIVE REVIEWS<br>100,000+"
+msgstr "POSITIEVE BEOORDELINGEN<br>100.000+"
+
+#: patterns/4-columns-icon-and-text.php:56 patterns/homepage-jewels.php:245
+msgctxt "demo-contents"
+msgid "10 YEARS<br>WARRANTY"
+msgstr "10 JAAR<br>GARANTIE"
+
+#: patterns/4-columns-icon-and-text.php:40 patterns/homepage-jewels.php:229
+msgctxt "demo-contetns"
+msgid "SECURE<br>PAYMENTS"
+msgstr "BEVEILIGDE<br>BETALINGEN"
+
+#: patterns/4-columns-icon-and-text.php:28
+#: patterns/4-columns-icon-and-text.php:44
+#: patterns/4-columns-icon-and-text.php:60
+#: patterns/4-columns-icon-and-text.php:76 patterns/homepage-jewels.php:217
+#: patterns/homepage-jewels.php:233 patterns/homepage-jewels.php:249
+#: patterns/homepage-jewels.php:265
+msgctxt "demo-contents"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+#: patterns/4-columns-icon-and-text.php:24 patterns/homepage-jewels.php:213
+msgctxt "demo-contents"
+msgid "FREE SHIPPING<br>OVER $ 75"
+msgstr "GRATIS VERZENDING<br>BOVEN $ 75"
+
+#: styles/06-gold-shades.json
+msgctxt "Style variation name"
+msgid "Gold Shades"
+msgstr "Gouden tinten"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "Contrast"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Basis"
+
+#: inc/register-block-styles.php:70
+msgid "Right aligned"
+msgstr "Rechts uitgelijnd"
+
+#: inc/register-block-styles.php:63
+msgid "Left aligned"
+msgstr "Links uitgelijnd"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer 3 columns"
+msgstr "Footer 3 kolommen"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer 3 columns centered"
+msgstr "Footer 3 kolommen gecentreerd"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Header titles"
+msgstr "Header titels"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Header foreground"
+msgstr "Header voorgrond"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Header background"
+msgstr "Header achtergrond"
+
+#: patterns/site-footer-3-columns.php
+msgctxt "Pattern title"
+msgid "Site footer 3 columns"
+msgstr "Site footer 3 kolommen"
+
+#: patterns/site-footer-3-columns-centered.php
+msgctxt "Pattern title"
+msgid "Site footer 3 columns centered"
+msgstr "Site footer 3 kolommen gecentreerd"
+
+#: patterns/site-footer-3-columns.php:33
+msgctxt "demo contents"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tincidunt tortor in bibendum. Phasellus tellus elit, placerat et orci id, commodo finibus tortor."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tincidunt tortor in bibendum. Phasellus tellus elit, placerat et orci id, commodo finibus tortor."
+
+#: patterns/site-footer-3-columns.php:29
+msgctxt "demo contents"
+msgid "About us"
+msgstr "Over ons"
+
+#: patterns/site-footer-3-columns-centered.php:25
+msgctxt "demo contents"
+msgid "Call 800 - 647 - 927"
+msgstr "Bel 800 - 647 - 927"
+
+#: styles/05-red-shades.json
+msgctxt "Style variation name"
+msgid "Red Shades"
+msgstr "Rode tinten"
+
+#: styles/04-black-shades.json
+msgctxt "Style variation name"
+msgid "Black Shades"
+msgstr "Zwarte tinten"
+
+#: styles/03-orange-shades.json
+msgctxt "Style variation name"
+msgid "Orange Shades"
+msgstr "Oranje tinten"
+
+#: styles/02-pink-shades.json
+msgctxt "Style variation name"
+msgid "Pink Shades"
+msgstr "Roze tinten"
+
+#: styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/04-black-shades.json styles/05-red-shades.json
+msgctxt "Gradient name"
+msgid "Vertical primary to secondary"
+msgstr "Verticaal primair naar secundair"
+
+#: styles/01-blue-shades.json
+msgctxt "Style variation name"
+msgid "Blue Shades"
+msgstr "Blauwe tinten"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Vertical Sidebar 2"
+msgstr "Verticale zijbalk 2"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Vertical Sidebar 1"
+msgstr "Verticale zijbalk 1"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header - Centered layout with splitted menu"
+msgstr "Header - Gecentreerde lay-out met gesplitst menu"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header - Centered layout"
+msgstr "Header - Gecentreerde lay-out"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header - Left Logo and navigation inline"
+msgstr "Header - Logo links en navigatie inline"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header - Left Logo and navigation below"
+msgstr "Header- Logo links en navigatie onder"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header default"
+msgstr "Header standaard"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Sidebar (left)"
+msgstr "Zijbalk (links)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Sidebar (right)"
+msgstr "Zijbalk (rechts)"
+
+#: theme.json styles/03-orange-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Gradient name"
+msgid "Vertical tertiary to primary"
+msgstr "Verticaal tertiair naar primair"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Secondary foreground"
+msgstr "Secundaire voorgrond"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Secondary background"
+msgstr "Secundaire achtergrond"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Tertiair"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secundair"
+
+#: theme.json styles/01-blue-shades.json styles/02-pink-shades.json
+#: styles/03-orange-shades.json styles/04-black-shades.json
+#: styles/05-red-shades.json styles/06-gold-shades.json
+#: styles/07-orchid-shades.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Primair"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Playfair Display"
+msgstr "Playfair Display"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Oswald"
+msgstr "Oswald"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Forum"
+msgstr "Forum"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Satisfy"
+msgstr "Satisfy"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr "Poppins"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Merriweather, serif"
+msgstr "Merriweather, serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Sans Pro, sans-serif"
+msgstr "Source Sans Pro, sans-serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Changa One, display"
+msgstr "Changa One, Google"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Solway, serif"
+msgstr "Solway, serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Nunito, sans-serif"
+msgstr "Nunito, sans-serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat, sans-serif"
+msgstr "Montserrat, sans-serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Jost, sans-serif"
+msgstr "Jost, sans-serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto Slab, serif"
+msgstr "Roboto Sans Serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Raleway, sans-serif"
+msgstr "Raleway, sans-serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Mulish, sans-serif"
+msgstr "Mulish, sans-serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Monospace"
+msgstr "Monospace"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Serif"
+msgstr "Serif"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System"
+msgstr "Systeem"
+
+#: theme.json styles/07-orchid-shades.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Enorm"
+
+#: theme.json styles/07-orchid-shades.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Extra groot"
+
+#: theme.json styles/07-orchid-shades.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Groot"
+
+#: theme.json styles/07-orchid-shades.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medium"
+
+#: theme.json styles/07-orchid-shades.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr "Normaal"
+
+#: theme.json styles/07-orchid-shades.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Klein"
+
+#: theme.json styles/07-orchid-shades.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr "Extra klein"
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Testimonials page"
+msgstr "Aanbevelingen pagina"
+
+#: patterns/testimonial-with-image-3.php
+msgctxt "Pattern title"
+msgid "Testimonial with image #3"
+msgstr "Aanbeveling met afbeelding #3"
+
+#: patterns/testimonial-with-image-2.php
+msgctxt "Pattern title"
+msgid "Testimonial with image #2"
+msgstr "Aanbeveling met afbeelding #2"
+
+#: patterns/testimonial-with-image-1.php
+msgctxt "Pattern title"
+msgid "Testimonial with image #1"
+msgstr "Aanbeveling met afbeelding #1"
+
+#: patterns/site-header-left-logo-navigation-inline.php
+msgctxt "Pattern title"
+msgid "Site header (left logo - navigation inline)"
+msgstr "Site header (logo links - navigatie inline)"
+
+#: patterns/site-header-left-logo-navigation-below.php
+msgctxt "Pattern title"
+msgid "Site header (left logo - navigation below)"
+msgstr "Site header (logo links - navigatie onder)"
+
+#: patterns/site-header-centered.php
+msgctxt "Pattern title"
+msgid "Site header centered"
+msgstr "Site header gecentreerd"
+
+#: patterns/site-header-centered-logo-split-menu.php
+msgctxt "Pattern title"
+msgid "Site header with splitted menu"
+msgstr "Site header met gesplitst menu"
+
+#: patterns/site-footer.php
+msgctxt "Pattern title"
+msgid "Site footer"
+msgstr "Site footer"
+
+#: patterns/my-account-icon.php
+msgctxt "Pattern title"
+msgid "My-Account icon"
+msgstr "Mijn account pictogram"
+
+#: patterns/homepage-3.php
+msgctxt "Pattern title"
+msgid "Homepage #3"
+msgstr "Homepage #3"
+
+#: patterns/homepage-2.php
+msgctxt "Pattern title"
+msgid "Homepage #2"
+msgstr "Homepage #2"
+
+#: patterns/homepage-1.php
+msgctxt "Pattern title"
+msgid "Homepage #1"
+msgstr "Homepage #1"
+
+#: patterns/creative-list-with-image.php
+msgctxt "Pattern title"
+msgid "Creative list with image"
+msgstr "Creatieve lijst met afbeelding"
+
+#: patterns/contact-us.php
+msgctxt "Pattern title"
+msgid "Contact page"
+msgstr "Contactpagina"
+
+#: patterns/company-page.php
+msgctxt "Pattern title"
+msgid "Company page"
+msgstr "Bedrijfspagina"
+
+#: patterns/blog-page.php
+msgctxt "Pattern title"
+msgid "Blog page"
+msgstr "Blogpagina"
+
+#: patterns/banner-with-cta-1.php
+msgctxt "Pattern title"
+msgid "Banner with CTA #"
+msgstr "Banner met CTA #"
+
+#: patterns/banner-with-3-buttons.php
+msgctxt "Pattern title"
+msgid "Banner with 3 buttons"
+msgstr "Banner met 3 knoppen"
+
+#: patterns/banner-1-3-2-3.php
+msgctxt "Pattern title"
+msgid "Banner 1/3 - 2/3"
+msgstr "Banner 1/3 - 2/3"
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: patterns/3-columns-with-icons.php
+msgctxt "Pattern title"
+msgid "3 columns with icons"
+msgstr "3 kolommen met pictogrammen"
+
+#: patterns/3-columns-banner.php
+msgctxt "Pattern title"
+msgid "3 columns banner"
+msgstr "3 kolommen banner"
+
+#: patterns/testimonials.php:118
+msgctxt "demo-contents"
+msgid "<p>I'm super happy with the quality and sizing of my items. Such good value for money! So stylish too. I will definitely be purchasing again!</p><cite>MIKE DANCIN</cite>"
+msgstr "<p>Ik ben superblij met de kwaliteit en de maat van mijn artikelen. Zo'n goede prijs-kwaliteitverhouding! Zo stijlvol ook. Ik zal zeker weer kopen!</p><cite>MIKE DANCIN</cite>"
+
+#: patterns/testimonials.php:90
+msgctxt "demo-contents"
+msgid "<p>First order and will be back! Ordered 4 items and couldn't be happier with choices. Amazing value, will definitely be ordering more.</p><cite>PAULA PERCUSSION</cite>"
+msgstr "<p>Eerste bestelling en ik kom zeker terug! Heb 4 artikelen besteld en kan niet blijer zijn met de keuzes. Geweldige prijs, ik zal zeker meer bestellen.</p><cite>PAULA SLAGWERK</cite>"
+
+#: patterns/testimonials.php:64
+msgctxt "demo-contents"
+msgid "<p>I don't usually leave reviews but I have decided to for Wonder. I love there clothing and accessories I've never had a problem returning and parcels always arrive well within time stated.</p><cite>JOCELYN ERICSSON</cite>"
+msgstr "<p>Normaal gesproken laat ik geen beoordelingen achter, maar voor Wonder heb ik besloten het wel te doen. Ik ben dol op hun kleding en accessoires, ik heb nog nooit een probleem gehad met retourneren en de pakjes komen altijd ruim op tijd aan.</p><cite>JOCELYN ERICSSON</cite>"
+
+#: patterns/testimonials.php:40
+msgctxt "demo-contents"
+msgid "<p>Here I can find original items, low prices without to lose quality or sustainability. Love it!</p><cite>MARTHA RAMOS</cite>"
+msgstr "<p>Hier kan ik originele artikelen vinden, tegen lage prijzen zonder aan kwaliteit of duurzaamheid in te boeten. Ik vind het geweldig!</p><cite>MARTHA RAMOS</cite>"
+
+#: patterns/testimonials.php:27
+msgctxt "demo-contents"
+msgid "Bringing value between different brands"
+msgstr "Waarde creëren tussen verschillende merken"
+
+#: patterns/testimonial-with-image-1.php:20
+msgctxt "demo-contents"
+msgid "JOCELYN ERICSSON"
+msgstr "JOCELYN ERICSSON"
+
+#: patterns/testimonial-with-image-1.php:19
+msgctxt "demo-contents"
+msgid "I don't usually leave reviews but I have decided to for Wonder. I love there clothing and accessories I've never had a problem returning and parcels always arrive well within time stated."
+msgstr "Normaal gesproken laat ik geen beoordelingen achter, maar voor Wonder heb ik besloten het wel te doen. Ik ben dol op hun kleding en accessoires, ik heb nog nooit een probleem gehad met retourneren en pakketten komen altijd ruim op tijd aan."
+
+#: patterns/site-footer-3-columns-centered.php:56
+#: patterns/site-footer-3-columns.php:64 patterns/site-footer.php:104
+msgctxt "demo contents"
+msgid "Wonder – A WordPress Block theme by YITH"
+msgstr "Wonder - Een WordPress blokthema door YITH"
+
+#: patterns/site-footer.php:70
+msgctxt "demo-contents"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tincidunt tortor in bibendum. Phasellus tellus elit, placerat et orci id, commodo finibus tortor."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tincidunt tortor in bibendum. Phasellus tellus elit, placerat et orci id, commodo finibus tortor."
+
+#: patterns/site-footer.php:66
+msgctxt "demo contents"
+msgid "Stay connected"
+msgstr "Blijf verbonden"
+
+#: patterns/site-footer-3-columns.php:40 patterns/site-footer.php:56
+msgctxt "demo contents"
+msgid "Customer service"
+msgstr "Klantendienst"
+
+#: patterns/site-footer.php:46
+msgctxt "demo contents"
+msgid "Special sales"
+msgstr "Speciale verkoop"
+
+#: patterns/site-footer.php:36
+msgctxt "demo contents"
+msgid "Our products"
+msgstr "Onze producten"
+
+#: patterns/site-footer.php:26
+msgctxt "demo contents"
+msgid "Our company"
+msgstr "Ons bedrijf"
+
+#: patterns/homepage-3.php:226
+msgctxt "demo-contents"
+msgid "Most popular of this month"
+msgstr "Populairste van deze maand"
+
+#: patterns/homepage-3.php:45
+msgctxt "demo-contents"
+msgid "<strong>Sailor &amp; sea inspired for<br>Winter Collection ⟶</strong>"
+msgstr "<strong>Zeeman &amp; zee geïnspireerd voor<br>Wintercollectie ⟶</strong>"
+
+#: patterns/homepage-3.php:35
+msgctxt "demo-contents"
+msgid "<strong>Maternity and pregnancy </strong><br><strong>clothing ⟶</strong>"
+msgstr "<strong>Zwangerschap en zwangerschap </strong><br><strong>kleding ⟶</strong>"
+
+#: patterns/homepage-3.php:23
+msgctxt "demo-contents"
+msgid "<strong>The Newborn Winter<br>Collection ⟶</strong>"
+msgstr "<strong>De Newborn Winter<br>Collectie ⟶</strong>"
+
+#: patterns/homepage-2.php:63 patterns/homepage-3.php:109
+msgctxt "demo-contents"
+msgid "Best seller of this month"
+msgstr "Bestseller van deze maand"
+
+#: patterns/homepage-1.php:213 patterns/testimonial-with-image-3.php:35
+msgctxt "demo-contents"
+msgid "Martha Ramos <br>Customer from 2007"
+msgstr "Martha Ramos <br>klant uit 2007"
+
+#: patterns/homepage-1.php:205 patterns/testimonial-with-image-3.php:27
+msgctxt "demo-contents"
+msgid "“ Here I can find original items, low prices without to lose quality or sustainability.<br>Love it! “"
+msgstr "\" Hier kan ik originele artikelen vinden, lage prijzen zonder aan kwaliteit of duurzaamheid in te boeten.<br>Love it! \""
+
+#: patterns/homepage-1.php:148 patterns/homepage-2.php:155
+msgctxt "demo-contents"
+msgid "This week’s deals"
+msgstr "De aanbiedingen van deze week"
+
+#: patterns/banner-with-grid-gallery.php:34 patterns/homepage-1.php:124
+#: patterns/homepage-jewels.php:72
+msgctxt "demo-contents"
+msgid "SHOP NOW"
+msgstr "NU WINKELEN"
+
+#: patterns/homepage-1.php:103
+msgctxt "demo-contents"
+msgid "Jeans &amp; Denim collection"
+msgstr "Jeans &amp; denim collectie"
+
+#: patterns/homepage-1.php:86
+msgctxt "demo-contents"
+msgid "VIEW OUR ACCESSORIES"
+msgstr "BEKIJK ONZE ACCESSOIRES"
+
+#: patterns/homepage-1.php:77 patterns/homepage-1.php:115
+msgctxt "demo-contents"
+msgid "Dandelion cucumber earthnut pea peanut soko zucchini."
+msgstr "Paardenbloem komkommer aardnoot erwt pinda soko courgette."
+
+#: patterns/homepage-1.php:73 patterns/homepage-1.php:111
+msgctxt "demo-contents"
+msgid "Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. "
+msgstr "Peterselie sjalot courgette tatsoi erwtenscheuten favaboon collard greens paardenbloem okra wakame tomaat. "
+
+#: patterns/homepage-1.php:69 patterns/homepage-1.php:107
+msgctxt "demo-contents"
+msgid "Gumbo beet greens corn soko endive gumbo gourd. "
+msgstr "Gumbo bietgroenten maïs soko andijvie gumbo pompoen. "
+
+#: patterns/homepage-1.php:65
+msgctxt "demo-contents"
+msgid "Black is the new black."
+msgstr "Zwart is het nieuwe zwart."
+
+#: patterns/homepage-1.php:37
+msgctxt "demo-contents"
+msgid "Shop now"
+msgstr "Nu winkelen"
+
+#: patterns/homepage-1.php:24
+msgctxt "demo-contents"
+msgid "New Spring Casuals"
+msgstr "Nieuwe casuals lente"
+
+#: patterns/creative-list-with-image.php:84 patterns/homepage-3.php:200
+msgctxt "demo-contents"
+msgid "Our customer care"
+msgstr "Onze klantendienst"
+
+#: patterns/creative-list-with-image.php:62 patterns/homepage-3.php:178
+msgctxt "demo-contents"
+msgid "100.000+ customers trust us"
+msgstr "100.000+ klanten vertrouwen ons"
+
+#: patterns/creative-list-with-image.php:44
+#: patterns/creative-list-with-image.php:66
+#: patterns/creative-list-with-image.php:88 patterns/homepage-3.php:160
+#: patterns/homepage-3.php:182 patterns/homepage-3.php:204
+msgctxt "demo-contents"
+msgid "Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust."
+msgstr "Snelle levering, eenvoudig retourneren, snel antwoord &amp; veilig en zeker winkelen: ontdek onze 30 dagen niet goed geld terug garantie en begin vandaag nog met winkelen in vertrouwen."
+
+#: patterns/creative-list-with-image.php:40 patterns/homepage-3.php:156
+msgctxt "demo-contents"
+msgid "Confident shopping"
+msgstr "Zelfverzekerd winkelen"
+
+#: patterns/contact-us.php:53
+msgctxt "demo-contents"
+msgid "Send us a message"
+msgstr "Stuur ons een bericht"
+
+#: patterns/contact-us.php:34
+msgctxt "demo-contents"
+msgid "Connect with us"
+msgstr "Maak verbinding met ons"
+
+#: patterns/contact-us.php:22
+msgctxt "demo-contents"
+msgid "Call our Customer Care"
+msgstr "Bel onze klantendienst"
+
+#: patterns/company-page.php:143
+msgctxt "demo-contents"
+msgid "A transparent Refund policy"
+msgstr "Een transparant terugbetalingsbeleid"
+
+#: patterns/company-page.php:129
+msgctxt "demo-contents"
+msgid "50K Happy Customers"
+msgstr "50K tevreden klanten"
+
+#: patterns/company-page.php:115
+msgctxt "demo-contents"
+msgid "High quality and low cost"
+msgstr "Hoge kwaliteit en lage kosten"
+
+#: patterns/company-page.php:98 patterns/testimonial-with-image-2.php:42
+msgctxt "demo-contents"
+msgid "“Here I can find original items, low prices without to lose quality or sustainability. Love it!“"
+msgstr "\"Hier kan ik originele artikelen vinden, tegen lage prijzen zonder aan kwaliteit of duurzaamheid in te boeten. Love it!\""
+
+#: patterns/company-page.php:89 patterns/testimonial-with-image-2.php:27
+msgctxt "demo-contents"
+msgid "<strong>Martha Ramos<br></strong>Customer from 2007"
+msgstr "<strong>Martha Ramos<br></strong>klant uit 2007"
+
+#: patterns/company-page.php:81
+msgid "Read all testimonials &gt;"
+msgstr "Lees alle aanbevelingen >"
+
+#: patterns/company-page.php:77
+msgctxt "demo-contents"
+msgid "Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. <br>Duis urna ipsum, tincidunt ut lorem."
+msgstr "Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. <br>Duis urna ipsum, tincidunt ut lorem."
+
+#: patterns/company-page.php:73
+msgctxt "demo-contents"
+msgid "We <strong><em>really</em> </strong>love our tribu."
+msgstr "We <strong><em>echt</em> </strong>houden van onze tribu."
+
+#: patterns/company-page.php:59
+msgctxt "demo-contents"
+msgid "Discover our sustainability initiatives"
+msgstr "Ontdek onze duurzaamheidsinitiatieven"
+
+#: patterns/company-page.php:55
+msgctxt "demo-contents"
+msgid "Let’s clean up"
+msgstr "Laten we opruimen"
+
+#: patterns/company-page.php:45
+msgctxt "demo-contents"
+msgid "Discover why and how our shop is totally inclusive"
+msgstr "Ontdek waarom en hoe onze winkel volledig inclusief is"
+
+#: patterns/company-page.php:41
+msgctxt "demo-contents"
+msgid "Let’s be for all"
+msgstr "Laten we voor iedereen zijn"
+
+#: patterns/company-page.php:31
+msgctxt "demo-contents"
+msgid "Because fashion need to be fair, always"
+msgstr "Omdat mode eerlijk moet zijn, altijd"
+
+#: patterns/company-page.php:27
+msgctxt "demo-contents"
+msgid "Let’s be fair"
+msgstr "Laten we eerlijk zijn"
+
+#: patterns/blog-page.php:24
+msgid "Our news"
+msgstr "Ons nieuws"
+
+#: patterns/banner-with-cta-1.php:49 patterns/homepage-2.php:200
+msgctxt "demo-contents"
+msgid "START TO SHOP"
+msgstr "START NAAR WINKELEN"
+
+#: patterns/banner-with-cta-1.php:40 patterns/homepage-2.php:191
+msgctxt "demo-contents"
+msgid "Aliquam id nibh pulvinar, accumsan metus nec, tempus leo. Vestibulum feugiat velit lacus, in dictum dolor ultricies at. Integer vitae vehicula erat."
+msgstr "Aliquam id nibh pulvinar, accumsan metus nec, tempus leo. Vestibulum feugiat velit lacus, in dictum dolor ultricies at. Integer vitae vehicula erat."
+
+#: patterns/banner-with-cta-1.php:36 patterns/homepage-2.php:187
+msgctxt "demo-contents"
+msgid "Cras dolor mi, mattis nec placerat at, dapibus auctor mauris. Integer vel velit semper, aliquam dui vitae, ultrices odio. Vivamus in nunc sed arcu congue tincidunt ut eu est. "
+msgstr "Cras dolor mi, mattis nec placerat at, dapibus auctor mauris. Integer vel velit semper, aliquam dui vitae, ultrices odio. Vivamus in nunc sed arcu congue tincidunt ut eu est. "
+
+#: patterns/banner-with-cta-1.php:32 patterns/homepage-2.php:183
+msgctxt "demo-contents"
+msgid "BUILD YOUR CAPSULE WARDROBE"
+msgstr "BOUW JE CAPSULE GARDEROBE"
+
+#: patterns/banner-with-3-buttons.php:47 patterns/creative-banners-grid.php:42
+#: patterns/homepage-3.php:88 patterns/homepage-jewels.php:173
+msgctxt "demo-contents"
+msgid "Accessories"
+msgstr "Accessoires"
+
+#: patterns/banner-with-3-buttons.php:43 patterns/homepage-3.php:84
+msgctxt "demo-contents"
+msgid "Shop Woman"
+msgstr "Winkel voor vrouwen"
+
+#: patterns/banner-with-3-buttons.php:39 patterns/homepage-3.php:80
+msgctxt "demo-contents"
+msgid "Shop Man"
+msgstr "Winkel voor mannen"
+
+#: patterns/banner-with-3-buttons.php:30 patterns/homepage-3.php:71
+msgctxt "demo-contents"
+msgid "New Collections"
+msgstr "Nieuwe collecties"
+
+#: patterns/banner-with-3-buttons.php:26 patterns/homepage-3.php:67
+msgctxt "demo-contents"
+msgid "JUST LANDED"
+msgstr "NET BINNENGEKOMEN"
+
+#: patterns/banner-1-3-2-3.php:46 patterns/homepage-1.php:190
+msgctxt "demo-contents"
+msgid "Enjoy a special -20% discount on man category"
+msgstr "Geniet van een speciale -20% korting op de categorie voor mannen"
+
+#: patterns/banner-1-3-2-3.php:42 patterns/homepage-1.php:186
+msgctxt "demo-contents"
+msgid "SAVE 20% IN<br>MAN CLOTHING"
+msgstr "BESPAAR 20% OP<br>HERENKLEDING"
+
+#: patterns/banner-1-3-2-3.php:30 patterns/homepage-1.php:176
+msgctxt "demo-contents"
+msgid "GLASSES"
+msgstr "BRILLEN"
+
+#: patterns/banner-1-3-2-3.php:26 patterns/homepage-1.php:172
+msgctxt "demo-contents"
+msgid "DISCOVERY THE TREND OF"
+msgstr "ONTDEKKING VAN DE TREND VAN"
+
+#: patterns/404.php:38
+msgid "Search"
+msgstr "Zoeken"
+
+#: patterns/404.php:31
+msgid "Sorry, but the requested page is not found. You might try a search below."
+msgstr "De opgevraagde pagina is niet gevonden. Je kunt hieronder zoeken."
+
+#: patterns/404.php:27
+msgid "Ooops, page not found."
+msgstr "Pagina niet gevonden."
+
+#: patterns/3-columns-with-icons.php:76 patterns/contact-us.php:125
+#: patterns/homepage-2.php:137
+msgctxt "demo-contents"
+msgid "Contact our Customer Care for any question or doubt"
+msgstr "Neem contact op met onze klantendienst voor vragen of twijfels"
+
+#: patterns/3-columns-with-icons.php:52 patterns/contact-us.php:103
+#: patterns/homepage-2.php:115
+msgctxt "demo-contents"
+msgid "Free delivery<br>for orders over 100$"
+msgstr "Gratis levering<br>voor bestellingen van meer dan 100$"
+
+#: patterns/3-columns-with-icons.php:36 patterns/3-columns-with-icons.php:60
+#: patterns/3-columns-with-icons.php:84 patterns/company-page.php:15
+#: patterns/company-page.php:119 patterns/company-page.php:133
+#: patterns/company-page.php:147 patterns/contact-us.php:89
+#: patterns/contact-us.php:111 patterns/contact-us.php:133
+#: patterns/homepage-1.php:28 patterns/homepage-2.php:101
+#: patterns/homepage-2.php:123 patterns/homepage-2.php:145
+#: patterns/testimonials.php:16 patterns/testimonials.php:31
+msgctxt "demo-contents"
+msgid "Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem."
+msgstr "Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem."
+
+#: patterns/3-columns-with-icons.php:28 patterns/contact-us.php:81
+#: patterns/homepage-2.php:93
+msgctxt "demo-contents"
+msgid "Buy safe: our 30 days money back guarantee"
+msgstr "Koop veilig: onze 30 dagen geld terug garantie"
+
+#: patterns/3-columns-banner.php:47 patterns/homepage-2.php:50
+msgctxt "demo-contents"
+msgid "<strong>Accessories</strong><br>Start to shop <strong>⟶</strong>"
+msgstr "<strong>Accessoires</strong><br>Begin met winkelen <strong>⟶</strong>"
+
+#: patterns/3-columns-banner.php:36 patterns/homepage-2.php:39
+msgctxt "demo-contents"
+msgid "Start to shop <strong>⟶</strong>"
+msgstr "Begin met winkelen <strong>⟶</strong>"
+
+#: patterns/3-columns-banner.php:31 patterns/homepage-2.php:34
+msgctxt "demo-contents"
+msgid "JEANS &amp;<br>DENIM"
+msgstr "JEANS &amp;<br>DENIM"
+
+#: patterns/3-columns-banner.php:21 patterns/homepage-2.php:24
+msgctxt "demo-contents"
+msgid "<strong>A romantic touch of black<br></strong>Start to shop <strong>⟶</strong>"
+msgstr "<strong>Een romantisch vleugje zwart<br></strong>Begin met winkelen <strong>⟶</strong>"
+
+#: inc/register-block-styles.php:56
+msgid "Hidden total"
+msgstr "Verborgen totaal"
+
+#: inc/register-block-styles.php:49
+msgid "With Icon"
+msgstr "Met pictogram"
+
+#: inc/register-block-styles.php:35
+msgid "Creative #2"
+msgstr "Creatief #2"
+
+#: inc/register-block-styles.php:28
+msgid "Creative #1"
+msgstr "Creatief #1"
+
+#: inc/register-block-styles.php:21
+msgid "Button Style 1"
+msgstr "Knop stijl 1"
+
+#: inc/register-block-pattern-categories.php:50
+msgid "Wonder - Utilities"
+msgstr "Wonder - Hulpprogramma's"
+
+#: inc/register-block-pattern-categories.php:45
+msgid "Wonder - Page sections"
+msgstr "Verwondering - Pagina secties"
+
+#: inc/register-block-pattern-categories.php:40
+msgid "Wonder - Banners"
+msgstr "Wonder - Banners"
+
+#: inc/register-block-pattern-categories.php:35
+msgid "Wonder - Testimonials"
+msgstr "Wonder - Aanbevelingen"
+
+#: inc/register-block-pattern-categories.php:30
+msgid "Wonder - Pages"
+msgstr "Wonder - Pagina's"
+
+#: inc/register-block-pattern-categories.php:25
+msgid "Wonder - Site Headers"
+msgstr "Wonder - Site Headers"
+
+#: inc/register-block-pattern-categories.php:20
+msgid "Wonder - Site Footers"
+msgstr "Wonder - Site footers"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "YITH"
+msgstr "YITH"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wonder.yithemes.com/"
+msgstr "https://wonder.yithemes.com/"

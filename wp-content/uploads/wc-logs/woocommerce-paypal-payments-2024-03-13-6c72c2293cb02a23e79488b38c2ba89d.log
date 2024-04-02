@@ -1,0 +1,71 @@
+2024-03-13T10:37:39+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: a5f72515ea09d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-03-13T10:37:40+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"fadecb-1"}
+Response Debug ID: 321c5f489a9ef
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-03-13T10:38:11+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"fadecb-1"}
+Response Debug ID: e375610ba0cf6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-03-13T11:00:42+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"fadecb-1"}
+Response Debug ID: 301473679d071
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-03-13T11:54:03+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"fadecb-1"}
+Response Debug ID: a0d2051aa57a0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-03-13T11:55:17+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"fadecb-1"}
+Response Debug ID: 7274fa9df5945
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-03-13T12:48:47+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"fadecb-1"}
+Response Debug ID: 96b8fbe09066f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-03-13T12:52:11+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"fadecb-1"}
+Response Debug ID: ba420ac5798a6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+

@@ -1,0 +1,53 @@
+/**
+ *   Functions and Mixins to be used in LESS files
+**/
+
+.title-font {
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: normal;
+}
+
+.body-font {
+  font-family: 'Roboto', sans-serif;
+  .weight(300);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.size(@s) {
+  font-size: @s;
+}
+
+.color(@c) {
+  color: @c;
+}
+
+.weight(@w) {
+  font-weight: @w;
+}
+
+.transition ( @a ) {
+	transition: @a;
+	-webkit-transition: @a;
+	-moz-transition: @a;
+	-ms-transition: @a;
+	-o-transition: @a;
+}
+.transform( @b ) {
+	transform: @b;
+	-webkit-transform: @b;
+	-moz-transform: @b;
+	-ms-transform: @b;
+	-o-transform: @b;
+}
+
+.line-clamp( @a ) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: @a;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}

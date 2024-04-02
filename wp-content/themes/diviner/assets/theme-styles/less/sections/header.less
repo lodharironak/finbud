@@ -1,0 +1,96 @@
+/**
+ *  LESS file for header layouts
+ */
+
+.site-description {
+	margin: 0;
+}
+
+ #masthead{
+     position: relative;
+     margin-bottom: 2em;
+     #date-ticker {
+	     background-color: @accent;
+         .color(#eee);
+         padding: 6px 0;
+         .size(14px);
+         @media screen and (max-width: 767px) {
+	         .size(16px);
+	         padding-top: 65px;
+	         background-color: fade(@accent, 90%);
+	         .top_date {
+		         text-align: center;
+	         }
+	         .top_ticker {
+		         margin-top: 12px;
+	         }
+         }
+         span {
+             .weight(700);
+             margin-right: 5px;
+         }
+         ul, li {
+             margin: 0;
+         }
+         li {
+	         display: inline-block;
+	         max-width: 300px;
+	         margin-right: 10px;
+         }
+         a {
+             .line-clamp(1);
+             text-decoration: underline;
+             .color(#eee);
+             &:hover {
+                 text-decoration: none;
+             }
+         }
+     }
+     &.ad {
+         .header-banner {
+             img {
+                 width: 100%;
+             }
+             section {
+	             margin-bottom: 0;
+             }
+         }
+     }
+     &.default {
+         #header-image {
+             position: relative;
+             &:before {
+                 content: "";
+                 position: absolute;
+                 width: 100%;
+                 height: 50px;
+                 top: 0;
+                 background: linear-gradient( rgba(0,0,0,.3) 0, rgba(0,0,0,.15) 35%, transparent 100% );
+                 z-index: 0;
+             }
+             &:after {
+                 content: "";
+                 position: absolute;
+                 width: 100%;
+                 height: 50px;
+                 bottom: 0;
+                 background: linear-gradient( to top, rgba(0,0,0,.3) 0, rgba(0,0,0,.15) 35%, transparent 100% );
+                 z-index: 0;
+             }
+         }
+     }
+     &.full {
+         #top-wrapper {
+             margin-bottom: 50px;
+         }
+         #header-image {
+             height: 100vh;
+         }
+     }
+     &.video {
+	     #header-image {
+		     height: 75vh;
+		     overflow: hidden;
+	     }
+     }
+ }

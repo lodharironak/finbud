@@ -1,0 +1,321 @@
+/**
+ *
+ *  LESS file for Customizer Custom Styles
+ *
+ */
+
+
+ /*
+ *, *:before, *:after {
+     box-sizing: border-box;
+ }
+ body {
+     font-family: sans-serif;
+     padding: 60px 20px;
+ }
+ @media (min-width: 600px) {
+     body {
+         padding: 60px;
+     }
+ }
+ */
+ /*.range-slider {
+     margin: 60px 0 0 0%;
+ }*/
+ 
+#customize-control-diviner_upsell_area {
+	font-weight: 700;
+	.button-documentation {
+		background: #f9a620; 
+		border-color: #f9a620;
+		color: white;
+		&:hover {
+			background: darken(#f9a620, 5%);
+			border-color: darken(#f9a620, 5%);
+		}
+	}
+	.button-theme-page {
+		background: #4f7cac; 
+		border-color: #4f7cac;
+		color: white;
+		&:hover {
+			background: darken(#4f7cac, 5%);
+			border-color: darken(#4f7cac, 5%);
+		}
+	}
+	.button-contact-us {
+		background: #a30b37; 
+		border-color: #a30b37;
+		color: white;
+		&:hover {
+			background: darken(#a30b37, 5%);
+			border-color: darken(#a30b37, 5%);
+		}
+	}
+} 
+
+#customize-control-diviner_upsell_pro_button {
+	font-weight: 700;
+	.upsell-pro {
+		background: #6eaf22; 
+		border-color: #6eaf22;
+		color: white;
+		text-align: center;
+		padding: 20px 0;
+		&:hover {
+			background: darken(#6eaf22, 5%);
+			border-color: darken(#6eaf22, 5%);
+		}
+	}
+}
+
+ .range-slider {
+     width: 100%;
+ }
+
+ .range-slider__range {
+     -webkit-appearance: none;
+     width: ~"calc(100% - (95px))";
+     height: 10px;
+     border-radius: 5px;
+     background: #d7dcdf;
+     padding: 0;
+     margin: 0;
+ }
+
+ .range-slider__range::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background: #0085ba;
+     cursor: pointer;
+     -webkit-transition: background .15s ease-in-out;
+     transition: background .15s ease-in-out;
+ }
+
+ .range-slider__range::-webkit-slider-thumb:hover {
+     background: #0085ba;
+ }
+
+ .range-slider__range:active::-webkit-slider-thumb {
+     background: #0085ba;
+ }
+
+ .range-slider__range::-moz-range-thumb {
+     width: 20px;
+     height: 20px;
+     border: 0;
+     border-radius: 50%;
+     background: #0085ba;
+     cursor: pointer;
+     -webkit-transition: background .15s ease-in-out;
+     transition: background .15s ease-in-out;
+ }
+
+ .range-slider__range::-moz-range-thumb:hover {
+     background: #0085ba;
+ }
+
+ .range-slider__range:active::-moz-range-thumb {
+     background: #0085ba;
+ }
+
+ .range-slider__value {
+     display: inline-block;
+     position: relative;
+     width: 60px;
+     color: #fff;
+     line-height: 20px;
+     text-align: center;
+     border-radius: 3px;
+     background: #0085ba;
+     padding: 5px 10px;
+     margin-left: 8px;
+ }
+
+ /*.range-slider__value:after {
+     position: absolute;
+     top: 8px;
+     left: -7px;
+     width: 0;
+     height: 0;
+     border-top: 7px solid transparent;
+     border-right: 7px solid #0085ba;
+     border-bottom: 7px solid transparent;
+     content: '';
+ }*/
+
+ ::-moz-range-track {
+     background: #d7dcdf;
+     border: 0;
+ }
+
+ input::-moz-focus-inner, input::-moz-focus-outer {
+     border: 0;
+ }
+
+
+
+ // Styling for Toggle ButtonText
+
+.customize-control-toggle .toggle--wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: start;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	-ms-flex-pack: start;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+}
+
+.customize-control-toggle .toggle--wrapper .customize-control-title {
+	font-weight: 400;
+	margin-bottom: 7px;
+	vertical-align: middle;
+	-webkit-box-flex: 2;
+	-webkit-flex: 2 0 0;
+	-ms-flex: 2 0 0;
+	flex: 2 0 0;
+}
+
+.customize-control-toggle .toggle--wrapper input[type=checkbox] {
+	display: none;
+}
+
+.customize-control-toggle {
+	margin-bottom: 0
+}
+
+.customize-control-toggle .toggle--wrapper label {
+	background-color: #555d66;
+	border-radius: 14px;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	position: relative;
+	right: 0px;
+	top: 2px;
+	-webkit-transition: background 0.2s ease;
+	transition: background 0.2s ease;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 34px;
+}
+
+.customize-control-toggle .toggle--wrapper label::after,
+.customize-control-toggle .toggle--wrapper label::before {
+	content: "";
+	display: block;
+	position: absolute;
+}
+
+.customize-control-toggle .toggle--wrapper label::after {
+	border: 2px solid #555d66;
+	border-radius: 50%;
+	box-sizing: border-box;
+	height: 12px;
+	left: 4px;
+	top: 4px;
+	-webkit-transition: background 0.2s ease, -webkit-transform 0.2s ease;
+	transition: background 0.2s ease, -webkit-transform 0.2s ease;
+	transition: transform 0.2s ease, background 0.2s ease;
+	transition: transform 0.2s ease, background 0.2s ease, -webkit-transform 0.2s ease;
+	width: 12px;
+}
+
+.customize-control-toggle .toggle--wrapper label::before {
+	background-color: #eee;
+	border-radius: 60px;
+	bottom: 2px;
+	left: 2px;
+	right: 2px;
+	top: 2px;
+	-webkit-transition: background 0.2s ease;
+	transition: background 0.2s ease;
+}
+
+.customize-control-toggle .toggle--wrapper input[type=checkbox]:checked + label {
+	background-color: #0085ba;
+}
+
+.customize-control-toggle .toggle--wrapper input[type=checkbox]:checked + label::after {
+	background-color: #0085ba;
+	border: 2px solid #fff;
+	-webkit-transform: translateX(14px);
+	-ms-transform: translateX(14px);
+	transform: translateX(14px);
+}
+
+.customize-control-toggle .toggle--wrapper input[type=checkbox]:checked + label::before {
+	background-color: #0085ba;
+}
+
+.customize-control-toggle:hover .toggle--wrapper label::before {
+	background-color: #d9dcdf;
+}
+
+.customize-control-image_gallery {
+    .gallery-screenshot {
+        margin-bottom: 20px;
+    }
+}
+
+#accordion-section-diviner_upsell_section, #accordion-section-diviner_upsell_pro {
+	& > .accordion-section-title {
+		background: #555;
+		border-left-color: #555;
+		color: #eee;
+		&:after {
+			color: #aaa;
+		}
+		&:active, &:focus, &:visited {
+			background: #000 !important;
+			border-left-color: #000 !important;
+			color: #eee !important;
+			&:after {
+				color: #eee !important;
+			}
+		}
+	}
+	&:hover {
+		& > .accordion-section-title {
+			background: #000 !important;
+			border-left-color: #000 !important;
+			color: #eee !important;
+			&:after {
+				color: #eee !important;
+			}
+		}
+	}
+}
+
+.customize-control-diviner-upsell {
+	#theme-links {
+		display: flex;
+		flex-direction: column;
+		a {
+			width: 100%;
+			margin-bottom: 10px;
+			padding: 10px 0;
+			text-align: center;
+		}
+	}
+}
+
+
+#diviner-theme-options {
+	border: solid 1px darken(#f1f1f1, 10%);
+	margin: 20px 20px 20px 0;
+	padding: 1em;
+}

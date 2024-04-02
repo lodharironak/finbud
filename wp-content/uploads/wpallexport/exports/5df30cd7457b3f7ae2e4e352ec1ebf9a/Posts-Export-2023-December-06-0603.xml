@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<post>
+		<id>1</id>
+		<Title>Hello world!</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>54</id>
+		<Title>First-blog</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>56</id>
+		<Title>Second-blog</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>58</id>
+		<Title>Third-blog</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>102</id>
+		<Title>Latest News</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>110</id>
+		<Title>About</Title>
+		<Content><![CDATA[<div class="heading">
+<h2>WHAT WE CAN DO FOR YOU</h2>
+<ul>
+ 	<li>A tailored service that ticks all of the boxes.</li>
+ 	<li>We pride ourselves in giving first class advice</li>
+ 	<li>We will use both our extensive knowledge, expertise and experience to guide you through the process from start to finish until you are satisfied.</li>
+ 	<li>We will maintain regular contact with you.</li>
+ 	<li>We will do all of the paperwork for you so you can relax.</li>
+</ul>
+<h5>You will receive Fee Free Advice- No hidden costs, No surprises and No hassle!</h5>
+</div>]]></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>123</id>
+		<Title>Good news for First time buyers seeking a 95% mortgage</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>126</id>
+		<Title>Re-possessions of homeowners at a record low!</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>129</id>
+		<Title>Buy to Let fixed mortgage rates at record low!</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>168</id>
+		<Title>demo_test</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>284</id>
+		<Title>Development Content</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+	<post>
+		<id>289</id>
+		<Title>Content</Title>
+		<Content></Content>
+		<_wpml_media_featured>0</_wpml_media_featured>
+	</post>
+</data>

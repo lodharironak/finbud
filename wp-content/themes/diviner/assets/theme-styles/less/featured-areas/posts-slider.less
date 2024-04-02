@@ -1,0 +1,52 @@
+/**
+ *  LESS file for Slider Widgets
+ */
+
+ .post-slider-wrapper {
+	 .widget_diviner_fp_grid_slider_2 & {
+		 padding: 2px;
+	 }
+     .slide-container {
+         position: relative;
+         .ps_slide {
+	         .widget_diviner_fp_grid_slider & {
+		         position: relative;
+		         width: 90%;
+		         overflow: hidden;
+	         }
+         }
+         .ps_title {
+             position: absolute;
+             bottom: 0;
+             background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 36%, rgba(255,255,255,0) 100%);;
+             width: 100%;
+             .size(1rem);
+             padding: 0.5em 1em;
+             h4 {
+                 .widget & {
+                     .line-clamp(1);
+                     margin-top: 0;
+                 }
+                 a {
+                     color: @bg;
+                 }
+             }
+             i {
+                 display: none;
+             }
+             .ps_cats {
+                 text-transform: uppercase;
+                 .size(.6rem);
+                 & > span > a {
+                     display: inline-block;
+                     line-height: normal;
+                     color: @bg;
+                     background: @accent;
+                     padding: 4px 8px;
+                     margin: 0 0.2em 0.2em 0;
+                     .weight(700);
+                 }
+             }
+         }
+     }
+ }

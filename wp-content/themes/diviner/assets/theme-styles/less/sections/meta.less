@@ -1,0 +1,26 @@
+// Meta Data
+
+.entry-meta, .tags-links {
+	display: flex;
+	align-items: center;
+    position: relative;
+    .size(.8em);
+	margin: 0.5em auto;
+    
+    a {
+        .transition(color .1s ease);
+        margin: auto .5em;
+    }
+    i {
+	    font-size: 1rem;
+    }
+    img {
+	    border-radius: 50%;
+    }
+    & > * {
+        display: flex;
+        align-items: center;
+        line-height: 2em;
+        margin-right: 1em;
+    }
+}

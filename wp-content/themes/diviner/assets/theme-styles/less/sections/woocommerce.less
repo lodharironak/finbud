@@ -1,0 +1,26 @@
+.woocommerce, .woocommerce-page {
+	&.woocommerce-checkout {
+		#customer_details {
+			& > * {
+				flex: 0 0 48%;
+				max-width: 48%;
+			}
+			@media screen and (max-width: 768px) {
+				& > * {
+					flex: 0 0 100%;
+					max-width: 100%;
+				}
+			}
+			.form-row {
+				width: 100%;
+				span {
+					width: 100%;
+					input, select, textarea {
+						line-height: 2;
+						border-radius: 0;
+					}
+				}
+			}
+		}
+	}
+}

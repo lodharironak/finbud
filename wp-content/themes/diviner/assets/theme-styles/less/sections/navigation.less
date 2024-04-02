@@ -1,0 +1,217 @@
+/**
+ *  Style for main navigation
+ */
+
+// Responsive navigation
+#mobile_nav_bar {
+	position: relative;
+	background-color: @accent;
+	display: flex;
+	height: 60px;
+	padding: 15px;
+	z-index: 99;
+	button {
+		background: none;
+		color: white;
+		border: 0;
+		.size(2em);
+		padding: 0;
+		display: flex;
+		align-items: center;
+		&.menu-link {
+			margin-left: auto;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		position: fixed;
+		width: 100%;
+	}
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+
+button.menu-link {
+	color: white !important;
+	padding: 0;
+	background: none;
+	border: 0;
+	.size(2em);
+	&#mobile-nav-btn {
+		
+	}
+    @media screen and (min-width: 768px) { 
+		display: none !important;
+	}
+	@media screen and (max-width: 767px) {
+		display: block !important;
+	}
+}
+
+
+#site-navigation {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+    a {
+	    .weight(400);
+    }
+    ul {
+        flex-wrap: wrap;
+        justify-content: left;
+        li {
+            margin: 5px 18px;
+            padding: 5px 0;
+            text-align: left;
+        }
+        ul {
+            text-transform: none;
+            box-shadow: none;
+            background: url(../../images/noisebg.png) #eee;
+            margin-right: 3px;
+            li {
+                margin: 0;
+                padding: 0;
+                a {
+                    padding: 12px;
+                    &:after {
+                        content: none;
+                    }
+                }
+                ul {
+                    .transform(translateX(100%));
+                }
+            }
+        }
+    }
+    ul.nav-menu > li.menu-item-has-children > a {
+       &:after {
+            display: inline-block;
+            position: relative;
+            content: "\f107";
+            font-family: "Font Awesome 5 Free";
+            .weight(700);
+            margin-left: 10px;
+        }
+    }
+    ul.sub-menu > li.menu-item-has-children > a {
+        position: relative;
+        &:after {
+            content: "\f105";
+            position: absolute;
+            font-family: "Font Awesome 5 Free";
+            .weight(700);
+            margin-left: 10px;
+            right: 15px;
+        }
+    }
+}
+
+a.panel_hide_button {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    margin: 30px 15px;
+    color: @accent;
+/*
+    i {
+        .size(24px);
+    }
+*/
+}
+
+#menu {
+  z-index: 999;
+  background: url(../../images/noisebg.png) lighten(@accent, 10%);
+  border-left: solid 1px lighten(@accent, 20%);
+  text-align: left;
+  overflow-y: auto;
+  padding-top: 46px;
+  .menu-link {
+	float: left;
+	background: rgba(255,255,255,.1);
+	border: 0;
+	padding: 14px 18px;;
+	border-radius: 0;	  
+  }
+  .go-to-top {
+	  background: none;
+	  float: left;
+	  border: 0;
+	  i {
+		  color: white;
+	  }
+  }
+  .go-to-bottom {
+	  background: none;
+	  float: right;
+	  border: 0;
+	  i {
+		  color: white;
+	  }
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  ul {
+      margin-left: 0px;
+      padding: 0px;
+      display: inline-block;
+      width: 100%;
+    li {
+      list-style: none;
+      padding: 0px;
+      position: relative;
+      .body-font;
+      a {
+        display: block;
+        color: @bg;
+        padding: 20px;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      li {
+          a {
+/*
+              &:before {
+                  content: "\f068";
+                  font-family: "FontAwesome";
+                  margin-right: 20px;
+                  font-size: 15px;
+              }
+*/
+          }
+      }
+    }
+    li.menu-item-has-children {
+        display: block;
+        span.dropdown-arrow {
+            position: absolute;
+            height: 56px;
+            width: 56px;
+            top: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background: rgba(255,255,255,.1);
+            cursor: pointer;
+            i {
+                margin: auto;
+                color: @bg;
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+        ul {
+            background: rgba(255,255,255,.1);
+        }
+    }
+    .current-menu-item > a {
+        background: rgba(0,0,0,.05);
+    }
+  }
+}

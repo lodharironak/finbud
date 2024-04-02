@@ -1,0 +1,22 @@
+
+
+.showcase {
+    text-align: center;
+    .item {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 80px;
+        }
+        .showcase-thumb {
+            margin-bottom: 15px;
+            img {
+                border-bottom: solid 5px @accent;
+            }
+        }
+        a {
+            display: block;
+            background: @accent;
+            color: @bg;
+            padding: 10px 14px;
+        }
+    }
+}

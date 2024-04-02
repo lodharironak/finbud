@@ -1,0 +1,95 @@
+/**
+ *  Styling for Featured Posts Area
+ */
+
+.featposts {
+    .featured-post {
+	    .widget_diviner_fp_grid_slider & {
+		    margin-bottom: 1em;
+	    }
+	    .widget_diviner_fp_grid & {
+		    &:nth-child(-n+2) {
+			    margin-bottom: 1em;
+		    }
+	        &:nth-child(2n+1) {
+		        padding-right: 1em;
+	        }
+	        &:nth-child {
+		        padding-left: 1em;
+	        }
+	        .fp-thumb-2& {
+	            margin-bottom: 0;
+	            padding: 2px;
+	        }
+        }
+        .fp-grid& {
+           
+        }
+        .fp-thumb& {
+            padding-bottom: 15px;
+            &:last-child {
+                border-bottom: 0px;
+            }
+        }
+        .fp-thumb-2& {
+            .fp_thumb {
+                position: relative;
+                overflow: hidden;
+                .fp_title {
+                    position: absolute;
+                    border: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 36%, rgba(255,255,255,0) 100%);;
+                    h4 {
+                        a {
+                            .color(white);
+                        }
+                    }
+                }
+            }
+        }
+        .fp_title {
+            border: solid 1px darken(@bg, 8%);
+            padding: 0.5em;
+            .fp-thumb& {
+                padding: 0 0 0 8px;
+                border: 0;
+            }
+            h4 {
+                .line-clamp(1);
+                .size(1.3em);
+                margin-top: 5px;
+            }
+            i {
+                display: none;
+            }
+            .fp_time_ago {
+                .color(@accent);
+                .size(12px);
+                font-style: italic;
+                .color(darken(@bg, 40%));
+            }
+            .posted-on {
+	            font-size: 0.9em;
+	            a {
+	            	color: #aaaaaa;
+	            }
+            }
+            .fp_cats {
+                text-transform: uppercase;
+                line-height: normal;
+                .size(.6em);
+                & > span > a {
+                    display: inline-block;
+                    color: @bg;
+                    background: @accent;
+                    .weight(700);
+                    letter-spacing: .05em;
+                    padding: 4px 8px;
+                    margin: 0 4px 4px 0px;
+                }
+            }
+        }
+    }
+}

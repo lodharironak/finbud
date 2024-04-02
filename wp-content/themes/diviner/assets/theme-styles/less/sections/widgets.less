@@ -1,0 +1,64 @@
+/**
+ *  LESS file for Sidebar
+ */
+
+ .widget {
+	 margin: 0 auto 2.5em;
+    h3 {
+	    margin-top: 0;
+    }
+    select {
+	    width: 100%;
+	    padding: 0.5em;
+    }
+    &.widget_search {
+         form {
+            label {
+	            width: 100%;
+                margin: 0;
+            }
+            input[type="search"] {
+	            width: 100%;
+	            padding:0.5em;
+	            border-radius: 0;
+            }
+            input[type="submit"] {
+				display: none;
+            }
+        }
+    }
+    &.widget_media_gallery, .wp-block-gallery {
+	    figcaption {
+		    background: darken(@bg, 5%);
+		    .weight(700);
+	    }
+    }
+}
+
+.widget_recent_entries, .widget_pages, .widget_pages, .widget_archive, .widget_categories, .widget_nav_menu, .widget_meta  {
+	& > ul {
+		padding: 0;
+		& > li:first-child {
+			margin-top: 0;
+		}
+	}
+     ul {
+        list-style: none;
+        margin: 0;
+        li {
+            margin: 0.75em auto;
+            
+            &:last-child {
+                border-bottom: none;
+            }
+            &:before {
+                content: "\f105";
+                font-family: "Font Awesome 5 Free";
+                color: #bbbbbb;
+                font-size: 0.9em;
+                font-weight: bold;
+                margin-right: 0.75em;
+            }
+         }
+     }
+ }

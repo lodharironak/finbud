@@ -1,0 +1,18 @@
+<div class="wrap">
+	     
+	        <div id="icon-themes" class="icon32"></div>
+	        <h2>Product Discount</h2>
+	         	
+	        <form method="get">
+	 			<nav class="nav-tab-wrapper">
+				  <a href="?page=simple_product" class="nav-tab nav-tab-active">Simple Product</a>
+				  <a href="?page=plugin_name&tab=settings" class="nav-tab">Variation Product</a>
+				</nav><br><br>
+				<input type="number" name="number" placeholder="% discount">
+				<?php  $pins = get_option('marker_pin'); ?>
+	        </form>
+
+	    </div>
+	    
+Current URL
+<?php echo admin_url(add_query_arg(array(), $wp->request));?>

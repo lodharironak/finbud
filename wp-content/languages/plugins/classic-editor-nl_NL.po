@@ -1,0 +1,133 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-12 19:04:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:489
+msgctxt "Editor Name"
+msgid "Classic Editor"
+msgstr "Klassieke editor"
+
+#: classic-editor.php:416 classic-editor.php:493 classic-editor.php:893
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Blok-editor"
+
+#: classic-editor.php:412 classic-editor.php:893
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Klassieke editor"
+
+#: classic-editor.php:846
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Bewerk (klassieke editor)"
+
+#: classic-editor.php:839
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Bewerk (blok-editor)"
+
+#: classic-editor.php:498
+msgid "Change settings"
+msgstr "Wijzig instellingen"
+
+#: classic-editor.php:485
+msgid "Default editor for all sites"
+msgstr "Standaard editor voor alle sites"
+
+#: classic-editor.php:481
+msgid "Editor Settings"
+msgstr "Editor instellingen"
+
+#: classic-editor.php:465
+msgid "Default Editor"
+msgstr "Standaard editor"
+
+#: classic-editor.php:880
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "Blok-editor"
+
+#: classic-editor.php:877
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "Klassieke editor"
+
+#. translators: %s: post title
+#: classic-editor.php:841
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Bewerk &#8220;%s&#8221; in de blok-editor"
+
+#: classic-editor.php:676
+msgid "Switch to block editor"
+msgstr "Wissel naar blok-editor"
+
+#: classic-editor.php:705
+msgid "Switch to classic editor"
+msgstr "Wissel naar klassieke editor"
+
+#: classic-editor.php:502
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Standaard wordt de blok-editor vervangen door de klassieke editor en gebruikers kunnen niet wisselen tussen editors."
+
+#: classic-editor.php:501
+msgid "Allow site admins to change settings"
+msgstr "Site beheerders toestaan instellingen te wijzigen"
+
+#: classic-editor.php:657
+msgid "Editor"
+msgstr "Editor"
+
+#: classic-editor.php:440
+msgid "No"
+msgstr "Nee"
+
+#: classic-editor.php:436
+msgid "Yes"
+msgstr "Ja"
+
+#: classic-editor.php:363
+msgid "Allow users to switch editors"
+msgstr "Sta gebruikers toe te wisselen tussen editors"
+
+#: classic-editor.php:362
+msgid "Default editor for all users"
+msgstr "Standaard editor voor alle gebruikers"
+
+#. Author URI of the plugin
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+msgid "WordPress Contributors"
+msgstr "WordPress Contributors"
+
+#. Description of the plugin
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Schakelt de klassieke WordPress editor in en het oude stijl scherm 'Bewerk bericht' met TinyMCE, meta boxen, enz. Ondersteunt de oudere plugins die dit scherm uitbreiden."
+
+#. Plugin Name of the plugin
+msgid "Classic Editor"
+msgstr "Classic Editor"
+
+#. translators: %s: post title
+#: classic-editor.php:848
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Bewerk &#8220;%s&#8221; in de klassieke editor"
+
+#: classic-editor.php:724
+msgid "Settings"
+msgstr "Instellingen"
