@@ -1,0 +1,1715 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Ultimate Post Grid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-28 09:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: templates/admin/translations.php:319
+msgid "# Search Results"
+msgstr ""
+
+#: includes/admin/class-wpupg-marketing.php:96
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wpupg-marketing.php:98
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wpupg-marketing.php:100
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/settings/group-permissions.php:6
+msgid ""
+"Accepts one value only. Set the minimum capability required to access "
+"specific features. For example, set to edit_others_posts to provide access "
+"to editors and administrators."
+msgstr ""
+
+#: templates/settings/group-permissions.php:12
+msgid "Access to Manage Page"
+msgstr ""
+
+#: templates/admin/translations.php:216
+msgid "Active"
+msgstr ""
+
+#: templates/admin/translations.php:197
+msgid "Adaptive Pages"
+msgstr ""
+
+#: templates/admin/translations.php:181
+msgid "Add Filter"
+msgstr ""
+
+#: templates/admin/translations.php:338
+msgid "Add Limit Items Rule"
+msgstr ""
+
+#: templates/admin/translations.php:230
+msgid "Add Option"
+msgstr ""
+
+#: templates/admin/translations.php:325
+msgid "Add Order Option"
+msgstr ""
+
+#: templates/settings/settings.php:30
+msgid "Advanced"
+msgstr ""
+
+#: templates/admin/translations.php:346
+msgid "After"
+msgstr ""
+
+#: templates/admin/translations.php:149
+msgid "Alignment"
+msgstr ""
+
+#: includes/public/class-wpupg-filter-isotope.php:56
+msgid "All"
+msgstr ""
+
+#: templates/admin/translations.php:118
+msgid "All Button Text"
+msgstr ""
+
+#: templates/settings/settings.php:23
+msgid "All documentation can be found in our Knowledge Base."
+msgstr ""
+
+#: templates/admin/translations.php:287
+msgid "All Languages"
+msgstr ""
+
+#: templates/admin/translations.php:183
+msgid "All posts that match any of the filters (OR)"
+msgstr ""
+
+#: templates/admin/translations.php:114
+msgid "All posts that match any of the selected terms"
+msgstr ""
+
+#: templates/admin/translations.php:122
+msgid "All Terms Button"
+msgstr ""
+
+#: templates/admin/translations.php:112
+msgid "Allow users to select multiple terms."
+msgstr ""
+
+#: templates/admin/translations.php:123
+msgid "Alphabetical"
+msgstr ""
+
+#: templates/admin/translations.php:125
+msgid "Alphabetical per Taxonomy"
+msgstr ""
+
+#: templates/admin/translations.php:127
+msgid "Alphabetical per Taxonomy (separate lines)"
+msgstr ""
+
+#: templates/admin/translations.php:336
+msgid "Also automatically load all posts matching a grid filter."
+msgstr ""
+
+#: templates/settings/group-animation.php:5
+msgid "Animation"
+msgstr ""
+
+#: templates/settings/group-animation.php:36
+msgid "Animation on Hide"
+msgstr ""
+
+#: templates/settings/group-animation.php:29
+msgid "Animation on Show"
+msgstr ""
+
+#: templates/admin/translations.php:269
+msgid "Are you sure you want to close without saving changes?"
+msgstr ""
+
+#: templates/admin/translations.php:286
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: templates/admin/translations.php:44
+msgid "Are you sure you want to leave this page?"
+msgstr ""
+
+#: templates/admin/translations.php:34
+msgid "Are you sure you want to remove this filter?"
+msgstr ""
+
+#: templates/admin/translations.php:229
+msgid "Are you sure you want to remove this option?"
+msgstr ""
+
+#: templates/admin/translations.php:320
+msgid "Are you sure you want to remove this order option?"
+msgstr ""
+
+#: templates/admin/translations.php:165
+msgid "Arrows"
+msgstr ""
+
+#: templates/admin/translations.php:92
+msgid "Ascending"
+msgstr ""
+
+#: templates/admin/translations.php:129
+msgid "Ascending Count"
+msgstr ""
+
+#: templates/admin/translations.php:82
+msgid "Author"
+msgstr ""
+
+#: templates/admin/translations.php:316
+msgid "Automatic"
+msgstr ""
+
+#: templates/admin/translations.php:297
+msgid "Background"
+msgstr ""
+
+#: templates/admin/translations.php:217
+msgid "Background Color"
+msgstr ""
+
+#: templates/admin/translations.php:344
+msgid "Before"
+msgstr ""
+
+#: includes/public/shortcodes/item/class-wpupg-sc-terms.php:79
+msgid "Block"
+msgstr ""
+
+#: templates/admin/translations.php:175
+msgid "Bold"
+msgstr ""
+
+#. Author of the plugin
+msgid "Bootstrapped Ventures"
+msgstr ""
+
+#: templates/admin/translations.php:296
+msgid "Border"
+msgstr ""
+
+#: templates/admin/translations.php:220
+msgid "Border Color"
+msgstr ""
+
+#: templates/admin/translations.php:221
+msgid "Border Radius"
+msgstr ""
+
+#: templates/admin/translations.php:219
+msgid "Border Width"
+msgstr ""
+
+#: templates/settings/group-layout.php:9
+msgid "Breakpoints"
+msgstr ""
+
+#: templates/admin/translations.php:289
+msgid "Bulk Edit"
+msgstr ""
+
+#: templates/admin/translations.php:193
+msgid "Button is inactive when no filter selections have been made."
+msgstr ""
+
+#: templates/admin/translations.php:139
+msgid "Button Styling"
+msgstr ""
+
+#: templates/admin/translations.php:189
+msgid "Button Text"
+msgstr ""
+
+#: templates/admin/translations.php:273
+msgid "Cancel Changes"
+msgstr ""
+
+#: templates/admin/translations.php:146
+msgid "Center"
+msgstr ""
+
+#: templates/admin/translations.php:254
+msgid "Center Grid"
+msgstr ""
+
+#: includes/admin/class-wpupg-notices.php:98
+msgid "Check out our documentation!"
+msgstr ""
+
+#: templates/admin/translations.php:326
+msgid "Checkbox Styling"
+msgstr ""
+
+#: templates/admin/translations.php:27
+msgid "Checkboxes"
+msgstr ""
+
+#: templates/admin/translations.php:329
+msgid "Checkboxes Filter Options"
+msgstr ""
+
+#: templates/admin/translations.php:295
+msgid "Checkboxes Styling"
+msgstr ""
+
+#: templates/admin/meta-box.php:48
+msgid "Choose from Library"
+msgstr ""
+
+#: includes/public/class-wpupg-filter-clear.php:42
+msgid "Clear All Selections"
+msgstr ""
+
+#: templates/admin/translations.php:188
+msgid "Clear Filter Options"
+msgstr ""
+
+#: templates/admin/translations.php:31
+msgid "Clear Filter Selections Button"
+msgstr ""
+
+#: templates/admin/translations.php:265
+msgid "Click to learn more about these options."
+msgstr ""
+
+#: templates/admin/translations.php:284
+msgid "Clone Grid"
+msgstr ""
+
+#: templates/admin/translations.php:24
+msgid "Close"
+msgstr ""
+
+#: templates/admin/translations.php:83
+msgid "Comment Count"
+msgstr ""
+
+#: templates/settings/group-general.php:31
+msgid "Compatibility"
+msgstr ""
+
+#: templates/settings/group-animation.php:13
+msgid "Container Animation Speed"
+msgstr ""
+
+#: templates/admin/translations.php:20
+msgid "Copied!"
+msgstr ""
+
+#: templates/admin/translations.php:21
+msgid "Copy to clipboard"
+msgstr ""
+
+#: templates/admin/translations.php:290
+msgid "Create"
+msgstr ""
+
+#: templates/admin/translations.php:277
+msgid "Create & Close"
+msgstr ""
+
+#: templates/admin/translations.php:275
+msgid "Create Grid"
+msgstr ""
+
+#: templates/admin/translations.php:271
+msgid "Create new Grid"
+msgstr ""
+
+#: templates/settings/group-custom-code.php:5
+msgid "Custom Code"
+msgstr ""
+
+#: templates/admin/translations.php:86
+msgid "Custom Field"
+msgstr ""
+
+#: templates/admin/translations.php:116
+msgid "Custom Field Key"
+msgstr ""
+
+#: templates/admin/translations.php:138
+msgid "Custom Field Options"
+msgstr ""
+
+#: templates/admin/meta-box.php:43
+msgid "Custom Image URL"
+msgstr ""
+
+#: templates/admin/meta-box.php:15
+msgid "Custom Link"
+msgstr ""
+
+#: templates/admin/meta-box.php:22
+msgid "Custom Link Behaviour"
+msgstr ""
+
+#: templates/admin/translations.php:131
+msgid "Custom Order"
+msgstr ""
+
+#: templates/admin/translations.php:137
+msgid "Custom Terms Order"
+msgstr ""
+
+#: templates/admin/translations.php:168
+msgid "Custom Text"
+msgstr ""
+
+#: templates/settings/group-general.php:9
+msgid "Customize Link & Image"
+msgstr ""
+
+#: templates/admin/translations.php:260
+msgid "Data Source"
+msgstr ""
+
+#: templates/admin/translations.php:80
+msgid "Date"
+msgstr ""
+
+#: templates/admin/translations.php:81
+msgid "Date Modified"
+msgstr ""
+
+#: templates/settings/group-debugging.php:5
+msgid "Debugging"
+msgstr ""
+
+#: templates/admin/translations.php:190
+msgid "Default"
+msgstr ""
+
+#: templates/admin/translations.php:249
+msgid "Default/Desktop"
+msgstr ""
+
+#: templates/admin/translations.php:285
+msgid "Delete Grid"
+msgstr ""
+
+#: templates/admin/translations.php:93
+msgid "Descending"
+msgstr ""
+
+#: templates/admin/translations.php:130
+msgid "Descending Count"
+msgstr ""
+
+#: templates/admin/translations.php:99
+msgid "Description"
+msgstr ""
+
+#: templates/admin/translations.php:236
+msgid "Description to be used in the metadata for this ItemList. Can be empty."
+msgstr ""
+
+#: templates/admin/translations.php:157
+msgid "Desktop"
+msgstr ""
+
+#: templates/admin/translations.php:266
+msgid "Desktop Preview"
+msgstr ""
+
+#: templates/admin/translations.php:144
+msgid "Display"
+msgstr ""
+
+#: templates/admin/translations.php:41
+msgid "Display all Filters"
+msgstr ""
+
+#: templates/admin/translations.php:323
+msgid "Display As"
+msgstr ""
+
+#: templates/admin/translations.php:187
+msgid "Display Filters"
+msgstr ""
+
+#: templates/admin/translations.php:201
+msgid "Divide posts in pages"
+msgstr ""
+
+#: templates/admin/translations.php:304
+msgid "Do not alter search"
+msgstr ""
+
+#: templates/settings/settings.php:22
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin/meta-box.php:30
+msgid "Don't use links"
+msgstr ""
+
+#: templates/admin/translations.php:74
+msgid "Draft Posts"
+msgstr ""
+
+#: templates/admin/translations.php:28
+msgid "Dropdown"
+msgstr ""
+
+#: templates/admin/translations.php:311
+msgid "Dropdown Filter Options"
+msgstr ""
+
+#: templates/admin/translations.php:317
+msgid "Dropdown Size"
+msgstr ""
+
+#: templates/admin/translations.php:314
+msgid "Dropdown Styling"
+msgstr ""
+
+#: templates/settings/group-animation.php:14
+msgid "Duration of the container height adjustment."
+msgstr ""
+
+#: templates/settings/group-animation.php:22
+msgid "Duration of the item animation."
+msgstr ""
+
+#: templates/admin/translations.php:17
+msgid "Dynamic Order"
+msgstr ""
+
+#: templates/admin/translations.php:322
+msgid "Dynamic Order Options"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Easily create filterable responsive grids for your posts, pages or custom "
+"post types."
+msgstr ""
+
+#: templates/admin/translations.php:270
+msgid "Edit Grid"
+msgstr ""
+
+#: templates/admin/translations.php:239
+msgid "Empty Message"
+msgstr ""
+
+#: templates/settings/group-debugging.php:10
+msgid "Enable Debug Messages"
+msgstr ""
+
+#: templates/admin/translations.php:237
+msgid "Enable deeplinking"
+msgstr ""
+
+#: templates/admin/translations.php:180
+msgid "Enable Filtering"
+msgstr ""
+
+#: templates/admin/translations.php:91
+msgid "Enable if the custom field contains numbers."
+msgstr ""
+
+#: templates/settings/group-general.php:36
+msgid ""
+"Enable to try to prevent lazy image loading for grid images, as that can "
+"mess with the grid layout."
+msgstr ""
+
+#: templates/settings/group-animation.php:30 
+#: templates/settings/group-animation.php:37
+msgid "Example"
+msgstr ""
+
+#: templates/admin/translations.php:342
+msgid "Exclude all the selected terms"
+msgstr ""
+
+#: templates/admin/translations.php:67
+msgid "Exclude password protected posts"
+msgstr ""
+
+#: templates/admin/translations.php:136
+msgid "Exclude Selected Terms"
+msgstr ""
+
+#: templates/admin/translations.php:206
+msgid "Exclude the first x items from getting displayed the grid."
+msgstr ""
+
+#: templates/admin/translations.php:350
+msgid "Exclude these items"
+msgstr ""
+
+#: includes/admin/menu/class-wpupg-admin-menu-faq.php:47
+msgid "FAQ & Support"
+msgstr ""
+
+#: templates/admin/translations.php:55
+msgid "Featured Image"
+msgstr ""
+
+#: templates/admin/translations.php:88
+msgid "Field Key"
+msgstr ""
+
+#: templates/admin/translations.php:40
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/translations.php:312
+msgid "Filter Labels & Order"
+msgstr ""
+
+#: templates/admin/translations.php:121
+msgid "Filter Terms"
+msgstr ""
+
+#: templates/admin/translations.php:283
+msgid "Filter:"
+msgstr ""
+
+#: templates/admin/translations.php:279
+msgid "filtered of"
+msgstr ""
+
+#: templates/admin/translations.php:25
+msgid "Filters"
+msgstr ""
+
+#: templates/admin/translations.php:184
+msgid "Filters Relation"
+msgstr ""
+
+#: templates/admin/translations.php:185
+msgid "Filters Style"
+msgstr ""
+
+#: templates/admin/translations.php:300
+msgid "Fixed"
+msgstr ""
+
+#: templates/admin/translations.php:243
+msgid "Fixed Item Width"
+msgstr ""
+
+#: templates/admin/translations.php:179
+msgid "Font Size"
+msgstr ""
+
+#: templates/admin/translations.php:225
+msgid "For numeric fields you can also use ranges!"
+msgstr ""
+
+#: templates/settings/group-general.php:5 templates/admin/translations.php:155
+msgid "General"
+msgstr ""
+
+#: templates/admin/translations.php:293
+msgid "Grid"
+msgstr ""
+
+#: templates/settings/group-animation.php:9
+msgid "Grid Animation"
+msgstr ""
+
+#: templates/admin/translations.php:62
+msgid "Grid of Category or Taxonomy Terms"
+msgstr ""
+
+#: templates/admin/translations.php:61
+msgid "Grid of Posts, Pages or Custom Post Types"
+msgstr ""
+
+#: templates/admin/translations.php:291
+msgid "Grids"
+msgstr ""
+
+#: templates/admin/translations.php:163
+msgid "Hide"
+msgstr ""
+
+#: templates/admin/translations.php:212
+msgid "Hide Empty"
+msgstr ""
+
+#: includes/public/class-wpupg-grid-output.php:217
+msgid "Hide filter options"
+msgstr ""
+
+#: templates/admin/translations.php:213
+msgid "Hide terms without associated posts."
+msgstr ""
+
+#: templates/admin/translations.php:315
+msgid "Highlight"
+msgstr ""
+
+#: templates/admin/translations.php:151
+msgid "horizontal"
+msgstr ""
+
+#: templates/admin/translations.php:191
+msgid "Hover"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bootstrapped.ventures/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://bootstrapped.ventures/wp-ultimate-post-grid/"
+msgstr ""
+
+#: templates/admin/translations.php:272
+msgid "I Understand and want to edit the grid"
+msgstr ""
+
+#: templates/admin/translations.php:98
+msgid "ID"
+msgstr ""
+
+#: templates/settings/group-layout.php:21
+msgid ""
+"If the screen size is smaller than this, the mobile layout will be shown."
+msgstr ""
+
+#: templates/settings/group-layout.php:14
+msgid ""
+"If the screen size is smaller than this, the tablet (or mobile) layout will "
+"be shown."
+msgstr ""
+
+#: templates/admin/translations.php:59
+msgid "Ignore post language"
+msgstr ""
+
+#: templates/admin/translations.php:46
+msgid "Image to use"
+msgstr ""
+
+#: templates/admin/translations.php:209
+msgid "Images Only"
+msgstr ""
+
+#: templates/admin/translations.php:173
+msgid "In line with the filter"
+msgstr ""
+
+#: templates/admin/translations.php:192
+msgid "Inactive Opacity"
+msgstr ""
+
+#: templates/admin/translations.php:66
+msgid "Include all posts"
+msgstr ""
+
+#: templates/admin/translations.php:202
+msgid "Infinite Scroll Load"
+msgstr ""
+
+#: templates/admin/translations.php:332
+msgid "Initial Posts"
+msgstr ""
+
+#: templates/admin/translations.php:331
+msgid "Inline"
+msgstr ""
+
+#: templates/admin/translations.php:299
+msgid "Input Colors"
+msgstr ""
+
+#: templates/admin/translations.php:302
+msgid "Input Size"
+msgstr ""
+
+#: templates/admin/translations.php:310
+msgid "Input Styling"
+msgstr ""
+
+#: templates/admin/translations.php:37
+msgid "Insert"
+msgstr ""
+
+#: templates/admin/translations.php:35
+msgid "Insert existing Grid"
+msgstr ""
+
+#: templates/admin/translations.php:39
+msgid "Insert Filter only"
+msgstr ""
+
+#: templates/admin/translations.php:38
+msgid "Insert Grid only"
+msgstr ""
+
+#: templates/admin/translations.php:36
+msgid "Insert Grid with Filters"
+msgstr ""
+
+#: templates/admin/translations.php:18
+msgid "Insert Media"
+msgstr ""
+
+#: templates/admin/translations.php:106
+msgid "Inverse Selection"
+msgstr ""
+
+#: templates/admin/translations.php:345
+msgid "Is"
+msgstr ""
+
+#: templates/admin/translations.php:26
+msgid "Isotope"
+msgstr ""
+
+#: templates/admin/translations.php:101
+msgid "Isotope Filter Options"
+msgstr ""
+
+#: templates/admin/translations.php:177
+msgid "Italic"
+msgstr ""
+
+#: templates/admin/translations.php:263
+msgid "Item"
+msgstr ""
+
+#: templates/settings/group-animation.php:43
+msgid "Item Animation Delay"
+msgstr ""
+
+#: templates/settings/group-animation.php:21
+msgid "Item Animation Speed"
+msgstr ""
+
+#: templates/admin/translations.php:248
+msgid "Item Margin"
+msgstr ""
+
+#: templates/admin/translations.php:242
+msgid "Item Sizing"
+msgstr ""
+
+#: templates/admin/translations.php:246
+msgid "Item Width"
+msgstr ""
+
+#: templates/admin/translations.php:252
+msgid "Items in rows"
+msgstr ""
+
+#: templates/admin/translations.php:253
+msgid "Items in rows (force same height)"
+msgstr ""
+
+#: templates/admin/translations.php:107
+msgid "Items that match the selection will be hidden."
+msgstr ""
+
+#: templates/admin/translations.php:89
+msgid "Key of the custom field to order the grid by."
+msgstr ""
+
+#: templates/admin/translations.php:328
+msgid ""
+"Key of the custom field to use for the slider. Should have numerical values."
+msgstr ""
+
+#: templates/admin/translations.php:117
+msgid "Key of the custom field to use."
+msgstr ""
+
+#: templates/admin/translations.php:164
+msgid "Label"
+msgstr ""
+
+#: templates/admin/translations.php:186
+msgid "Labels Style"
+msgstr ""
+
+#: templates/admin/translations.php:78
+msgid "Language"
+msgstr ""
+
+#: templates/settings/group-layout.php:5 templates/admin/translations.php:262
+msgid "Layout"
+msgstr ""
+
+#: templates/admin/translations.php:250
+msgid "Layout Style"
+msgstr ""
+
+#: templates/admin/translations.php:226
+msgid "Learn More"
+msgstr ""
+
+#: templates/admin/translations.php:145
+msgid "Left"
+msgstr ""
+
+#: templates/admin/translations.php:245
+msgid "Let item template control sizing"
+msgstr ""
+
+#: templates/admin/translations.php:261
+msgid "Limit Items"
+msgstr ""
+
+#: templates/admin/translations.php:134
+msgid "Limit Terms"
+msgstr ""
+
+#: templates/admin/translations.php:208
+msgid "Limit the total number of items in the grid."
+msgstr ""
+
+#: templates/admin/translations.php:207
+msgid "Limit Total # Items"
+msgstr ""
+
+#: templates/admin/translations.php:343
+msgid "Limit Type"
+msgstr ""
+
+#: templates/admin/translations.php:51
+msgid "Link Entire Item"
+msgstr ""
+
+#: templates/admin/translations.php:56
+msgid "Link Target"
+msgstr ""
+
+#: templates/admin/translations.php:53
+msgid "Link To"
+msgstr ""
+
+#: templates/admin/translations.php:204
+msgid "Load more posts on filter"
+msgstr ""
+
+#: templates/admin/translations.php:335
+msgid "Load Posts on Filter"
+msgstr ""
+
+#: templates/admin/translations.php:337
+msgid "Make sure to select some post types first."
+msgstr ""
+
+#: templates/admin/translations.php:339
+msgid "Make sure to select some taxonomies first."
+msgstr ""
+
+#: templates/admin/translations.php:120
+msgid "Make the field empty to hide the button."
+msgstr ""
+
+#: templates/admin/translations.php:52
+msgid ""
+"Make the full item a link. Other links inside the item will still work as "
+"well. When disabled you are responsible for adding a link."
+msgstr ""
+
+#: includes/admin/class-wpupg-manage-modal.php:40
+msgid "Manage"
+msgstr ""
+
+#: templates/admin/translations.php:224
+msgid ""
+"Manually set the values you want to show in this filter, in the order you "
+"want."
+msgstr ""
+
+#: templates/admin/translations.php:222
+msgid "Margin"
+msgstr ""
+
+#: templates/admin/translations.php:251
+msgid "Masonry (Pinterest like)"
+msgstr ""
+
+#: templates/admin/translations.php:195
+msgid "Max # Buttons"
+msgstr ""
+
+#: templates/admin/translations.php:85
+msgid "Menu Order (pages)"
+msgstr ""
+
+#: templates/admin/translations.php:240
+msgid "Message to show when there are no items to display."
+msgstr ""
+
+#: templates/admin/translations.php:235
+msgid "Metadata Description"
+msgstr ""
+
+#: templates/admin/translations.php:233
+msgid "Metadata Name"
+msgstr ""
+
+#: templates/settings/group-animation.php:16 
+#: templates/settings/group-animation.php:24 
+#: templates/settings/group-animation.php:46
+msgid "milliseconds"
+msgstr ""
+
+#: templates/admin/translations.php:303
+msgid "Minimum Width"
+msgstr ""
+
+#: templates/admin/translations.php:159
+msgid "Mobile"
+msgstr ""
+
+#: templates/settings/group-layout.php:20
+msgid "Mobile Breakpoint"
+msgstr ""
+
+#: templates/admin/translations.php:268
+msgid "Mobile Preview"
+msgstr ""
+
+#: includes/class-wp-ultimate-post-grid.php:141
+msgid "More information on updating the plugin"
+msgstr ""
+
+#: templates/admin/translations.php:111
+msgid "Multi-select"
+msgstr ""
+
+#: templates/admin/translations.php:115
+msgid "Multi-select Behaviour"
+msgstr ""
+
+#: templates/admin/translations.php:64
+msgid "Multiple post types are available in WP Ultimate Post Grid Premium"
+msgstr ""
+
+#: templates/admin/translations.php:96
+msgid "Name"
+msgstr ""
+
+#: templates/admin/translations.php:234
+msgid "Name to be used in the metadata for this ItemList. Can be empty."
+msgstr ""
+
+#: templates/admin/translations.php:200
+msgid "No pagination (all posts visible at once)"
+msgstr ""
+
+#: templates/admin/translations.php:174
+msgid "Normal"
+msgstr ""
+
+#: includes/admin/class-wpupg-notices.php:98
+msgid "Not sure how to get started?"
+msgstr ""
+
+#: templates/admin/translations.php:247
+msgid "Number of Columns"
+msgstr ""
+
+#: templates/admin/translations.php:90
+msgid "Numeric Field"
+msgstr ""
+
+#: templates/admin/translations.php:205
+msgid "Offset First # Items"
+msgstr ""
+
+#: templates/admin/translations.php:172
+msgid "On its own line"
+msgstr ""
+
+#: templates/admin/translations.php:210
+msgid "Only display items that have a featured or custom image set."
+msgstr ""
+
+#: templates/admin/translations.php:211
+msgid "Only display terms that have a grod image set."
+msgstr ""
+
+#: templates/admin/translations.php:76
+msgid "Only if readable"
+msgstr ""
+
+#: templates/admin/translations.php:182
+msgid "Only posts that match all of the filters (AND)"
+msgstr ""
+
+#: templates/admin/translations.php:113
+msgid "Only posts that match all selected terms"
+msgstr ""
+
+#: templates/admin/translations.php:68
+msgid "Only show password protected posts"
+msgstr ""
+
+#: templates/admin/translations.php:77
+msgid "Only show private posts when a visitor has read permission for them."
+msgstr ""
+
+#: templates/admin/translations.php:135
+msgid "Only show/hide selected terms in the filter."
+msgstr ""
+
+#: templates/admin/translations.php:349
+msgid "Only these items"
+msgstr ""
+
+#: templates/admin/meta-box.php:29 templates/admin/translations.php:58
+msgid "Open in new tab"
+msgstr ""
+
+#: templates/admin/meta-box.php:28 templates/admin/translations.php:57
+msgid "Open in same tab"
+msgstr ""
+
+#: templates/admin/translations.php:227
+msgid "Option"
+msgstr ""
+
+#: templates/admin/translations.php:33
+msgid "Optional Identifier"
+msgstr ""
+
+#: templates/admin/translations.php:32
+msgid "Optional Label"
+msgstr ""
+
+#: templates/admin/translations.php:94
+msgid "Order"
+msgstr ""
+
+#: templates/admin/translations.php:87
+msgid "Order By"
+msgstr ""
+
+#: templates/admin/translations.php:330
+msgid "Order of the Checkboxes terms."
+msgstr ""
+
+#: templates/admin/translations.php:313
+msgid "Order of the Dropdown terms."
+msgstr ""
+
+#: templates/admin/translations.php:133
+msgid "Order of the Isotope term buttons."
+msgstr ""
+
+#: templates/admin/translations.php:324
+msgid "Order Options"
+msgstr ""
+
+#: templates/admin/translations.php:30
+msgid "Other"
+msgstr ""
+
+#: templates/admin/translations.php:231
+msgid "Output ItemList Metadata"
+msgstr ""
+
+#: templates/admin/translations.php:232
+msgid ""
+"Output ItemList Metadata for the grid items that appear on initial load. "
+"This allows some metadata types (recipes, movies, ...) to appear in the "
+"Google Carousel."
+msgstr ""
+
+#: templates/admin/meta-box.php:19
+msgid "Override the default link for this post."
+msgstr ""
+
+#: templates/admin/meta-box.php:40
+msgid "Override the link behaviour for this item."
+msgstr ""
+
+#: templates/admin/translations.php:292
+msgid "Overview"
+msgstr ""
+
+#: templates/admin/translations.php:223
+msgid "Padding"
+msgstr ""
+
+#: templates/admin/translations.php:264
+msgid "Pagination"
+msgstr ""
+
+#: templates/admin/translations.php:65
+msgid "Password Protected"
+msgstr ""
+
+#: templates/admin/translations.php:73
+msgid "Pending Posts"
+msgstr ""
+
+#: templates/admin/translations.php:301
+msgid "Percentage"
+msgstr ""
+
+#: templates/settings/group-permissions.php:5
+msgid "Permissions"
+msgstr ""
+
+#: templates/admin/translations.php:306
+msgid "Placeholder text"
+msgstr ""
+
+#: templates/admin/translations.php:167
+msgid "Plus & Minus"
+msgstr ""
+
+#: templates/admin/translations.php:54
+msgid "Post"
+msgstr ""
+
+#: templates/admin/translations.php:100
+msgid "Post Count"
+msgstr ""
+
+#: templates/admin/translations.php:69
+msgid "Post Status"
+msgstr ""
+
+#: includes/public/class-wpupg-post-type.php:38
+msgctxt "post type general name"
+msgid "Grids"
+msgstr ""
+
+#: includes/public/class-wpupg-post-type.php:39
+msgctxt "post type singular name"
+msgid "Grid"
+msgstr ""
+
+#: templates/settings/group-general.php:14 templates/admin/translations.php:63
+msgid "Post Types"
+msgstr ""
+
+#: templates/admin/translations.php:334
+msgid "Posts Loaded on Click"
+msgstr ""
+
+#: templates/admin/translations.php:333
+msgid "Posts Loaded on Scroll"
+msgstr ""
+
+#: templates/admin/translations.php:194
+msgid "Posts per page"
+msgstr ""
+
+#: templates/admin/translations.php:16
+msgid "Premium Only"
+msgstr ""
+
+#: templates/settings/group-general.php:35
+msgid "Prevent Lazy Image Loading"
+msgstr ""
+
+#: templates/admin/translations.php:71
+msgid "Private Posts"
+msgstr ""
+
+#: templates/settings/group-custom-code.php:10
+msgid "Public CSS"
+msgstr ""
+
+#: templates/admin/translations.php:70
+msgid "Published Posts"
+msgstr ""
+
+#: templates/admin/translations.php:84
+msgid "Random"
+msgstr ""
+
+#: templates/admin/translations.php:351
+msgid "Remove"
+msgstr ""
+
+#: templates/admin/translations.php:294
+msgid "Remove Notice"
+msgstr ""
+
+#: templates/admin/translations.php:124
+msgid "Reverse Alphabetical"
+msgstr ""
+
+#: templates/admin/translations.php:126
+msgid "Reverse Alphabetical per Taxonomy"
+msgstr ""
+
+#: templates/admin/translations.php:128
+msgid "Reverse Alphabetical per Taxonomy (separate lines)"
+msgstr ""
+
+#: templates/admin/translations.php:147
+msgid "Right"
+msgstr ""
+
+#: templates/admin/translations.php:281
+msgid "rows"
+msgstr ""
+
+#: templates/admin/translations.php:256
+msgid "RTL Mode"
+msgstr ""
+
+#: templates/admin/translations.php:276
+msgid "Save & Close"
+msgstr ""
+
+#: templates/admin/translations.php:274
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/translations.php:72
+msgid "Scheduled Posts"
+msgstr ""
+
+#: templates/admin/translations.php:23
+msgid "Select"
+msgstr ""
+
+#: templates/admin/translations.php:43
+msgid "Select Filter"
+msgstr ""
+
+#: templates/admin/translations.php:42
+msgid "Select Grid"
+msgstr ""
+
+#: templates/admin/translations.php:22
+msgid "Select Media"
+msgstr ""
+
+#: templates/admin/translations.php:75
+msgid "Select the post statusses you want to display in the grid."
+msgstr ""
+
+#: templates/admin/translations.php:105
+msgid ""
+"Selecting a parent term will also match posts with one of its child terms."
+msgstr ""
+
+#: templates/admin/translations.php:104
+msgid "Selecting parent terms matches children"
+msgstr ""
+
+#: templates/admin/translations.php:347
+msgid "Seperate IDs with a semicolon"
+msgstr ""
+
+#: templates/admin/translations.php:19
+msgid "Set Custom Image"
+msgstr ""
+
+#: templates/admin/translations.php:244
+msgid "Set number of Columns"
+msgstr ""
+
+#: includes/public/class-wpupg-settings.php:36
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/translations.php:288
+msgid "Shortcode"
+msgstr ""
+
+#: templates/admin/translations.php:160
+msgid "Show"
+msgstr ""
+
+#: templates/admin/translations.php:109
+msgid "Show Count"
+msgstr ""
+
+#: templates/admin/translations.php:108
+msgid "Show Empty"
+msgstr ""
+
+#: includes/public/class-wpupg-grid-output.php:216
+msgid "Show filter options"
+msgstr ""
+
+#: templates/admin/translations.php:110
+msgid "Show number of posts for each term."
+msgstr ""
+
+#: templates/admin/translations.php:341
+msgid "Show only the selected terms"
+msgstr ""
+
+#: templates/admin/translations.php:318
+msgid "Show search"
+msgstr ""
+
+#: templates/admin/translations.php:13
+msgid "Show terms that don't have any posts."
+msgstr ""
+
+#: templates/admin/translations.php:278
+msgid "Showing"
+msgstr ""
+
+#: templates/admin/translations.php:142
+msgid "Side - Filters on the left side to the grid"
+msgstr ""
+
+#: templates/admin/translations.php:143
+msgid "Side - Filters on the right side to the grid"
+msgstr ""
+
+#: templates/admin/translations.php:15
+msgid "Slider"
+msgstr ""
+
+#: templates/admin/translations.php:327
+msgid "Slider Filter Options"
+msgstr ""
+
+#: templates/admin/translations.php:97
+msgid "Slug"
+msgstr ""
+
+#: templates/admin/translations.php:282
+msgid "Sort:"
+msgstr ""
+
+#: templates/admin/translations.php:102
+msgid "Source"
+msgstr ""
+
+#: templates/admin/translations.php:148
+msgid "Spaced evenly"
+msgstr ""
+
+#: templates/admin/translations.php:152
+msgid "Spacing"
+msgstr ""
+
+#: templates/admin/translations.php:214
+msgid "Specific Rules"
+msgstr ""
+
+#: templates/settings/group-animation.php:44
+msgid ""
+"Staggers item transitions, so items transition incrementally after one "
+"another."
+msgstr ""
+
+#: templates/admin/translations.php:178
+msgid "Style"
+msgstr ""
+
+#: templates/admin/translations.php:158
+msgid "Tablet"
+msgstr ""
+
+#: templates/settings/group-layout.php:13
+msgid "Tablet Breakpoint"
+msgstr ""
+
+#: templates/admin/translations.php:267
+msgid "Tablet Preview"
+msgstr ""
+
+#: templates/settings/group-general.php:22 templates/admin/translations.php:95
+msgid "Taxonomies"
+msgstr ""
+
+#: templates/admin/translations.php:103
+msgid "Taxonomies Order"
+msgstr ""
+
+#: templates/admin/translations.php:45
+msgid "Template"
+msgstr ""
+
+#: includes/public/class-wpupg-template-editor.php:36
+msgid "Template Editor"
+msgstr ""
+
+#: templates/admin/translations.php:132
+msgid "Term Order"
+msgstr ""
+
+#: templates/admin/translations.php:340
+msgid "Terms"
+msgstr ""
+
+#: templates/admin/translations.php:298 
+#: includes/public/shortcodes/item/class-wpupg-sc-terms.php:78
+msgid "Text"
+msgstr ""
+
+#: templates/admin/translations.php:218
+msgid "Text Color"
+msgstr ""
+
+#: templates/admin/translations.php:29
+msgid "Text Search"
+msgstr ""
+
+#: templates/admin/translations.php:305
+msgid "Text Search Filter Options"
+msgstr ""
+
+#: templates/admin/translations.php:307
+msgid "Text shown as placeholder for the search input."
+msgstr ""
+
+#: templates/admin/translations.php:119
+msgid "Text shown on the \"All\" button."
+msgstr ""
+
+#: templates/admin/translations.php:321
+msgid "The default grid order cannot be deleted"
+msgstr ""
+
+#: templates/admin/translations.php:196
+msgid ""
+"The maximum number of buttons to show. Will add gaps if the number of pages "
+"exceeds this. Should be a minimum of 5."
+msgstr ""
+
+#: templates/admin/translations.php:154
+msgid "The width also depends on the width of the individual filters inside"
+msgstr ""
+
+#: templates/settings/group-custom-code.php:11
+msgid "This custom styling will be output on your website."
+msgstr ""
+
+#: templates/admin/translations.php:215
+msgid "This feature is only available in"
+msgstr ""
+
+#: templates/admin/translations.php:156
+msgid "This filter is only available in"
+msgstr ""
+
+#: templates/admin/translations.php:255
+msgid ""
+"This option will only work with Masonry layout style and the same layout for "
+"tablet and mobile."
+msgstr ""
+
+#: templates/admin/translations.php:79
+msgid "Title"
+msgstr ""
+
+#: templates/admin/translations.php:161
+msgid "Toggle (Closed)"
+msgstr ""
+
+#: templates/admin/translations.php:162
+msgid "Toggle (Open)"
+msgstr ""
+
+#: templates/admin/translations.php:170
+msgid "Toggle Closed Text"
+msgstr ""
+
+#: templates/admin/translations.php:171
+msgid "Toggle Open Text"
+msgstr ""
+
+#: templates/admin/translations.php:169
+msgid "Toggle Style"
+msgstr ""
+
+#: templates/admin/translations.php:140
+msgid "Top - Each filter on its own line"
+msgstr ""
+
+#: templates/admin/translations.php:141
+msgid "Top - Filters inline with eachother"
+msgstr ""
+
+#: templates/admin/translations.php:280
+msgid "total"
+msgstr ""
+
+#: templates/admin/translations.php:166
+msgid "Triangles"
+msgstr ""
+
+#: templates/admin/translations.php:199
+msgid "Type"
+msgstr ""
+
+#: templates/admin/translations.php:348
+msgid "Type and press ENTER to add values"
+msgstr ""
+
+#: templates/admin/translations.php:60
+msgid "Type of Grid"
+msgstr ""
+
+#: templates/admin/translations.php:176
+msgid "Underlined"
+msgstr ""
+
+#: templates/admin/menu/addons.php:15
+msgid "Upgrade WP Ultimate Post Grid"
+msgstr ""
+
+#: includes/admin/menu/class-wpupg-admin-menu-addons.php:37
+msgid "Upgrade WPUPG"
+msgstr ""
+
+#: templates/admin/translations.php:203
+msgid "Use a \"Load More\" button"
+msgstr ""
+
+#: templates/admin/translations.php:47
+msgid "Use custom grid image"
+msgstr ""
+
+#: templates/admin/translations.php:259
+msgid "Use different layout for Mobile"
+msgstr ""
+
+#: templates/admin/translations.php:258
+msgid "Use different layout for Tablet"
+msgstr ""
+
+#: templates/admin/translations.php:48
+msgid "Use featured image of latest post with this term"
+msgstr ""
+
+#: templates/admin/translations.php:49
+msgid "Use featured image of oldest post with this term"
+msgstr ""
+
+#: templates/admin/translations.php:50
+msgid "Use featured image of random post with this term"
+msgstr ""
+
+#: templates/admin/meta-box.php:27
+msgid "Use grid default"
+msgstr ""
+
+#: includes/public/shortcodes/item/class-wpupg-sc-custom-field.php:44 
+#: includes/public/shortcodes/item/class-wpupg-sc-date.php:59
+msgid ""
+"Use the PHP date format. Leave empty to use default WordPress date format "
+"from the Settings > General page."
+msgstr ""
+
+#: templates/admin/translations.php:309
+msgid "Use WP Extended Search to control what the filter actually searches."
+msgstr ""
+
+#: templates/admin/translations.php:241
+msgid "Used to identify the grid in the shortcode."
+msgstr ""
+
+#: templates/admin/translations.php:228
+msgid "Value"
+msgstr ""
+
+#: templates/admin/translations.php:150
+msgid "vertical"
+msgstr ""
+
+#: includes/admin/class-wpupg-notices.php:137
+msgid "WARNING: WP Ultimate Post Grid 3.0.0+"
+msgstr ""
+
+#: includes/admin/class-wpupg-notices.php:97
+msgid "Welcome to WP Ultimate Post Grid"
+msgstr ""
+
+#: templates/admin/translations.php:238
+msgid ""
+"When deeplinking is enabled the URL will automatically get updated to "
+"reflect the position in the grid. Visitors will be able to copy that link to "
+"go back to it."
+msgstr ""
+
+#: templates/settings/group-debugging.php:11
+msgid ""
+"When enabled the plugin will output debug messages in the JavaScript console."
+msgstr ""
+
+#: templates/admin/translations.php:257
+msgid "When enabled, the grid will position items from Right To Left."
+msgstr ""
+
+#: templates/admin/translations.php:198
+msgid ""
+"When enabled, the pages automatically adjust after filtering. Otherwise, "
+"filtering only filters the current page."
+msgstr ""
+
+#: templates/settings/group-general.php:15
+msgid "Which post types do you want to enable this option for?"
+msgstr ""
+
+#: templates/settings/group-general.php:23
+msgid "Which taxonomies do you want to enable this option for?"
+msgstr ""
+
+#: templates/admin/translations.php:153
+msgid "Width"
+msgstr ""
+
+#: templates/admin/translations.php:308
+msgid "WP Extended Search"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Ultimate Post Grid"
+msgstr ""
+
+#: includes/public/class-wpupg-template-shortcodes.php:120
+msgid "WP Ultimate Post Grid Premium only"
+msgstr ""
+
+#: includes/public/class-wpupg-template-editor.php:36
+msgid "WPUPG Template Editor"
+msgstr ""
+
+#: templates/settings/group-general.php:10
+msgid ""
+"You can set a custom link or image for every item in the grid by editing the "
+"individual post."
+msgstr ""
+
+#: templates/admin/translations.php:14
+msgid "You've selected features that are only available in"
+msgstr ""

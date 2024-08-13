@@ -77,8 +77,8 @@
                     </ul>
                 </li>
                 <li><a href="#">Development Finance</a></li>
-                <li><a href="#"> Bridging Loans</a></li>
-                <li><a href="#"> Commercial Finance</a></li>
+                <li><a href="#">Bridging Loans</a></li>
+                <li><a href="#">Commercial Finance</a></li>
             </ul>
         </div>
     </nav>

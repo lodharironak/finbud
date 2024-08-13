@@ -1,0 +1,175 @@
+.wpupg-template-property {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wpupg-template-property {
+    padding: 4px 0;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    .wpupg-template-property-label {
+        font-weight: bold;
+        padding: 4px 0;
+    }
+
+    // Open dropdown menus to top to prevent scroll/overflow issues.
+    .Select-menu-outer {
+        position: absolute !important;
+        top: auto !important;
+        bottom: calc(100% - 1px) !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        border-top-left-radius: 5px !important;
+        border-top-right-radius: 5px !important;
+    }
+    
+    .is-open .Select-control {
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-right-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+    }
+    
+    .wpupg-template-property-value {
+        &.wpupg-template-property-value-font {
+            width: 100%;
+
+            input {
+                width: 100%;
+            }
+            .wpupg-template-property-input {
+                margin-top: 5px;
+            }
+        }
+        &.wpupg-template-property-value-text {
+            width: 100%;
+
+            input {
+                width: 100%;
+            }
+        }
+
+        &.wpupg-template-property-value-align,
+        &.wpupg-template-property-value-border,
+        &.wpupg-template-property-value-float,
+        &.wpupg-template-property-value-dropdown {
+            width: 100%;
+        }
+
+        &.wpupg-template-property-value-icon {
+            a {
+                font-size: 0.9em;
+            }
+
+            .wpupg-template-property-icon-select {
+                max-width: 16px;
+                max-height: 16px;
+            }
+
+            .wpupg-template-property-icon-selected-container {
+                display: flex;
+
+                .wpupg-template-property-icon-select {
+                    display: flex;
+                    margin-right: 5px;
+                }
+            }
+
+            .wpupg-template-property-icon-select-container {
+                width: 100%;
+
+                .wpupg-template-property-icon-select-container-icons {
+                    margin-top: 5px;
+                }
+                
+                .wpupg-template-property-icon-select {
+                    display: inline-block;
+                    cursor: pointer;
+                    margin: 2px;
+                }
+            }
+        }
+
+        &.wpupg-template-property-value-color,
+        &.wpupg-template-property-value-toggle {
+            .wpupg-template-property-input {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        &.wpupg-template-property-value-font_size,
+        &.wpupg-template-property-value-size {
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 60px;
+            }
+
+            .wpupg-template-property-value-size-unit {
+                margin-left: 5px;
+                cursor: pointer;
+                color: #999;
+
+                &.wpupg-template-property-value-size-unit-selected {
+                    color: #444;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &.wpupg-template-property-value-percentage {
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 60px;
+            }
+
+            .wpupg-template-property-number-suffix {
+                margin-left: 5px;
+            }
+        }
+
+        &.wpupg-template-property-value-image_size {
+            width: 100%;
+
+            label {
+                font-size: 0.8em;
+                font-style: italic;
+                margin-bottom: 3px;
+            }
+
+            .Select-menu-outer {
+                position: relative;
+            }
+
+            .wpupg-template-property-input-width-height {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                input {
+                    width: 40%;
+                    max-width: 75px;
+
+                    &:first-child {
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -373,7 +373,7 @@ if(!defined('ABSPATH')) {
 											<div class="wpallexport-clear"></div>
 											<div class="input export_to_xls_upgrade_notice" style="vertical-align:middle; position: relative; margin-top: 48px;">														
 												<span class="wpallexport-free-edition-notice">									
-													<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-excel"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Export to Excel','wp_all_export_plugin');?></a>
+													<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-excel"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Export to Excel','wp_all_export_plugin');?></a>
 													<p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.','wp_all_export_plugin');?></p>
 												</span>														
 											</div>
@@ -507,7 +507,7 @@ if(!defined('ABSPATH')) {
 
 								<textarea id="wp_all_export_main_code" name="wp_all_export_main_code"><?php echo "<?php\n\n?>";?></textarea>						
 								<div class="wpallexport-free-edition-notice" style="margin: 15px 0;">
-									<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=custom-php"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to use Custom PHP Functions','wp_all_export_plugin');?></a>
+									<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=custom-php"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to use Custom PHP Functions','wp_all_export_plugin');?></a>
 									<p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.','wp_all_export_plugin');?></p>
 								</div>
 								<div class="input" style="margin-top: 10px;">
@@ -561,14 +561,14 @@ if(!defined('ABSPATH')) {
 
 				<div class="input custom_xml_upgrade_notice wpallexport-custom-xml-template" style="vertical-align:middle; position: relative; top: -5px;">
 					<span class="wpallexport-free-edition-notice" style="margin: 0 0 10px;">									
-						<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=custom-xml"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Export Custom XML','wp_all_export_plugin');?></a>
+						<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=custom-xml"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Export Custom XML','wp_all_export_plugin');?></a>
 						<p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.','wp_all_export_plugin');?></p>
 					</span>
 				</div>
 
 				<div class="input custom_xml_upgrade_notice wpallexport-google-merchants-template" style="vertical-align:middle; position: relative; top: -5px;">
 					<span class="wpallexport-free-edition-notice" style="margin: 0 0 10px;">
-						<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=google-merchant-center"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Export To Google Merchant Center','wp_all_export_plugin');?></a>
+						<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=google-merchant-center"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Export To Google Merchant Center','wp_all_export_plugin');?></a>
 						<p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.','wp_all_export_plugin');?></p>
 					</span>
 				</div>

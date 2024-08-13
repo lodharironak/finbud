@@ -1,0 +1,54 @@
+#wpupg-template-main {
+    .wpupg-main-container-name {
+        input {
+            display: inline-block;
+            width: 85px;
+            font-size: 18px;
+            margin-right: 5px;
+            padding-right: 0;
+        }
+    }
+
+    .wpupg-main-container-preview {
+        max-width: 600px;
+        margin: 0 auto;
+
+        &, & > p {
+            font-size: 16px;
+        }
+
+        .wpupg-main-container-preview-item {
+            font-size: 14px;
+            margin: 15px auto 0;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .wpupg-item {
+            margin: 25px auto 0 auto;
+            position: relative;
+        }
+    }
+    .CodeMirror {
+        margin-top: 10px;
+        height: 350px;
+        border: 1px solid #ddd;
+    }
+
+    .wpupg-template-block-hovering {
+        outline: 2px dashed blue;
+        outline-offset: 2px;
+    }
+
+    &.wpupg-template-main-add {
+        .wpupg-template-block-hovering {
+            outline-color: green;
+        }
+    }
+
+    &.wpupg-template-main-remove {
+        .wpupg-template-block-hovering {
+            outline-color: red;
+        }
+    }
+}

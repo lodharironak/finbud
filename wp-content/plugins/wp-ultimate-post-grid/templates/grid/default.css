@@ -1,0 +1,9 @@
+.wpupg-template {
+    width: 100%;
+    max-width: 200px; /* wpupg_max_width type=size */
+    background-color: #ffffff; /* wpupg_background type=color */
+    font-size: 14px; /* wpupg_main_font_size type=font_size */
+    line-height: 1.5em; /* wpupg_main_line_height type=font_size */
+    color: #333333; /* wpupg_main_text type=color */
+    margin: 5px;
+}

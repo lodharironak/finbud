@@ -79,7 +79,7 @@ if(!defined('ABSPATH')) {
                                 </span>
 
                                 <div class="wpallexport-free-edition-notice php-rte-upgrade" style="margin: 15px 0; padding: 20px; width: 600px; display: none;">
-                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=real-time-exports"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to export each '. $display_cpt_name .' in real time.','wp_all_export_plugin');?></a>
+                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=real-time-exports"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to export each '. $display_cpt_name .' in real time.','wp_all_export_plugin');?></a>
                                     <p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.', 'wp_all_export_plugin'); ?></p>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@ if(!defined('ABSPATH')) {
 
                                 <div class="wpallexport-free-edition-notice only-export-posts-once" style="margin: 15px 0; padding: 20px; width: 600px; display: none;">
                                     <a class="upgrade_link" target="_blank"
-                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-only-new-stuff">
+                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-only-new-stuff">
                                         <?php $noun = empty($post['cpt']) ? __('records', 'wp_all_export_plugin') : esc_html(wp_all_export_get_cpt_name($post['cpt'])); ?>
                                         <?php esc_html_e('Upgrade to the Pro edition of WP All Export to only export '.  $noun .' once.','wp_all_export_plugin');?></a>
                                     <p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.', 'wp_all_export_plugin'); ?></p>
@@ -119,7 +119,7 @@ if(!defined('ABSPATH')) {
                                 ?>
                                 <div class="wpallexport-free-edition-notice only-export-modified-posts" style="margin: 15px 0; padding: 20px; width: 600px; display: none;">
                                     <a class="upgrade_link" target="_blank"
-                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-only-modified-stuff">
+                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-only-modified-stuff">
                                         <?php $noun = empty($post['cpt']) ? __('records', 'wp_all_export_plugin') : esc_html(wp_all_export_get_cpt_name($post['cpt'])); ?>
                                         <?php esc_html_e('Upgrade to the Pro edition of WP All Export to only export '.  $noun .' that have been modified since last export.','wp_all_export_plugin');?></a>
                                     <p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.', 'wp_all_export_plugin'); ?></p>
@@ -160,7 +160,7 @@ if(!defined('ABSPATH')) {
 
                                 <div class="wpallexport-free-edition-notice client-mode-notice" style="margin: 15px 0; padding: 20px; width: 600px; display: none;">
                                     <a class="upgrade_link" target="_blank"
-                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=client-mode">
+                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=client-mode">
                                         <?php $noun = empty($post['cpt']) ? __('records', 'wp_all_export_plugin') : esc_html(wp_all_export_get_cpt_name($post['cpt'])); ?>
                                         <?php esc_html_e('Upgrade to the Pro edition of WP All Export to allow non-admins to run this export in Client Mode.','wp_all_export_plugin');?></a>
                                     <p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.', 'wp_all_export_plugin'); ?></p>

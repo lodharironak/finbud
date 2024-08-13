@@ -1,0 +1,21 @@
+.wpupg-admin-modal-field-filter-responsive-header,
+.wpupg-admin-modal-field-filter-responsive {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .wpupg-admin-modal-field-filter-responsive-header-size,
+    .wpupg-admin-modal-field-filter-responsive-size {
+        flex: 160px 0 0;
+    }
+}
+
+.wpupg-admin-modal-field-filter-responsive-header {
+    font-weight: bold;
+}
+
+.wpupg-admin-modal-field-filter-responsive-toggle-text {
+    input[type="text"] {
+        max-width: 140px;
+    }
+}

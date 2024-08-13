@@ -82,9 +82,7 @@ get_header();
   <div class="alert result-message"></div>
 </div>
 </div>
-<div class="api-data">
-  <iframe src="https://www.customer-feedback.be/assurinvest/score-widget.php" width="650" height="480"></iframe>
-</div>
+
 
 
 <link href= 

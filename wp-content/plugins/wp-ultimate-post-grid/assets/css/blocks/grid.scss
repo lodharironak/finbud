@@ -1,0 +1,11 @@
+.wp-block-wp-ultimate-post-grid-grid-with-filters,
+.wp-block-wp-ultimate-post-grid-grid {
+    .wpupg-grid {
+        display: flex;
+        flex-wrap: wrap;
+
+        .wpupg-item {
+            position: relative;
+        }
+    }
+}

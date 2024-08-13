@@ -1,0 +1,35 @@
+.wpupg-link {
+    cursor: pointer;
+    text-decoration: none;
+
+    &.wpupg-link-inline-button {
+        display: inline-block;
+        margin: 0 5px 5px 0;
+    }
+
+    &.wpupg-link-button {
+        display: table;
+        margin: 5px auto;
+    }
+
+    &.wpupg-link-wide-button {
+        display: block;
+        width: auto;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    &.wpupg-link-button,
+    &.wpupg-link-inline-button,
+    &.wpupg-link-wide-button {
+        border-width: 1px;
+        border-style: solid;
+        padding: 5px;
+    }
+}
+
+.rtl .wpupg-link {
+    &.wpupg-link-inline-button {
+        margin: 0 0 5px 5px;
+    }
+}

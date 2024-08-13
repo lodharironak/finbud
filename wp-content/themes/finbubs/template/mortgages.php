@@ -16,29 +16,34 @@
 			<section class="main-body">
 				<!-- Banner Section -->
 				<div class="banner-section bridging-section ">
-					<?php 
-					$banner = get_field("mortage-banner");
-					foreach( $banner as $image ){
-						?>
-						<?php 
-						$img = $image['banner-img'];
-						if( !empty($img) ){
-							?>
-							<div style="background-image: url(<?php echo $img['url'];?>)">
-								<div class="banner-contain ">
-									<h1><?php echo $image['banner-head']; ?></h1>
-									<p><?php echo $image['banner-content']; ?></p>
-									<h3><?php echo $image['banner-no']; ?></h3>
-									<p><?php echo $image['banner-week']; ?></p>
-									<?php $btn = $image['banner-btn']; 
-									$link_url = $btn['url'];
-									$link_title = $btn['title'];
-									?>
-									<a class="btn" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-								</div>
-							</div>
-						<?php }?>
-					<?php }?>
+				    <?php 
+				    $banner = get_field("mortage-banner");
+				    if (!empty($banner) && is_array($banner)) {
+				        foreach ($banner as $image) {
+				            $img = $image['banner-img'];
+				            if (!empty($img)) {
+				    ?>
+				    <div style="background-image: url(<?php echo $img['url'];?>)">
+				        <div class="banner-contain ">
+				            <h1><?php echo $image['banner-head']; ?></h1>
+				            <p><?php echo $image['banner-content']; ?></p>
+				            <h3><?php echo $image['banner-no']; ?></h3>
+				            <p><?php echo $image['banner-week']; ?></p>
+				            <?php 
+				            $btn = $image['banner-btn']; 
+				            $link_url = $btn['url'];
+				            $link_title = $btn['title'];
+				            ?>
+				            <a class="btn" href="<?php echo esc_url($link_url); ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo esc_html($link_title); ?><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+				        </div>
+				    </div>
+				    <?php 
+				            }
+				        }
+				    } else {
+				        echo "No banners found.";
+				    }
+				    ?>
 				</div>
 				<?php
 				if( have_rows('content') ):

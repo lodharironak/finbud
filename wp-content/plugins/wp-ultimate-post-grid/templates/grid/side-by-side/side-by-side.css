@@ -1,0 +1,21 @@
+.wpupg-template-side-by-side {
+	max-width: 500px; /* wpupg_max_width type=size */
+	border-style: solid; /* wpupg_border_style type=border */
+	border-width: 1px; /* wpupg_border_width type=size */
+	border-color: #000000; /* wpupg_border type=color */
+	border-radius: 0px; /* wpupg_border_radius type=size */
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.wpupg-template-side-by-side .wpupg-item-image {
+	padding: 5px; /* wpupg_meta_padding type=size */
+	margin: 0 auto;
+	font-size: 0;
+  	flex-shrink: 0;
+}
+.wpupg-template-side-by-side .wpupg-meta-container {
+	padding: 5px; /* wpupg_meta_padding type=size */
+	flex: 1;
+	min-width: 100px;
+}

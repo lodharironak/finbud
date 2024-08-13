@@ -278,92 +278,94 @@ $(function(){
 
 /**** Register Form ****/
 jQuery(document).ready(function($) {
- var loginn = $('body').hasClass('loggedin');
- console.log(loginn);
- if (loginn == true) {
-      $('.logout').show();
-      $('.sign-in').hide();
-      $('.registration').hide();
- } else {
-      $('.logout').hide();
-      $('.sign-in').show();
-      $('.registration').show();
- }
+  var loginn = $('body').hasClass('loggedin');
+  console.log(loginn);
+  if (loginn == true) {
+    $('.logout').show();
+    $('.sign-in').hide();
+    $('.registration').hide();
+  } 
+  else {
+    $('.logout').hide();
+    $('.sign-in').show();
+    $('.registration').show();
+  }
 
- $('#btn-new-user').click(function(event) {
+  $('#btn-new-user').click(function(event) {
     if (event.preventDefault) {
         event.preventDefault();
-    } else {
+    }
+    else {
         event.returnValue = false;
     }
 
-    $('.indicator').show();
-    $('.result-message').hide();
+  $('.indicator').show();
+  $('.result-message').hide();
 
-    var reg_nonce = $('#vb_new_user_nonce').val();
-    var reg_user = $('#vb_username').val();
-    var reg_pass = $('#vb_pass').val();
-    var reg_mail = $('#vb_email').val();
-    var reg_name = $('#vb_name').val();
-    var reg_nick = $('#vb_nick').val();
+  var reg_nonce = $('#vb_new_user_nonce').val();
+  var reg_user = $('#vb_username').val();
+  var reg_pass = $('#vb_pass').val();
+  var reg_mail = $('#vb_email').val();
+  var reg_name = $('#vb_name').val();
+  var reg_nick = $('#vb_nick').val();
 
-    var ajax_url = ajax_posts.ajaxurl;
+  var ajax_url = ajax_posts.ajaxurl;
 
-    data = {
-      action: 'register_user',
-      nonce: reg_nonce,
-      user: reg_user,
-      pass: reg_pass,
-      mail: reg_mail,
-      name: reg_name,
-      nick: reg_nick,
-    };
+  data = {
+    action: 'register_user',
+    nonce: reg_nonce,
+    user: reg_user,
+    pass: reg_pass,
+    mail: reg_mail,
+    name: reg_name,
+    nick: reg_nick,
+  };
 
-    $.post(ajax_url, data, function(response) {
-      $('.indicator').hide();
+  $.post(ajax_url, data, function(response) {
+    $('.indicator').hide();
 
-      if(response === '1') {
-        $('.result-message').html('Your submission is complete.');
-        $('.result-message').addClass('alert-success');
-        $('.result-message').show();
+    if(response === '1') {
+      $('.result-message').html('Your submission is complete.');
+      $('.result-message').addClass('alert-success');
+      $('.result-message').show();
 
-        // Redirect to sign-in page after successful registration
-        window.location.href = 'http://192.168.0.28/finbud/signin'; // Replace 'your-sign-in-page-url' with the actual URL of your sign-in page
-      } else {
-        $('.result-message').html(response);
-        $('.result-message').addClass('alert-danger');
-        $('.result-message').show();
-      }
-    });
- });
+      // Redirect to sign-in page after successful registration
+      window.location.href = 'http://192.168.0.28/finbud/signin'; // Replace 'your-sign-in-page-url' with the actual URL of your sign-in page
+    } else {
+      $('.result-message').html(response);
+      $('.result-message').addClass('alert-danger');
+      $('.result-message').show();
+    }
+  });
+});
 });
 
 /***** Log In *****/
 
 jQuery('#bt-new-user').on('click', function(e) {
-    e.preventDefault(); 
-    var username = jQuery('#vb_username').val();
-    var password = jQuery('#vb_pass').val();
-    // console.log('username' + username);
-    // console.log('password' + password);
-   
-    // console.log(currentPage);
-    jQuery.ajax({
-        type: 'POST',
-        dataType: 'JSON',
-        url: ajax_posts.ajaxurl,
-        data: {
-            action: 'user_sign_in',
-            usr: username,
-            pwd: password
-        },
-        success: function (data) {
-          $('#rsUserRegistration').text(data.message);
-            if (data.loggedin == true){
-              window.location.href = ajax_posts.redirecturl;
-            }
-        }
-    });
+  e.preventDefault(); 
+  var username = jQuery('#vb_username').val();
+  var password = jQuery('#vb_pass').val();
+  // console.log('username' + username);
+  // console.log('password' + password);
+ 
+  // console.log(currentPage);
+  jQuery.ajax({
+      type: 'POST',
+      dataType: 'JSON',
+      url: ajax_posts.ajaxurl,
+      data: {
+          action: 'user_sign_in',
+          usr: username,
+          pwd: password
+      },
+      success: function (data) {
+        $('#rsUserRegistration').text(data.message);
+          if (data.loggedin == true){
+            window.location.href = ajax_posts.redirecturl;
+          }
+      }
+  });
 });
 
 
@@ -385,13 +387,13 @@ jQuery(document).ready(function($) {
 });
 
 jQuery( function( $ ) {
-    let timeout;
-    $('.woocommerce').on('change', 'input.qty', function(){
-      if ( timeout !== undefined ) {
-        clearTimeout( timeout );
-      }
-      timeout = setTimeout(function() {
-        $("[name='update_cart']").trigger("click"); // trigger cart update
-      }, 1000 ); // 1 second delay, half a second (500) seems comfortable too
-    });
-  } );
+  let timeout;
+  $('.woocommerce').on('change', 'input.qty', function(){
+    if ( timeout !== undefined ) {
+      clearTimeout( timeout );
+    }
+    timeout = setTimeout(function() {
+      $("[name='update_cart']").trigger("click"); // trigger cart update
+    }, 1000 ); // 1 second delay, half a second (500) seems comfortable too
+  });
+} );

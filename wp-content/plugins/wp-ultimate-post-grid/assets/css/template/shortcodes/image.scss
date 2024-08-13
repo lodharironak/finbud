@@ -1,0 +1,22 @@
+.wpupg-item-image {
+    max-width: 100%;
+    font-size: 0;
+    line-height: 0;
+
+    img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    // Compatibility.
+    .dpsp-pin-it-wrapper {
+        margin: 0 auto;
+    }
+}
+
+.wpupg-block-image-circle img {
+    border-radius: 50%;
+}

@@ -1,0 +1,89 @@
+.wpupg-admin-modal-create,
+.wpupg-admin-modal-edit {
+    width: 95%;
+    height: 95%;
+
+    .wpupg-admin-modal-grid-edit-container {
+        margin-bottom: 40px;
+    }
+
+    .wpupg-admin-modal-grid-edit-sections {
+        flex: none;
+        text-align: center;
+        margin: -10px -10px 5px -10px;
+        padding: 5px 0;
+        background-color: #ebebeb;
+        border-bottom: 1px solid #999;
+
+        a {
+            display: inline-block;
+            margin: 2px 5px;
+            text-decoration: none;
+            cursor: pointer;
+            opacity: 0.7;
+
+            &:hover, &.active {
+                text-decoration: underline;
+                opacity: 1;
+            }
+        }
+    }
+
+    .wpupg-admin-modal-grid-preview-container {
+        margin-bottom: 5px;
+
+        .wpupg-admin-modal-grid-preview-header {
+            span {
+                display: block;
+                cursor: pointer;
+                margin-bottom: 10px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                opacity: 0.7;
+                font-size: 14px;
+
+                &.active {
+                    text-decoration: underline;
+                    opacity: 1;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .wpupg-admin-modal-grid-preview {
+            display: block;
+            margin: 0 auto;
+            border: 1px dashed #999;
+        }
+
+        .wpupg-admin-modal-grid-preview-tablet {
+            max-width: 800px; 
+        }
+        .wpupg-admin-modal-grid-preview-mobile {
+            max-width: 375px; 
+        }
+    }
+}
+
+@media screen and (min-width: 782px) {
+    .wpupg-admin-modal-create,
+    .wpupg-admin-modal-edit {
+        .wpupg-admin-modal-grid-preview-container {
+            .wpupg-admin-modal-grid-preview-header {
+                span {
+                    display: inline-block;
+
+                    margin-right: 10px;
+                    margin-bottom: 0;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

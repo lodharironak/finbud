@@ -51,7 +51,7 @@ $isGoogleFeed = false;
             <div class="tab-content selected normal-tab" id="tab1-content">
                 <h3 style="margin-top: 30px; margin-bottom: 30px;"><?php esc_html_e("Click to Download", 'wp_all_export_plugin'); ?></h3>
                 <div class="wpallexport-free-edition-notice" id="migrate-orders-notice" style="padding: 20px; margin-bottom: 35px; display: none;">
-                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=migrate-orders"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Migrate Orders', PMXE_Plugin::LANGUAGE_DOMAIN);?></a>
+                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=migrate-orders"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Migrate Orders', PMXE_Plugin::LANGUAGE_DOMAIN);?></a>
                     <p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.', PMXE_Plugin::LANGUAGE_DOMAIN);?></p>
                 </div>
 
@@ -98,7 +98,7 @@ $isGoogleFeed = false;
                 <p>
                     <?php esc_html_e("Automatically send your data to over 500 apps with Zapier.", 'wp_all_export_plugin'); ?>
                     <br/>
-                    <a href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=zapier" target="_blank">
+                    <a href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=zapier" target="_blank">
                         <?php esc_html_e("Upgrade to the Pro edition of WP All Export for Zapier integration", 'wp_all_export_plugin'); ?>
                     </a>
                     <br/>

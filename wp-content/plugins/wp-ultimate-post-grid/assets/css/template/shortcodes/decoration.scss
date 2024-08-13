@@ -1,0 +1,32 @@
+.wpupg-icon-decoration-line,
+.wpupg-header-decoration-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &.wpupg-align-left {
+        .wpupg-decoration-line {
+            margin-left: 15px;
+        }
+    }
+    &.wpupg-align-right {
+        .wpupg-decoration-line {
+            margin-right: 15px;
+        }
+    }
+    &.wpupg-align-center {
+        .wpupg-decoration-line:first-child {
+            margin-right: 15px;
+        }
+        .wpupg-decoration-line:last-child {
+            margin-left: 15px;
+        }
+    }
+}
+
+.wpupg-decoration-line {
+    flex: auto;
+    height: 1px;
+
+    border-bottom: 1px solid black
+}

@@ -1,0 +1,43 @@
+.wpupg-grid-with-filters {
+    &.wpupg-grid-with-filters-side {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .wpupg-grid-container {
+            min-width: 300px;
+            flex: auto;
+        }
+    }
+
+    &.wpupg-grid-with-filters-side-left {
+        .wpupg-grid-filters {
+            margin-right: 20px;
+        }
+    }
+
+    &.wpupg-grid-with-filters-side-right {
+        flex-direction: row-reverse;
+
+        .wpupg-grid-filters {
+            margin-left: 20px;
+        }
+    }
+}
+
+.wpupg-grid {
+    margin-left: auto;
+    margin-right: auto;
+
+    &.wpupg-grid-loading {
+        .wpupg-item {
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+        }
+    }
+}
+
+.wpupg-grid-empty {
+    display: none;
+}

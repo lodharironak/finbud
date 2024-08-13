@@ -294,7 +294,6 @@ function weichie_load_more() {
 		<?php
 	}
 	echo $response;
-	exit;
 }
 add_action('wp_ajax_weichie_load_more', 'weichie_load_more');
 add_action('wp_ajax_nopriv_weichie_load_more', 'weichie_load_more');
@@ -329,7 +328,7 @@ function woocommerce_price_range($range){
 	$terms = get_terms( array(
 		'taxonomy' => 'product_cat',
 		'hide_empty' => true,
-		'posts_per_page' => 5,
+		'posts_per_page' => 3,
 	) );
 	echo '<div class="cat_box">
 	<h2>Categories</h2>';
@@ -485,7 +484,7 @@ function woocommerce_product_get() {
 
 	$args =array( 
 		'post_type' => 'product',
-		'posts_per_page' => 6,
+		'posts_per_page' => 3,
 		'paged' => $_POST['paged'],
 		'meta_query' => array(
 			array(
@@ -500,7 +499,7 @@ function woocommerce_product_get() {
 		$args['tax_query'] =  array(
 			array(
 				'taxonomy' => 'product_cat',
-				'posts_per_page' => 6,
+				'posts_per_page' => 3,
 				'field' => 'slug',
 				'terms' => $selcategory,
 				'operator' => 'IN',
@@ -977,3 +976,131 @@ add_filter( 'site_transient_update_plugins', 'remove_update_notifications' );
 
 add_filter( 'auto_update_theme', '__return_false' );
 add_filter( 'auto_update_plugin', '__return_false' );
+
+
+add_action('woocommerce_before_checkout_billing_form', 'display_product_titles_before_billing_form');
+
+function display_product_titles_before_billing_form() {
+    global $woocommerce;
+    $items = $woocommerce->cart->get_cart();
+
+    foreach($items as $item => $values) { 
+        $_product = $values['data'];
+        echo '<p>' . $_product->get_title() . '</p>';
+    }
+}
+
+// function custom_column_header($columns) {
+//     $columns['custom_column'] = 'Custom Column';
+//     return $columns;
+// }
+// add_filter('manage_edit-shop_order_columns', 'custom_column_header');
+
+
+// function custom_column_content($column) {
+//     global $post, $woocommerce;
+//     if ($column == 'custom_column') {
+//         // Get order ID
+//         $order_id = $post->ID;
+
+        
+//         echo 'Custom data';
+//     }
+// }
+// add_action('manage_shop_order_posts_custom_column', 'custom_column_content', 10, 1);
+
+
+// function custom_column_sortable($columns) {
+    
+//     $columns['custom_column'] = 'custom_column';
+//     return $columns;
+// }
+// add_filter('manage_edit-shop_order_sortable_columns', 'custom_column_sortable');
+
+
+// function custom_column_orderby($query) {
+//     if (!is_admin() || !$query->is_main_query()) {
+//         return;
+//     }
+
+    
+//     $orderby = $query->get('orderby');
+//     if ($orderby == 'custom_column') {
+//         $query->set('meta_key', 'custom_column_meta_key'); 
+//         $query->set('orderby', 'meta_value');
+//     }
+// }
+// add_action('pre_get_posts', 'custom_column_orderby');
+
+// Randomly generate a date within a specific range
+function randomDate($start, $end) {
+    // Convert start and end dates to DateTime objects
+    $startDate = new DateTime($start);
+    $endDate = new DateTime($end);
+    // Calculate the range in seconds
+    $range = $endDate->format('U') - $startDate->format('U');
+    // Generate a random number within the range
+    $randomTime = mt_rand(0, $range);
+    // Add the random time to the start date
+    $randomDate = $startDate->add(new DateInterval('PT' . $randomTime . 'S'));
+    // Return the formatted date
+    return $randomDate->format('Y-m-d');
+}
+
+// Function to add delivery date meta to orders
+add_action('woocommerce_thankyou', 'iwt_order_qty_log_function');
+function iwt_order_qty_log_function($order_id) {
+    $order = wc_get_order($order_id);
+
+    // Define the date range (adjust as needed)
+    $start = '2024-04-01'; // Start date
+    $end = '2024-10-30';   // End date
+    // Generate a random date within the defined range
+    $randomDate = randomDate($start, $end);
+    $order->update_meta_data('iwt_del_date', $randomDate);
+    $order->save();
+}
+
+// Add custom column to order list
+add_filter('manage_edit-shop_order_columns', 'add_wc_order_list_custom_column');
+function add_wc_order_list_custom_column($columns) {
+    $columns['iwt_order_date'] = __('Custom Date', 'woocommerce');
+    return $columns;
+}
+
+// Display custom column content
+add_action('manage_shop_order_posts_custom_column', 'display_wc_order_list_custom_column_content', 10, 1);
+function display_wc_order_list_custom_column_content($column) {
+    global $post, $the_order;
+
+    if ($column == 'iwt_order_date') {
+        // Get order delivery date from meta
+        $value = $the_order->get_meta('iwt_del_date');
+        if (!empty($value)) {
+            echo $value;
+        } else {
+            echo '<small>(<em>no value</em>)</small>';
+        }
+    }
+}
+
+// Make custom column sortable
+add_filter('manage_edit-shop_order_sortable_columns', 'rudr_sortable_column');
+function rudr_sortable_column($columns) {
+    $columns['iwt_order_date'] = 'iwt_order_date';
+    return $columns;
+}
+
+// Handle sorting for custom column
+add_action('pre_get_posts', 'iwt_custom_column_orderby');
+function iwt_custom_column_orderby($query) {
+    if (!is_admin() || !$query->is_main_query()) {
+        return;
+    }
+
+    $orderby = $query->get('orderby');
+    if ($orderby == 'iwt_order_date') {
+        $query->set('meta_key', 'iwt_del_date');
+        $query->set('orderby', 'meta_value');
+    }
+}

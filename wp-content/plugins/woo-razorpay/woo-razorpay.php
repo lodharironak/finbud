@@ -3,8 +3,8 @@
  * Plugin Name: 1 Razorpay: Signup for FREE PG
  * Plugin URI: https://razorpay.com
  * Description: Razorpay Payment Gateway Integration for WooCommerce.Razorpay Welcome Back Offer: New to Razorpay? Sign up to enjoy FREE payments* of INR 2 lakh till March 31st! Transact before January 10th to grab the offer.
- * Version: 4.6.2
- * Stable tag: 4.6.2
+ * Version: 4.6.7
+ * Stable tag: 4.6.7
  * Author: Team Razorpay
  * WC tested up to: 7.9.0
  * Author URI: https://razorpay.com
@@ -82,9 +82,7 @@ function razorpay_woocommerce_block_support()
 
 function woocommerce_razorpay_init()
 {
-    add_action("woocommerce_update_options_advanced", 'hposInstrumentation');
-
-    function hposInstrumentation()
+    add_action("woocommerce_update_options_advanced", function()
     {
         $rzp = new WC_Razorpay();
 
@@ -119,7 +117,7 @@ function woocommerce_razorpay_init()
 
             update_option('rzp_hpos', 'no');
         }
-    }
+    });
 
     if (!class_exists('WC_Payment_Gateway') || class_exists('WC_Razorpay'))
     {
@@ -147,6 +145,7 @@ function woocommerce_razorpay_init()
         const DEFAULT_SUCCESS_MESSAGE        = 'Thank you for shopping with us. Your account has been charged and your transaction is successful. We will be processing your order soon.';
 
         const PREPAY_COD_URL = '1cc/orders/cod/convert';
+        const ONE_CC_MERCHANT_PREF = 'one_cc_merchant_preference';
 
         protected $supportedWebhookEvents = array(
             'payment.authorized',
@@ -270,9 +269,17 @@ function woocommerce_razorpay_init()
             // 1cc flags should be enabled only if merchant has access to 1cc feature
             $is1ccAvailable = false;
             $isAccCreationAvailable = false;
+            $merchantPreferences = [];
 
-            // Load preference API call only for administrative interface page.
-            if (current_user_can('administrator'))
+            $merchantPreferences = get_transient(self::ONE_CC_MERCHANT_PREF);
+
+            // Load preference API call only for administrative interface + razorpay payment settings page.
+            if (current_user_can('administrator') &&
+                (empty($merchantPreferences['features']['one_click_checkout']) === true) &&
+                (isset($_GET['tab']) === true) &&
+                ($_GET['tab'] === 'checkout') &&
+                (isset($_GET['section']) === true) &&
+                ($_GET['section'] === 'razorpay'))
             {
                 if (!empty($this->getSetting('key_id')) && !empty($this->getSetting('key_secret')))
                 {
@@ -280,21 +287,22 @@ function woocommerce_razorpay_init()
 
                       $api = $this->getRazorpayApiInstance();
                       $merchantPreferences = $api->request->request('GET', 'merchant/1cc_preferences');
-
-                      if (!empty($merchantPreferences['features']['one_click_checkout'])) {
-                        $is1ccAvailable = true;
-                      }
-
-                      if (!empty($merchantPreferences['features']['one_cc_store_account'])) {
-                        $isAccCreationAvailable = true;
-                      }
+                      set_transient( self::ONE_CC_MERCHANT_PREF, $merchantPreferences, 7200 );
 
                     } catch (\Exception $e) {
                       rzpLogError($e->getMessage());
                     }
-
                 }
             }
+
+            if (!empty($merchantPreferences['features']['one_click_checkout'])) {
+                $is1ccAvailable = true;
+            }
+
+            if (!empty($merchantPreferences['features']['one_cc_store_account'])) {
+                $isAccCreationAvailable = true;
+            }
+            
 
             if ($is1ccAvailable) {
               $this->visibleSettings = array_merge($this->visibleSettings, array(
@@ -1531,7 +1539,6 @@ EOT;
 
             $data = array(
                 'amount'    =>  (int) round($amount * 100),
-                'speed'     => 'optimum',
                 'notes'     =>  array(
                     'reason'                =>  $reason,
                     'order_id'              =>  $orderId,
@@ -1546,8 +1553,7 @@ EOT;
                     ->fetch($paymentId)
                     ->refund($data);
 
-                if (isset($refund) === true and
-                    isset($refund->id) === true)
+                if (isset($refund) === true)
                 {
                     $order->add_order_note(__('Refund Id: ' . $refund->id, 'woocommerce'));
                     /**
@@ -1566,36 +1572,7 @@ EOT;
             }
             catch(Exception $e)
             {
-                rzpLogInfo('Refund failed with error message :- ' . $e->getMessage());
-
-                rzpLogInfo('Refund reinitiated with normal speed.');
-
-                try
-                {
-                    $data['speed'] = 'normal';
-
-                    $refund = $client->payment
-                                    ->fetch($paymentId)
-                                    ->refund($data);
-
-                    if (isset($refund) === true and
-                        isset($refund->id) === true)
-                    {
-                        $order->add_order_note(__('Refund Id: ' . $refund->id, 'woocommerce'));
-
-                        do_action('woo_razorpay_refund_success', $refund->id, $orderId, $refund);
-
-                        rzpLogInfo('Refund ID = ' . $refund->id .
-                                    ' , Refund speed requested = ' . $refund->speed_requested .
-                                    ' , Refund speed processed = ' . $refund->speed_processed);
-                    }
-
-                    return true;
-                }
-                catch(Exception $e)
-                {
-                    return new WP_Error('error', __($e->getMessage(), 'woocommerce'));
-                }
+                return new WP_Error('error', __($e->getMessage(), 'woocommerce'));
             }
         }
 

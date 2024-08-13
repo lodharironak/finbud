@@ -4,7 +4,7 @@ if(!defined('ABSPATH')) {
 }
 ?>
 <div class="wpallexport-free-edition-notice" style="padding: 20px; margin-bottom: 10px;">
-	<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=filters"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Add Filters','wp_all_export_plugin');?></a>
+	<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=filters"><?php esc_html_e('Upgrade to the Pro edition of WP All Export to Add Filters','wp_all_export_plugin');?></a>
 	<p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.','wp_all_export_plugin');?></p>
 </div>	
 <div class="wp_all_export_rule_inputs">

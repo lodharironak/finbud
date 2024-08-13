@@ -1,0 +1,43 @@
+$devices: desktop, tablet, mobile;
+
+@each $device in $devices {
+    .wpupg-responsive-#{$device} {
+        &.wpupg-filter-container-#{$device}-hide { display: none; }
+
+        // Hide toggle icons by default, show when needed.
+        .wpupg-filter-toggle-container {
+            display: none;
+        }
+        &.wpupg-filter-container-#{$device}-toggle {
+            .wpupg-filter-label {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+            .wpupg-filter-toggle-container {
+                display: inline-block;
+                margin-right: 5px;;
+            }
+        }
+
+        &.wpupg-filter-container-#{$device}-toggle_closed {
+            .wpupg-filter-toggle-open,
+            .wpupg-filter {
+                display: none;
+            }
+        }
+
+        &.wpupg-filter-container-#{$device}-toggle_open {
+            .wpupg-filter-toggle-closed {
+                display: none;
+            }
+        }
+    }
+}
+
+.wpupg-filter-toggle-container {
+    svg {
+        height: 0.8em;
+        width: 0.8em;
+    }
+}

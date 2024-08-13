@@ -747,7 +747,7 @@ if ( ! class_exists('XmlExportEngine') ){
                     if($slug == 'cf' && XmlExportEngine::$is_user_export) {
                         ?>
                         <div class="wpallexport-free-edition-notice">
-                            <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-user-meta">Upgrade to the Pro edition of WP All Export to Export User Meta</a>
+                            <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-user-meta">Upgrade to the Pro edition of WP All Export to Export User Meta</a>
                         </div>
                         <?php
                     }
@@ -756,7 +756,7 @@ if ( ! class_exists('XmlExportEngine') ){
                     if($slug == 'other' && XmlExportEngine::$is_user_export) {
                         ?>
                         <div class="wpallexport-free-edition-notice">
-                            <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-advanced-user-data">Upgrade to the Pro edition of WP All Export to Export Advanced Fields</a>
+                            <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-advanced-user-data">Upgrade to the Pro edition of WP All Export to Export Advanced Fields</a>
                         </div>
                         <?php
                     }
@@ -889,7 +889,7 @@ if ( ! class_exists('XmlExportEngine') ){
 
                             <div class="wpallexport-free-edition-notice">
                                 <a class="upgrade_link" target="_blank"
-                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206907&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-advanced-custom-fields">Upgrade to the ACF Export Package to Export Advanced Custom Fields</a>
+                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839953&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-advanced-custom-fields">Upgrade to the ACF Export Package to Export Advanced Custom Fields</a>
                             </div>
                         </div>
                         <?php

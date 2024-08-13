@@ -1,0 +1,39 @@
+.wpupg-manage-templates-template {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed #999;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &.wpupg-manage-templates-template-selected,
+    &:hover {
+        border-style: solid;
+        border-color: #444;
+    }
+
+    &.wpupg-manage-templates-template-selected {
+        background-color: #ddd;
+        font-weight: bold;
+    }
+
+    &.wpupg-manage-templates-template-premium {
+        color: darkred;
+        border-color: darkred;
+    }
+}
+
+.wpupg-manage-templates-template-fields {
+    text-align: center;
+    margin: 10px 0;
+}
+.wpupg-manage-templates-template-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    button {
+        margin: 0 5px !important;
+    }
+}

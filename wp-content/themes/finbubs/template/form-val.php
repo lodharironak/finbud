@@ -91,31 +91,90 @@ get_header();
         });
     </script>
 </head>
+<?php
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    global $wpdb;
+
+    $name = sanitize_text_field($_POST["username"]);
+    $email = sanitize_email($_POST["email"]);
+    $number = sanitize_text_field($_POST["number"]);
+    $age = sanitize_text_field($_POST["age"]);
+    $dob = sanitize_text_field($_POST["date"]);
+
+    
+    if (empty($name) || empty($email) || empty($number) || empty($age) || empty($dob)) {
+        $response = array(
+            'success' => false,
+            'message' => 'Please fill out all fields.'
+        );
+    } elseif (!is_email($email)) {
+        $response = array(
+            'success' => false,
+            'message' => 'Invalid email address.'
+        );
+    } else {
+        $existing_email = $wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM {$wpdb->prefix}contact_submission WHERE email = %s", $email));
+
+        if ($existing_email > 0) {
+            $response = array(
+                'success' => false,
+                'message' => 'Email address is already registered.'
+            );
+        } else {
+       
+            $table_name = $wpdb->prefix . 'contact_submission';
+       
+            $data = array(
+                'username' => $name,
+                'email' => $email,
+                'number' => $number,
+                'age' => $age,
+                'dob' => $dob,
+            );
+
+            $insert_result = $wpdb->insert($table_name , $data);
+            if ($insert_result === false) {
+                $response = array(
+                    'success' => false,
+                    'message' => 'Failed to store data in the database.'
+                );
+            } else {
+                $response = array(
+                    'success' => true,
+                    'message' => 'Data stored in the database successfully.'
+                );
+            }
+        }
+    }
+    echo json_encode($response);
+    exit;
+}
+?>
 <body>
     <div class="container mt-3">
         <h2 class="text-center">Registration Form</h2>
-        <form id="registrationForm" action="" method="post">
+        <form id="registrationForm" action="#" method="post">
             <div class="mb-3 mt-3">
-                <label for="name">Name:</label>
+                <label for="name">Name*</label>
                 <input type="text" class="form-control" id="username" placeholder="Enter Your Name" name="username">
             </div>
             <div class="mb-3">
-                <label for="email">Email:</label>
+                <label for="email">Email*</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email">
             </div>
             <div class="mb-3 mt-3">
-                <label for="number">Phone Number:</label>
+                <label for="number">Phone Number*</label>
                 <input type="number" class="form-control" id="number" placeholder="Enter Phone Number" name="number">
             </div>
             <div class="mb-3">
-                <label for="age">Age:</label>
+                <label for="age">Age*</label>
                 <input type="number" class="form-control" id="age" placeholder="Enter Your Age" name="age">
             </div>
             <div class="mb-3 mt-3">
-                <label for="date">DOB:</label>
+                <label for="date">DOB*</label>
                 <input type="date" class="form-control" id="date" placeholder="Enter Your Date" name="date">
             </div>
-            <div class="mb-3">
+            <!-- <div class="mb-3">
                 <label for="Image">Image</label>
                 <input type="file" class="form-control" id="Image" placeholder="Enter Your Image" name="uploadfile" accept="image/jpeg">
             </div>
@@ -130,7 +189,7 @@ get_header();
                     <input type="checkbox" id="traveling" name="hobbies[]" value="Traveling" style="margin-right: 10px;">
                     <label for="traveling" class="mr-3">Traveling</label>
                 </div>
-            </div>
+            </div> -->
             <button type="submit" class="btn btn-primary text-center">Submit</button>
         </form>
     </div>

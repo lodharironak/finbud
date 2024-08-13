@@ -165,14 +165,14 @@ do_action('pmxe_addons_html');
 
                                 <div class="wpallexport-free-edition-notice wpallexport-user-export-notice">
                                     <p><?php esc_html_e('The User Export Package is Required to Export Users.', 'wp_all_export_plugin'); ?></p>
-                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206903&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-users"><?php
+                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839954&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-users"><?php
                                         _e('Purchase the User Export Package','wp_all_export_plugin');?></a>
                                 </div>
 
 								<div class="wpallexport-free-edition-notice wpallexport-shop_customer-export-notice">
                                     <p><?php esc_html_e('The User Export Package is Required to Export Customers.', 'wp_all_export_plugin'); ?></p>
 
-                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206903&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-customers"><?php
+                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839954&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-customers"><?php
                                         esc_html_e('Purchase the User Export Package','wp_all_export_plugin');?></a>
 								</div>
 
@@ -185,7 +185,7 @@ do_action('pmxe_addons_html');
 
                                 <div class="wpallexport-free-edition-notice wpallexport-shop_coupon-export-notice">
                                     <p><?php esc_html_e('The WooCommerce Export Package is Required to Export Coupons.', 'wp_all_export_plugin'); ?></p>
-                                        <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206899&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-coupons"><?php
+                                        <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-coupons"><?php
                                             esc_html_e('Purchase the WooCommerce Export Package','wp_all_export_plugin');?></a>
 
                                 </div>
@@ -195,7 +195,7 @@ do_action('pmxe_addons_html');
                                     <p><?php esc_html_e('WP All Export Pro and the WooCommerce Export Add-On are Required to Export WooCommerce Reviews.', 'wp_all_export_plugin'); ?></p>
 
                                     <a class="upgrade_link" target="_blank"
-                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206899&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-reviews"><?php
+                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-reviews"><?php
 		                                _e('Purchase the WooCommerce Export Package','wp_all_export_plugin');?></a>
 
 
@@ -213,7 +213,7 @@ do_action('pmxe_addons_html');
                                     <p><?php esc_html_e('WP All Export Pro is Required to Export Comments.', 'wp_all_export_plugin'); ?></p>
 
                                     <a class="upgrade_link" target="_blank"
-                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-comments"><?php
+                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-comments"><?php
                                         esc_html_e('Purchase WP All Export Pro','wp_all_export_plugin');?></a>
 
                                 </div>
@@ -224,7 +224,7 @@ do_action('pmxe_addons_html');
                                     <p><?php esc_html_e('WP All Export Pro is Required to Export Taxonomies.', 'wp_all_export_plugin'); ?></p>
 
                                     <a class="upgrade_link" target="_blank"
-                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-taxonomies"><?php
+                                       href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-taxonomies"><?php
                                         esc_html_e('Purchase WP All Export Pro','wp_all_export_plugin');?></a>
 
                                 </div>
@@ -250,13 +250,13 @@ do_action('pmxe_addons_html');
 								</select>
 								
 								<div class="wpallexport-free-edition-notice wpallexport-user-export-notice" style="margin-bottom: 20px;">
-									<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206903&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-users">
+									<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839954&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-users">
                                         <?php esc_html_e('The User Export Package is required to Export Users','wp_all_export_plugin');?></a><br/>
 									<p><?php esc_html_e('If you already own it, remove the WP All Export free edition and install the User Export Package\'s plugins.', 'wp_all_export_plugin'); ?></p>
 								</div>
 
 								<div class="wpallexport-free-edition-notice wpallexport-comments-export-notice" style="margin-bottom: 20px;">
-									<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=2707173&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-comments">
+									<a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839967&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-comments">
                                         <?php esc_html_e('Upgrade to the Pro edition of WP All Export to Export Comments','wp_all_export_plugin');?></a><br/>
 									<p><?php esc_html_e('If you already own it, remove the free edition and install the Pro edition.', 'wp_all_export_plugin'); ?></p>
 								</div>
@@ -264,7 +264,7 @@ do_action('pmxe_addons_html');
                                 <div class="wpallexport-free-edition-notice wpallexport-custom-product-export-notice" style="margin-bottom: 20px;">
                                     <p><?php esc_html_e('The WooCommerce Export Package is Required to Export WooCommerce Products.', 'wp_all_export_plugin'); ?></p>
                                     <br/>
-                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206899&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-products"><?php
+                                    <a class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-products"><?php
                                         esc_html_e('Purchase the WooCommerce Export Package','wp_all_export_plugin');?></a>
 
                                 </div>

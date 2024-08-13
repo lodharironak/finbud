@@ -1,0 +1,26 @@
+.wpupg-icon svg {
+    display: inline;
+    vertical-align: middle;
+    margin-top: -0.15em;
+    width: 1.3em;
+    height: 1.3em;
+    overflow: visible;
+}
+
+.wpupg-icon-shortcode {
+    font-size: 16px;
+    height: 16px;
+
+    &.wpupg-icon-shortcode-inline {
+        display: inline;
+    }
+
+    .wpupg-icon svg {
+        display: inline;
+        vertical-align: middle;
+        margin-top: 0;
+        width: 1em;
+        height: 1em;
+        overflow: visible;
+    }
+}

@@ -1,0 +1,46 @@
+.wpupg-grid-filters {
+    &.wpupg-grid-filters-display-inline {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &.wpupg-grid-filters-align-center { justify-content: center; }
+        &.wpupg-grid-filters-align-right { justify-content: flex-end; }
+        &.wpupg-grid-filters-align-spaced { justify-content: space-evenly; }
+    }
+}
+
+.wpupg-filter-container {
+    visibility: hidden;
+
+    &.wpupg-filter-container-label-inline {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .wpupg-filter-label {
+            margin-right: 10px;
+        }
+    }
+
+    .wpupg-filter-label {
+        display: block;
+
+        &.wpupg-filter-label-bold { font-weight: bold; }
+        &.wpupg-filter-label-underline { text-decoration: underline; }
+        &.wpupg-filter-label-italic { font-style: italic; }
+
+        &.wpupg-filter-label-align-center { text-align: center; }
+        &.wpupg-filter-label-align-right { text-align: right; }
+    }
+
+    .wpupg-filter-isotope-term,
+    .wpupg-filter-clear-button {
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+
+.wp-admin .block-editor .wpupg-filter-container {
+    visibility: visible;
+}

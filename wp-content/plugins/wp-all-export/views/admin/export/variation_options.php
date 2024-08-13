@@ -84,7 +84,7 @@ $random = uniqid();
 
         <?php if(XmlExportEngine::get_addons_service()->isWooCommerceAddonActive()) { ?>
         <div class="wpallexport-free-edition-notice" style="padding: 20px; margin-bottom: 10px;">
-            <a class="upgrade_link" style="font-size:15px !important;" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&amp;download_id=2707173&amp;edd_options%5Bprice_id%5D=1&amp;utm_source=export-plugin-free&amp;utm_medium=upgrade-notice&amp;utm_campaign=variation_options">
+            <a class="upgrade_link" style="font-size:15px !important;" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&amp;download_id=5839967&amp;edd_options%5Bprice_id%5D=1&amp;utm_source=export-plugin-free&amp;utm_medium=upgrade-notice&amp;utm_campaign=variation_options">
                 Upgrade to the Pro edition of WP All Export to filter variable products</a>
             <p>If you already own it, remove the free edition and install the Pro edition.</p>
         </div>
@@ -92,7 +92,7 @@ $random = uniqid();
             <div class="wpallexport-free-edition-notice" style="padding: 20px 20px 35px 20px; margin-bottom: 10px;">
                 <p>The WooCommerce Export Package is required to export variations.</p>
                 <p>
-                <a style="margin: 1em 0; font-size:1em !important" class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=4206899&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-variations">
+                <a style="margin: 1em 0; font-size:1em !important" class="upgrade_link" target="_blank" href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-variations">
                 Purchase the WooCommerce Export Package</a>
                 </p>
             </div>

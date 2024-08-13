@@ -1,0 +1,28 @@
+.wpupg-admin-manage-notices {
+    .wpupg-admin-notice {
+        margin-bottom: 15px;
+
+        background-color: white;
+        border: 1px solid #0073aa;
+        border-radius: 4px;
+        padding: 10px;
+
+        display: flex;
+        align-items: center;
+
+        .wpupg-admin-notice-content {
+            flex: 1;
+
+            .wpupg-admin-notice-title {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+        }
+
+        .wpupg-admin-notice-dismiss {
+            .wpupg-admin-icon {
+                opacity: 1;
+            }
+        }
+    }
+}

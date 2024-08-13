@@ -1,0 +1,258 @@
+.wpupg-admin-modal {
+
+    input[type=checkbox] {
+        border-radius: 4px;
+        border-color: hsl(0,0%,80%);
+        margin-top: 10px;
+    }
+
+    input[type=text],
+    input[type=number],
+    input[type=url],
+    input[type=email],
+    textarea {
+        width: 100%;
+        max-width: 600px;
+        border-radius: 4px;
+        border-color: hsl(0,0%,80%);
+        padding: 10px;
+        margin: 0;
+        line-height: 1;
+
+        &::placeholder {
+            color: #444;
+            opacity: 0.333;
+        }
+
+        &[type=number] {
+            height: 39px;
+            padding-right: 5px;
+        }
+    }
+
+    input[type=number] {
+        max-width: 100px;
+    }
+    .wpupg-admin-modal-field-number-suffix {
+        margin-left: 7px;
+    }
+
+    .wpupg-admin-modal-field-filter {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        input.wpupg-admin-modal-field-filter-label {
+            margin: 0 5px 0 10px;
+            max-width: 215px;
+        }
+
+        input.wpupg-admin-modal-field-filter-id {
+            margin: 0 10px 0 5px;
+            max-width: 150px;
+        }
+
+        .wpupg-admin-modal-field-filter-order-disabled {
+            opacity: 0.1;
+            cursor: default;
+        }
+
+        .wpupg-admin-modal-field-filter-remove {
+            margin-left: 10px
+        }
+    }
+
+    .wpupg-admin-modal-field-color {
+        margin-top: 7px;
+    }
+
+    .wpupg-admin-modal-field-colors {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 400px;
+
+        .wpupg-admin-modal-field-colors-color {
+            display: flex;
+            align-items: center;
+
+            .wpupg-admin-modal-field-colors-color-label {
+                margin-left: 7px;
+            }
+        }
+    }
+
+    .wpupg-admin-modal-field-columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 400px;
+
+        .wpupg-admin-modal-field-columns-column {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .wpupg-admin-modal-field-radio-option {
+        margin-bottom: 5px;
+
+        &:first-child {
+            margin-top: 8px;
+        }
+
+        input {
+            width: 16px;
+            height: 16px;
+            margin-top: 1px;
+            border-color: hsl(0,0%,80%);
+
+            &:checked:before {
+                margin: 3px;
+                width: 8px;
+                height: 8px;
+            }
+        }
+
+        label {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    .wpupg-admin-modal-fields-group-header {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #999;
+        border-bottom: 1px solid #999;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    .wpupg-admin-modal-field-label {
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        font-size: 14px;
+    }
+
+    .wpupg-admin-icon-help {
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 5px;
+
+        border: 1px solid #444;
+        border-radius: 100%;
+        opacity: 1;
+
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        font-size: 12px;
+
+        svg {
+            width: 10px;
+            height: 9px;
+            margin-bottom: 2px;
+        }
+
+        &:hover {
+            background-color: #444;
+
+            svg {
+                g,
+                path {
+                    fill: white;
+                }
+            }
+        }
+    }
+
+    .wpupg-admin-modal-field {
+        margin-bottom: 30px;
+    }
+
+    .wpupg-admin-modal-field-tinymce-container {
+        max-width: 650px;
+        height: 100%;
+    
+        * {
+            box-sizing: content-box;
+        }
+    
+        textarea {
+            border-radius: 0;
+            box-sizing: border-box;
+            min-height: 100px;
+        }
+    }
+
+    .wpupg-admin-modal-field-order {
+        max-height: 200px;
+        max-width: 300px;
+        overflow: scroll;
+
+        .wpupg-admin-modal-field-order-item {
+            background-color: white;
+            border: 1px dotted black;
+            border-radius: 3px;
+
+            padding: 2px 5px;
+            margin-bottom: 5px;
+
+            &:hover {
+                border-style: solid;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 782px) {
+    .wpupg-admin-modal {
+        .wpupg-admin-modal-field-radio-option {
+            label {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+
+        .wpupg-admin-modal-fields-group-header {
+            text-align: left;
+        }
+
+        .wpupg-admin-modal-fields-group {
+            padding-bottom: 50px;
+        }
+
+        .wpupg-admin-modal-fields {
+            padding: 0 20px;
+        }
+
+        .wpupg-admin-modal-field-container {
+            display: flex;
+            width: 100%;
+        }
+
+        .wpupg-admin-modal-field-label {
+            flex-shrink: 0;
+            width: 180px;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        .wpupg-admin-modal-field-container-radio {
+            .wpupg-admin-modal-field-label {
+                margin-top: 2px;
+            }
+        }
+
+        .wpupg-admin-modal-field {
+            flex: auto;
+            margin-bottom: 15px;
+        }
+    }
+}

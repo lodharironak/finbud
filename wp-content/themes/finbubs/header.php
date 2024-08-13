@@ -73,15 +73,13 @@
  <!-- Main menu Start -->
  <div class="header-main">
   <div class="container">
-    <a class="menu-btn sb-toggle-right" id="nav-icon1" href="#menu12">
-    </a>
+    <a class="menu-btn sb-toggle-right" id="nav-icon1" href="#menu12"></a>
     <div class="menu menu-desktop">
       <?php
       wp_nav_menu(
         array(
          'theme_location' => 'menu-1',
-         'menu_id'        => 'primary-menu',
-       )
+         'menu_id'        => 'primary-menu',)
       ); 
       ?>
     </div> 

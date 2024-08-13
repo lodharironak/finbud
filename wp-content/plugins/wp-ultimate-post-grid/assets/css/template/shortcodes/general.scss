@@ -1,0 +1,48 @@
+.wpupg-block-text-normal {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+}
+.wpupg-block-text-light {
+    font-weight: 300 !important;
+}
+.wpupg-block-text-bold {
+    font-weight: bold !important;
+}
+.wpupg-block-text-italic {
+    font-style: italic !important;
+}
+.wpupg-block-text-uppercase {
+    text-transform: uppercase !important;
+}
+.wpupg-block-text-faded {
+    opacity: 0.6;
+}
+.wpupg-block-text-uppercase-faded {
+    text-transform: uppercase !important;
+    opacity: 0.6;
+}
+.wpupg-block-text-bigger {
+    font-size: 1.1em;
+}
+.wpupg-block-text-smaller {
+    font-size: 0.9em;
+}
+
+.wpupg-align-left {
+    text-align: left;
+}
+.wpupg-align-center {
+    text-align: center;
+}
+.wpupg-align-right {
+    text-align: right;
+}
+
+.wpupg-hover {
+    display: none;
+
+    &.wpupg-hovering {
+        display: block;
+    }
+}
